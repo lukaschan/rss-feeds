@@ -1,6 +1,12 @@
 /pod-exp.xml
   Content-Type: application/rss+xml; charset=utf-8
   Cache-Control: public, max-age=1800
+/pod-exp-new.xml
+  Content-Type: application/rss+xml; charset=utf-8
+  Cache-Control: public, max-age=1800
 /lex.xml
+  Content-Type: application/rss+xml; charset=utf-8
+  Cache-Control: public, max-age=1800
+/lex-new.xml
   Content-Type: application/rss+xml; charset=utf-8
   Cache-Control: public, max-age=1800

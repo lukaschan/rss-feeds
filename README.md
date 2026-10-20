@@ -4,9 +4,18 @@
 
 | Feed | 来源 | 说明 |
 |---|---|---|
-| `pod-exp.xml` | [pod-exp.pages.dev](https://pod-exp.pages.dev) | 原站**没有 RSS**。本 feed 含**全部 220 篇**：最新 25 篇带**全文**（章节列表 + 完整文稿），其余为摘要 + 原文链接 |
-| `feeds/bidclub.xml`（GitHub raw） | [bidclub.ai](https://bidclub.ai) | 官方 RSS 只有 30 期且是精简版。本 feed 含**全部期数**：2026 年以来的带**要点 TL;DR + 摘要 Digest**（不截断，条目末尾附原文链接），其余为摘要 + 原文链接。因单文件 30+ MB 超过 Pages 上限，改用 GitHub raw 地址托管：`https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub.xml` |
-| `feeds/bidclub-zh.xml`（GitHub raw） | [bidclub.ai](https://bidclub.ai) | 同上，但标题 / 要点 / 摘要为**中文**：`https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub-zh.xml` |
+| **每日更新（追更用）** | | |
+| `pod-exp-new.xml` | [pod-exp.pages.dev](https://pod-exp.pages.dev) | 存档冻结后新发表的篇目，**全部带全文**；每日更新 |
+| `feeds/bidclub-new.xml`（GitHub raw） | [bidclub.ai](https://bidclub.ai) | 冻结后新出的期数，全部带**要点 TL;DR + 摘要 Digest**（不截断，末尾附原文链接）；每日更新。地址：`https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub-new.xml` |
+| `feeds/bidclub-zh-new.xml`（GitHub raw） | [bidclub.ai](https://bidclub.ai) | 同上，中文版：`https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub-zh-new.xml` |
+| `lex-new.xml` | [lex.qiaomu.ai](https://lex.qiaomu.ai) | 冻结后新发表的文章，每篇带**封面图 + 中文精读全文**，文末附英文原稿链接；每日更新 |
+| **存量存档（已冻结，不再更新）** | | |
+| `pod-exp.xml` | [pod-exp.pages.dev](https://pod-exp.pages.dev) | 冻结时**全部 220 篇**：最新 25 篇带全文，其余为摘要 + 原文链接 |
+| `feeds/bidclub.xml`（GitHub raw） | [bidclub.ai](https://bidclub.ai) | 冻结时**全部 3385 期**：2026 年以来的带要点 + 摘要（不截断），其余为摘要 + 原文链接。约 37 MB，地址：`https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub.xml` |
+| `feeds/bidclub-zh.xml`（GitHub raw） | [bidclub.ai](https://bidclub.ai) | 同上，中文版：`https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub-zh.xml` |
+| `lex.xml` | [lex.qiaomu.ai](https://lex.qiaomu.ai) | 冻结时**全部 506 篇**中文精读全文 + 封面图 |
+
+每个源有一份冻结基线清单（`*-baseline.json`）；每日运行以「当前目录 − 基线」得到新增，只更新「每日更新」组，存档文件不再改动。
 
 `archive/` 下还有两个站点的**完整目录 JSON 存档**（pod-exp 全部 220 篇、BidClub 全部 3385 期），旧条目即使滚出 feed 也不会丢失。
 

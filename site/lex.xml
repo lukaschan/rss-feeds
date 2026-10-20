@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<title>Lex Fridman 播客｜中文精读（全文）</title>
+<title>Lex Fridman 播客｜中文精读（全文·存档）</title>
 <link>https://lex.qiaomu.ai/</link>
-<description>Lex Fridman 播客中文精读（自建 RSS；官方 feed 仅最新 20 篇）：全部文章都在这一个 feed 里，每篇带封面图与中文精读全文，文末附英文原稿链接。</description>
+<description>Lex Fridman 播客中文精读存档版（自建 RSS；官方 feed 仅最新 20 篇）：含冻结时全部文章，每篇带封面图与中文精读全文，文末附英文原稿链接。此后不再更新；新文章见 lex-new.xml。</description>
 <language>zh-CN</language>
-<lastBuildDate>Tue, 20 Oct 2026 08:04:47 +0000</lastBuildDate>
+<lastBuildDate>Tue, 20 Oct 2026 08:34:45 +0000</lastBuildDate>
 <generator>rss-feeds-generator (personal)</generator>
 <atom:link href="https://rss-feeds-8x2.pages.dev/lex.xml" rel="self" type="application/rss+xml" />
 <item>

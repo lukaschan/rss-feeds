@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Field Notes｜播客中文文稿（每日新增·全文）</title>
+<link>https://pod-exp.pages.dev/</link>
+<description>Field Notes 每日新增文章（自建 RSS）：存档冻结后新发表的篇目，全部带全文；冻结前的全部篇目见 pod-exp.xml 存档版。</description>
+<language>zh-CN</language>
+<lastBuildDate>Tue, 20 Oct 2026 08:35:50 +0000</lastBuildDate>
+<generator>rss-feeds-generator (personal)</generator>
+<atom:link href="https://rss-feeds-8x2.pages.dev/pod-exp-new.xml" rel="self" type="application/rss+xml" />
+</channel></rss>

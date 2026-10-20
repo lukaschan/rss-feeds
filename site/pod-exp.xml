@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<title>Field Notes｜播客中文文稿（全文）</title>
+<title>Field Notes｜播客中文文稿（全文·存档）</title>
 <link>https://pod-exp.pages.dev/</link>
-<description>精选深度访谈、播客与技术大会中文文稿（自建 RSS，原站无 RSS）：全部篇目都在这一个 feed 里，最新若干篇带全文，其余为摘要+原文链接。</description>
+<description>精选深度访谈、播客与技术大会中文文稿（自建 RSS，原站无 RSS）：存档版，含冻结时全部篇目（最新若干篇带全文，其余为摘要+原文链接），此后不再更新；新文章见 pod-exp-new.xml。</description>
 <language>zh-CN</language>
-<lastBuildDate>Tue, 20 Oct 2026 08:03:14 +0000</lastBuildDate>
+<lastBuildDate>Tue, 20 Oct 2026 08:34:31 +0000</lastBuildDate>
 <generator>rss-feeds-generator (personal)</generator>
 <atom:link href="https://rss-feeds-8x2.pages.dev/pod-exp.xml" rel="self" type="application/rss+xml" />
 <item>

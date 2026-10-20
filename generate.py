@@ -16,15 +16,21 @@
      - 每篇另有官方 Markdown 版 /ep/{slug}/index.md（精读全文），抓取后
        缓存在 archive/lex-articles.json，历史文章不重复抓取，每日只抓新增
 
-输出（默认写到 ./site/，这个目录就是要部署到 Cloudflare Pages 的内容）：
-  site/pod-exp.xml          pod-exp feed（全部篇目；最新 POD_ITEMS 篇全文，其余摘要）
-  feeds/bidclub.xml         BidClub feed（全部期数；2026 年以来带要点+摘要不截断，其余摘要）
-  feeds/bidclub-zh.xml      BidClub 中文 feed（同上，标题/摘要为中文）；
+输出分两组：存档版（冻结后不再更新）与每日新增版（滚动更新）。
+每个源有一份基线清单（冻结时的全部条目 ID，存 *-baseline.json）；
+每日运行时以「当前目录 − 基线」得到新增，只写新增版 feed。
+  site/pod-exp.xml          pod-exp 存档（冻结时全部篇目；最新 POD_ITEMS 篇全文，其余摘要）
+  site/pod-exp-new.xml      pod-exp 每日新增（基线之后的新篇，全部全文）
+  feeds/bidclub.xml         BidClub 存档（冻结时全部期数；2026 年以来带要点+摘要不截断，其余摘要）
+  feeds/bidclub-zh.xml      BidClub 中文存档（同上，标题/摘要为中文）；
                             两者各 30+ MB 超过 Pages 上限，放仓库根 feeds/ 用 GitHub raw 托管；
                             详情增量缓存在 archive/bidclub-details.json（仓库根，不进 site/）
-  site/lex.xml              Lex feed（全部篇目；每篇带封面图+中文精读全文+文末英文原稿链接）
+  feeds/bidclub-new.xml     BidClub 每日新增（新期全部带要点+摘要不截断；raw 托管）
+  feeds/bidclub-zh-new.xml  BidClub 每日新增中文版
+  site/lex.xml              Lex 存档（冻结时全部篇目；每篇封面图+中文精读全文+文末英文原稿链接）
+  site/lex-new.xml          Lex 每日新增（同上规格，只含基线之后的新篇）
   site/index.html           订阅入口页
-  site/archive/*.json       完整目录存档 / 正文缓存（防止旧条目“丢失”）
+  site/archive/*.json       完整目录存档 / 正文缓存 / 冻结基线
 
 只依赖 Python 3.10+ 标准库，无需 pip install。
 
@@ -257,6 +263,24 @@ def build_rss(channel, items):
     return "\n".join(parts) + "\n"
 
 
+# -------------------------------------------------- 冻结基线（存档） ----
+def _load_id_set(path):
+    """读取冻结基线（一组条目 ID）；文件不存在返回 None（= 尚未冻结）。"""
+    if os.path.exists(path):
+        try:
+            with open(path, encoding="utf-8") as f:
+                return set(json.load(f))
+        except Exception:  # noqa: BLE001 - 基线损坏则当作未冻结，重新冻结
+            return None
+    return None
+
+
+def _save_id_set(path, ids):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(sorted(ids), f, ensure_ascii=False)
+
+
 # ------------------------------------------------------- pod-exp 提取 ----
 VOID_TAGS = {"area", "base", "br", "col", "embed", "hr", "img", "input",
              "link", "meta", "param", "source", "track", "wbr"}
@@ -460,25 +484,47 @@ def build_pod_exp(out_dir):
             "categories": [entry.get("channel", "")] + (entry.get("topics") or []),
         }
 
-    picked = catalog[:POD_ITEMS]
-    with ThreadPoolExecutor(max_workers=WORKERS) as pool:
-        full_items = list(pool.map(make_item, picked))
-    ok = sum(1 for it in full_items if "<hr />" in it["content_html"])
-    print(f"[pod-exp] 全文成功 {ok}/{len(full_items)} 篇；其余 {len(catalog) - len(picked)} 篇为摘要条目")
-    items = full_items + [make_summary_item(e) for e in catalog[POD_ITEMS:]]
+    baseline_path = os.path.join(out_dir, "archive", "pod-exp-baseline.json")
+    baseline = _load_id_set(baseline_path)
+    if baseline is None:
+        # 冻结日：生成最后一版存档 feed，并把当前目录记为基线，此后不再更新存档。
+        picked = catalog[:POD_ITEMS]
+        with ThreadPoolExecutor(max_workers=WORKERS) as pool:
+            full_items = list(pool.map(make_item, picked))
+        ok = sum(1 for it in full_items if "<hr />" in it["content_html"])
+        print(f"[pod-exp] 全文成功 {ok}/{len(full_items)} 篇；其余 {len(catalog) - len(picked)} 篇为摘要条目")
+        items = full_items + [make_summary_item(e) for e in catalog[POD_ITEMS:]]
+        rss = build_rss({
+            "title": "Field Notes｜播客中文文稿（全文·存档）",
+            "link": base + "/",
+            "description": "精选深度访谈、播客与技术大会中文文稿（自建 RSS，原站无 RSS）：存档版，含冻结时全部篇目（最新若干篇带全文，其余为摘要+原文链接），此后不再更新；新文章见 pod-exp-new.xml。",
+            "language": "zh-CN",
+            "self_url": (SITE_URL + "/pod-exp.xml") if SITE_URL else "",
+        }, items)
+        path = os.path.join(out_dir, "pod-exp.xml")
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(rss)
+        print(f"[pod-exp] 写入存档 {path}（{len(rss.encode('utf-8')) / 1024:.0f} KB，{len(items)} 条）并冻结")
+        _save_id_set(baseline_path, [x["id"] for x in catalog])
+        new_items = []
+    else:
+        fresh = [e for e in catalog if e["id"] not in baseline]
+        with ThreadPoolExecutor(max_workers=WORKERS) as pool:
+            new_items = list(pool.map(make_item, fresh))
+        print(f"[pod-exp] 基线后新增 {len(fresh)} 篇（全部全文）")
 
-    rss = build_rss({
-        "title": "Field Notes｜播客中文文稿（全文）",
+    rss_new = build_rss({
+        "title": "Field Notes｜播客中文文稿（每日新增·全文）",
         "link": base + "/",
-        "description": "精选深度访谈、播客与技术大会中文文稿（自建 RSS，原站无 RSS）：全部篇目都在这一个 feed 里，最新若干篇带全文，其余为摘要+原文链接。",
+        "description": "Field Notes 每日新增文章（自建 RSS）：存档冻结后新发表的篇目，全部带全文；冻结前的全部篇目见 pod-exp.xml 存档版。",
         "language": "zh-CN",
-        "self_url": (SITE_URL + "/pod-exp.xml") if SITE_URL else "",
-    }, items)
-    path = os.path.join(out_dir, "pod-exp.xml")
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(rss)
-    print(f"[pod-exp] 写入 {path}（{len(rss.encode('utf-8')) / 1024:.0f} KB，{len(items)} 条）")
-    return len(catalog), len(picked)
+        "self_url": (SITE_URL + "/pod-exp-new.xml") if SITE_URL else "",
+    }, new_items)
+    path_new = os.path.join(out_dir, "pod-exp-new.xml")
+    with open(path_new, "w", encoding="utf-8") as f:
+        f.write(rss_new)
+    print(f"[pod-exp] 写入 {path_new}（{len(rss_new.encode('utf-8')) / 1024:.0f} KB，{len(new_items)} 条）")
+    return len(catalog), len(new_items)
 
 
 # ------------------------------------------------------------- BidClub ----
@@ -501,6 +547,9 @@ def build_bidclub(out_dir, root_dir):
               encoding="utf-8") as f:
         json.dump(archive, f, ensure_ascii=False, indent=1)
 
+    baseline_path = os.path.join(root_dir, "archive", "bidclub-baseline.json")
+    baseline = _load_id_set(baseline_path)
+
     # 详情增量缓存放在仓库根 archive/（不进 site/，避免大文件拖垮 Pages 部署）：
     # 已抓过的期数不重抓，每日只补新期，抓完与旧的合并组装。
     cache_path = os.path.join(root_dir, "archive", "bidclub-details.json")
@@ -515,10 +564,16 @@ def build_bidclub(out_dir, root_dir):
     def ep_date(e):
         return (e.get("published_at") or e.get("date") or "")[:10]
 
-    eligible = [e for e in episodes if ep_date(e) >= BID_DETAIL_SINCE]
-    missing = [e for e in eligible if e["slug"] not in details_cache]
-    print(f"[bidclub] {BID_DETAIL_SINCE} 以来共 {len(eligible)} 期，"
-          f"已缓存 {len(eligible) - len(missing)} 期，本次新抓 {len(missing)} 期")
+    if baseline is None:
+        # 冻结日：2026 年以来的全部期数都要详情（组装存档版）
+        wanted = [e for e in episodes if ep_date(e) >= BID_DETAIL_SINCE]
+        print(f"[bidclub] 冻结模式：{BID_DETAIL_SINCE} 以来共 {len(wanted)} 期需要详情")
+    else:
+        # 日常：只需要基线之后新增期数的详情
+        wanted = [e for e in episodes if e["slug"] not in baseline]
+        print(f"[bidclub] 基线后新增 {len(wanted)} 期")
+    missing = [e for e in wanted if e["slug"] not in details_cache]
+    print(f"[bidclub] 详情已缓存 {len(wanted) - len(missing)} 期，本次新抓 {len(missing)} 期")
 
     def get_detail(entry):
         try:
@@ -645,45 +700,76 @@ def build_bidclub(out_dir, root_dir):
             "categories": [show_name, entry.get("show_id", "")],
         }
 
-    items_main, items_zh = [], []
-    detailed = 0
-    for e in episodes:
-        detail = details_cache.get(e["slug"])
-        if detail and (detail.get("tldr_md") or detail.get("digest_md")):
-            items_main.append(make_item(e, detail, zh=False))
-            items_zh.append(make_item(e, detail, zh=True))
-            detailed += 1
-        else:
-            items_main.append(make_summary_item(e, zh=False))
-            items_zh.append(make_summary_item(e, zh=True))
-    print(f"[bidclub] 带要点+摘要 {detailed} 期；其余 {len(episodes) - detailed} 期为摘要条目")
+    def assemble(entries):
+        m, z, det = [], [], 0
+        for e in entries:
+            detail = details_cache.get(e["slug"])
+            if detail and (detail.get("tldr_md") or detail.get("digest_md")):
+                m.append(make_item(e, detail, zh=False))
+                z.append(make_item(e, detail, zh=True))
+                det += 1
+            else:
+                m.append(make_summary_item(e, zh=False))
+                z.append(make_summary_item(e, zh=True))
+        return m, z, det
 
-    # 两个 feed 各 30+ MB，超过 Cloudflare Pages 单文件 25 MB 上限，
-    # 改放仓库根 feeds/ 目录、用 GitHub raw 地址订阅（不进 site/）。
+    # 两个存档 feed 各 30+ MB，超过 Cloudflare Pages 单文件 25 MB 上限，
+    # 放仓库根 feeds/ 目录、用 GitHub raw 地址订阅（不进 site/）。
     feeds_dir = os.path.join(root_dir, "feeds")
     os.makedirs(feeds_dir, exist_ok=True)
-    rss_main = build_rss({
-        "title": "BidClub — All shows (TL;DR + Digest)",
-        "link": api + "/",
-        "description": f"BidClub 投资播客文稿（自建 RSS；官方 RSS 仅 30 期且截断）：全部期数都在这一个 feed 里，{BID_DETAIL_SINCE} 以来的带要点+摘要（不截断，原文链接在条目末尾），以前的为摘要+原文链接。",
-        "language": "en",
-        "self_url": RAW_BASE + "/feeds/bidclub.xml",
-    }, items_main)
-    with open(os.path.join(feeds_dir, "bidclub.xml"), "w", encoding="utf-8") as f:
-        f.write(rss_main)
-    print(f"[bidclub] 写入 feeds/bidclub.xml（{len(rss_main.encode('utf-8')) / 1024:.0f} KB）")
 
-    rss_zh = build_rss({
-        "title": "BidClub — 全部节目（中文）",
+    if baseline is None:
+        # 冻结日：组装最后一版存档 feed（全部期数），并记录基线，此后不再更新存档。
+        items_main, items_zh, detailed = assemble(episodes)
+        print(f"[bidclub] 存档版带要点+摘要 {detailed} 期；其余 {len(episodes) - detailed} 期为摘要条目")
+        rss_main = build_rss({
+            "title": "BidClub — All shows (TL;DR + Digest) [Archive]",
+            "link": api + "/",
+            "description": f"BidClub 投资播客文稿存档版（自建 RSS；官方 RSS 仅 30 期且截断）：含冻结时全部期数，{BID_DETAIL_SINCE} 以来的带要点+摘要（不截断，原文链接在条目末尾），以前的为摘要+原文链接。此后不再更新；新节目见 bidclub-new.xml。",
+            "language": "en",
+            "self_url": RAW_BASE + "/feeds/bidclub.xml",
+        }, items_main)
+        with open(os.path.join(feeds_dir, "bidclub.xml"), "w", encoding="utf-8") as f:
+            f.write(rss_main)
+        print(f"[bidclub] 写入存档 feeds/bidclub.xml（{len(rss_main.encode('utf-8')) / 1024:.0f} KB）并冻结")
+        rss_zh = build_rss({
+            "title": "BidClub — 全部节目（中文）[存档]",
+            "link": api + "/",
+            "description": f"BidClub 投资播客中文存档版：含冻结时全部期数，{BID_DETAIL_SINCE} 以来的带中文要点+摘要（不截断，原文链接在条目末尾），以前的为中文摘要+原文链接。此后不再更新；新节目见 bidclub-zh-new.xml。",
+            "language": "zh-CN",
+            "self_url": RAW_BASE + "/feeds/bidclub-zh.xml",
+        }, items_zh)
+        with open(os.path.join(feeds_dir, "bidclub-zh.xml"), "w", encoding="utf-8") as f:
+            f.write(rss_zh)
+        print(f"[bidclub] 写入存档 feeds/bidclub-zh.xml（{len(rss_zh.encode('utf-8')) / 1024:.0f} KB）并冻结")
+        _save_id_set(baseline_path, [e["slug"] for e in episodes])
+        new_main, new_zh = [], []
+    else:
+        fresh = [e for e in episodes if e["slug"] not in baseline]
+        new_main, new_zh, det_new = assemble(fresh)
+        print(f"[bidclub] 新增 {len(fresh)} 期，其中带要点+摘要 {det_new} 期")
+
+    rss_new = build_rss({
+        "title": "BidClub — New episodes (TL;DR + Digest)",
         "link": api + "/",
-        "description": f"BidClub 投资播客（中文版）：全部期数都在这一个 feed 里，{BID_DETAIL_SINCE} 以来的带中文要点+摘要（不截断，原文链接在条目末尾），以前的为中文摘要+原文链接。",
+        "description": "BidClub 每日新增节目（自建 RSS）：存档冻结后新出的期数，全部带要点+摘要（不截断，原文链接在条目末尾）；冻结前的全部期数见 bidclub.xml 存档版。",
+        "language": "en",
+        "self_url": RAW_BASE + "/feeds/bidclub-new.xml",
+    }, new_main)
+    with open(os.path.join(feeds_dir, "bidclub-new.xml"), "w", encoding="utf-8") as f:
+        f.write(rss_new)
+    print(f"[bidclub] 写入 feeds/bidclub-new.xml（{len(rss_new.encode('utf-8')) / 1024:.0f} KB）")
+    rss_new_zh = build_rss({
+        "title": "BidClub — 每日新增（中文）",
+        "link": api + "/",
+        "description": "BidClub 每日新增节目（中文版）：存档冻结后新出的期数，全部带中文要点+摘要（不截断，原文链接在条目末尾）；冻结前的全部期数见 bidclub-zh.xml 存档版。",
         "language": "zh-CN",
-        "self_url": RAW_BASE + "/feeds/bidclub-zh.xml",
-    }, items_zh)
-    with open(os.path.join(feeds_dir, "bidclub-zh.xml"), "w", encoding="utf-8") as f:
-        f.write(rss_zh)
-    print(f"[bidclub] 写入 feeds/bidclub-zh.xml（{len(rss_zh.encode('utf-8')) / 1024:.0f} KB）")
-    return len(episodes), detailed
+        "self_url": RAW_BASE + "/feeds/bidclub-zh-new.xml",
+    }, new_zh)
+    with open(os.path.join(feeds_dir, "bidclub-zh-new.xml"), "w", encoding="utf-8") as f:
+        f.write(rss_new_zh)
+    print(f"[bidclub] 写入 feeds/bidclub-zh-new.xml（{len(rss_new_zh.encode('utf-8')) / 1024:.0f} KB）")
+    return len(episodes), len(new_main)
 
 
 # ---------------------------------------------------- Lex 中文精读 ----
@@ -918,21 +1004,46 @@ def build_lex(out_dir):
             "categories": ["Lex Fridman"],
         }
 
+    baseline_path = os.path.join(out_dir, "archive", "lex-baseline.json")
+    baseline = _load_id_set(baseline_path)
     have = [s for s in slugs if s in cache]
     have.sort(key=lambda s: cache[s].get("date") or "", reverse=True)
-    items = [make_item(s) for s in have]
-    rss = build_rss({
-        "title": "Lex Fridman 播客｜中文精读（全文）",
+    if baseline is None:
+        # 冻结日：生成最后一版存档 feed，并把当前 sitemap 记为基线，此后不再更新存档。
+        items = [make_item(s) for s in have]
+        rss = build_rss({
+            "title": "Lex Fridman 播客｜中文精读（全文·存档）",
+            "link": LEX_BASE + "/",
+            "description": "Lex Fridman 播客中文精读存档版（自建 RSS；官方 feed 仅最新 20 篇）：含冻结时全部文章，每篇带封面图与中文精读全文，文末附英文原稿链接。此后不再更新；新文章见 lex-new.xml。",
+            "language": "zh-CN",
+            "self_url": (SITE_URL + "/lex.xml") if SITE_URL else "",
+        }, items)
+        path = os.path.join(out_dir, "lex.xml")
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(rss)
+        print(f"[lex] 写入存档 {path}（{len(rss.encode('utf-8')) / 1024:.0f} KB，{len(items)} 条）并冻结")
+        _save_id_set(baseline_path, slugs)
+        baseline = set(slugs)
+        new_items = []
+        archive_total = len(items)
+    else:
+        fresh = [s for s in have if s not in baseline]
+        new_items = [make_item(s) for s in fresh]
+        archive_total = len(baseline)
+        print(f"[lex] 基线后新增 {len(fresh)} 篇")
+
+    rss_new = build_rss({
+        "title": "Lex Fridman 播客｜中文精读（每日新增）",
         "link": LEX_BASE + "/",
-        "description": "Lex Fridman 播客中文精读（自建 RSS；官方 feed 仅最新 20 篇）：全部文章都在这一个 feed 里，每篇带封面图与中文精读全文，文末附英文原稿链接。",
+        "description": "Lex Fridman 播客每日新增中文精读（自建 RSS）：存档冻结后新发表的文章，每篇带封面图与中文精读全文，文末附英文原稿链接；冻结前的全部文章见 lex.xml 存档版。",
         "language": "zh-CN",
-        "self_url": (SITE_URL + "/lex.xml") if SITE_URL else "",
-    }, items)
-    path = os.path.join(out_dir, "lex.xml")
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(rss)
-    print(f"[lex] 写入 {path}（{len(rss.encode('utf-8')) / 1024:.0f} KB，{len(items)} 条）")
-    return len(items)
+        "self_url": (SITE_URL + "/lex-new.xml") if SITE_URL else "",
+    }, new_items)
+    path_new = os.path.join(out_dir, "lex-new.xml")
+    with open(path_new, "w", encoding="utf-8") as f:
+        f.write(rss_new)
+    print(f"[lex] 写入 {path_new}（{len(rss_new.encode('utf-8')) / 1024:.0f} KB，{len(new_items)} 条）")
+    return archive_total, len(new_items)
 
 
 # -------------------------------------------------------------- index ----
@@ -954,30 +1065,58 @@ INDEX_TEMPLATE = """<!doctype html>
 </head>
 <body>
 <h1>全文 RSS 订阅</h1>
-<p>自建全文订阅源，每日自动更新。把下面链接粘贴到你的 RSS 阅读器即可。</p>
+<p>自建全文订阅源。日常追更请订阅「每日更新」区；「存量存档」是一次性冻结的大文件（几十 MB），订一次、读完即可，不会再变。</p>
+
+<h2>每日更新</h2>
 
 <div class="feed">
-  <a href="pod-exp.xml">Field Notes｜播客中文文稿（全文）</a><br>
+  <a href="pod-exp-new.xml">Field Notes｜播客中文文稿（每日新增·全文）</a><br>
+  <code>pod-exp-new.xml</code><br>
+  <small>存档冻结后新发表的篇目，全部带全文；目前已收录新增 {pod_new} 篇，持续更新。</small>
+</div>
+
+<div class="feed">
+  <a href="https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub-new.xml">BidClub — New episodes (TL;DR + Digest)</a><br>
+  <code>https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub-new.xml</code><br>
+  <small>冻结后新出的期数，全部带要点 + 摘要（不截断），末尾附原文链接；目前已收录新增 {bid_new} 期，持续更新。托管于 GitHub raw。</small>
+</div>
+
+<div class="feed">
+  <a href="https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub-zh-new.xml">BidClub — 每日新增（中文）</a><br>
+  <code>https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub-zh-new.xml</code><br>
+  <small>同上，中文标题 / 要点 / 摘要；目前已收录新增 {bid_new} 期。</small>
+</div>
+
+<div class="feed">
+  <a href="lex-new.xml">Lex Fridman 播客｜中文精读（每日新增）</a><br>
+  <code>lex-new.xml</code><br>
+  <small>冻结后新发表的文章，每篇带封面图与中文精读全文，文末附英文原稿链接；目前已收录新增 {lex_new} 篇，持续更新。</small>
+</div>
+
+<h2>存量存档（已冻结，不再更新）</h2>
+
+<div class="feed">
+  <a href="pod-exp.xml">Field Notes｜播客中文文稿（全文·存档）</a><br>
   <code>pod-exp.xml</code><br>
-  <small>原站 pod-exp.pages.dev 无 RSS；本 feed 含全部 {pod_total} 篇，其中最新 {pod_items} 篇带全文，其余为摘要 + 原文链接。</small>
+  <small>含冻结时全部 {pod_total} 篇（最新若干篇带全文，其余为摘要 + 原文链接）。</small>
 </div>
 
 <div class="feed">
-  <a href="https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub.xml">BidClub — All shows (TL;DR + Digest)</a><br>
+  <a href="https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub.xml">BidClub — All shows (TL;DR + Digest) [Archive]</a><br>
   <code>https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub.xml</code><br>
-  <small>官方 RSS 仅 30 期且截断；本 feed 含全部 {bid_total} 期，其中 2026 年以来的 {bid_items} 期带要点 + 摘要（不截断），末尾附原文链接，其余为摘要 + 原文链接。文件较大（30+ MB），托管于 GitHub raw，不在本域名下。</small>
+  <small>含冻结时全部 {bid_total} 期：2026 年以来的带要点 + 摘要（不截断），末尾附原文链接，其余为摘要 + 原文链接。文件约 37 MB，托管于 GitHub raw。</small>
 </div>
 
 <div class="feed">
-  <a href="https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub-zh.xml">BidClub — 全部节目（中文）</a><br>
+  <a href="https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub-zh.xml">BidClub — 全部节目（中文）[存档]</a><br>
   <code>https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub-zh.xml</code><br>
-  <small>全部 {bid_total} 期：2026 年以来的 {bid_items} 期为中文标题 / 要点 / 摘要（不截断），末尾附原文链接，其余为中文摘要 + 原文链接。托管于 GitHub raw。</small>
+  <small>同上，中文版。文件约 36 MB，托管于 GitHub raw。</small>
 </div>
 
 <div class="feed">
-  <a href="lex.xml">Lex Fridman 播客｜中文精读（全文）</a><br>
+  <a href="lex.xml">Lex Fridman 播客｜中文精读（全文·存档）</a><br>
   <code>lex.xml</code><br>
-  <small>原站 lex.qiaomu.ai 官方 feed 仅最新 20 篇；本 feed 含全部 {lex_total} 篇，每篇带封面图与中文精读全文，文末附英文原稿链接。</small>
+  <small>含冻结时全部 {lex_total} 篇，每篇带封面图与中文精读全文，文末附英文原稿链接。</small>
 </div>
 
 <h2>完整目录存档</h2>
@@ -994,17 +1133,18 @@ INDEX_TEMPLATE = """<!doctype html>
 
 def main():
     os.makedirs(OUT_DIR, exist_ok=True)
-    pod_total, pod_items = build_pod_exp(OUT_DIR)
-    bid_total, bid_items = build_bidclub(OUT_DIR, os.path.dirname(os.path.abspath(OUT_DIR)))
-    lex_total = build_lex(OUT_DIR)
+    pod_total, pod_new = build_pod_exp(OUT_DIR)
+    bid_total, bid_new = build_bidclub(OUT_DIR, os.path.dirname(os.path.abspath(OUT_DIR)))
+    lex_total, lex_new = build_lex(OUT_DIR)
 
     built_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
     index_html = (INDEX_TEMPLATE
-                  .replace("{pod_items}", str(pod_items))
+                  .replace("{pod_new}", str(pod_new))
                   .replace("{pod_total}", str(pod_total))
-                  .replace("{bid_items}", str(bid_items))
+                  .replace("{bid_new}", str(bid_new))
                   .replace("{bid_total}", str(bid_total))
                   .replace("{lex_total}", str(lex_total))
+                  .replace("{lex_new}", str(lex_new))
                   .replace("{built_at}", built_at))
     with open(os.path.join(OUT_DIR, "index.html"), "w", encoding="utf-8") as f:
         f.write(index_html)
@@ -1013,7 +1153,13 @@ def main():
         "/pod-exp.xml\n"
         "  Content-Type: application/rss+xml; charset=utf-8\n"
         "  Cache-Control: public, max-age=1800\n"
+        "/pod-exp-new.xml\n"
+        "  Content-Type: application/rss+xml; charset=utf-8\n"
+        "  Cache-Control: public, max-age=1800\n"
         "/lex.xml\n"
+        "  Content-Type: application/rss+xml; charset=utf-8\n"
+        "  Cache-Control: public, max-age=1800\n"
+        "/lex-new.xml\n"
         "  Content-Type: application/rss+xml; charset=utf-8\n"
         "  Cache-Control: public, max-age=1800\n"
     )
