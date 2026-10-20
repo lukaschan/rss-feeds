@@ -5,12 +5,12 @@
 | Feed | 来源 | 说明 |
 |---|---|---|
 | `pod-exp.xml` | [pod-exp.pages.dev](https://pod-exp.pages.dev) | 原站**没有 RSS**。本 feed 含**全部 220 篇**：最新 25 篇带**全文**（章节列表 + 完整文稿），其余为摘要 + 原文链接 |
-| `bidclub.xml` | [bidclub.ai](https://bidclub.ai) | 官方 RSS 只有 30 期且是精简版。本 feed 含**全部 3385 期**：最新 30 期带**要点 TL;DR + 摘要 Digest + 全文文稿**（原文），其余为摘要 + 原文链接 |
-
-> 为什么不把全部条目都做成全文？BidClub 3385 期全文约 260MB，超过 Cloudflare Pages 单文件 25MB 上限，阅读器也解析不动；分层后单 feed 仅约 8MB，且阅读器抓到过的全文条目会保存在阅读器本地，不会因滚出最新区而消失。
-| `bidclub-zh.xml` | [bidclub.ai](https://bidclub.ai) | 同上，但标题 / 要点 / 摘要为**中文**；全文文稿 BidClub 仅提供原文（已在条目内注明） |
+| `bidclub.xml` | [bidclub.ai](https://bidclub.ai) | 官方 RSS 只有 30 期且是精简版。本 feed 含**全部 3385 期**：最新 30 期带**要点 TL;DR + 摘要 Digest**（条目末尾附原文链接），其余为摘要 + 原文链接 |
+| `bidclub-zh.xml` | [bidclub.ai](https://bidclub.ai) | 同上，但标题 / 要点 / 摘要为**中文** |
 
 `archive/` 下还有两个站点的**完整目录 JSON 存档**（pod-exp 全部 220 篇、BidClub 全部 3385 期），旧条目即使滚出 feed 也不会丢失。
+
+> 为什么 BidClub 条目不放全文文稿？很多 RSS 应用对 XML 大小有限制；要点 + 摘要已能覆盖日常阅读，全文文稿请点条目末尾的原文链接打开。
 
 ## 托管步骤（Cloudflare Pages）
 

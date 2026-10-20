@@ -13,8 +13,8 @@
 
 输出（默认写到 ./site/，这个目录就是要部署到 Cloudflare Pages 的内容）：
   site/pod-exp.xml          pod-exp feed（全部篇目；最新 POD_ITEMS 篇全文，其余摘要）
-  site/bidclub.xml          BidClub feed（全部期数；最新 BID_ITEMS 期全文，其余摘要）
-  site/bidclub-zh.xml       BidClub 中文 feed（同上，标题/摘要为中文，全文为原文）
+  site/bidclub.xml          BidClub feed（全部期数；最新 BID_ITEMS 期带要点+摘要，其余摘要）
+  site/bidclub-zh.xml       BidClub 中文 feed（同上，标题/摘要为中文）
   site/index.html           订阅入口页
   site/archive/*.json       两个站的完整目录存档（防止旧条目“丢失”）
 
@@ -476,7 +476,7 @@ def build_bidclub(out_dir):
     index = fetch_json(f"{api}/api/feed-index")
     episodes = index.get("episodes", [])
     episodes.sort(key=lambda x: x.get("published_at") or "", reverse=True)
-    print(f"[bidclub] 目录共 {len(episodes)} 期，取最近 {BID_ITEMS} 期生成全文 feed")
+    print(f"[bidclub] 目录共 {len(episodes)} 期，取最近 {BID_ITEMS} 期带要点+摘要")
 
     archive = [{
         "slug": x["slug"], "title": x.get("title", ""), "title_alt": x.get("title_alt", ""),
@@ -522,7 +522,6 @@ def build_bidclub(out_dir):
         dek = (ep.get("dek_alt") if use_alt else ep.get("dek")) or ""
         tldr = (ep.get("tldr_md_alt") if use_alt else ep.get("tldr_md")) or ""
         digest = (ep.get("digest_md_alt") if use_alt else ep.get("digest_md")) or ""
-        transcript = ep.get("transcript_md") or ""
         show_name = ""
         shows = ep.get("shows") or {}
         if isinstance(shows, dict):
@@ -533,13 +532,9 @@ def build_bidclub(out_dir):
         date_str = ep.get("date") or entry.get("date") or ""
         dur = ep.get("duration_min") or entry.get("duration_min")
         labels = (
-            {"tldr": "要点 TL;DR", "digest": "摘要 Digest",
-             "transcript": "全文文稿（原文）",
-             "note": "注：BidClub 仅提供原文全文文稿；中文版为标题、要点与摘要的译文。"}
+            {"tldr": "要点 TL;DR", "digest": "摘要 Digest"}
             if zh else
-            {"tldr": "TL;DR", "digest": "Digest",
-             "transcript": "Full transcript",
-             "note": ""}
+            {"tldr": "TL;DR", "digest": "Digest"}
         )
         chunks = []
         thumb = ep.get("thumbnail_url") or entry.get("thumbnail_url")
@@ -557,19 +552,17 @@ def build_bidclub(out_dir):
         if dek:
             chunks.append(f"<p>{xml_escape(dek)}</p>")
         if detail is None:
-            chunks.append("<p>（本期全文抓取失败，仅显示摘要部分。）</p>")
+            chunks.append("<p>（本期详情抓取失败，仅显示摘要部分。）</p>")
         if tldr:
             chunks.append(f"<h2>{labels['tldr']}</h2>" + md_to_html(tldr))
         if digest:
             chunks.append(f"<h2>{labels['digest']}</h2>" + md_to_html(digest))
-        if transcript:
-            chunks.append(f"<h2>{labels['transcript']}</h2>" + md_to_html(transcript))
-            if zh and labels["note"]:
-                chunks.append(f"<p><em>{labels['note']}</em></p>")
         if ep.get("source_url"):
             chunks.append(f'<p>来源：<a href="{xml_escape(ep["source_url"])}">'
                           f'{xml_escape(ep.get("source_label") or ep["source_url"])}</a></p>')
         link = f"{api}/{'zh/' if zh else ''}e/{slug}"
+        chunks.append(f'<p>{"原文链接" if zh else "Read on BidClub"}: '
+                      f'<a href="{link}">{link}</a></p>')
         return {
             "title": title or slug,
             "link": link, "guid": link,
@@ -619,13 +612,13 @@ def build_bidclub(out_dir):
         [make_summary_item(e, zh=False) for e in rest]
     items_zh = [make_item(e, d, zh=True) for e, d in pairs] + \
         [make_summary_item(e, zh=True) for e in rest]
-    ok = sum(1 for d in details if d and d.get("transcript_md"))
-    print(f"[bidclub] 全文成功 {ok}/{len(pairs)} 期；其余 {len(rest)} 期为摘要条目")
+    ok = sum(1 for d in details if d and (d.get("tldr_md") or d.get("digest_md")))
+    print(f"[bidclub] 详情成功 {ok}/{len(pairs)} 期；其余 {len(rest)} 期为摘要条目")
 
     rss_main = build_rss({
-        "title": "BidClub — All shows (Full text)",
+        "title": "BidClub — All shows (TL;DR + Digest)",
         "link": api + "/",
-        "description": "BidClub 投资播客文稿（自建 RSS；官方 RSS 仅 30 期且截断）：全部期数都在这一个 feed 里，最新若干期带要点+摘要+全文文稿，其余为摘要+原文链接。",
+        "description": "BidClub 投资播客文稿（自建 RSS；官方 RSS 仅 30 期且截断）：全部期数都在这一个 feed 里，最新若干期带要点+摘要（原文链接在条目末尾），其余为摘要+原文链接。",
         "language": "en",
         "self_url": (SITE_URL + "/bidclub.xml") if SITE_URL else "",
     }, items_main)
@@ -634,9 +627,9 @@ def build_bidclub(out_dir):
     print(f"[bidclub] 写入 bidclub.xml（{len(rss_main.encode('utf-8')) / 1024:.0f} KB）")
 
     rss_zh = build_rss({
-        "title": "BidClub — 全部节目（全文·中文）",
+        "title": "BidClub — 全部节目（中文）",
         "link": api + "/",
-        "description": "BidClub 投资播客（中文版）：全部期数都在这一个 feed 里，最新若干期带中文要点/摘要+原文全文文稿，其余为中文摘要+原文链接。",
+        "description": "BidClub 投资播客（中文版）：全部期数都在这一个 feed 里，最新若干期带中文要点+摘要（原文链接在条目末尾），其余为中文摘要+原文链接。",
         "language": "zh-CN",
         "self_url": (SITE_URL + "/bidclub-zh.xml") if SITE_URL else "",
     }, items_zh)
@@ -674,15 +667,15 @@ INDEX_TEMPLATE = """<!doctype html>
 </div>
 
 <div class="feed">
-  <a href="bidclub.xml">BidClub — All shows (Full text)</a><br>
+  <a href="bidclub.xml">BidClub — All shows (TL;DR + Digest)</a><br>
   <code>bidclub.xml</code><br>
-  <small>官方 RSS 仅 30 期且截断；本 feed 含全部 {bid_total} 期，其中最新 {bid_items} 期带要点 + 摘要 + 全文文稿，其余为摘要 + 原文链接。</small>
+  <small>官方 RSS 仅 30 期且截断；本 feed 含全部 {bid_total} 期，其中最新 {bid_items} 期带要点 + 摘要，末尾附原文链接，其余为摘要 + 原文链接。</small>
 </div>
 
 <div class="feed">
-  <a href="bidclub-zh.xml">BidClub — 全部节目（全文·中文）</a><br>
+  <a href="bidclub-zh.xml">BidClub — 全部节目（中文）</a><br>
   <code>bidclub-zh.xml</code><br>
-  <small>全部 {bid_total} 期：最新 {bid_items} 期为中文标题 / 要点 / 摘要 + 原文全文文稿，其余为中文摘要 + 原文链接（BidClub 不提供中文全文）。</small>
+  <small>全部 {bid_total} 期：最新 {bid_items} 期为中文标题 / 要点 / 摘要，末尾附原文链接，其余为中文摘要 + 原文链接。</small>
 </div>
 
 <h2>完整目录存档</h2>
