@@ -5,8 +5,8 @@
 | Feed | 来源 | 说明 |
 |---|---|---|
 | `pod-exp.xml` | [pod-exp.pages.dev](https://pod-exp.pages.dev) | 原站**没有 RSS**。本 feed 含**全部 220 篇**：最新 25 篇带**全文**（章节列表 + 完整文稿），其余为摘要 + 原文链接 |
-| `bidclub.xml` | [bidclub.ai](https://bidclub.ai) | 官方 RSS 只有 30 期且是精简版。本 feed 含**全部 3385 期**：最新 30 期带**要点 TL;DR + 摘要 Digest**（条目末尾附原文链接），其余为摘要 + 原文链接 |
-| `bidclub-zh.xml` | [bidclub.ai](https://bidclub.ai) | 同上，但标题 / 要点 / 摘要为**中文** |
+| `feeds/bidclub.xml`（GitHub raw） | [bidclub.ai](https://bidclub.ai) | 官方 RSS 只有 30 期且是精简版。本 feed 含**全部期数**：2026 年以来的带**要点 TL;DR + 摘要 Digest**（不截断，条目末尾附原文链接），其余为摘要 + 原文链接。因单文件 30+ MB 超过 Pages 上限，改用 GitHub raw 地址托管：`https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub.xml` |
+| `feeds/bidclub-zh.xml`（GitHub raw） | [bidclub.ai](https://bidclub.ai) | 同上，但标题 / 要点 / 摘要为**中文**：`https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub-zh.xml` |
 
 `archive/` 下还有两个站点的**完整目录 JSON 存档**（pod-exp 全部 220 篇、BidClub 全部 3385 期），旧条目即使滚出 feed 也不会丢失。
 
@@ -19,7 +19,7 @@
 
 ### A. 最快：直接上传（无需 Git）
 
-1. 下载 `rss-feeds-site.zip`（本包内已附），解压后里面是 `index.html`、`pod-exp.xml`、`bidclub.xml`、`bidclub-zh.xml`、`archive/` 等。
+1. 下载 `rss-feeds-site.zip`（本包内已附），解压后里面是 `index.html`、`pod-exp.xml`、`lex.xml`、`archive/` 等。
 2. 登录 [Cloudflare Dashboard](https://dash.cloudflare.com) → 左侧 **Workers & Pages** → **Create** → **Pages** → **Upload assets**。
 3. 项目名随便取（如 `my-fulltext-rss`）→ 把解压后的**文件**（不是外层文件夹）拖进上传框 → **Deploy site**。
 4. 打开 `https://my-fulltext-rss.pages.dev/` 确认页面能打开，再把 `pod-exp.xml` 等三个 feed 地址粘贴进你的 RSS 阅读器。

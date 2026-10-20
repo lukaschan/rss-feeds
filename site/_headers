@@ -1,12 +1,6 @@
 /pod-exp.xml
   Content-Type: application/rss+xml; charset=utf-8
   Cache-Control: public, max-age=1800
-/bidclub.xml
-  Content-Type: application/rss+xml; charset=utf-8
-  Cache-Control: public, max-age=1800
-/bidclub-zh.xml
-  Content-Type: application/rss+xml; charset=utf-8
-  Cache-Control: public, max-age=1800
 /lex.xml
   Content-Type: application/rss+xml; charset=utf-8
   Cache-Control: public, max-age=1800

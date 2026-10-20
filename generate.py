@@ -18,8 +18,10 @@
 
 输出（默认写到 ./site/，这个目录就是要部署到 Cloudflare Pages 的内容）：
   site/pod-exp.xml          pod-exp feed（全部篇目；最新 POD_ITEMS 篇全文，其余摘要）
-  site/bidclub.xml          BidClub feed（全部期数；最新 BID_ITEMS 期带要点+摘要，其余摘要）
-  site/bidclub-zh.xml       BidClub 中文 feed（同上，标题/摘要为中文）
+  feeds/bidclub.xml         BidClub feed（全部期数；2026 年以来带要点+摘要不截断，其余摘要）
+  feeds/bidclub-zh.xml      BidClub 中文 feed（同上，标题/摘要为中文）；
+                            两者各 30+ MB 超过 Pages 上限，放仓库根 feeds/ 用 GitHub raw 托管；
+                            详情增量缓存在 archive/bidclub-details.json（仓库根，不进 site/）
   site/lex.xml              Lex feed（全部篇目；每篇带封面图+中文精读全文+文末英文原稿链接）
   site/index.html           订阅入口页
   site/archive/*.json       完整目录存档 / 正文缓存（防止旧条目“丢失”）
@@ -30,7 +32,6 @@
   SITE_URL    部署后的根地址，如 https://rss-xxx.pages.dev
               仅用于在 feed 里写入 atom:self 自引用链接，不填则省略。
   POD_ITEMS   pod-exp feed 收录篇数（默认 30）
-  BID_ITEMS   BidClub feed 收录期数（默认 50）
   OUT_DIR     输出目录（默认 site）
 """
 
@@ -50,7 +51,8 @@ from xml.sax.saxutils import escape as xml_escape
 UA = {"User-Agent": "rss-feeds-generator/1.0 (personal full-text RSS builder)"}
 SITE_URL = os.environ.get("SITE_URL", "").rstrip("/")
 POD_ITEMS = int(os.environ.get("POD_ITEMS", "25"))
-BID_ITEMS = int(os.environ.get("BID_ITEMS", "30"))
+BID_DETAIL_SINCE = "2026-01-01"  # BidClub 自该日期起的期数带要点+摘要（全量，不截断）
+RAW_BASE = "https://raw.githubusercontent.com/lukaschan/rss-feeds/main"  # 大文件 feed 的托管地址
 OUT_DIR = os.environ.get("OUT_DIR", "site")
 WORKERS = 8
 
@@ -480,12 +482,12 @@ def build_pod_exp(out_dir):
 
 
 # ------------------------------------------------------------- BidClub ----
-def build_bidclub(out_dir):
+def build_bidclub(out_dir, root_dir):
     api = "https://bidclub.ai"
     index = fetch_json(f"{api}/api/feed-index")
     episodes = index.get("episodes", [])
     episodes.sort(key=lambda x: x.get("published_at") or "", reverse=True)
-    print(f"[bidclub] 目录共 {len(episodes)} 期，取最近 {BID_ITEMS} 期带要点+摘要")
+    print(f"[bidclub] 目录共 {len(episodes)} 期；{BID_DETAIL_SINCE} 以来的带要点+摘要（增量缓存）")
 
     archive = [{
         "slug": x["slug"], "title": x.get("title", ""), "title_alt": x.get("title_alt", ""),
@@ -499,18 +501,46 @@ def build_bidclub(out_dir):
               encoding="utf-8") as f:
         json.dump(archive, f, ensure_ascii=False, indent=1)
 
-    picked = episodes[:BID_ITEMS]
+    # 详情增量缓存放在仓库根 archive/（不进 site/，避免大文件拖垮 Pages 部署）：
+    # 已抓过的期数不重抓，每日只补新期，抓完与旧的合并组装。
+    cache_path = os.path.join(root_dir, "archive", "bidclub-details.json")
+    details_cache = {}
+    if os.path.exists(cache_path):
+        try:
+            with open(cache_path, encoding="utf-8") as f:
+                details_cache = json.load(f)
+        except Exception:  # noqa: BLE001 - 缓存损坏则当作空缓存重抓
+            details_cache = {}
+
+    def ep_date(e):
+        return (e.get("published_at") or e.get("date") or "")[:10]
+
+    eligible = [e for e in episodes if ep_date(e) >= BID_DETAIL_SINCE]
+    missing = [e for e in eligible if e["slug"] not in details_cache]
+    print(f"[bidclub] {BID_DETAIL_SINCE} 以来共 {len(eligible)} 期，"
+          f"已缓存 {len(eligible) - len(missing)} 期，本次新抓 {len(missing)} 期")
 
     def get_detail(entry):
         try:
             data = fetch_json(f"{api}/api/v1/episodes/{entry['slug']}")
-            return data.get("episode", data)
-        except Exception as exc:  # noqa: BLE001
+            ep = data.get("episode", data)
+            # 文稿字段体积巨大且本 feed 不用，不进缓存
+            return entry["slug"], {k: v for k, v in ep.items()
+                                    if k not in ("transcript_md", "transcript")}
+        except Exception as exc:  # noqa: BLE001 - 单期失败下次运行再补
             print(f"[bidclub] 详情抓取失败 {entry['slug']}: {exc}")
-            return None
+            return entry["slug"], None
 
-    with ThreadPoolExecutor(max_workers=WORKERS) as pool:
-        details = list(pool.map(get_detail, picked))
+    if missing:
+        with ThreadPoolExecutor(max_workers=WORKERS) as pool:
+            for slug, ep in pool.map(get_detail, missing):
+                if ep:
+                    details_cache[slug] = ep
+        os.makedirs(os.path.dirname(cache_path), exist_ok=True)
+        with open(cache_path, "w", encoding="utf-8") as f:
+            json.dump(details_cache, f, ensure_ascii=False)
+        got = sum(1 for e in missing if e["slug"] in details_cache)
+        print(f"[bidclub] 新抓成功 {got}/{len(missing)} 期，详情缓存共 {len(details_cache)} 期")
 
     def people_of(ep):
         names = []
@@ -615,37 +645,45 @@ def build_bidclub(out_dir):
             "categories": [show_name, entry.get("show_id", "")],
         }
 
-    pairs = list(zip(picked, details))
-    rest = episodes[BID_ITEMS:]
-    items_main = [make_item(e, d, zh=False) for e, d in pairs] + \
-        [make_summary_item(e, zh=False) for e in rest]
-    items_zh = [make_item(e, d, zh=True) for e, d in pairs] + \
-        [make_summary_item(e, zh=True) for e in rest]
-    ok = sum(1 for d in details if d and (d.get("tldr_md") or d.get("digest_md")))
-    print(f"[bidclub] 详情成功 {ok}/{len(pairs)} 期；其余 {len(rest)} 期为摘要条目")
+    items_main, items_zh = [], []
+    detailed = 0
+    for e in episodes:
+        detail = details_cache.get(e["slug"])
+        if detail and (detail.get("tldr_md") or detail.get("digest_md")):
+            items_main.append(make_item(e, detail, zh=False))
+            items_zh.append(make_item(e, detail, zh=True))
+            detailed += 1
+        else:
+            items_main.append(make_summary_item(e, zh=False))
+            items_zh.append(make_summary_item(e, zh=True))
+    print(f"[bidclub] 带要点+摘要 {detailed} 期；其余 {len(episodes) - detailed} 期为摘要条目")
 
+    # 两个 feed 各 30+ MB，超过 Cloudflare Pages 单文件 25 MB 上限，
+    # 改放仓库根 feeds/ 目录、用 GitHub raw 地址订阅（不进 site/）。
+    feeds_dir = os.path.join(root_dir, "feeds")
+    os.makedirs(feeds_dir, exist_ok=True)
     rss_main = build_rss({
         "title": "BidClub — All shows (TL;DR + Digest)",
         "link": api + "/",
-        "description": "BidClub 投资播客文稿（自建 RSS；官方 RSS 仅 30 期且截断）：全部期数都在这一个 feed 里，最新若干期带要点+摘要（原文链接在条目末尾），其余为摘要+原文链接。",
+        "description": f"BidClub 投资播客文稿（自建 RSS；官方 RSS 仅 30 期且截断）：全部期数都在这一个 feed 里，{BID_DETAIL_SINCE} 以来的带要点+摘要（不截断，原文链接在条目末尾），以前的为摘要+原文链接。",
         "language": "en",
-        "self_url": (SITE_URL + "/bidclub.xml") if SITE_URL else "",
+        "self_url": RAW_BASE + "/feeds/bidclub.xml",
     }, items_main)
-    with open(os.path.join(out_dir, "bidclub.xml"), "w", encoding="utf-8") as f:
+    with open(os.path.join(feeds_dir, "bidclub.xml"), "w", encoding="utf-8") as f:
         f.write(rss_main)
-    print(f"[bidclub] 写入 bidclub.xml（{len(rss_main.encode('utf-8')) / 1024:.0f} KB）")
+    print(f"[bidclub] 写入 feeds/bidclub.xml（{len(rss_main.encode('utf-8')) / 1024:.0f} KB）")
 
     rss_zh = build_rss({
         "title": "BidClub — 全部节目（中文）",
         "link": api + "/",
-        "description": "BidClub 投资播客（中文版）：全部期数都在这一个 feed 里，最新若干期带中文要点+摘要（原文链接在条目末尾），其余为中文摘要+原文链接。",
+        "description": f"BidClub 投资播客（中文版）：全部期数都在这一个 feed 里，{BID_DETAIL_SINCE} 以来的带中文要点+摘要（不截断，原文链接在条目末尾），以前的为中文摘要+原文链接。",
         "language": "zh-CN",
-        "self_url": (SITE_URL + "/bidclub-zh.xml") if SITE_URL else "",
+        "self_url": RAW_BASE + "/feeds/bidclub-zh.xml",
     }, items_zh)
-    with open(os.path.join(out_dir, "bidclub-zh.xml"), "w", encoding="utf-8") as f:
+    with open(os.path.join(feeds_dir, "bidclub-zh.xml"), "w", encoding="utf-8") as f:
         f.write(rss_zh)
-    print(f"[bidclub] 写入 bidclub-zh.xml（{len(rss_zh.encode('utf-8')) / 1024:.0f} KB）")
-    return len(episodes), len(pairs)
+    print(f"[bidclub] 写入 feeds/bidclub-zh.xml（{len(rss_zh.encode('utf-8')) / 1024:.0f} KB）")
+    return len(episodes), detailed
 
 
 # ---------------------------------------------------- Lex 中文精读 ----
@@ -925,15 +963,15 @@ INDEX_TEMPLATE = """<!doctype html>
 </div>
 
 <div class="feed">
-  <a href="bidclub.xml">BidClub — All shows (TL;DR + Digest)</a><br>
-  <code>bidclub.xml</code><br>
-  <small>官方 RSS 仅 30 期且截断；本 feed 含全部 {bid_total} 期，其中最新 {bid_items} 期带要点 + 摘要，末尾附原文链接，其余为摘要 + 原文链接。</small>
+  <a href="https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub.xml">BidClub — All shows (TL;DR + Digest)</a><br>
+  <code>https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub.xml</code><br>
+  <small>官方 RSS 仅 30 期且截断；本 feed 含全部 {bid_total} 期，其中 2026 年以来的 {bid_items} 期带要点 + 摘要（不截断），末尾附原文链接，其余为摘要 + 原文链接。文件较大（30+ MB），托管于 GitHub raw，不在本域名下。</small>
 </div>
 
 <div class="feed">
-  <a href="bidclub-zh.xml">BidClub — 全部节目（中文）</a><br>
-  <code>bidclub-zh.xml</code><br>
-  <small>全部 {bid_total} 期：最新 {bid_items} 期为中文标题 / 要点 / 摘要，末尾附原文链接，其余为中文摘要 + 原文链接。</small>
+  <a href="https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub-zh.xml">BidClub — 全部节目（中文）</a><br>
+  <code>https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub-zh.xml</code><br>
+  <small>全部 {bid_total} 期：2026 年以来的 {bid_items} 期为中文标题 / 要点 / 摘要（不截断），末尾附原文链接，其余为中文摘要 + 原文链接。托管于 GitHub raw。</small>
 </div>
 
 <div class="feed">
@@ -957,7 +995,7 @@ INDEX_TEMPLATE = """<!doctype html>
 def main():
     os.makedirs(OUT_DIR, exist_ok=True)
     pod_total, pod_items = build_pod_exp(OUT_DIR)
-    bid_total, bid_items = build_bidclub(OUT_DIR)
+    bid_total, bid_items = build_bidclub(OUT_DIR, os.path.dirname(os.path.abspath(OUT_DIR)))
     lex_total = build_lex(OUT_DIR)
 
     built_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
@@ -973,12 +1011,6 @@ def main():
 
     headers = (
         "/pod-exp.xml\n"
-        "  Content-Type: application/rss+xml; charset=utf-8\n"
-        "  Cache-Control: public, max-age=1800\n"
-        "/bidclub.xml\n"
-        "  Content-Type: application/rss+xml; charset=utf-8\n"
-        "  Cache-Control: public, max-age=1800\n"
-        "/bidclub-zh.xml\n"
         "  Content-Type: application/rss+xml; charset=utf-8\n"
         "  Cache-Control: public, max-age=1800\n"
         "/lex.xml\n"
