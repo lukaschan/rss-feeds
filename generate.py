@@ -717,14 +717,6 @@ def parse_lex_md(md):
 def build_lex(out_dir):
     """全量 feed：sitemap 里全部 /ep/ 文章；正文（官方 Markdown 精读）增量缓存
     在 archive/lex-articles.json —— 历史文章只抓一次，每日只抓新增。"""
-    sitemap = fetch_text(f"{LEX_BASE}/sitemap.xml", retries=3)
-    slugs = []
-    for loc in re.findall(r"<loc>([^<]+)</loc>", sitemap):
-        m = re.match(r"https://lex\.qiaomu\.ai/ep/([^/]+)/?$", loc.strip())
-        if m and m.group(1) not in slugs:
-            slugs.append(m.group(1))
-    print(f"[lex] sitemap 共 {len(slugs)} 篇")
-
     archive_dir = os.path.join(out_dir, "archive")
     os.makedirs(archive_dir, exist_ok=True)
     cache_path = os.path.join(archive_dir, "lex-articles.json")
@@ -735,6 +727,19 @@ def build_lex(out_dir):
                 cache = json.load(f)
         except Exception:  # noqa: BLE001 - 缓存损坏则当作空缓存重抓
             cache = {}
+
+    slugs = []
+    try:
+        sitemap = fetch_text(f"{LEX_BASE}/sitemap.xml", retries=4, timeout=90)
+        for loc in re.findall(r"<loc>([^<]+)</loc>", sitemap):
+            m = re.match(r"https://lex\.qiaomu\.ai/ep/([^/]+)/?$", loc.strip())
+            if m and m.group(1) not in slugs:
+                slugs.append(m.group(1))
+    except Exception as exc:  # noqa: BLE001 - 站点偶发超时：有缓存就先用缓存出 feed，下次再补新篇
+        print(f"[lex] sitemap 抓取失败（{exc}），回退到缓存目录 {len(cache)} 篇")
+    if not slugs:
+        slugs = sorted(cache.keys())
+    print(f"[lex] sitemap 共 {len(slugs)} 篇")
     missing = [s for s in slugs if s not in cache]
     print(f"[lex] 已缓存 {len(cache)} 篇，本次需新抓 {len(missing)} 篇")
 
