@@ -714,6 +714,76 @@ def parse_lex_md(md):
     }
 
 
+def _lex_transcript_paras(text, target=1200):
+    """英文文稿是一整块无分段纯文本：按句末标点切句，再攒成约 target 字的段落。"""
+    sentences = re.findall(r"[^.!?]+[.!?]+[\"'”’]?\s*|[^.!?]+$", text)
+    paras, buf = [], ""
+    for s in sentences:
+        s = s.strip()
+        if not s:
+            continue
+        if len(buf) + len(s) > target and buf:
+            paras.append(buf)
+            buf = s
+        else:
+            buf = f"{buf} {s}" if buf else s
+    if buf:
+        paras.append(buf)
+    return paras
+
+
+def parse_lex_html_fallback(html_text, slug):
+    """个别早期节目没有 Markdown 精读版（index.md 返回 404），页面里只有
+    英文文稿（div.transcript-text 纯文本）。把文稿切段做成正文兜底收录。"""
+    tr = re.search(r'<div class="transcript-text"[^>]*>(.*?)</div>', html_text, re.S)
+    if not tr:
+        return None
+    raw = re.sub(r"<[^>]+>", "", tr.group(1))
+    from html import unescape as _unesc
+    raw = _unesc(raw).strip()
+    if len(raw) < 1000:
+        return None
+    og = ""
+    m = re.search(r'property="og:title" content="([^"]+)"', html_text)
+    if m:
+        og = _unesc(m.group(1))
+    zh_side = og.split("｜")[0].strip()
+    num_m = re.match(r"#\s*(\d+)\s*(.*)", zh_side)
+    num = num_m.group(1) if num_m else ""
+    title = (num_m.group(2).strip() if num_m else zh_side) or slug
+    official = ""
+    for link in re.findall(r'href="(https://lexfridman\.com/[^"]*)"', html_text):
+        if link.rstrip("/") != "https://lexfridman.com/podcast":
+            official = link
+            break
+    date_m = re.search(r'"datePublished":\s*"([0-9-]{10})', html_text)
+    desc_m = re.search(r'name="description" content="([^"]+)"', html_text)
+    note = ("<p><em>本期站方未提供中文精读，以下为英文文稿"
+            "（早期节目的自动转录存档，可能存在识别错误）。</em></p>")
+    body_html = note + "\n".join(
+        f"<p>{xml_escape(p)}</p>" for p in _lex_transcript_paras(raw))
+    return {
+        "title": title, "num": num,
+        "summary": _unesc(desc_m.group(1)) if desc_m else "",
+        "date": date_m.group(1) if date_m else "",
+        "guest": "", "page": f"{LEX_BASE}/ep/{slug}/",
+        "official": official, "body_md": "", "body_html": body_html,
+    }
+
+
+def _http_status(url, timeout=40):
+    """只看状态码（404 用来区分『没有 Markdown 版』与临时抓取失败）。"""
+    try:
+        req = urllib.request.Request(url, headers=UA)
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            resp.read()
+            return resp.status
+    except urllib.error.HTTPError as exc:
+        return exc.code
+    except Exception:  # noqa: BLE001
+        return 0
+
+
 def build_lex(out_dir):
     """全量 feed：sitemap 里全部 /ep/ 文章；正文（官方 Markdown 精读）增量缓存
     在 archive/lex-articles.json —— 历史文章只抓一次，每日只抓新增。"""
@@ -744,13 +814,26 @@ def build_lex(out_dir):
     print(f"[lex] 已缓存 {len(cache)} 篇，本次需新抓 {len(missing)} 篇")
 
     def grab(slug):
+        md_url = f"{LEX_BASE}/ep/{slug}/index.md"
         try:
-            md = fetch_text(f"{LEX_BASE}/ep/{slug}/index.md", retries=3)
+            md = fetch_text(md_url, retries=3)
             rec = parse_lex_md(md)
             if not rec["title"] or not rec["body_md"]:
                 return slug, None
             return slug, rec
-        except Exception as exc:  # noqa: BLE001 - 单篇失败下次运行再补
+        except Exception as exc:  # noqa: BLE001
+            # 只有确认 index.md 不存在（404）才走英文文稿兜底；
+            # 超时等临时失败留待下次运行重试 Markdown 版。
+            if _http_status(md_url) == 404:
+                try:
+                    page = fetch_text(f"{LEX_BASE}/ep/{slug}/", retries=3)
+                    rec = parse_lex_html_fallback(page, slug)
+                    if rec:
+                        print(f"[lex] {slug} 无 Markdown 版，已用英文文稿兜底")
+                        return slug, rec
+                except Exception as exc2:  # noqa: BLE001
+                    print(f"[lex] 兜底抓取失败 {slug}: {exc2}")
+                    return slug, None
             print(f"[lex] 抓取失败 {slug}: {exc}")
             return slug, None
 
@@ -778,7 +861,8 @@ def build_lex(out_dir):
             chunks.append(f"<p><em>{xml_escape(meta)}</em></p>")
         if rec.get("summary"):
             chunks.append(f"<p>{xml_escape(rec['summary'])}</p>")
-        chunks.append(md_to_html(rec["body_md"]))
+        chunks.append(rec["body_html"] if rec.get("body_html")
+                      else md_to_html(rec["body_md"]))
         footer = []
         if rec.get("official"):
             footer.append(f'英文原稿（Lex Fridman 官方页面）：<a href="{xml_escape(rec["official"])}">'
