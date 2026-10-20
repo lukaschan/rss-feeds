@@ -12,9 +12,9 @@
        与 /api/v1/episodes/{slug}（含 transcript_md 全文）
 
 输出（默认写到 ./site/，这个目录就是要部署到 Cloudflare Pages 的内容）：
-  site/pod-exp.xml          pod-exp 全文 feed（最近 POD_ITEMS 篇）
-  site/bidclub.xml          BidClub 全文 feed（原文，最近 BID_ITEMS 期）
-  site/bidclub-zh.xml       BidClub 全文 feed（中文标题/摘要，全文为原文）
+  site/pod-exp.xml          pod-exp feed（全部篇目；最新 POD_ITEMS 篇全文，其余摘要）
+  site/bidclub.xml          BidClub feed（全部期数；最新 BID_ITEMS 期全文，其余摘要）
+  site/bidclub-zh.xml       BidClub 中文 feed（同上，标题/摘要为中文，全文为原文）
   site/index.html           订阅入口页
   site/archive/*.json       两个站的完整目录存档（防止旧条目“丢失”）
 
@@ -420,16 +420,46 @@ def build_pod_exp(out_dir):
             "categories": [entry.get("channel", "")] + (entry.get("topics") or []),
         }
 
+    def make_summary_item(entry):
+        """较旧的篇目：只放摘要 + 章节 + 原文链接（全文点开原站看），保证单个 feed 装下全部历史。"""
+        url = f"{base}/{entry['id']}/"
+        chunks = []
+        cover = (entry.get("cover") or {}).get("m") or (entry.get("cover") or {}).get("s")
+        if cover:
+            chunks.append(f'<p><img src="{base}/{entry["id"]}/{cover}" alt="" /></p>')
+        meta_bits = [entry.get("channel", ""), f"播出 {entry.get('published', '')}"]
+        if entry.get("duration"):
+            meta_bits.append(f"时长 {fmt_duration(entry['duration'])}")
+        chunks.append(f"<p><em>{xml_escape(' · '.join(b for b in meta_bits if b))}</em></p>")
+        if entry.get("summary"):
+            chunks.append(f"<p>{xml_escape(entry['summary'])}</p>")
+        chapters = entry.get("chapters") or []
+        if chapters:
+            lis = "".join(
+                f"<li>{fmt_duration(c.get('t', 0))} {xml_escape(c.get('title', ''))}</li>"
+                for c in chapters)
+            chunks.append(f"<h2>章节</h2><ul>{lis}</ul>")
+        chunks.append(f'<p>全文：<a href="{url}">在原站阅读本篇全文</a></p>')
+        return {
+            "title": entry.get("title", "(无标题)"),
+            "link": url, "guid": url,
+            "pubdate": entry.get("addedAt") or entry.get("published") or "",
+            "description": entry.get("summary", ""),
+            "content_html": "\n".join(chunks),
+            "categories": [entry.get("channel", "")] + (entry.get("topics") or []),
+        }
+
     picked = catalog[:POD_ITEMS]
     with ThreadPoolExecutor(max_workers=WORKERS) as pool:
-        items = list(pool.map(make_item, picked))
-    ok = sum(1 for it in items if "<hr />" in it["content_html"])
-    print(f"[pod-exp] 全文成功 {ok}/{len(items)} 篇")
+        full_items = list(pool.map(make_item, picked))
+    ok = sum(1 for it in full_items if "<hr />" in it["content_html"])
+    print(f"[pod-exp] 全文成功 {ok}/{len(full_items)} 篇；其余 {len(catalog) - len(picked)} 篇为摘要条目")
+    items = full_items + [make_summary_item(e) for e in catalog[POD_ITEMS:]]
 
     rss = build_rss({
         "title": "Field Notes｜播客中文文稿（全文）",
         "link": base + "/",
-        "description": "精选深度访谈、播客与技术大会中文文稿全文（自建全文 RSS，原站无 RSS）。",
+        "description": "精选深度访谈、播客与技术大会中文文稿（自建 RSS，原站无 RSS）：全部篇目都在这一个 feed 里，最新若干篇带全文，其余为摘要+原文链接。",
         "language": "zh-CN",
         "self_url": (SITE_URL + "/pod-exp.xml") if SITE_URL else "",
     }, items)
@@ -437,7 +467,7 @@ def build_pod_exp(out_dir):
     with open(path, "w", encoding="utf-8") as f:
         f.write(rss)
     print(f"[pod-exp] 写入 {path}（{len(rss.encode('utf-8')) / 1024:.0f} KB，{len(items)} 条）")
-    return len(catalog), len(items)
+    return len(catalog), len(picked)
 
 
 # ------------------------------------------------------------- BidClub ----
@@ -549,16 +579,53 @@ def build_bidclub(out_dir):
             "categories": [show_name, entry.get("show_id", "")],
         }
 
+    def make_summary_item(entry, zh):
+        """较旧的期数：只放 dek 摘要 + 原文链接，保证单个 feed 装下全部 3000+ 期历史。"""
+        lang = (entry.get("lang") or "").upper()
+        use_alt = zh and lang == "EN"
+        title = (entry.get("title_alt") if use_alt else entry.get("title")) or entry.get("title", "")
+        if zh and lang == "ZH":
+            title = entry.get("title") or title
+        dek = (entry.get("dek_alt") if use_alt else entry.get("dek")) or ""
+        show_name = entry.get("show") if isinstance(entry.get("show"), str) else ""
+        people = people_of(entry)
+        dur = entry.get("duration_min")
+        chunks = []
+        if entry.get("thumbnail_url"):
+            chunks.append(f'<p><img src="{xml_escape(entry["thumbnail_url"])}" alt="" /></p>')
+        meta = " · ".join(b for b in [
+            show_name, "、".join(people), entry.get("date") or "",
+            f"{dur} min" if dur else "", f"原语言 {lang}" if lang else "",
+        ] if b)
+        if meta:
+            chunks.append(f"<p><em>{xml_escape(meta)}</em></p>")
+        if dek:
+            chunks.append(f"<p>{xml_escape(dek)}</p>")
+        link = f"{api}/{'zh/' if zh else ''}e/{entry['slug']}"
+        open_text = "在 BidClub 打开本期（要点 / 摘要 / 全文）" if zh else "Open on BidClub (TL;DR / digest / full transcript)"
+        chunks.append(f'<p><a href="{link}">{open_text}</a></p>')
+        return {
+            "title": title or entry["slug"],
+            "link": link, "guid": link,
+            "pubdate": entry.get("published_at") or entry.get("date") or "",
+            "description": dek,
+            "content_html": "\n".join(chunks),
+            "categories": [show_name, entry.get("show_id", "")],
+        }
+
     pairs = list(zip(picked, details))
-    items_main = [make_item(e, d, zh=False) for e, d in pairs]
-    items_zh = [make_item(e, d, zh=True) for e, d in pairs]
+    rest = episodes[BID_ITEMS:]
+    items_main = [make_item(e, d, zh=False) for e, d in pairs] + \
+        [make_summary_item(e, zh=False) for e in rest]
+    items_zh = [make_item(e, d, zh=True) for e, d in pairs] + \
+        [make_summary_item(e, zh=True) for e in rest]
     ok = sum(1 for d in details if d and d.get("transcript_md"))
-    print(f"[bidclub] 全文成功 {ok}/{len(pairs)} 期")
+    print(f"[bidclub] 全文成功 {ok}/{len(pairs)} 期；其余 {len(rest)} 期为摘要条目")
 
     rss_main = build_rss({
         "title": "BidClub — All shows (Full text)",
         "link": api + "/",
-        "description": "BidClub 投资播客文稿全文（自建全文 RSS：要点 + 摘要 + 全文文稿；官方 RSS 仅 30 期且截断）。",
+        "description": "BidClub 投资播客文稿（自建 RSS；官方 RSS 仅 30 期且截断）：全部期数都在这一个 feed 里，最新若干期带要点+摘要+全文文稿，其余为摘要+原文链接。",
         "language": "en",
         "self_url": (SITE_URL + "/bidclub.xml") if SITE_URL else "",
     }, items_main)
@@ -569,14 +636,14 @@ def build_bidclub(out_dir):
     rss_zh = build_rss({
         "title": "BidClub — 全部节目（全文·中文）",
         "link": api + "/",
-        "description": "BidClub 投资播客全文（中文标题/要点/摘要 + 原文全文文稿）。",
+        "description": "BidClub 投资播客（中文版）：全部期数都在这一个 feed 里，最新若干期带中文要点/摘要+原文全文文稿，其余为中文摘要+原文链接。",
         "language": "zh-CN",
         "self_url": (SITE_URL + "/bidclub-zh.xml") if SITE_URL else "",
     }, items_zh)
     with open(os.path.join(out_dir, "bidclub-zh.xml"), "w", encoding="utf-8") as f:
         f.write(rss_zh)
     print(f"[bidclub] 写入 bidclub-zh.xml（{len(rss_zh.encode('utf-8')) / 1024:.0f} KB）")
-    return len(episodes), len(items_main)
+    return len(episodes), len(pairs)
 
 
 # -------------------------------------------------------------- index ----
@@ -603,19 +670,19 @@ INDEX_TEMPLATE = """<!doctype html>
 <div class="feed">
   <a href="pod-exp.xml">Field Notes｜播客中文文稿（全文）</a><br>
   <code>pod-exp.xml</code><br>
-  <small>原站 pod-exp.pages.dev 无 RSS；本 feed 收录最近 {pod_items} 篇全文，目录共 {pod_total} 篇。</small>
+  <small>原站 pod-exp.pages.dev 无 RSS；本 feed 含全部 {pod_total} 篇，其中最新 {pod_items} 篇带全文，其余为摘要 + 原文链接。</small>
 </div>
 
 <div class="feed">
   <a href="bidclub.xml">BidClub — All shows (Full text)</a><br>
   <code>bidclub.xml</code><br>
-  <small>官方 RSS 仅 30 期且截断；本 feed 收录最近 {bid_items} 期，要点 + 摘要 + 全文文稿。</small>
+  <small>官方 RSS 仅 30 期且截断；本 feed 含全部 {bid_total} 期，其中最新 {bid_items} 期带要点 + 摘要 + 全文文稿，其余为摘要 + 原文链接。</small>
 </div>
 
 <div class="feed">
   <a href="bidclub-zh.xml">BidClub — 全部节目（全文·中文）</a><br>
   <code>bidclub-zh.xml</code><br>
-  <small>中文标题 / 要点 / 摘要 + 原文全文文稿（BidClub 不提供中文全文）。</small>
+  <small>全部 {bid_total} 期：最新 {bid_items} 期为中文标题 / 要点 / 摘要 + 原文全文文稿，其余为中文摘要 + 原文链接（BidClub 不提供中文全文）。</small>
 </div>
 
 <h2>完整目录存档</h2>
