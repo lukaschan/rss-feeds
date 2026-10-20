@@ -11,12 +11,18 @@
      - 但官方提供免 key 的公开 API：/api/feed-index（全部目录）
        与 /api/v1/episodes/{slug}（含 transcript_md 全文）
 
+  3. lex.qiaomu.ai（Lex Fridman 播客中文精读）
+     - 官方 RSS 只有最新 20 篇；全站篇目在 sitemap.xml（/ep/{slug}/）
+     - 每篇另有官方 Markdown 版 /ep/{slug}/index.md（精读全文），抓取后
+       缓存在 archive/lex-articles.json，历史文章不重复抓取，每日只抓新增
+
 输出（默认写到 ./site/，这个目录就是要部署到 Cloudflare Pages 的内容）：
   site/pod-exp.xml          pod-exp feed（全部篇目；最新 POD_ITEMS 篇全文，其余摘要）
   site/bidclub.xml          BidClub feed（全部期数；最新 BID_ITEMS 期带要点+摘要，其余摘要）
   site/bidclub-zh.xml       BidClub 中文 feed（同上，标题/摘要为中文）
+  site/lex.xml              Lex feed（全部篇目；每篇带封面图+中文精读全文+文末英文原稿链接）
   site/index.html           订阅入口页
-  site/archive/*.json       两个站的完整目录存档（防止旧条目“丢失”）
+  site/archive/*.json       完整目录存档 / 正文缓存（防止旧条目“丢失”）
 
 只依赖 Python 3.10+ 标准库，无需 pip install。
 
@@ -239,6 +245,9 @@ def build_rss(channel, items):
                 parts.append(f"<category>{xml_escape(str(cat))}</category>")
         desc = it.get("description") or ""
         parts.append(f"<description>{xml_escape(desc[:800])}</description>")
+        if it.get("enclosure"):
+            parts.append(f'<enclosure url="{xml_escape(it["enclosure"])}" '
+                         'type="image/jpeg" length="0" />')
         if it.get("content_html"):
             parts.append(f"<content:encoded>{cdata(it['content_html'])}</content:encoded>")
         parts.append("</item>")
@@ -639,6 +648,166 @@ def build_bidclub(out_dir):
     return len(episodes), len(pairs)
 
 
+# ---------------------------------------------------- Lex 中文精读 ----
+LEX_BASE = "https://lex.qiaomu.ai"
+
+
+def parse_lex_md(md):
+    """解析单篇 /ep/{slug}/index.md：标题、摘要、元信息、正文 Markdown。
+
+    结构固定为：
+      # 标题
+      > 摘要（一句话导读）
+      - 原标题 / 期数 / 发布日期 / 嘉宾 / 主题 / 网页版 / 官方页面 / 精读字数
+      > 免责声明
+      正文……
+    """
+    lines = md.replace("\r\n", "\n").split("\n")
+    title, summary, meta = "", "", {}
+    body_start = None
+    i = 0
+    while i < len(lines):
+        s = lines[i].strip()
+        if s.startswith("# ") and not title:
+            title = s[2:].strip()
+            i += 1
+            continue
+        m = re.match(r"^-\s*([^：:]+)[：:]\s*(.*)$", s)
+        if m and body_start is None:
+            meta[m.group(1).strip()] = m.group(2).strip()
+            i += 1
+            continue
+        if s.startswith(">"):
+            quote = s.lstrip("> ").strip()
+            if "AI 改写" in quote or "非官方" in quote:
+                body_start = i + 1  # 免责声明之后就是正文
+                break
+            if not summary and not meta:
+                summary = quote
+            i += 1
+            continue
+        i += 1
+    if body_start is None:  # 兜底：跳过元信息区，余下皆正文
+        body_start = 0
+        while body_start < len(lines) and (
+                not lines[body_start].strip()
+                or lines[body_start].strip().startswith(("# ", ">", "- "))):
+            body_start += 1
+    body_md = "\n".join(lines[body_start:]).strip()
+    num = ""
+    m = re.search(r"#\s*(\d+)", meta.get("原标题", ""))
+    if m:
+        num = m.group(1)
+    else:
+        m = re.search(r"第\s*(\d+)\s*期", meta.get("期数", ""))
+        if m:
+            num = m.group(1)
+    return {
+        "title": title,
+        "num": num,
+        "summary": summary,
+        "date": meta.get("发布日期", ""),
+        "guest": meta.get("嘉宾 / 主题", ""),
+        "page": meta.get("网页版", ""),
+        "official": meta.get("官方页面", ""),
+        "body_md": body_md,
+    }
+
+
+def build_lex(out_dir):
+    """全量 feed：sitemap 里全部 /ep/ 文章；正文（官方 Markdown 精读）增量缓存
+    在 archive/lex-articles.json —— 历史文章只抓一次，每日只抓新增。"""
+    sitemap = fetch_text(f"{LEX_BASE}/sitemap.xml", retries=3)
+    slugs = []
+    for loc in re.findall(r"<loc>([^<]+)</loc>", sitemap):
+        m = re.match(r"https://lex\.qiaomu\.ai/ep/([^/]+)/?$", loc.strip())
+        if m and m.group(1) not in slugs:
+            slugs.append(m.group(1))
+    print(f"[lex] sitemap 共 {len(slugs)} 篇")
+
+    archive_dir = os.path.join(out_dir, "archive")
+    os.makedirs(archive_dir, exist_ok=True)
+    cache_path = os.path.join(archive_dir, "lex-articles.json")
+    cache = {}
+    if os.path.exists(cache_path):
+        try:
+            with open(cache_path, encoding="utf-8") as f:
+                cache = json.load(f)
+        except Exception:  # noqa: BLE001 - 缓存损坏则当作空缓存重抓
+            cache = {}
+    missing = [s for s in slugs if s not in cache]
+    print(f"[lex] 已缓存 {len(cache)} 篇，本次需新抓 {len(missing)} 篇")
+
+    def grab(slug):
+        try:
+            md = fetch_text(f"{LEX_BASE}/ep/{slug}/index.md", retries=3)
+            rec = parse_lex_md(md)
+            if not rec["title"] or not rec["body_md"]:
+                return slug, None
+            return slug, rec
+        except Exception as exc:  # noqa: BLE001 - 单篇失败下次运行再补
+            print(f"[lex] 抓取失败 {slug}: {exc}")
+            return slug, None
+
+    if missing:
+        with ThreadPoolExecutor(max_workers=WORKERS) as pool:
+            for slug, rec in pool.map(grab, missing):
+                if rec:
+                    cache[slug] = rec
+        with open(cache_path, "w", encoding="utf-8") as f:
+            json.dump(cache, f, ensure_ascii=False)
+        got = sum(1 for s in missing if s in cache)
+        print(f"[lex] 新抓成功 {got}/{len(missing)} 篇，缓存共 {len(cache)} 篇")
+
+    def make_item(slug):
+        rec = cache[slug]
+        page = rec.get("page") or f"{LEX_BASE}/ep/{slug}/"
+        cover = f"{LEX_BASE}/og/{slug}.jpg"
+        chunks = [f'<p><img src="{cover}" alt="" /></p>']
+        meta = " · ".join(b for b in [
+            rec.get("guest", ""),
+            f"第 {rec['num']} 期" if rec.get("num") else "",
+            rec.get("date", ""),
+        ] if b)
+        if meta:
+            chunks.append(f"<p><em>{xml_escape(meta)}</em></p>")
+        if rec.get("summary"):
+            chunks.append(f"<p>{xml_escape(rec['summary'])}</p>")
+        chunks.append(md_to_html(rec["body_md"]))
+        footer = []
+        if rec.get("official"):
+            footer.append(f'英文原稿（Lex Fridman 官方页面）：<a href="{xml_escape(rec["official"])}">'
+                          f'{xml_escape(rec["official"])}</a>')
+        footer.append(f'中文精读网页版：<a href="{page}">{page}</a>')
+        chunks.append("<hr />\n<p>" + "<br />".join(footer) + "</p>")
+        title = f"#{rec['num']} {rec['title']}" if rec.get("num") else rec["title"]
+        return {
+            "title": title,
+            "link": page, "guid": page,
+            "pubdate": rec.get("date", ""),
+            "description": rec.get("summary", ""),
+            "content_html": "\n".join(chunks),
+            "enclosure": cover,
+            "categories": ["Lex Fridman"],
+        }
+
+    have = [s for s in slugs if s in cache]
+    have.sort(key=lambda s: cache[s].get("date") or "", reverse=True)
+    items = [make_item(s) for s in have]
+    rss = build_rss({
+        "title": "Lex Fridman 播客｜中文精读（全文）",
+        "link": LEX_BASE + "/",
+        "description": "Lex Fridman 播客中文精读（自建 RSS；官方 feed 仅最新 20 篇）：全部文章都在这一个 feed 里，每篇带封面图与中文精读全文，文末附英文原稿链接。",
+        "language": "zh-CN",
+        "self_url": (SITE_URL + "/lex.xml") if SITE_URL else "",
+    }, items)
+    path = os.path.join(out_dir, "lex.xml")
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(rss)
+    print(f"[lex] 写入 {path}（{len(rss.encode('utf-8')) / 1024:.0f} KB，{len(items)} 条）")
+    return len(items)
+
+
 # -------------------------------------------------------------- index ----
 INDEX_TEMPLATE = """<!doctype html>
 <html lang="zh-CN">
@@ -678,9 +847,16 @@ INDEX_TEMPLATE = """<!doctype html>
   <small>全部 {bid_total} 期：最新 {bid_items} 期为中文标题 / 要点 / 摘要，末尾附原文链接，其余为中文摘要 + 原文链接。</small>
 </div>
 
+<div class="feed">
+  <a href="lex.xml">Lex Fridman 播客｜中文精读（全文）</a><br>
+  <code>lex.xml</code><br>
+  <small>原站 lex.qiaomu.ai 官方 feed 仅最新 20 篇；本 feed 含全部 {lex_total} 篇，每篇带封面图与中文精读全文，文末附英文原稿链接。</small>
+</div>
+
 <h2>完整目录存档</h2>
 <p><a href="archive/pod-exp-catalog.json">pod-exp 全部目录 JSON</a> ·
-   <a href="archive/bidclub-index.json">BidClub 全部目录 JSON</a>
+   <a href="archive/bidclub-index.json">BidClub 全部目录 JSON</a> ·
+   <a href="archive/lex-articles.json">Lex 精读正文缓存 JSON</a>
    <small>（BidClub 共 {bid_total} 期；旧条目即使滚出 feed 也能在这里找到。）</small></p>
 
 <p><small>生成时间：{built_at}（UTC）。由 generate.py 自动生成。</small></p>
@@ -693,6 +869,7 @@ def main():
     os.makedirs(OUT_DIR, exist_ok=True)
     pod_total, pod_items = build_pod_exp(OUT_DIR)
     bid_total, bid_items = build_bidclub(OUT_DIR)
+    lex_total = build_lex(OUT_DIR)
 
     built_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
     index_html = (INDEX_TEMPLATE
@@ -700,6 +877,7 @@ def main():
                   .replace("{pod_total}", str(pod_total))
                   .replace("{bid_items}", str(bid_items))
                   .replace("{bid_total}", str(bid_total))
+                  .replace("{lex_total}", str(lex_total))
                   .replace("{built_at}", built_at))
     with open(os.path.join(OUT_DIR, "index.html"), "w", encoding="utf-8") as f:
         f.write(index_html)
@@ -712,6 +890,9 @@ def main():
         "  Content-Type: application/rss+xml; charset=utf-8\n"
         "  Cache-Control: public, max-age=1800\n"
         "/bidclub-zh.xml\n"
+        "  Content-Type: application/rss+xml; charset=utf-8\n"
+        "  Cache-Control: public, max-age=1800\n"
+        "/lex.xml\n"
         "  Content-Type: application/rss+xml; charset=utf-8\n"
         "  Cache-Control: public, max-age=1800\n"
     )
