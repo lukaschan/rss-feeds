@@ -5,8 +5,9 @@
 <link>https://bidclub.ai/</link>
 <description>BidClub 投资播客全文（中文标题/要点/摘要 + 原文全文文稿）。</description>
 <language>zh-CN</language>
-<lastBuildDate>Tue, 20 Oct 2026 04:59:55 +0000</lastBuildDate>
+<lastBuildDate>Tue, 20 Oct 2026 05:08:27 +0000</lastBuildDate>
 <generator>rss-feeds-generator (personal)</generator>
+<atom:link href="https://rss-feeds-8x2.pages.dev/bidclub-zh.xml" rel="self" type="application/rss+xml" />
 <item>
 <title>E256｜Agent、机器人与制药，谁先被GPT-6 Astra改写？</title>
 <link>https://bidclub.ai/zh/e/valley101-2026-10-19-e256-agent</link>
