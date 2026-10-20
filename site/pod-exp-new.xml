@@ -5,7 +5,7 @@
 <link>https://pod-exp.pages.dev/</link>
 <description>Field Notes 每日新增文章（自建 RSS）：存档冻结后新发表的篇目，全部带全文；冻结前的全部篇目见 pod-exp.xml 存档版。</description>
 <language>zh-CN</language>
-<lastBuildDate>Tue, 20 Oct 2026 08:35:50 +0000</lastBuildDate>
+<lastBuildDate>Tue, 20 Oct 2026 08:36:51 +0000</lastBuildDate>
 <generator>rss-feeds-generator (personal)</generator>
 <atom:link href="https://rss-feeds-8x2.pages.dev/pod-exp-new.xml" rel="self" type="application/rss+xml" />
 </channel></rss>
