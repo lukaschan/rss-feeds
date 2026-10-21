@@ -1,5 +1,225 @@
 [
  {
+  "id": "-MD9NsVj2xo",
+  "title": "Stanford AI Club：Alfred Lin 谈 AI 时代的创业",
+  "channel": "Stanford AI Club",
+  "guests": "Alfred Lin",
+  "published": "2026-10-15",
+  "addedAt": "2026-10-20",
+  "updatedAt": "2026-10-20",
+  "duration": 3409,
+  "topics": [
+   "人工智能",
+   "创业与经营",
+   "产品",
+   "科技趋势"
+  ],
+  "url": "https://pod-exp.pages.dev/-MD9NsVj2xo/"
+ },
+ {
+  "id": "2qxsCx58qHE",
+  "title": "与 Ron Baron 对谈",
+  "channel": "Columbia Business School",
+  "guests": "Ron Baron",
+  "published": "2026-10-13",
+  "addedAt": "2026-10-20",
+  "updatedAt": "2026-10-20",
+  "duration": 3452,
+  "topics": [
+   "投资",
+   "创业与经营",
+   "航天"
+  ],
+  "url": "https://pod-exp.pages.dev/2qxsCx58qHE/"
+ },
+ {
+  "id": "FwDKCNfHHtY",
+  "title": "芒格家族资产管理人李录，哥大商学院最新演讲精彩话题：价值投资、中美AI、能源、加密币、人生复利等...",
+  "channel": "学用复利投资Value Insights",
+  "guests": "李录",
+  "published": "2026-10-07",
+  "addedAt": "2026-10-20",
+  "updatedAt": "2026-10-20",
+  "duration": 6328,
+  "topics": [
+   "投资",
+   "人工智能",
+   "半导体",
+   "加密与 Web3"
+  ],
+  "url": "https://pod-exp.pages.dev/FwDKCNfHHtY/"
+ },
+ {
+  "id": "GjZG3uniZBM",
+  "title": "based16z：Hyperliquid 传奇交易、早期故事，以及怎样真正闯出来",
+  "channel": "threadguy",
+  "guests": "based16z",
+  "published": "2026-10-15",
+  "addedAt": "2026-10-20",
+  "updatedAt": "2026-10-20",
+  "duration": 4469,
+  "topics": [
+   "加密与 Web3",
+   "交易",
+   "投资",
+   "期权"
+  ],
+  "url": "https://pod-exp.pages.dev/GjZG3uniZBM/"
+ },
+ {
+  "id": "GqJhyuIgd1s",
+  "title": "Jeff Yan：让整个金融行业运行在 Hyperliquid 上的计划",
+  "channel": "Bloomberg Podcasts",
+  "guests": "Jeff Yan",
+  "published": "2026-10-15",
+  "addedAt": "2026-10-20",
+  "updatedAt": "2026-10-20",
+  "duration": 3640,
+  "topics": [
+   "加密与 Web3",
+   "金融基础设施",
+   "交易",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/GqJhyuIgd1s/"
+ },
+ {
+  "id": "Rs40uGRyXC8",
+  "title": "他如何打造拥有 1.4 亿客户的全球最大数字银行",
+  "channel": "Invest Like The Best",
+  "guests": "David Vélez",
+  "published": "2026-10-13",
+  "addedAt": "2026-10-20",
+  "updatedAt": "2026-10-20",
+  "duration": 4835,
+  "topics": [
+   "金融基础设施",
+   "创业与经营",
+   "人工智能",
+   "领导力"
+  ],
+  "url": "https://pod-exp.pages.dev/Rs40uGRyXC8/"
+ },
+ {
+  "id": "WkmbKwcJk7k",
+  "title": "当软件像牛奶一样便宜，我们还要交付什么？——与郭宇聊 Agent 时代及 Vibe Coding 之后的路",
+  "channel": "INDIGO 数字镜像",
+  "guests": "郭宇",
+  "published": "2026-10-09",
+  "addedAt": "2026-10-20",
+  "updatedAt": "2026-10-20",
+  "duration": 4329,
+  "topics": [
+   "人工智能",
+   "AI 智能体",
+   "AI 编程",
+   "创作者经济"
+  ],
+  "url": "https://pod-exp.pages.dev/WkmbKwcJk7k/"
+ },
+ {
+  "id": "XfdIhd1g6EI",
+  "title": "Muse Wonder：扎克伯格与 Alexandr Wang 的千亿美元 AI 豪赌",
+  "channel": "Cheeky Pint",
+  "guests": "Mark Zuckerberg、Alexandr Wang",
+  "published": "2026-10-12",
+  "addedAt": "2026-10-20",
+  "updatedAt": "2026-10-20",
+  "duration": 8071,
+  "topics": [
+   "AI 智能体",
+   "AI 研究",
+   "AI 基础设施",
+   "产品"
+  ],
+  "url": "https://pod-exp.pages.dev/XfdIhd1g6EI/"
+ },
+ {
+  "id": "YC2yFCD5uJM",
+  "title": "软件工程的未来：Cat Wu、Dax Raad 与 Swyx 对谈",
+  "channel": "Modal",
+  "guests": "Cat Wu、Dax Raad",
+  "published": "2026-10-13",
+  "addedAt": "2026-10-20",
+  "updatedAt": "2026-10-20",
+  "duration": 2607,
+  "topics": [
+   "AI 编程",
+   "AI 智能体",
+   "产品",
+   "职业发展"
+  ],
+  "url": "https://pod-exp.pages.dev/YC2yFCD5uJM/"
+ },
+ {
+  "id": "ay1bBeattB0",
+  "title": "如何在华尔街之前发现下一笔大交易",
+  "channel": "Anthony Pompliano",
+  "guests": "Chris Camillo",
+  "published": "2026-10-12",
+  "addedAt": "2026-10-20",
+  "updatedAt": "2026-10-20",
+  "duration": 2675,
+  "topics": [
+   "投资",
+   "交易",
+   "期权",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/ay1bBeattB0/"
+ },
+ {
+  "id": "clWKbuJG5-M",
+  "title": "Arthur Hayes：从 BitMEX 创业、比特币的未来，到为何 AI 投资过度",
+  "channel": "1000x",
+  "guests": "Arthur Hayes",
+  "published": "2026-10-14",
+  "addedAt": "2026-10-20",
+  "updatedAt": "2026-10-20",
+  "duration": 2928,
+  "topics": [
+   "加密与 Web3",
+   "交易",
+   "宏观经济",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/clWKbuJG5-M/"
+ },
+ {
+  "id": "glrthhLyJr8",
+  "title": "杰米·戴蒙谈全球经济面临的最大风险",
+  "channel": "WSJ Podcasts",
+  "guests": "Jamie Dimon",
+  "published": "2026-10-19",
+  "addedAt": "2026-10-20",
+  "updatedAt": "2026-10-20",
+  "duration": 2454,
+  "topics": [
+   "宏观经济",
+   "地缘政治",
+   "领导力",
+   "AI 安全"
+  ],
+  "url": "https://pod-exp.pages.dev/glrthhLyJr8/"
+ },
+ {
+  "id": "i3h6xGLOhSk",
+  "title": "给 AI 智能体更多自由和自己的银行账户，反而能保障人类安全吗？",
+  "channel": "Zershaaneh Talks AI",
+  "guests": "Simon Goldstein",
+  "published": "2026-10-01",
+  "addedAt": "2026-10-20",
+  "updatedAt": "2026-10-20",
+  "duration": 6825,
+  "topics": [
+   "人工智能",
+   "AI 智能体",
+   "AI 安全",
+   "未来社会"
+  ],
+  "url": "https://pod-exp.pages.dev/i3h6xGLOhSk/"
+ },
+ {
   "id": "LKrwhjOI8Nc",
   "title": "从未有过比现在更适合投身数学的时代",
   "channel": "3Blue1Brown",
