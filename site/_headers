@@ -10,3 +10,9 @@
 /lex-new.xml
   Content-Type: application/rss+xml; charset=utf-8
   Cache-Control: public, max-age=1800
+/allin.xml
+  Content-Type: application/rss+xml; charset=utf-8
+  Cache-Control: public, max-age=1800
+/allin-new.xml
+  Content-Type: application/rss+xml; charset=utf-8
+  Cache-Control: public, max-age=1800

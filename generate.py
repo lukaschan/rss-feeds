@@ -29,6 +29,8 @@
   feeds/bidclub-zh-new.xml  BidClub 每日新增中文版
   site/lex.xml              Lex 存档（冻结时全部篇目；每篇封面图+中文精读全文+文末英文原稿链接）
   site/lex-new.xml          Lex 每日新增（同上规格，只含基线之后的新篇）
+  site/allin.xml            All-In 存档（同 Lex 规格；文末附原节目视频链接）
+  site/allin-new.xml        All-In 每日新增（同上规格，只含基线之后的新篇）
   site/index.html           订阅入口页
   site/archive/*.json       完整目录存档 / 正文缓存 / 冻结基线
 
@@ -1102,6 +1104,253 @@ def build_lex(out_dir):
     return archive_total, len(new_items)
 
 
+# ------------------------------------------------------ All-In 精读 ----
+ALLIN_BASE = "https://allin.qiaomu.ai"
+
+
+def parse_allin_md(md):
+    """解析 allin 单篇 /ep/{slug}/index.md（结构与 lex 站相同，字段不同）：
+      # 标题 / > 摘要 / - 原标题 / 类型（“第 N 期”或“嘉宾访谈”）/ 发布日期 /
+      话题 / 出场 / 网页版 / 视频 / 精读字数 / > 免责声明 / 正文
+    """
+    lines = md.replace("\r\n", "\n").split("\n")
+    title, summary, meta = "", "", {}
+    body_start = None
+    i = 0
+    while i < len(lines):
+        s = lines[i].strip()
+        if s.startswith("# ") and not title:
+            title = s[2:].strip()
+            i += 1
+            continue
+        m = re.match(r"^-\s*([^：:]+)[：:]\s*(.*)$", s)
+        if m and body_start is None:
+            meta[m.group(1).strip()] = m.group(2).strip()
+            i += 1
+            continue
+        if s.startswith(">"):
+            quote = s.lstrip("> ").strip()
+            if "AI 改写" in quote or "非官方" in quote:
+                body_start = i + 1
+                break
+            if not summary and not meta:
+                summary = quote
+            i += 1
+            continue
+        i += 1
+    if body_start is None:
+        body_start = 0
+        while body_start < len(lines) and (
+                not lines[body_start].strip()
+                or lines[body_start].strip().startswith(("# ", ">", "- "))):
+            body_start += 1
+    num = ""
+    m = re.search(r"第\s*(\d+)\s*期", meta.get("类型", ""))
+    if m:
+        num = m.group(1)
+    return {
+        "title": title,
+        "num": num,
+        "type": meta.get("类型", ""),
+        "summary": summary,
+        "date": meta.get("发布日期", ""),
+        "topic": meta.get("话题", ""),
+        "cast": meta.get("出场", ""),
+        "page": meta.get("网页版", ""),
+        "video": meta.get("视频", ""),
+        "body_md": "\n".join(lines[body_start:]).strip(),
+    }
+
+
+def parse_allin_html_fallback(html_text, slug):
+    """allin 少数单集没有 Markdown 精读版（index.md 404，实测 21/461）：
+    从网页本身提取中文标题（og:title 的 ｜ 前段）、摘要（meta description）、
+    发布日期（JSON-LD / 页面首个日期）、YouTube 链接，组一条带说明的条目，
+    保证存档期数完整。这类记录带 fallback 标记，不算正式缓存，后续运行会
+    继续重试 Markdown 版，站方一旦补上就自动换成精读全文。"""
+    import html as _html
+
+    def meta_content(prop, attr="property"):
+        m = re.search(rf'<meta {attr}="{re.escape(prop)}" content="([^"]*)"', html_text)
+        return _html.unescape(m.group(1)).strip() if m else ""
+
+    og_title = meta_content("og:title")
+    title = og_title.split("｜")[0].strip() or slug
+    summary = meta_content("description", attr="name") or meta_content("og:description")
+    date = ""
+    for m in re.finditer(r'<script type="application/ld\+json">(.*?)</script>',
+                         html_text, re.S):
+        try:
+            ld = json.loads(m.group(1))
+        except Exception:  # noqa: BLE001
+            continue
+        stack = [ld]
+        while stack and not date:
+            node = stack.pop()
+            if isinstance(node, dict):
+                if node.get("datePublished"):
+                    date = str(node["datePublished"])[:10]
+                stack.extend(node.values())
+            elif isinstance(node, list):
+                stack.extend(node)
+    if not date:
+        m = re.search(r"20\d\d-\d\d-\d\d", html_text)
+        date = m.group(0) if m else ""
+    yt = re.search(r"https://www\.youtube\.com/watch\?v=[\w-]+", html_text)
+    num = ""
+    m = re.match(r"e(\d+)", slug)
+    if m:
+        num = m.group(1)
+    note = ("本期站方暂未提供中文精读（无 Markdown 版），以下为本期简介；"
+            "可通过文末链接观看原节目视频，或打开中文精读网页版查看。")
+    return {
+        "title": title, "num": num, "type": "", "summary": summary,
+        "date": date, "topic": "", "cast": "",
+        "page": f"{ALLIN_BASE}/ep/{slug}/",
+        "video": yt.group(0) if yt else "",
+        "body_md": note, "fallback": True,
+    }
+
+
+def build_allin(out_dir):
+    """与 build_lex 同构：sitemap 全部 /ep/ 文章，Markdown 精读增量缓存
+    在 archive/allin-articles.json；allin.xml 为冻结存档，allin-new.xml
+    只装基线（archive/allin-baseline.json）之后的新篇。"""
+    archive_dir = os.path.join(out_dir, "archive")
+    os.makedirs(archive_dir, exist_ok=True)
+    cache_path = os.path.join(archive_dir, "allin-articles.json")
+    cache = {}
+    if os.path.exists(cache_path):
+        try:
+            with open(cache_path, encoding="utf-8") as f:
+                cache = json.load(f)
+        except Exception:  # noqa: BLE001
+            cache = {}
+
+    slugs = []
+    try:
+        sitemap = fetch_text(f"{ALLIN_BASE}/sitemap.xml", retries=4, timeout=90)
+        for loc in re.findall(r"<loc>([^<]+)</loc>", sitemap):
+            m = re.match(r"https://allin\.qiaomu\.ai/ep/([^/]+)/?$", loc.strip())
+            if m and m.group(1) not in slugs:
+                slugs.append(m.group(1))
+    except Exception as exc:  # noqa: BLE001 - 有缓存就先用缓存，下次再补
+        print(f"[allin] sitemap 抓取失败（{exc}），回退到缓存目录 {len(cache)} 篇")
+    if not slugs:
+        slugs = sorted(cache.keys())
+    print(f"[allin] sitemap 共 {len(slugs)} 篇")
+    # 兜底记录（fallback）不算数：每次运行都重试它们的 Markdown 版
+    missing = [s for s in slugs if s not in cache or cache[s].get("fallback")]
+    print(f"[allin] 已缓存 {len(cache)} 篇，本次需新抓 {len(missing)} 篇")
+
+    def grab(slug):
+        md_url = f"{ALLIN_BASE}/ep/{slug}/index.md"
+        try:
+            md = fetch_text(md_url, retries=3)
+            rec = parse_allin_md(md)
+            if not rec["title"] or not rec["body_md"]:
+                print(f"[allin] 解析为空 {slug}")
+                return slug, None
+            return slug, rec
+        except Exception as exc:  # noqa: BLE001
+            # 确认 404（站方没给这篇做 Markdown 版）才走网页兜底；
+            # 超时等临时失败保留旧兜底/留待下次重试 Markdown 版。
+            if _http_status(md_url) == 404:
+                try:
+                    page = fetch_text(f"{ALLIN_BASE}/ep/{slug}/", retries=3)
+                    rec = parse_allin_html_fallback(page, slug)
+                    if rec:
+                        print(f"[allin] {slug} 无 Markdown 版，已用网页信息兜底")
+                        return slug, rec
+                except Exception as exc2:  # noqa: BLE001
+                    print(f"[allin] 兜底抓取失败 {slug}: {exc2}")
+            else:
+                print(f"[allin] 抓取失败 {slug}: {exc}")
+            old = cache.get(slug)
+            return slug, old if old and old.get("fallback") else None
+
+    if missing:
+        with ThreadPoolExecutor(max_workers=WORKERS) as pool:
+            for slug, rec in pool.map(grab, missing):
+                if rec:
+                    cache[slug] = rec
+        with open(cache_path, "w", encoding="utf-8") as f:
+            json.dump(cache, f, ensure_ascii=False)
+        got = sum(1 for s in missing if s in cache)
+        print(f"[allin] 新抓成功 {got}/{len(missing)} 篇，缓存共 {len(cache)} 篇")
+
+    def make_item(slug):
+        rec = cache[slug]
+        page = rec.get("page") or f"{ALLIN_BASE}/ep/{slug}/"
+        cover = f"{ALLIN_BASE}/og/{slug}.jpg"
+        chunks = [f'<p><img src="{cover}" alt="" /></p>']
+        meta = " · ".join(b for b in [
+            rec.get("cast", ""), rec.get("topic", ""), rec.get("date", ""),
+        ] if b)
+        if meta:
+            chunks.append(f"<p><em>{xml_escape(meta)}</em></p>")
+        if rec.get("summary"):
+            chunks.append(f"<p>{xml_escape(rec['summary'])}</p>")
+        chunks.append(rec["body_html"] if rec.get("body_html")
+                      else md_to_html(rec["body_md"]))
+        footer = []
+        if rec.get("video"):
+            footer.append(f'原节目视频（YouTube）：<a href="{xml_escape(rec["video"])}">'
+                          f'{xml_escape(rec["video"])}</a>')
+        footer.append(f'中文精读网页版：<a href="{page}">{page}</a>')
+        chunks.append("<hr />\n<p>" + "<br />".join(footer) + "</p>")
+        title = f"E{rec['num']} {rec['title']}" if rec.get("num") else rec["title"]
+        return {
+            "title": title,
+            "link": page, "guid": page,
+            "pubdate": rec.get("date", ""),
+            "description": rec.get("summary", ""),
+            "content_html": "\n".join(chunks),
+            "enclosure": cover,
+            "categories": ["All-In"],
+        }
+
+    baseline_path = os.path.join(archive_dir, "allin-baseline.json")
+    baseline = _load_id_set(baseline_path)
+    have = [s for s in slugs if s in cache]
+    have.sort(key=lambda s: cache[s].get("date") or "", reverse=True)
+    if baseline is None:
+        items = [make_item(s) for s in have]
+        rss = build_rss({
+            "title": "All-In 播客｜中文精读（全文·存档）",
+            "link": ALLIN_BASE + "/",
+            "description": "All-In 播客中文精读存档版（自建 RSS；官方 feed 仅最新 20 篇）：含冻结时全部文章，每篇带封面图与中文精读全文，文末附原节目视频链接。此后不再更新；新文章见 allin-new.xml。",
+            "language": "zh-CN",
+            "self_url": (SITE_URL + "/allin.xml") if SITE_URL else "",
+        }, items)
+        path = os.path.join(out_dir, "allin.xml")
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(rss)
+        print(f"[allin] 写入存档 {path}（{len(rss.encode('utf-8')) / 1024:.0f} KB，{len(items)} 条）并冻结")
+        _save_id_set(baseline_path, slugs)
+        baseline = set(slugs)
+        new_items = []
+        archive_total = len(items)
+    else:
+        fresh = [s for s in have if s not in baseline]
+        new_items = [make_item(s) for s in fresh]
+        archive_total = len(baseline)
+        print(f"[allin] 基线后新增 {len(fresh)} 篇")
+
+    rss_new = build_rss({
+        "title": "All-In 播客｜中文精读（每日新增）",
+        "link": ALLIN_BASE + "/",
+        "description": "All-In 播客每日新增中文精读（自建 RSS）：存档冻结后新发表的文章，每篇带封面图与中文精读全文，文末附原节目视频链接；冻结前的全部文章见 allin.xml 存档版。",
+        "language": "zh-CN",
+        "self_url": (SITE_URL + "/allin-new.xml") if SITE_URL else "",
+    }, new_items)
+    path_new = os.path.join(out_dir, "allin-new.xml")
+    with open(path_new, "w", encoding="utf-8") as f:
+        f.write(rss_new)
+    print(f"[allin] 写入 {path_new}（{len(rss_new.encode('utf-8')) / 1024:.0f} KB，{len(new_items)} 条）")
+    return archive_total, len(new_items)
+
+
 # -------------------------------------------------------------- index ----
 INDEX_TEMPLATE = """<!doctype html>
 <html lang="zh-CN">
@@ -1149,6 +1398,12 @@ INDEX_TEMPLATE = """<!doctype html>
   <small>冻结后新发表的文章，每篇带封面图与中文精读全文，文末附英文原稿链接；目前已收录新增 {lex_new} 篇，持续更新。</small>
 </div>
 
+<div class="feed">
+  <a href="allin-new.xml">All-In 播客｜中文精读（每日新增）</a><br>
+  <code>allin-new.xml</code><br>
+  <small>冻结后新发表的文章，每篇带封面图与中文精读全文，文末附原节目视频链接；目前已收录新增 {allin_new} 篇，持续更新。</small>
+</div>
+
 <h2>存量存档（已冻结，不再更新）</h2>
 
 <div class="feed">
@@ -1173,6 +1428,12 @@ INDEX_TEMPLATE = """<!doctype html>
   <a href="lex.xml">Lex Fridman 播客｜中文精读（全文·存档）</a><br>
   <code>lex.xml</code><br>
   <small>含冻结时全部 {lex_total} 篇，每篇带封面图与中文精读全文，文末附英文原稿链接。</small>
+</div>
+
+<div class="feed">
+  <a href="allin.xml">All-In 播客｜中文精读（全文·存档）</a><br>
+  <code>allin.xml</code><br>
+  <small>含冻结时全部 {allin_total} 篇，每篇带封面图与中文精读全文，文末附原节目视频链接。</small>
 </div>
 
 <h2>完整目录存档</h2>
@@ -1221,6 +1482,15 @@ def main():
             OUT_DIR, "archive", "lex-baseline.json")) or set())
         lex_new = _count_items(os.path.join(OUT_DIR, "lex-new.xml"))
 
+    try:
+        allin_total, allin_new = build_allin(OUT_DIR)
+    except Exception as exc:  # noqa: BLE001
+        failures.append(f"allin: {exc}")
+        print(f"[main] allin 本次失败，保留上次输出：{exc}")
+        allin_total = len(_load_id_set(os.path.join(
+            OUT_DIR, "archive", "allin-baseline.json")) or set())
+        allin_new = _count_items(os.path.join(OUT_DIR, "allin-new.xml"))
+
     if failures:
         print("[main] 本次失败的源（已跳过，明日自动重试）：" + "；".join(failures))
 
@@ -1232,6 +1502,8 @@ def main():
                   .replace("{bid_total}", str(bid_total))
                   .replace("{lex_total}", str(lex_total))
                   .replace("{lex_new}", str(lex_new))
+                  .replace("{allin_total}", str(allin_total))
+                  .replace("{allin_new}", str(allin_new))
                   .replace("{built_at}", built_at))
     with open(os.path.join(OUT_DIR, "index.html"), "w", encoding="utf-8") as f:
         f.write(index_html)
@@ -1247,6 +1519,12 @@ def main():
         "  Content-Type: application/rss+xml; charset=utf-8\n"
         "  Cache-Control: public, max-age=1800\n"
         "/lex-new.xml\n"
+        "  Content-Type: application/rss+xml; charset=utf-8\n"
+        "  Cache-Control: public, max-age=1800\n"
+        "/allin.xml\n"
+        "  Content-Type: application/rss+xml; charset=utf-8\n"
+        "  Cache-Control: public, max-age=1800\n"
+        "/allin-new.xml\n"
         "  Content-Type: application/rss+xml; charset=utf-8\n"
         "  Cache-Control: public, max-age=1800\n"
     )

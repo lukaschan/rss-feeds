@@ -9,11 +9,13 @@
 | `feeds/bidclub-new.xml`（GitHub raw） | [bidclub.ai](https://bidclub.ai) | 冻结后新出的期数，全部带**要点 TL;DR + 摘要 Digest**（不截断，末尾附原文链接）；每日更新。地址：`https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub-new.xml` |
 | `feeds/bidclub-zh-new.xml`（GitHub raw） | [bidclub.ai](https://bidclub.ai) | 同上，中文版：`https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub-zh-new.xml` |
 | `lex-new.xml` | [lex.qiaomu.ai](https://lex.qiaomu.ai) | 冻结后新发表的文章，每篇带**封面图 + 中文精读全文**，文末附英文原稿链接；每日更新 |
+| `allin-new.xml` | [allin.qiaomu.ai](https://allin.qiaomu.ai) | 冻结后新发表的文章，每篇带**封面图 + 中文精读全文**，文末附原节目视频（YouTube）链接；每日更新 |
 | **存量存档（已冻结，不再更新）** | | |
 | `pod-exp.xml` | [pod-exp.pages.dev](https://pod-exp.pages.dev) | 冻结时**全部 220 篇**：最新 25 篇带全文，其余为摘要 + 原文链接 |
 | `feeds/bidclub.xml`（GitHub raw） | [bidclub.ai](https://bidclub.ai) | 冻结时**全部 3385 期**：2026 年以来的带要点 + 摘要（不截断），其余为摘要 + 原文链接。约 37 MB，地址：`https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub.xml` |
 | `feeds/bidclub-zh.xml`（GitHub raw） | [bidclub.ai](https://bidclub.ai) | 同上，中文版：`https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub-zh.xml` |
 | `lex.xml` | [lex.qiaomu.ai](https://lex.qiaomu.ai) | 冻结时**全部 506 篇**中文精读全文 + 封面图 |
+| `allin.xml` | [allin.qiaomu.ai](https://allin.qiaomu.ai) | 冻结时**全部 461 篇**中文精读全文 + 封面图（其中 21 篇站方无 Markdown 版，以网页标题/摘要/视频链接兜底收录） |
 
 每个源有一份冻结基线清单（`*-baseline.json`）；每日运行以「当前目录 − 基线」得到新增，只更新「每日更新」组，存档文件不再改动。
 
