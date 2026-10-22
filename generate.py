@@ -281,6 +281,15 @@ def _save_id_set(path, ids):
         json.dump(sorted(ids), f, ensure_ascii=False)
 
 
+def _count_items(path):
+    """数已有 feed 文件里的 <item> 个数（某源失败时给首页凑数用）。"""
+    try:
+        with open(path, encoding="utf-8") as f:
+            return f.read().count("<item>")
+    except Exception:  # noqa: BLE001
+        return 0
+
+
 # ------------------------------------------------------- pod-exp 提取 ----
 VOID_TAGS = {"area", "base", "br", "col", "embed", "hr", "img", "input",
              "link", "meta", "param", "source", "track", "wbr"}
@@ -389,10 +398,57 @@ def fmt_duration(seconds):
     return f"{h}:{m:02d}:{s:02d}" if h else f"{m}:{s:02d}"
 
 
+def _parse_js_catalog(raw):
+    """从 `window.FN_CATALOG = [...]` 中按括号配平提取并解析 JSON 数组。
+
+    不能用 split("=") + rstrip(";") 的土办法：源站部署抖动时 Pages 会对
+    静态资源返回 200 的 HTML 回退页（内容里也有 "="），土办法会把 HTML
+    当 JSON 解析并让整个日报崩掉（2026-10-22 实测）。这里找不到合法
+    数组就抛错，交给上层重试/隔离。
+    """
+    start = raw.find("[")
+    if start < 0:
+        raise ValueError("目录响应里找不到 JSON 数组（可能拿到了 HTML 回退页）")
+    depth, in_str, esc = 0, False, False
+    for i in range(start, len(raw)):
+        ch = raw[i]
+        if in_str:
+            if esc:
+                esc = False
+            elif ch == "\\":
+                esc = True
+            elif ch == '"':
+                in_str = False
+        elif ch == '"':
+            in_str = True
+        elif ch == "[":
+            depth += 1
+        elif ch == "]":
+            depth -= 1
+            if depth == 0:
+                data = json.loads(raw[start:i + 1])
+                if not isinstance(data, list) or not data or \
+                        not isinstance(data[0], dict) or "id" not in data[0]:
+                    raise ValueError("目录 JSON 结构异常")
+                return data
+    raise ValueError("目录 JSON 数组不完整")
+
+
 def build_pod_exp(out_dir):
     base = "https://pod-exp.pages.dev"
-    raw = fetch_text(f"{base}/assets/catalog-data.js")
-    catalog = json.loads(raw.split("=", 1)[1].strip().rstrip(";"))
+    catalog = None
+    last_exc = None
+    for attempt in range(3):
+        try:
+            catalog = _parse_js_catalog(fetch_text(f"{base}/assets/catalog-data.js"))
+            break
+        except Exception as exc:  # noqa: BLE001 - 内容级重试后上抛，由 main 隔离
+            last_exc = exc
+            print(f"[pod-exp] 目录抓取/解析失败（第 {attempt + 1}/3 次）：{exc}")
+            if attempt < 2:
+                time.sleep(5 * (attempt + 1))
+    if catalog is None:
+        raise RuntimeError(f"pod-exp 目录三次重试仍失败：{last_exc}")
     catalog.sort(key=lambda x: (x.get("addedAt") or "", x.get("updatedAt") or ""),
                  reverse=True)
     print(f"[pod-exp] 目录共 {len(catalog)} 篇，取最近 {POD_ITEMS} 篇生成全文 feed")
@@ -1133,9 +1189,40 @@ INDEX_TEMPLATE = """<!doctype html>
 
 def main():
     os.makedirs(OUT_DIR, exist_ok=True)
-    pod_total, pod_new = build_pod_exp(OUT_DIR)
-    bid_total, bid_new = build_bidclub(OUT_DIR, os.path.dirname(os.path.abspath(OUT_DIR)))
-    lex_total, lex_new = build_lex(OUT_DIR)
+    root_dir = os.path.dirname(os.path.abspath(OUT_DIR))
+    # 按源隔离：任一源站抖动只跳过它自己（其输出文件保持上次版本），
+    # 其余源照常更新并提交；数字回退到基线规模 + 现有滚动 feed 的条数。
+    failures = []
+
+    try:
+        pod_total, pod_new = build_pod_exp(OUT_DIR)
+    except Exception as exc:  # noqa: BLE001
+        failures.append(f"pod-exp: {exc}")
+        print(f"[main] pod-exp 本次失败，保留上次输出：{exc}")
+        pod_total = len(_load_id_set(os.path.join(
+            OUT_DIR, "archive", "pod-exp-baseline.json")) or set())
+        pod_new = _count_items(os.path.join(OUT_DIR, "pod-exp-new.xml"))
+
+    try:
+        bid_total, bid_new = build_bidclub(OUT_DIR, root_dir)
+    except Exception as exc:  # noqa: BLE001
+        failures.append(f"bidclub: {exc}")
+        print(f"[main] bidclub 本次失败，保留上次输出：{exc}")
+        bid_total = len(_load_id_set(os.path.join(
+            root_dir, "archive", "bidclub-baseline.json")) or set())
+        bid_new = _count_items(os.path.join(root_dir, "feeds", "bidclub-new.xml"))
+
+    try:
+        lex_total, lex_new = build_lex(OUT_DIR)
+    except Exception as exc:  # noqa: BLE001
+        failures.append(f"lex: {exc}")
+        print(f"[main] lex 本次失败，保留上次输出：{exc}")
+        lex_total = len(_load_id_set(os.path.join(
+            OUT_DIR, "archive", "lex-baseline.json")) or set())
+        lex_new = _count_items(os.path.join(OUT_DIR, "lex-new.xml"))
+
+    if failures:
+        print("[main] 本次失败的源（已跳过，明日自动重试）：" + "；".join(failures))
 
     built_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
     index_html = (INDEX_TEMPLATE
