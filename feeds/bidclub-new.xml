@@ -5,7 +5,7 @@
 <link>https://bidclub.ai/</link>
 <description>BidClub 每日新增节目（自建 RSS）：存档冻结后新出的期数，全部带要点+摘要（不截断，原文链接在条目末尾）；冻结前的全部期数见 bidclub.xml 存档版。</description>
 <language>en</language>
-<lastBuildDate>Thu, 22 Oct 2026 01:45:00 +0000</lastBuildDate>
+<lastBuildDate>Thu, 22 Oct 2026 01:48:24 +0000</lastBuildDate>
 <generator>rss-feeds-generator (personal)</generator>
 <atom:link href="https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub-new.xml" rel="self" type="application/rss+xml" />
 <item>
