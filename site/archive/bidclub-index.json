@@ -1,5 +1,89 @@
 [
  {
+  "slug": "what-will-computer-chips-look-like-2045",
+  "title": "What will computer chips look like in 2045?",
+  "title_alt": "2045年的计算机芯片会是什么样？",
+  "show_id": "dwarkesh",
+  "show": "Dwarkesh Podcast",
+  "lang": "EN",
+  "date": "2026-10-22",
+  "published_at": "2026-10-22T15:02:21+00:00",
+  "duration_min": 69,
+  "url": "https://bidclub.ai/e/what-will-computer-chips-look-like-2045"
+ },
+ {
+  "slug": "worst-is-behind-us",
+  "title": "The Worst Is Behind Us",
+  "title_alt": "最糟糕的阶段已经过去",
+  "show_id": "delphidigital",
+  "show": "Delphi Digital",
+  "lang": "EN",
+  "date": "2026-10-22",
+  "published_at": "2026-10-22T14:40:53+00:00",
+  "duration_min": 83,
+  "url": "https://bidclub.ai/e/worst-is-behind-us"
+ },
+ {
+  "slug": "recommendation-engine-commodity-traders-anekha-s",
+  "title": "The Recommendation Engine for Commodity Traders — Anekha Sokhal, Moshi",
+  "title_alt": "大宗商品交易员的推荐引擎——Anekha Sokhal，Moshi",
+  "show_id": "latentspace",
+  "show": "Latent Space",
+  "lang": "EN",
+  "date": "2026-10-22",
+  "published_at": "2026-10-22T14:00:00+00:00",
+  "duration_min": 27,
+  "url": "https://bidclub.ai/e/recommendation-engine-commodity-traders-anekha-s"
+ },
+ {
+  "slug": "new-apex-predator-crowdstrike-ceo-george-kurtz-a",
+  "title": "The New Apex Predator: CrowdStrike CEO George Kurtz on Adversaries Armed With AI Agents",
+  "title_alt": "新一代顶级掠食者：CrowdStrike CEO George Kurtz 谈手握 AI 智能体的对手",
+  "show_id": "nopriors",
+  "show": "No Priors",
+  "lang": "EN",
+  "date": "2026-10-22",
+  "published_at": "2026-10-22T10:00:00+00:00",
+  "duration_min": 45,
+  "url": "https://bidclub.ai/e/new-apex-predator-crowdstrike-ceo-george-kurtz-a"
+ },
+ {
+  "slug": "affirm-internet-s-american-express",
+  "title": "Baytex Energy: The Business of Oil & Gas - [Business Breakdowns, EP. 57]",
+  "title_alt": "Baytex Energy：石油与天然气业务 - [Business Breakdowns，第57期]",
+  "show_id": "businessbreakdowns",
+  "show": "Business Breakdowns",
+  "lang": "EN",
+  "date": "2026-10-22",
+  "published_at": "2026-10-22T08:00:00+00:00",
+  "duration_min": 79,
+  "url": "https://bidclub.ai/e/affirm-internet-s-american-express"
+ },
+ {
+  "slug": "20vc-trillion-or-bust-new-vc-game-coreweave-sell",
+  "title": "20VC: Trillion or Bust: The New VC Game | Coreweave Sell-Off Creates Panic | Town at $1B, Anduril at $90B: Revenue Multiples Out of Control | General Atlantic Eyes IPO & Modal Raises $750M at $15.75B",
+  "title_alt": "20VC：万亿，或一无所有：VC新游戏｜CoreWeave暴跌引发恐慌｜Town估值10亿美元、Anduril估值900亿美元：营收倍数失控｜General Atlantic瞄准IPO，Modal以157.5亿美元估值融资7.5亿美元",
+  "show_id": "20vc",
+  "show": "20VC",
+  "lang": "EN",
+  "date": "2026-10-22",
+  "published_at": "2026-10-22T07:07:00+00:00",
+  "duration_min": 61,
+  "url": "https://bidclub.ai/e/20vc-trillion-or-bust-new-vc-game-coreweave-sell"
+ },
+ {
+  "slug": "peter-thiel-real-danger-ai-isn-t-what-you-think",
+  "title": "Peter Thiel: The Real Danger of AI Isn't What You Think",
+  "title_alt": "Peter Thiel：AI真正的危险，并非你以为的那样",
+  "show_id": "thebuilders",
+  "show": "The Builders",
+  "lang": "EN",
+  "date": "2026-10-22",
+  "published_at": "2026-10-22T07:01:17+00:00",
+  "duration_min": 58,
+  "url": "https://bidclub.ai/e/peter-thiel-real-danger-ai-isn-t-what-you-think"
+ },
+ {
   "slug": "arvind-krishna-nikesh-arora-quantum-threat-open",
   "title": "Arvind Krishna & Nikesh Arora: Quantum Threat, Open vs Frontier AI, AI Cyber Warfare & SaaS Collapse",
   "title_alt": "Arvind Krishna 与 Nikesh Arora：量子威胁、开放模型与前沿 AI 之争、AI 网络战与 SaaS 崩塌",
@@ -34,6 +118,18 @@
   "published_at": "2026-10-21T20:00:00+00:00",
   "duration_min": 122,
   "url": "https://bidclub.ai/e/chamath-agi-is-here-anthropic-s-100b-giveaway-el"
+ },
+ {
+  "slug": "sam-altman-rsi-ai-consciousness-openai-s-new-har",
+  "title": "Sam Altman: RSI, AI Consciousness, OpenAI's New Hardware, Compute, and more!",
+  "title_alt": "Sam Altman：RSI、AI意识、OpenAI的新硬件、算力等话题！",
+  "show_id": "matthewberman",
+  "show": "Matthew Berman",
+  "lang": "EN",
+  "date": "2026-10-21",
+  "published_at": "2026-10-21T15:30:24+00:00",
+  "duration_min": 45,
+  "url": "https://bidclub.ai/e/sam-altman-rsi-ai-consciousness-openai-s-new-har"
  },
  {
   "slug": "168x-jason-kam-crypto-ai-20261021",
@@ -214,6 +310,18 @@
   "published_at": "2026-10-20T08:00:00+00:00",
   "duration_min": 57,
   "url": "https://bidclub.ai/e/christina-cacioppo-building-enduring-software-co"
+ },
+ {
+  "slug": "elon-musk-end-work-death-money-world-run-by-ai",
+  "title": "Elon Musk: The End of Work, the Death of Money, and a World Run by AI",
+  "title_alt": "Elon Musk：工作终结、货币消亡，以及由 AI 驱动的世界",
+  "show_id": "the-builders",
+  "show": "The Builders with Walter Isaacson",
+  "lang": "EN",
+  "date": "2026-10-20",
+  "published_at": "2026-10-20T07:01:00+00:00",
+  "duration_min": 40,
+  "url": "https://bidclub.ai/e/elon-musk-end-work-death-money-world-run-by-ai"
  },
  {
   "slug": "valley101-2026-10-19-e256-agent",
