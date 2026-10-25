@@ -1,5 +1,53 @@
 [
  {
+  "slug": "42zhangjing-2026-10-24-agent-rl",
+  "title": "少有的同时做过 Agent、多模态和具身的人 | 对谈前混元多模态 RL Infra 负责人淏楠",
+  "title_alt": "One of the Few People to Have Worked Across Agents, Multimodal AI, and Embodied AI | A Conversation with 淏楠, Former Head of Multimodal RL Infrastructure at Hunyuan",
+  "show_id": "42zhangjing",
+  "show": "42章经",
+  "lang": "ZH",
+  "date": "2026-10-24",
+  "published_at": "2026-10-24T13:00:00+00:00",
+  "duration_min": 54,
+  "url": "https://bidclub.ai/e/42zhangjing-2026-10-24-agent-rl"
+ },
+ {
+  "slug": "ai-am-highlights-clean-neurons-black-october-gpu",
+  "title": "AI:AM Highlights: Clean Neurons, Black October, the GPU Credit Crunch, and Buying the Supply Chain",
+  "title_alt": "AI:AM 精选：干净神经元、黑色十月、GPU信贷紧缩与买入供应链",
+  "show_id": "cogrev",
+  "show": "The Cognitive Revolution",
+  "lang": "EN",
+  "date": "2026-10-24",
+  "published_at": "2026-10-24T11:45:37+00:00",
+  "duration_min": 90,
+  "url": "https://bidclub.ai/e/ai-am-highlights-clean-neurons-black-october-gpu"
+ },
+ {
+  "slug": "ex-twitter-ceo-says-we-re-underestimating-ai-age",
+  "title": "AI Agents Could Drive 10,000x More Web Activity | Former Twitter CEO",
+  "title_alt": "AI 智能体或将推动网络活动增加 10,000 倍 | Twitter 前 CEO",
+  "show_id": "sourcery",
+  "show": "Sourcery",
+  "lang": "EN",
+  "date": "2026-10-24",
+  "published_at": "2026-10-24T10:30:57+00:00",
+  "duration_min": 60,
+  "url": "https://bidclub.ai/e/ex-twitter-ceo-says-we-re-underestimating-ai-age"
+ },
+ {
+  "slug": "20vc-why-robotics-will-be-100x-bigger-than-codin",
+  "title": "20VC: Why Robotics Will be 100x Bigger than Coding Agents | Inference Will Be a $10TRN Market: What No One Sees | Why Software Investors are F***** Today with Naveen Rao, Unconventional",
+  "title_alt": "20VC：机器人为何将比编码智能体大100倍｜推理将成为10万亿美元市场：那些无人看见的趋势｜Naveen Rao（Unconventional）谈软件投资者为何如今处境艰难",
+  "show_id": "20vc",
+  "show": "20VC",
+  "lang": "EN",
+  "date": "2026-10-24",
+  "published_at": "2026-10-24T07:07:00+00:00",
+  "duration_min": 69,
+  "url": "https://bidclub.ai/e/20vc-why-robotics-will-be-100x-bigger-than-codin"
+ },
+ {
   "slug": "ai-cyber-panic-ken-griffin-s-bubble-warning-fall",
   "title": "AI Cyber Panic, Ken Griffin’s Bubble Warning, The Fall of France?",
   "title_alt": "AI网络安全恐慌、Ken Griffin的泡沫警告、法国衰落？",
