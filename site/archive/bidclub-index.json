@@ -1,5 +1,29 @@
 [
  {
+  "slug": "shizilukou-2026-10-25-ai-phd",
+  "title": "AI 时代，PhD 路上的 10 个关键问题｜对谈李磊：港大 PhD、小米 MiMo 研究员",
+  "title_alt": "10 Key Questions on the PhD Path in the AI Era | A Conversation with 李磊: HKU PhD, Xiaomi MiMo Researcher",
+  "show_id": "shizilukou",
+  "show": "十字路口Crossing",
+  "lang": "ZH",
+  "date": "2026-10-25",
+  "published_at": "2026-10-25T16:00:00+00:00",
+  "duration_min": 52,
+  "url": "https://bidclub.ai/e/shizilukou-2026-10-25-ai-phd"
+ },
+ {
+  "slug": "competition-intensity-building-115-billion-globa",
+  "title": "Competition, Intensity & Building a $115 Billion Global Bank | Nik Storonsky, Revolut",
+  "title_alt": "竞争、投入强度与打造一家1150亿美元的全球银行｜Nik Storonsky，Revolut",
+  "show_id": "davidsenra",
+  "show": "David Senra",
+  "lang": "EN",
+  "date": "2026-10-25",
+  "published_at": "2026-10-25T12:00:39+00:00",
+  "duration_min": 67,
+  "url": "https://bidclub.ai/e/competition-intensity-building-115-billion-globa"
+ },
+ {
   "slug": "42zhangjing-2026-10-24-agent-rl",
   "title": "少有的同时做过 Agent、多模态和具身的人 | 对谈前混元多模态 RL Infra 负责人淏楠",
   "title_alt": "One of the Few People to Have Worked Across Agents, Multimodal AI, and Embodied AI | A Conversation with 淏楠, Former Head of Multimodal RL Infrastructure at Hunyuan",
