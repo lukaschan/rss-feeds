@@ -1,5 +1,137 @@
 [
  {
+  "slug": "503-ai-crisis-math-navier-stokes-riemann-hypothe",
+  "title": "AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory | Lex Fridman Podcast #503",
+  "title_alt": "数学中的 AI 危机：Navier–Stokes、黎曼猜想与复杂性理论｜Lex Fridman 播客 #503",
+  "show_id": "lex",
+  "show": "Lex Fridman Podcast",
+  "lang": "EN",
+  "date": "2026-10-26",
+  "published_at": "2026-10-26T22:52:28+00:00",
+  "duration_min": 223,
+  "url": "https://bidclub.ai/e/503-ai-crisis-math-navier-stokes-riemann-hypothe"
+ },
+ {
+  "slug": "tulongzhishu-2026-10-26-ai-2026",
+  "title": "不是，怎么又换版本了？---狂飙中的AI 2026",
+  "title_alt": "Wait, Why Another Version Already? — AI in Overdrive, 2026",
+  "show_id": "tulongzhishu",
+  "show": "屠龙之术",
+  "lang": "ZH",
+  "date": "2026-10-26",
+  "published_at": "2026-10-26T17:55:28+00:00",
+  "duration_min": 126,
+  "url": "https://bidclub.ai/e/tulongzhishu-2026-10-26-ai-2026"
+ },
+ {
+  "slug": "supabase-s-plan-billion-ai-built-apps",
+  "title": "Supabase’s Plan for a Billion AI-Built Apps",
+  "title_alt": "Supabase打造10亿个AI生成应用的计划",
+  "show_id": "latentspace",
+  "show": "Latent Space",
+  "lang": "EN",
+  "date": "2026-10-26",
+  "published_at": "2026-10-26T17:53:59+00:00",
+  "duration_min": 71,
+  "url": "https://bidclub.ai/e/supabase-s-plan-billion-ai-built-apps"
+ },
+ {
+  "slug": "eval-ai-scientists-that-knows-answer-key-ian-qui",
+  "title": "An Eval for AI Scientists That Knows the Answer Key - Ian Quigley, Leash Bio",
+  "title_alt": "一项自带标准答案的 AI 科学家评测——Ian Quigley，Leash Bio",
+  "show_id": "latentspace",
+  "show": "Latent Space",
+  "lang": "EN",
+  "date": "2026-10-26",
+  "published_at": "2026-10-26T15:00:07+00:00",
+  "duration_min": 17,
+  "url": "https://bidclub.ai/e/eval-ai-scientists-that-knows-answer-key-ian-qui"
+ },
+ {
+  "slug": "mathematics-just-changed-forever-kevin-hartnett",
+  "title": "Mathematics Just Changed Forever — Kevin Hartnett",
+  "title_alt": "数学从此彻底改变——Kevin Hartnett",
+  "show_id": "mlst",
+  "show": "Machine Learning Street Talk",
+  "lang": "EN",
+  "date": "2026-10-26",
+  "published_at": "2026-10-26T14:36:54+00:00",
+  "duration_min": 94,
+  "url": "https://bidclub.ai/e/mathematics-just-changed-forever-kevin-hartnett"
+ },
+ {
+  "slug": "why-openai-is-racing-make-computer-use-superhuma",
+  "title": "Why OpenAI Is Racing to Make Computer Use Superhuman",
+  "title_alt": "OpenAI为何正竞相让计算机操作能力超越人类",
+  "show_id": "a16z",
+  "show": "The a16z Show",
+  "lang": "EN",
+  "date": "2026-10-26",
+  "published_at": "2026-10-26T14:30:19+00:00",
+  "duration_min": 44,
+  "url": "https://bidclub.ai/e/why-openai-is-racing-make-computer-use-superhuma"
+ },
+ {
+  "slug": "why-openai-should-be-scared-open-source",
+  "title": "Why OpenAI Should Be Scared of Open Source",
+  "title_alt": "为什么 OpenAI 应该害怕开源",
+  "show_id": "delphidigital",
+  "show": "Delphi Digital",
+  "lang": "EN",
+  "date": "2026-10-26",
+  "published_at": "2026-10-26T14:00:04+00:00",
+  "duration_min": 76,
+  "url": "https://bidclub.ai/e/why-openai-should-be-scared-open-source"
+ },
+ {
+  "slug": "gaonengliang-2026-10-26-vol-239",
+  "title": "Vol.239 访问思考者1｜李翔对话陆铭：聊聊AI、内卷、房价和消费抉择",
+  "title_alt": "Vol. 239 Visiting Thinkers 1 | Li Xiang in Conversation with Lu Ming: AI, Involution, Housing Prices and Consumption Choices",
+  "show_id": "gaonengliang",
+  "show": "高能量",
+  "lang": "ZH",
+  "date": "2026-10-26",
+  "published_at": "2026-10-26T12:50:22+00:00",
+  "duration_min": 141,
+  "url": "https://bidclub.ai/e/gaonengliang-2026-10-26-vol-239"
+ },
+ {
+  "slug": "2b-ai-startup-simulating-human-behavior-85-accur",
+  "title": "The $2B AI Startup Simulating Human Behavior with 85% Accuracy",
+  "title_alt": "这家估值20亿美元、以85%准确率模拟人类行为的AI初创公司",
+  "show_id": "sourcery",
+  "show": "Sourcery",
+  "lang": "EN",
+  "date": "2026-10-26",
+  "published_at": "2026-10-26T10:00:00+00:00",
+  "duration_min": 56,
+  "url": "https://bidclub.ai/e/2b-ai-startup-simulating-human-behavior-85-accur"
+ },
+ {
+  "slug": "20vc-satya-nadella-open-vs-closed-models-who-win",
+  "title": "20VC: Satya Nadella on Open vs Closed Models: Who Wins | Whether to Trust Frontier Model Providers | Why Companies Need to Own Their Own Intelligence | The Importance of Verticalisation: From Chips to Models and More",
+  "title_alt": "20VC：Satya Nadella谈开放模型与封闭模型：谁会胜出｜是否该信任前沿模型提供商｜企业为何需要拥有自己的智能｜垂直化的重要性：从芯片到模型及更多",
+  "show_id": "20vc",
+  "show": "20VC",
+  "lang": "EN",
+  "date": "2026-10-26",
+  "published_at": "2026-10-26T07:07:00+00:00",
+  "duration_min": 26,
+  "url": "https://bidclub.ai/e/20vc-satya-nadella-open-vs-closed-models-who-win"
+ },
+ {
+  "slug": "mark-cuban-brutal-truth-about-next-market-crash",
+  "title": "Mark Cuban: The Brutal Truth About The Next Market Crash!",
+  "title_alt": "Mark Cuban：关于下一次市场崩盘的残酷真相！",
+  "show_id": "diaryofaceo",
+  "show": "The Diary Of A CEO",
+  "lang": "EN",
+  "date": "2026-10-26",
+  "published_at": "2026-10-26T07:00:48+00:00",
+  "duration_min": 92,
+  "url": "https://bidclub.ai/e/mark-cuban-brutal-truth-about-next-market-crash"
+ },
+ {
   "slug": "shizilukou-2026-10-25-ai-phd",
   "title": "AI 时代，PhD 路上的 10 个关键问题｜对谈李磊：港大 PhD、小米 MiMo 研究员",
   "title_alt": "10 Key Questions on the PhD Path in the AI Era | A Conversation with 李磊: HKU PhD, Xiaomi MiMo Researcher",
@@ -12,6 +144,18 @@
   "url": "https://bidclub.ai/e/shizilukou-2026-10-25-ai-phd"
  },
  {
+  "slug": "ai-bubble-burst-bitcoin-zero-hedge-funds-wrecked",
+  "title": "AI Bubble Burst? Bitcoin to Zero? Hedge Funds Wrecked? Sounds Like a Bottom is Near",
+  "title_alt": "AI泡沫要破？比特币归零？对冲基金遭重创？听起来市场底部不远了",
+  "show_id": "jordivisser",
+  "show": "Jordi Visser",
+  "lang": "EN",
+  "date": "2026-10-25",
+  "published_at": "2026-10-25T12:30:30+00:00",
+  "duration_min": 57,
+  "url": "https://bidclub.ai/e/ai-bubble-burst-bitcoin-zero-hedge-funds-wrecked"
+ },
+ {
   "slug": "competition-intensity-building-115-billion-globa",
   "title": "Competition, Intensity & Building a $115 Billion Global Bank | Nik Storonsky, Revolut",
   "title_alt": "竞争、投入强度与打造一家1150亿美元的全球银行｜Nik Storonsky，Revolut",
@@ -22,6 +166,30 @@
   "published_at": "2026-10-25T12:00:39+00:00",
   "duration_min": 67,
   "url": "https://bidclub.ai/e/competition-intensity-building-115-billion-globa"
+ },
+ {
+  "slug": "surveillor-trading-small-markets-zero-leverage-c",
+  "title": "Surveillor - Trading Small Markets, Zero Leverage, and Calling the Altcoin Bottoms",
+  "title_alt": "Surveillor：小市场交易、零杠杆与判断山寨币底部",
+  "show_id": "threadguy",
+  "show": "Thread Guy",
+  "lang": "EN",
+  "date": "2026-10-25",
+  "published_at": "2026-10-25T03:18:59+00:00",
+  "duration_min": 36,
+  "url": "https://bidclub.ai/e/surveillor-trading-small-markets-zero-leverage-c"
+ },
+ {
+  "slug": "my-conversation-dylan-patel-stacy-rasgon",
+  "title": "My Conversation with Dylan Patel and Stacy Rasgon",
+  "title_alt": "我与 Dylan Patel 和 Stacy Rasgon 的对谈",
+  "show_id": "chipstrat",
+  "show": "Chipstrat",
+  "lang": "EN",
+  "date": "2026-10-24",
+  "published_at": "2026-10-24T20:47:55+00:00",
+  "duration_min": 50,
+  "url": "https://bidclub.ai/e/my-conversation-dylan-patel-stacy-rasgon"
  },
  {
   "slug": "42zhangjing-2026-10-24-agent-rl",
@@ -238,6 +406,18 @@
   "published_at": "2026-10-22T14:40:53+00:00",
   "duration_min": 83,
   "url": "https://bidclub.ai/e/worst-is-behind-us"
+ },
+ {
+  "slug": "hedge-fund-manager-david-orr-investing-is-99-tal",
+  "title": "Hedge Fund Manager David Orr: Investing is 99% Talent",
+  "title_alt": "对冲基金经理 David Orr：投资 99% 靠天赋",
+  "show_id": "oddsonopen",
+  "show": "Odds on Open",
+  "lang": "EN",
+  "date": "2026-10-22",
+  "published_at": "2026-10-22T14:00:37+00:00",
+  "duration_min": 70,
+  "url": "https://bidclub.ai/e/hedge-fund-manager-david-orr-investing-is-99-tal"
  },
  {
   "slug": "recommendation-engine-commodity-traders-anekha-s",
