@@ -1,5 +1,101 @@
 [
  {
+  "slug": "valley101-2026-10-28-e257-vitalik",
+  "title": "E257｜对话Vitalik：AI安全背后的哲学思想，有效利他主义如何影响硅谷？",
+  "title_alt": "E257 | A Conversation with Vitalik: The Philosophical Ideas Behind AI Safety, and How Effective Altruism Influences Silicon Valley?",
+  "show_id": "valley101",
+  "show": "硅谷101",
+  "lang": "ZH",
+  "date": "2026-10-28",
+  "published_at": "2026-10-28T23:00:00+00:00",
+  "duration_min": 113,
+  "url": "https://bidclub.ai/e/valley101-2026-10-28-e257-vitalik"
+ },
+ {
+  "slug": "market-update-anthropic-s-1-market-bottoms-what",
+  "title": "MARKET UPDATE: Anthropic S-1, Market Bottoms, What’s Next?",
+  "title_alt": "市场动态：Anthropic S-1、市场筑底，接下来会怎样？",
+  "show_id": "1000x",
+  "show": "1000x",
+  "lang": "EN",
+  "date": "2026-10-28",
+  "published_at": "2026-10-28T20:44:59+00:00",
+  "duration_min": 49,
+  "url": "https://bidclub.ai/e/market-update-anthropic-s-1-market-bottoms-what"
+ },
+ {
+  "slug": "anthropic-s-2t-ipo-elon-predicts-neocloud-death",
+  "title": "Anthropic’s $2T Cash Machine, CoreWeave Crashes 30%, & China’s Kimi Catches Up | #306",
+  "title_alt": "Anthropic 的 2 万亿美元现金机器、CoreWeave 暴跌 30%，以及中国的 Kimi 迎头赶上 | #306",
+  "show_id": "moonshots",
+  "show": "Moonshots",
+  "lang": "EN",
+  "date": "2026-10-28",
+  "published_at": "2026-10-28T20:00:00+00:00",
+  "duration_min": 137,
+  "url": "https://bidclub.ai/e/anthropic-s-2t-ipo-elon-predicts-neocloud-death"
+ },
+ {
+  "slug": "freedom-action-america-s-asi-strategy-w-rand-s-j",
+  "title": "Freedom of Action: America's ASI Strategy, w/ RAND's Joel Predd, Ben Boudreaux & Matt Chessen",
+  "title_alt": "行动自由：美国的 ASI 战略——对谈 RAND 的 Joel Predd、Ben Boudreaux 与 Matt Chessen",
+  "show_id": "cogrev",
+  "show": "The Cognitive Revolution",
+  "lang": "EN",
+  "date": "2026-10-28",
+  "published_at": "2026-10-28T18:57:47+00:00",
+  "duration_min": 111,
+  "url": "https://bidclub.ai/e/freedom-action-america-s-asi-strategy-w-rand-s-j"
+ },
+ {
+  "slug": "mark-cuban-s-plan-make-healthcare-affordable",
+  "title": "Mark Cuban on Why AI Could Turn Solo Founders Into Trillionaires",
+  "title_alt": "马克·库班谈AI为何可能让独立创始人成为万亿富豪",
+  "show_id": "a16z",
+  "show": "The a16z Show",
+  "lang": "EN",
+  "date": "2026-10-28",
+  "published_at": "2026-10-28T14:30:15+00:00",
+  "duration_min": 60,
+  "url": "https://bidclub.ai/e/mark-cuban-s-plan-make-healthcare-affordable"
+ },
+ {
+  "slug": "from-27-500-charter-company-4-billion-private-je",
+  "title": "From a $27,500 Charter Company to a $4 Billion Private Jet Giant | Kenn Ricci, Flexjet",
+  "title_alt": "从一家2.75万美元的包机公司，到40亿美元私人飞机巨头 | Kenn Ricci, Flexjet",
+  "show_id": "davidsenra",
+  "show": "David Senra",
+  "lang": "EN",
+  "date": "2026-10-28",
+  "published_at": "2026-10-28T12:00:24+00:00",
+  "duration_min": 71,
+  "url": "https://bidclub.ai/e/from-27-500-charter-company-4-billion-private-je"
+ },
+ {
+  "slug": "168x-rick-anthropic-ipo-ai-next-20261028",
+  "title": "168X 对话 Rick：Anthropic IPO 之后，AI 的下一阶段是什么？ #2",
+  "title_alt": "168X in Conversation with Rick: What Comes Next for AI After Anthropic’s IPO? #2",
+  "show_id": "168x-x",
+  "show": "168X",
+  "lang": "ZH",
+  "date": "2026-10-28",
+  "published_at": "2026-10-28T03:13:11+00:00",
+  "duration_min": 82,
+  "url": "https://bidclub.ai/e/168x-rick-anthropic-ipo-ai-next-20261028"
+ },
+ {
+  "slug": "gavin-baker-anthropic-s-s-1-gpu-prices-spacex",
+  "title": "Gavin Baker on Anthropic's S-1, GPU Prices, and SpaceX",
+  "title_alt": "Gavin Baker谈Anthropic的S-1文件、GPU价格与SpaceX",
+  "show_id": "tbpn",
+  "show": "TBPN",
+  "lang": "EN",
+  "date": "2026-10-27",
+  "published_at": "2026-10-27T21:24:52+00:00",
+  "duration_min": 41,
+  "url": "https://bidclub.ai/e/gavin-baker-anthropic-s-s-1-gpu-prices-spacex"
+ },
+ {
   "slug": "anthropic-ships-1-llm-world-safely-separating-br",
   "title": "How Anthropic ships the #1 LLM in the World — with Katelyn Lesse and Angela Jiang",
   "title_alt": "Anthropic 如何打造并推出全球排名第1的 LLM——对话 Katelyn Lesse 与 Angela Jiang",
@@ -7968,6 +8064,18 @@
   "url": "https://bidclub.ai/e/shizilukou-2026-08-02"
  },
  {
+  "slug": "hermes-co-founder-building-ai-agent-that-improve",
+  "title": "Hermes Co-Founder on Building an AI Agent That Improves Itself | Karan Malhotra",
+  "title_alt": "Hermes 联合创始人谈如何打造一款能够自我改进的 AI Agent | Karan Malhotra",
+  "show_id": "peteryang",
+  "show": "Behind the Craft",
+  "lang": "EN",
+  "date": "2026-08-02",
+  "published_at": "2026-08-02T13:00:12+00:00",
+  "duration_min": 47,
+  "url": "https://bidclub.ai/e/hermes-co-founder-building-ai-agent-that-improve"
+ },
+ {
   "slug": "lessons-from-backing-best-founders-fintech-micky",
   "title": "Lessons From Backing The Best Founders In Fintech | Micky Malka",
   "title_alt": "押注金融科技最佳创始人的经验｜Micky Malka",
@@ -13090,6 +13198,18 @@
   "published_at": "2026-05-20T22:42:06+00:00",
   "duration_min": 89,
   "url": "https://bidclub.ai/e/railway-agent-native-cloud-jake-cooper"
+ },
+ {
+  "slug": "hermes-agent-agents-that-grow-you-episode-357",
+  "title": "Hermes Agent: Agents that grow with you |Episode #357|",
+  "title_alt": "Hermes Agent：与你共同成长的智能体｜第357期",
+  "show_id": "practicalai",
+  "show": "Practical AI",
+  "lang": "EN",
+  "date": "2026-05-20",
+  "published_at": "2026-05-20T22:00:17+00:00",
+  "duration_min": 48,
+  "url": "https://bidclub.ai/e/hermes-agent-agents-that-grow-you-episode-357"
  },
  {
   "slug": "tori-tokenizing-15-yield-from-institutional-fx-m",
@@ -25308,6 +25428,18 @@
   "url": "https://bidclub.ai/e/nvidia-cto-michael-kagan-scaling-beyond-moore-s"
  },
  {
+  "slug": "jeffrey-quesnelle-nous-research-large-language-m",
+  "title": "Jeffrey Quesnelle on Nous Research, large language models, and the human mind",
+  "title_alt": "Jeffrey Quesnelle 谈 Nous Research、大语言模型与人类心智",
+  "show_id": "sinahab",
+  "show": "Sina Habibian Podcast",
+  "lang": "EN",
+  "date": "2025-10-28",
+  "published_at": "2025-10-28T05:09:57+00:00",
+  "duration_min": 126,
+  "url": "https://bidclub.ai/e/jeffrey-quesnelle-nous-research-large-language-m"
+ },
+ {
   "slug": "zhangxiaojun-2025-10-28-117-infra",
   "title": "117. 开源一段论文探索之旅：模型范式、Infra和数据、语言、多模态的完整变迁史",
   "title_alt": "117. An Open-Source Journey Through the Papers: The Complete Evolution of Model Paradigms, Infra, Data, Language, and Multimodality",
@@ -26470,6 +26602,18 @@
   "published_at": "2025-10-09T05:55:18+00:00",
   "duration_min": 228,
   "url": "https://bidclub.ai/e/zhangxiaojun-2025-10-09-116-19"
+ },
+ {
+  "slug": "teknium-nous-research-ama-post-training-hermes",
+  "title": "Teknium (Nous Research) on Post-Training, Hermes and Open Models: Delphi AMA",
+  "title_alt": "Teknium（Nous Research）谈后训练、Hermes与开放模型：Delphi AMA",
+  "show_id": "delphiama",
+  "show": "Delphi Intelligence AMA",
+  "lang": "EN",
+  "date": "2025-10-09",
+  "published_at": "2025-10-09T00:00:00+00:00",
+  "duration_min": 60,
+  "url": "https://bidclub.ai/e/teknium-nous-research-ama-post-training-hermes"
  },
  {
   "slug": "education-ai-age-teacher-rethinks-learning-purpo",
