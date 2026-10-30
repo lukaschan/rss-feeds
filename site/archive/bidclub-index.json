@@ -1,5 +1,101 @@
 [
  {
+  "slug": "whoop-ceo-will-ahmed-50b-hours-health-data-4-mil",
+  "title": "WHOOP CEO, Will Ahmed: 50B Hours of Health Data, a 4 Million Member Data Moat, & the FDA Fight",
+  "title_alt": "WHOOP CEO Will Ahmed：500亿小时健康数据、400万会员构筑的数据护城河，以及 FDA 之争",
+  "show_id": "allin",
+  "show": "All-In",
+  "lang": "EN",
+  "date": "2026-10-29",
+  "published_at": "2026-10-29T21:26:00+00:00",
+  "duration_min": 56,
+  "url": "https://bidclub.ai/e/whoop-ceo-will-ahmed-50b-hours-health-data-4-mil"
+ },
+ {
+  "slug": "what-i-learned-about-power-from-lbj-robert-moses",
+  "title": "How an unelected man ruled New York for 30 years",
+  "title_alt": "一个未经选举的人，如何统治纽约30年",
+  "show_id": "dwarkesh",
+  "show": "Dwarkesh Podcast",
+  "lang": "EN",
+  "date": "2026-10-29",
+  "published_at": "2026-10-29T16:48:39+00:00",
+  "duration_min": 25,
+  "url": "https://bidclub.ai/e/what-i-learned-about-power-from-lbj-robert-moses"
+ },
+ {
+  "slug": "hacking-just-got-1000x-cheaper",
+  "title": "Hacking Just Got 1000x Cheaper",
+  "title_alt": "黑客攻击成本已降低1000倍",
+  "show_id": "delphidigital",
+  "show": "Delphi Digital",
+  "lang": "EN",
+  "date": "2026-10-29",
+  "published_at": "2026-10-29T16:00:36+00:00",
+  "duration_min": 73,
+  "url": "https://bidclub.ai/e/hacking-just-got-1000x-cheaper"
+ },
+ {
+  "slug": "franklin-templeton-ceo-spacex-anthropic-circular",
+  "title": "Franklin Templeton CEO on SpaceX, Anthropic, Circular Deals & the State of the Market",
+  "title_alt": "富兰克林邓普顿CEO谈SpaceX、Anthropic、循环交易与市场现状",
+  "show_id": "sourcery",
+  "show": "Sourcery",
+  "lang": "EN",
+  "date": "2026-10-29",
+  "published_at": "2026-10-29T15:12:02+00:00",
+  "duration_min": 42,
+  "url": "https://bidclub.ai/e/franklin-templeton-ceo-spacex-anthropic-circular"
+ },
+ {
+  "slug": "why-founders-are-betting-big-factories-mines-ene",
+  "title": "How to Build the Next SpaceX or Tesla",
+  "title_alt": "如何打造下一个 SpaceX 或 Tesla",
+  "show_id": "a16z",
+  "show": "The a16z Show",
+  "lang": "EN",
+  "date": "2026-10-29",
+  "published_at": "2026-10-29T13:50:32+00:00",
+  "duration_min": 49,
+  "url": "https://bidclub.ai/e/why-founders-are-betting-big-factories-mines-ene"
+ },
+ {
+  "slug": "168x-qinbafrank-anthropic-ipo-ai-q4-20261029",
+  "title": "168X 对话 QinbaFrank：AI 商业化兑现、Anthropic IPO 与 2026 Q4 的市场窗口",
+  "title_alt": "168X in Conversation with QinbaFrank: AI Commercialization, Anthropic’s IPO, and the Q4 2026 Market Window",
+  "show_id": "168x-x",
+  "show": "168X",
+  "lang": "ZH",
+  "date": "2026-10-29",
+  "published_at": "2026-10-29T10:58:36+00:00",
+  "duration_min": 109,
+  "url": "https://bidclub.ai/e/168x-qinbafrank-anthropic-ipo-ai-q4-20261029"
+ },
+ {
+  "slug": "taking-servicenow-coding-agents-rest-us-serval-c",
+  "title": "Taking on ServiceNow: Coding Agents for the Rest of Us with Serval Co-Founder and CEO Jake Stauch",
+  "title_alt": "向 ServiceNow 发起挑战：与 Serval 联合创始人兼 CEO Jake Stauch 谈人人可用的编程智能体",
+  "show_id": "nopriors",
+  "show": "No Priors",
+  "lang": "EN",
+  "date": "2026-10-29",
+  "published_at": "2026-10-29T10:00:00+00:00",
+  "duration_min": 38,
+  "url": "https://bidclub.ai/e/taking-servicenow-coding-agents-rest-us-serval-c"
+ },
+ {
+  "slug": "20vc-anthropic-files-s1-ahead-2trn-ipo-instinct",
+  "title": "20VC: Anthropic Files S1 Ahead of $2TRN IPO | Instinct's Rumoured $30 Billion Fundraise | Microsoft Laysoff 27,000 While Meta Taps Equity Markets for $95 Billion Capex Spending Spree",
+  "title_alt": "20VC：Anthropic递交S-1，瞄准2万亿美元IPO｜Instinct传融资300亿美元｜微软裁员27,000人，Meta则通过股权市场筹资950亿美元，推进资本开支狂潮",
+  "show_id": "20vc",
+  "show": "20VC",
+  "lang": "EN",
+  "date": "2026-10-29",
+  "published_at": "2026-10-29T07:07:00+00:00",
+  "duration_min": 60,
+  "url": "https://bidclub.ai/e/20vc-anthropic-files-s1-ahead-2trn-ipo-instinct"
+ },
+ {
   "slug": "valley101-2026-10-28-e257-vitalik",
   "title": "E257｜对话Vitalik：AI安全背后的哲学思想，有效利他主义如何影响硅谷？",
   "title_alt": "E257 | A Conversation with Vitalik: The Philosophical Ideas Behind AI Safety, and How Effective Altruism Influences Silicon Valley?",
@@ -46,6 +142,18 @@
   "published_at": "2026-10-28T18:57:47+00:00",
   "duration_min": 111,
   "url": "https://bidclub.ai/e/freedom-action-america-s-asi-strategy-w-rand-s-j"
+ },
+ {
+  "slug": "gold-7-000-silver-200-david-hunter-doubles-down",
+  "title": "Gold $7,000, Silver $200: David Hunter Doubles Down",
+  "title_alt": "黄金7,000美元、白银200美元：David Hunter 再次加码",
+  "show_id": "soarfinancially",
+  "show": "Soar Financially",
+  "lang": "EN",
+  "date": "2026-10-28",
+  "published_at": "2026-10-28T16:35:20+00:00",
+  "duration_min": 36,
+  "url": "https://bidclub.ai/e/gold-7-000-silver-200-david-hunter-doubles-down"
  },
  {
   "slug": "mark-cuban-s-plan-make-healthcare-affordable",
