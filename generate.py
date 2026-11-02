@@ -20,7 +20,7 @@
 每个源有一份基线清单（冻结时的全部条目 ID，存 *-baseline.json）；
 每日运行时以「当前目录 − 基线」得到新增，只写新增版 feed。
   site/pod-exp.xml          pod-exp 存档（冻结时全部篇目；最新 POD_ITEMS 篇全文，其余摘要）
-  site/pod-exp-new.xml      pod-exp 每日新增（基线之后的新篇，全部全文）
+  site/pod-exp-new.xml      pod-exp 每日新增（基线之后的新篇，摘要+原文链接）
   feeds/bidclub.xml         BidClub 存档（冻结时全部期数；2026 年以来带要点+摘要不截断，其余摘要）
   feeds/bidclub-zh.xml      BidClub 中文存档（同上，标题/摘要为中文）；
                             两者各 30+ MB 超过 Pages 上限，放仓库根 feeds/ 用 GitHub raw 托管；
@@ -408,7 +408,10 @@ def _parse_js_catalog(raw):
     当 JSON 解析并让整个日报崩掉（2026-10-22 实测）。这里找不到合法
     数组就抛错，交给上层重试/隔离。
     """
-    start = raw.find("[")
+    # 数组起点取赋值号后的 "["：分片格式 (window.FN_SHARDS||{})["2026-11"] = [...]
+    # 里第一个 "[" 是键下标，不是数据数组（2026-11 改版时踩过）。
+    m = re.search(r"=\s*\[", raw)
+    start = m.end() - 1 if m else raw.find("[")
     if start < 0:
         raise ValueError("目录响应里找不到 JSON 数组（可能拿到了 HTML 回退页）")
     depth, in_str, esc = 0, False, False
@@ -436,21 +439,40 @@ def _parse_js_catalog(raw):
     raise ValueError("目录 JSON 数组不完整")
 
 
-def build_pod_exp(out_dir):
-    base = "https://pod-exp.pages.dev"
-    catalog = None
+def _fetch_pod_catalog(base):
+    """Field Notes 已改版：单文件目录 assets/catalog-data.js 不复存在，
+    目录拆成按月分片，首页 HTML 内嵌分片清单
+    （"key":"2026-11","href":"assets/catalog/zh-2026-11.<hash>.js"，
+    每片是 (window.FN_SHARDS||{})["2026-11"] = [...]）。
+    逐片抓取、按 id 去重合并；整体做内容级重试，失败上抛由 main 按源隔离。"""
     last_exc = None
     for attempt in range(3):
         try:
-            catalog = _parse_js_catalog(fetch_text(f"{base}/assets/catalog-data.js"))
-            break
-        except Exception as exc:  # noqa: BLE001 - 内容级重试后上抛，由 main 隔离
+            home = fetch_text(f"{base}/")
+            shards = re.findall(
+                r'"key":"(20\d\d-\d\d)","href":"(assets/catalog/[^"]+\.js)"', home)
+            if not shards:
+                raise ValueError("首页里找不到目录分片清单（站点结构可能又变了）")
+            merged, seen = [], set()
+            for _key, href in shards:
+                for x in _parse_js_catalog(fetch_text(f"{base}/{href}")):
+                    if x.get("id") and x["id"] not in seen:
+                        seen.add(x["id"])
+                        merged.append(x)
+            if not merged:
+                raise ValueError("分片合并后目录为空")
+            return merged
+        except Exception as exc:  # noqa: BLE001
             last_exc = exc
             print(f"[pod-exp] 目录抓取/解析失败（第 {attempt + 1}/3 次）：{exc}")
             if attempt < 2:
                 time.sleep(5 * (attempt + 1))
-    if catalog is None:
-        raise RuntimeError(f"pod-exp 目录三次重试仍失败：{last_exc}")
+    raise RuntimeError(f"pod-exp 目录三次重试仍失败：{last_exc}")
+
+
+def build_pod_exp(out_dir):
+    base = "https://pod-exp.pages.dev"
+    catalog = _fetch_pod_catalog(base)
     catalog.sort(key=lambda x: (x.get("addedAt") or "", x.get("updatedAt") or ""),
                  reverse=True)
     print(f"[pod-exp] 目录共 {len(catalog)} 篇，取最近 {POD_ITEMS} 篇生成全文 feed")
@@ -567,14 +589,15 @@ def build_pod_exp(out_dir):
         new_items = []
     else:
         fresh = [e for e in catalog if e["id"] not in baseline]
-        with ThreadPoolExecutor(max_workers=WORKERS) as pool:
-            new_items = list(pool.map(make_item, fresh))
-        print(f"[pod-exp] 基线后新增 {len(fresh)} 篇（全部全文）")
+        # 每日 feed 只放摘要 + 原文链接（2026-11-02 Chang 定）：全文访谈太长太大，
+        # 不再逐篇抓全文；想看全文点条目里的原站链接。
+        new_items = [make_summary_item(e) for e in fresh]
+        print(f"[pod-exp] 基线后新增 {len(fresh)} 篇（摘要+原文链接）")
 
     rss_new = build_rss({
-        "title": "Field Notes｜播客中文文稿（每日新增·全文）",
+        "title": "Field Notes｜播客中文文稿（每日新增）",
         "link": base + "/",
-        "description": "Field Notes 每日新增文章（自建 RSS）：存档冻结后新发表的篇目，全部带全文；冻结前的全部篇目见 pod-exp.xml 存档版。",
+        "description": "Field Notes 每日新增文章（自建 RSS）：存档冻结后新发表的篇目，只放摘要 + 原文链接（全文太长，不进 feed）；冻结前的全部篇目见 pod-exp.xml 存档版。",
         "language": "zh-CN",
         "self_url": (SITE_URL + "/pod-exp-new.xml") if SITE_URL else "",
     }, new_items)
@@ -1377,7 +1400,7 @@ INDEX_TEMPLATE = """<!doctype html>
 <div class="feed">
   <a href="pod-exp-new.xml">Field Notes｜播客中文文稿（每日新增·全文）</a><br>
   <code>pod-exp-new.xml</code><br>
-  <small>存档冻结后新发表的篇目，全部带全文；目前已收录新增 {pod_new} 篇，持续更新。</small>
+  <small>存档冻结后新发表的篇目，只放摘要 + 原文链接（全文回原站看）；目前已收录新增 {pod_new} 篇，持续更新。</small>
 </div>
 
 <div class="feed">
@@ -1493,6 +1516,11 @@ def main():
 
     if failures:
         print("[main] 本次失败的源（已跳过，明日自动重试）：" + "；".join(failures))
+        # 写失败清单供工作流在提交后把运行标红报警，避免单源静默停更
+        # （2026-10-23 起 pod-exp 静默失败 10 天没人发现的教训）。
+        # 该文件不在自动提交的 file_pattern 内，只活在当次运行的工作区。
+        with open(os.path.join(root_dir, "failures.txt"), "w", encoding="utf-8") as f:
+            f.write("\n".join(failures))
 
     built_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
     index_html = (INDEX_TEMPLATE

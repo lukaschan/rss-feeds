@@ -31,3 +31,14 @@ jobs:
         with:
           commit_message: "chore: update feeds"
           file_pattern: "site/* feeds/* archive/*"
+
+      # 生成器按源隔离失败（好源照常提交），但把失败源写进 failures.txt；
+      # 这里在提交完成后据此标红运行，让单源停更能被看见（收到失败通知）。
+      - name: Surface source failures
+        run: |
+          if [ -s failures.txt ]; then
+            echo "::error::以下源本次更新失败（其余源已正常提交）："
+            cat failures.txt
+            exit 1
+          fi
+          echo "全部源更新成功"

@@ -5,7 +5,7 @@
 | Feed | 来源 | 说明 |
 |---|---|---|
 | **每日更新（追更用）** | | |
-| `pod-exp-new.xml` | [pod-exp.pages.dev](https://pod-exp.pages.dev) | 存档冻结后新发表的篇目，**全部带全文**；每日更新 |
+| `pod-exp-new.xml` | [pod-exp.pages.dev](https://pod-exp.pages.dev) | 存档冻结后新发表的篇目，只放**摘要 + 原文链接**（全文太长，不进 feed）；每日更新 |
 | `feeds/bidclub-new.xml`（GitHub raw） | [bidclub.ai](https://bidclub.ai) | 冻结后新出的期数，全部带**要点 TL;DR + 摘要 Digest**（不截断，末尾附原文链接）；每日更新。地址：`https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub-new.xml` |
 | `feeds/bidclub-zh-new.xml`（GitHub raw） | [bidclub.ai](https://bidclub.ai) | 同上，中文版：`https://raw.githubusercontent.com/lukaschan/rss-feeds/main/feeds/bidclub-zh-new.xml` |
 | `lex-new.xml` | [lex.qiaomu.ai](https://lex.qiaomu.ai) | 冻结后新发表的文章，每篇带**封面图 + 中文精读全文**，文末附英文原稿链接；每日更新 |
