@@ -5,9 +5,43 @@
 <link>https://pod-exp.pages.dev/</link>
 <description>Field Notes 每日新增文章（自建 RSS）：存档冻结后新发表的篇目，只放摘要 + 原文链接（全文太长，不进 feed）；冻结前的全部篇目见 pod-exp.xml 存档版。</description>
 <language>zh-CN</language>
-<lastBuildDate>Mon, 02 Nov 2026 06:38:19 +0000</lastBuildDate>
+<lastBuildDate>Tue, 03 Nov 2026 03:29:45 +0000</lastBuildDate>
 <generator>rss-feeds-generator (personal)</generator>
 <atom:link href="https://rss-feeds-8x2.pages.dev/pod-exp-new.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>Modal CEO：开源大语言模型推理是否已经见顶？｜算力成本将如何变化</title>
+<link>https://pod-exp.pages.dev/1dwyL6Iz_PU/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/1dwyL6Iz_PU/</guid>
+<pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+<category>20VC with Harry Stebbings</category>
+<category>AI 基础设施</category>
+<category>AI 智能体</category>
+<category>AI 编程</category>
+<category>开源软件</category>
+<description>Modal 联合创始人兼 CEO Erik Bernhardsson 从创业心态、融资和护城河谈起，解释了他为何认为创业应当是长期享受的创造过程，而非忍受痛苦等待回报。随后他分析 AI 推理市场的规模、GPU 供需、专用芯片、开源模型和新云厂商，并指出单一推理服务容易商品化，长期机会在于构建整套 AI 基础设施平台。访谈还讨论 Modal 的沙盒业务如何因编程智能体爆发，后训练与训练数据的商业机会、AI 对软件工程的影响、人才薪酬、股权二级出售，以及他对市场回调、创业和 AI 药物发现的看法。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/1dwyL6Iz_PU/cover.webp" alt="" /></p>
+<p><em>20VC with Harry Stebbings · 播出 2026-11-02 · 时长 1:02:12</em></p>
+<p>Modal 联合创始人兼 CEO Erik Bernhardsson 从创业心态、融资和护城河谈起，解释了他为何认为创业应当是长期享受的创造过程，而非忍受痛苦等待回报。随后他分析 AI 推理市场的规模、GPU 供需、专用芯片、开源模型和新云厂商，并指出单一推理服务容易商品化，长期机会在于构建整套 AI 基础设施平台。访谈还讨论 Modal 的沙盒业务如何因编程智能体爆发，后训练与训练数据的商业机会、AI 对软件工程的影响、人才薪酬、股权二级出售，以及他对市场回调、创业和 AI 药物发现的看法。</p>
+<h2>章节</h2><ul><li>0:02 开场</li><li>1:42 Erik 八岁时爱上编程</li><li>3:43 Erik 不认同“创业就像吞玻璃”的说法</li><li>5:33 Erik 不喜欢融资</li><li>5:56 Erik 从来没做过融资路演材料</li><li>6:25 创始人不该总把估值推到最高</li><li>8:03 早期创业公司其实谈不上护城河</li><li>8:52 AI 基础设施领域，品牌越来越重要</li><li>11:44 推理会成为新的云计算</li><li>12:32 只卖推理会沦为商品生意</li><li>13:25 推理业务的毛利将来自哪里</li><li>15:00 推理市场会分化出各种专门产品</li><li>16:33 GPU 市场像露天毒品交易场</li><li>17:30 Modal 想聚合全球算力</li><li>19:05 Modal 如何预测 GPU 需求每月增长 34%</li><li>20:31 GPU 价格未来会怎样变化？</li><li>21:14 AI 算力需求仍处在非常早期</li><li>22:43 专用 AI 芯片会威胁 Nvidia 吗？</li><li>23:41 CUDA 并不是 Nvidia 真正的护城河</li><li>24:38 新云厂商能成功向上进入推理层吗？</li><li>26:47 前沿模型越来越便宜后，开源模型还有什么价值？</li><li>28:02 欧洲能做出有竞争力的开源模型吗？</li><li>28:39 Nvidia 为什么支持美国开源模型生态</li><li>29:52 专用模型也能成长为巨型生意</li><li>30:25 Jev 达到千亿美元估值的看涨逻辑</li><li>32:57 Modal 如何从单一产品扩展成平台</li><li>34:42 Modal 的沙盒业务达到 3 亿美元年化收入</li><li>35:46 基础设施产品可能多年后才找到杀手级场景</li><li>37:41 Modal 曾低估开源模型推理</li><li>38:19 开源模型推理的高峰已经过去了吗？</li><li>39:11 Modal 年化收入达到 10 亿美元</li><li>39:38 Modal 未来十二个月能做到多大？</li><li>40:56 Modal 下一批重要收入机会</li><li>42:28 后训练的重要性会有多高？</li><li>44:13 AI 智能体不会让软件工程师消失</li><li>45:26 Modal 每月在编程智能体上花约 50 万美元</li><li>46:08 模型越便宜，编程智能体支出会越高吗？</li><li>47:12 AI 训练数据如今是利润丰厚的市场</li><li>48:46 每家公司都需要拥有自己的智能吗？</li><li>51:25 模型路由是一门有防御力的生意吗？</li><li>52:41 Erik 为什么会劝 OpenRouter 不要卖掉</li><li>53:45 Erik 预计 AI 市场会回调 20% 到 30%</li><li>54:18 员工股权二级出售有助于争夺 AI 人才</li><li>55:25 顶尖 AI 实验室给优秀应届生开出两千万美元</li><li>57:10 Erik 会投资 TurboPuffer</li><li>57:39 Erik 对沙盒市场的判断发生了什么变化</li><li>58:04 Erik 不愿投资哪些 AI 公司？</li><li>1:01:07 Erik 最期待 AI 药物发现</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/1dwyL6Iz_PU/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>股市已经提前计价民主党横扫</title>
+<link>https://pod-exp.pages.dev/zvYLy3WrK2c/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/zvYLy3WrK2c/</guid>
+<pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+<category>Prof G Markets</category>
+<category>政治与社会</category>
+<category>投资</category>
+<category>商业分析</category>
+<category>科技趋势</category>
+<description>本期先讨论通胀、关税、能源价格和选民对经济的感受，分析这些压力为何可能推动摇摆州和年轻选民转向民主党，以及中期选举不同结果对行业的影响。随后两位主持人比较微软、Alphabet 等超大科技公司的 AI 资本开支、现金流和融资需求，讨论苹果的克制是否正确、AI 投资是否会形成泡沫，以及英伟达相关融资交易的循环风险。最后转向 Instagram 长视频功能和创作者经济，探讨 Meta 如何争夺 YouTube 的注意力、Netflix 面临的定位与内容预算压力，并分享市场和选举预测。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/zvYLy3WrK2c/cover.webp" alt="" /></p>
+<p><em>Prof G Markets · 播出 2026-11-02 · 时长 1:17:40</em></p>
+<p>本期先讨论通胀、关税、能源价格和选民对经济的感受，分析这些压力为何可能推动摇摆州和年轻选民转向民主党，以及中期选举不同结果对行业的影响。随后两位主持人比较微软、Alphabet 等超大科技公司的 AI 资本开支、现金流和融资需求，讨论苹果的克制是否正确、AI 投资是否会形成泡沫，以及英伟达相关融资交易的循环风险。最后转向 Instagram 长视频功能和创作者经济，探讨 Meta 如何争夺 YouTube 的注意力、Netflix 面临的定位与内容预算压力，并分享市场和选举预测。</p>
+<h2>章节</h2><ul><li>0:02 预告</li><li>0:42 今日数字</li><li>1:07 本期内容</li><li>5:07 本期内容（续）</li><li>5:49 选民对经济的感受如何？</li><li>9:50 选民对经济的感受如何？（续）</li><li>13:52 选民对经济的感受如何？（续）</li><li>17:53 选民对经济的感受如何？（续）</li><li>21:55 选民对经济的感受如何？（续）</li><li>25:25 广告</li><li>27:47 大型科技公司财报</li><li>31:47 大型科技公司财报（续）</li><li>35:47 大型科技公司财报（续）</li><li>39:48 大型科技公司财报（续）</li><li>43:51 大型科技公司财报（续）</li><li>47:51 大型科技公司财报（续）</li><li>51:51 大型科技公司财报（续）</li><li>55:53 大型科技公司财报（续）</li><li>57:01 广告</li><li>59:44 Instagram 新功能</li><li>1:03:45 Instagram 新功能（续）</li><li>1:07:45 Instagram 新功能（续）</li><li>1:11:47 Instagram 新功能（续）</li><li>1:15:39 本周展望</li><li>1:15:51 Scott 的预测一</li><li>1:16:54 Ed 的预测</li><li>1:17:24 片尾</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/zvYLy3WrK2c/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
 <item>
 <title>从高中辍学生到身家数十亿美元：Rafael Vivas 不懈进取的驱动力</title>
 <link>https://pod-exp.pages.dev/IdvsD61Rmmk/</link>
