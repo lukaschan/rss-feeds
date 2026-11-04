@@ -1,5 +1,65 @@
 [
  {
+  "slug": "2026-software-factory-standard-zach-lloyd-warp-d",
+  "title": "⚡️ The 2026 Software Factory Infra Stack — Zach Lloyd, Warp.dev",
+  "title_alt": "⚡️ 2026 年软件工厂基础设施技术栈 — Zach Lloyd, Warp.dev",
+  "show_id": "latentspace",
+  "show": "Latent Space",
+  "lang": "EN",
+  "date": "2026-11-03",
+  "published_at": "2026-11-03T20:16:25+00:00",
+  "duration_min": 35,
+  "url": "https://bidclub.ai/e/2026-software-factory-standard-zach-lloyd-warp-d"
+ },
+ {
+  "slug": "andrew-huberman-focus-energy-performing-at-your",
+  "title": "Andrew Huberman on Focus, Energy, and Performing at Your Best",
+  "title_alt": "Andrew Huberman谈专注、精力与如何发挥最佳状态",
+  "show_id": "a16z",
+  "show": "The a16z Show",
+  "lang": "EN",
+  "date": "2026-11-03",
+  "published_at": "2026-11-03T14:50:35+00:00",
+  "duration_min": 48,
+  "url": "https://bidclub.ai/e/andrew-huberman-focus-energy-performing-at-your"
+ },
+ {
+  "slug": "ep-042-gdpx-benchmark-frontier-ai",
+  "title": "Ep. 042 - GDPx: The Benchmark for Frontier AI | Andrew Megalaa, Jordan Nanos, Max Kan",
+  "title_alt": "第042期 - GDPx：前沿 AI 的基准 | Andrew Megalaa, Jordan Nanos, Max Kan",
+  "show_id": "semianalysis",
+  "show": "SemiAnalysis",
+  "lang": "EN",
+  "date": "2026-11-03",
+  "published_at": "2026-11-03T12:00:00+00:00",
+  "duration_min": 52,
+  "url": "https://bidclub.ai/e/ep-042-gdpx-benchmark-frontier-ai"
+ },
+ {
+  "slug": "inside-fal-s-1-65b-series-e-f-led-by-sequoia-bes",
+  "title": "Inside fal’s $1.65B Series E & F Led by Sequoia & Bessemer",
+  "title_alt": "揭秘 fal 获 Sequoia 与 Bessemer 领投的 16.5 亿美元 E、F 轮融资",
+  "show_id": "sourcery",
+  "show": "Sourcery",
+  "lang": "EN",
+  "date": "2026-11-03",
+  "published_at": "2026-11-03T11:00:00+00:00",
+  "duration_min": 64,
+  "url": "https://bidclub.ai/e/inside-fal-s-1-65b-series-e-f-led-by-sequoia-bes"
+ },
+ {
+  "slug": "gaonengliang-2026-11-03-vol-240",
+  "title": "Vol.240 宏观漫谈113｜中国资本市场的提前再平衡与全球股市波动（10.30录制）",
+  "title_alt": "Vol. 240 Macro Talk 113 | China’s Preemptive Rebalancing and Global Equity Volatility (Recorded 10.30)",
+  "show_id": "gaonengliang",
+  "show": "高能量",
+  "lang": "ZH",
+  "date": "2026-11-03",
+  "published_at": "2026-11-03T08:42:38+00:00",
+  "duration_min": 70,
+  "url": "https://bidclub.ai/e/gaonengliang-2026-11-03-vol-240"
+ },
+ {
   "slug": "shanghaojin-2026-11-03",
   "title": "市场概述2026年11月3日",
   "title_alt": "Market Overview — November 3, 2026",
@@ -22,6 +82,18 @@
   "published_at": "2026-11-02T20:50:24+00:00",
   "duration_min": 67,
   "url": "https://bidclub.ai/e/building-legal-agents-when-you-can-t-see-data-ja"
+ },
+ {
+  "slug": "goodalexander-ai-trade-is-topping-google-s-searc",
+  "title": "GoodAlexander - The AI Trade Is Topping, Google’s Search Problem and the Long Coins Trade",
+  "title_alt": "GoodAlexander：AI 交易见顶、Google 的搜索难题与做多加密资产交易",
+  "show_id": "threadguyoneoff",
+  "show": "Thread Guy",
+  "lang": "EN",
+  "date": "2026-11-02",
+  "published_at": "2026-11-02T17:07:40+00:00",
+  "duration_min": 45,
+  "url": "https://bidclub.ai/e/goodalexander-ai-trade-is-topping-google-s-searc"
  },
  {
   "slug": "what-iphone-packaging-reveals-about-robotics-opp",
