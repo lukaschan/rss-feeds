@@ -1,5 +1,156 @@
 [
  {
+  "id": "2XwsEzCz-ag",
+  "title": "市场开盘：试吃古董 MRE、中期选举形势不妙、下一笔 AI 交易",
+  "channel": "threadguy",
+  "guests": "",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "duration": 9078,
+  "topics": [
+   "交易",
+   "投资",
+   "政治与社会",
+   "消费与文化"
+  ],
+  "url": "https://pod-exp.pages.dev/2XwsEzCz-ag/"
+ },
+ {
+  "id": "5zq6Zg5REz8",
+  "title": "Alex Gallego，Redpanda｜theCUBE + NYSE Wired：混合专家（Mixture of Experts）",
+  "channel": "SiliconANGLE theCUBE",
+  "guests": "Alex Gallego",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "duration": 1382,
+  "topics": [
+   "AI 基础设施",
+   "AI 智能体",
+   "AI 安全",
+   "企业软件"
+  ],
+  "url": "https://pod-exp.pages.dev/5zq6Zg5REz8/"
+ },
+ {
+  "id": "7RRyzKD3GdU",
+  "title": "AI黑客能让电网瘫痪吗？",
+  "channel": "Latitude Media",
+  "guests": "Jonathon Monken",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "duration": 3062,
+  "topics": [
+   "AI 安全",
+   "AI 基础设施",
+   "能源与电网",
+   "政治与社会"
+  ],
+  "url": "https://pod-exp.pages.dev/7RRyzKD3GdU/"
+ },
+ {
+  "id": "DBuFk_Rezn8",
+  "title": "收购一家 2300 万美元的加勒比海建筑公司：明智交易还是灾难？",
+  "channel": "Acquisitions Anonymous Podcast",
+  "guests": "Alex",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "duration": 1996,
+  "topics": [
+   "交易",
+   "创业与经营",
+   "商业分析"
+  ],
+  "url": "https://pod-exp.pages.dev/DBuFk_Rezn8/"
+ },
+ {
+  "id": "ENYJVZngi5I",
+  "title": "市场开盘：AI 黑客攻击已失控，AI 交易陷入困境，加密货币接下来何去何从？",
+  "channel": "threadguy",
+  "guests": "Mert",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "duration": 8796,
+  "topics": [
+   "AI 安全",
+   "AI 智能体",
+   "加密与 Web3",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/ENYJVZngi5I/"
+ },
+ {
+  "id": "HTsoVS_AUTw",
+  "title": "别让成功毁了你的孩子",
+  "channel": "Morgan Stanley",
+  "guests": "Scott",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "duration": 1355,
+  "topics": [
+   "创业与经营",
+   "投资",
+   "心理与关系",
+   "人生方法"
+  ],
+  "url": "https://pod-exp.pages.dev/HTsoVS_AUTw/"
+ },
+ {
+  "id": "LL0YmIyBKSU",
+  "title": "⚡️ 2026 年软件工厂基础设施技术栈——Zach Lloyd，Warp.dev",
+  "channel": "Latent Space",
+  "guests": "Zach Lloyd",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "duration": 2088,
+  "topics": [
+   "AI 基础设施",
+   "AI 智能体",
+   "AI 编程",
+   "模型评测"
+  ],
+  "url": "https://pod-exp.pages.dev/LL0YmIyBKSU/"
+ },
+ {
+  "id": "MmLmUeWlrZo",
+  "title": "Anthropic 第三季度业绩出炉——成本正在急剧膨胀",
+  "channel": "Prof G Markets",
+  "guests": "John Foley、Deirdre Bosa、Mark Zandi",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "duration": 2217,
+  "topics": [
+   "AI 基础设施",
+   "人工智能",
+   "投资",
+   "宏观经济"
+  ],
+  "url": "https://pod-exp.pages.dev/MmLmUeWlrZo/"
+ },
+ {
+  "id": "Qwt0QTxMkFU",
+  "title": "能源安全：为什么 AI 数据中心需要重新思考电网｜Energy Gang",
+  "channel": "Wood Mackenzie",
+  "guests": "Caspar Herzberg",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "duration": 1984,
+  "topics": [
+   "AI 基础设施",
+   "能源与电网",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/Qwt0QTxMkFU/"
+ },
+ {
   "id": "TjPPIf-M6KE",
   "title": "Sam Altman 谈 AI 革命、超级智能与人类未来｜FO583 Raj Shamani",
   "channel": "Raj Shamani",
@@ -15,6 +166,318 @@
    "创业与经营"
   ],
   "url": "https://pod-exp.pages.dev/TjPPIf-M6KE/"
+ },
+ {
+  "id": "Txg7AJ1VwYQ",
+  "title": "私人飞机即将变得更实惠",
+  "channel": "Joe Lonsdale",
+  "guests": "Tal Keinan",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "duration": 1764,
+  "topics": [
+   "创业与经营",
+   "商业分析",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/Txg7AJ1VwYQ/"
+ },
+ {
+  "id": "UszyU_XrX9o",
+  "title": "打造私密以太坊的竞赛",
+  "channel": "Bankless",
+  "guests": "Zac Williamson",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "duration": 2775,
+  "topics": [
+   "加密与 Web3",
+   "金融基础设施",
+   "AI 安全"
+  ],
+  "url": "https://pod-exp.pages.dev/UszyU_XrX9o/"
+ },
+ {
+  "id": "X6zg8buv7cA",
+  "title": "朝鲜如何成功实施 Binance 63 亿美元黑客攻击",
+  "channel": "Unchained",
+  "guests": "Jonty、Pablo Sabbatella",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "duration": 5533,
+  "topics": [
+   "加密与 Web3",
+   "金融基础设施",
+   "地缘政治"
+  ],
+  "url": "https://pod-exp.pages.dev/X6zg8buv7cA/"
+ },
+ {
+  "id": "Yv2WhWhBzNo",
+  "title": "Neil Dutta 认为 2027 年股市可能面临挑战｜Basis Points",
+  "channel": "Basis Points ",
+  "guests": "Neil Dutta",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "duration": 3698,
+  "topics": [
+   "宏观经济",
+   "投资",
+   "人工智能",
+   "地缘政治"
+  ],
+  "url": "https://pod-exp.pages.dev/Yv2WhWhBzNo/"
+ },
+ {
+  "id": "ZiCMc5Rjwq0",
+  "title": "AI之死被大大夸大了｜WAYT？",
+  "channel": "The Compound",
+  "guests": "Michael Batnick",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "duration": 3962,
+  "topics": [
+   "人工智能",
+   "AI 基础设施",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/ZiCMc5Rjwq0/"
+ },
+ {
+  "id": "_gUhBaGdbHo",
+  "title": "你的投资组合能挺过 AI 热潮退潮吗？｜Alan Dunne 做客｜Systematic Investor｜第424期",
+  "channel": "Top Traders Unplugged",
+  "guests": "Alan Dunne",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "duration": 3970,
+  "topics": [
+   "投资",
+   "量化投资",
+   "宏观经济",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/_gUhBaGdbHo/"
+ },
+ {
+  "id": "bTxL01xq1W4",
+  "title": "Carina Hong（Axiom）——数学 AI 的前沿【完整演讲】",
+  "channel": "Stanford eCorner",
+  "guests": "Carina Hong",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "duration": 2805,
+  "topics": [
+   "人工智能",
+   "数学与科学",
+   "创业与经营"
+  ],
+  "url": "https://pod-exp.pages.dev/bTxL01xq1W4/"
+ },
+ {
+  "id": "dLPbh4Bm_lo",
+  "title": "一位低调投资者对 AI、芯片与国防的 100 亿美元押注",
+  "channel": "Sources Podcast",
+  "guests": "Alex Davis",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "duration": 4098,
+  "topics": [
+   "人工智能",
+   "AI 基础设施",
+   "投资",
+   "半导体"
+  ],
+  "url": "https://pod-exp.pages.dev/dLPbh4Bm_lo/"
+ },
+ {
+  "id": "f9VIZYu3GdM",
+  "title": "Kristen Mierzwa：罗素指数正全天候上链（业内视角）",
+  "channel": "The Rollup",
+  "guests": "Kristen Mierzwa",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "duration": 1290,
+  "topics": [
+   "金融基础设施",
+   "加密与 Web3",
+   "交易",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/f9VIZYu3GdM/"
+ },
+ {
+  "id": "g_NgCLTibiM",
+  "title": "用图工程让 AI 智能体更可预测｜Zachary Blumenfeld，Neo4j",
+  "channel": "AI Engineer",
+  "guests": "Zachary Blumenfeld",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "duration": 1235,
+  "topics": [
+   "AI 智能体",
+   "AI 基础设施",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/g_NgCLTibiM/"
+ },
+ {
+  "id": "kNSU-0vUxJg",
+  "title": "大型科技股抛售：Dan Niles 谈接下来会发生什么",
+  "channel": "The Master Investor Podcast with Wilfred Frost",
+  "guests": "Dan Niles",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "duration": 3937,
+  "topics": [
+   "人工智能",
+   "AI 智能体",
+   "AI 基础设施",
+   "半导体"
+  ],
+  "url": "https://pod-exp.pages.dev/kNSU-0vUxJg/"
+ },
+ {
+  "id": "pPzJ1wE8Lnw",
+  "title": "深入了解 fal 的 16.5 亿美元 E 轮与 F 轮融资：由 Sequoia 和 Bessemer 领投",
+  "channel": "Sourcery with Molly O'Shea",
+  "guests": "Burkay Gür、Gorkem Yurtseven",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "duration": 3816,
+  "topics": [
+   "AI 基础设施",
+   "创意产业",
+   "创业与经营"
+  ],
+  "url": "https://pod-exp.pages.dev/pPzJ1wE8Lnw/"
+ },
+ {
+  "id": "pc6gR21D4vI",
+  "title": "🚨直播：AI 黑客攻击 + 中期选举 + 石油 + 市场回调？底部到底何时出现？！Max Desalle 与 Jim Iuorio",
+  "channel": "The Rollup",
+  "guests": "Max Desalle、Jim Iuorio",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "duration": 7135,
+  "topics": [
+   "加密与 Web3",
+   "宏观经济",
+   "投资",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/pc6gR21D4vI/"
+ },
+ {
+  "id": "qCCrkuZ28OU",
+  "title": "社群在更富足、更明智、更快乐人生中的作用｜William Green",
+  "channel": "The Investor’s Podcast",
+  "guests": "William Green",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "duration": 7814,
+  "topics": [
+   "心理与关系",
+   "人生方法",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/qCCrkuZ28OU/"
+ },
+ {
+  "id": "sWriCvo_bJU",
+  "title": "朝鲜如何在没有私钥的情况下从 Binance 盗走 63 亿美元",
+  "channel": "Unchained",
+  "guests": "Jonty、Pablo Sabbatella",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "duration": 4836,
+  "topics": [
+   "加密与 Web3",
+   "金融基础设施",
+   "地缘政治"
+  ],
+  "url": "https://pod-exp.pages.dev/sWriCvo_bJU/"
+ },
+ {
+  "id": "stEROKktoT0",
+  "title": "Jeff Bardin，Treadstone 71｜网络安全之桥",
+  "channel": "SiliconANGLE theCUBE",
+  "guests": "Jeff Bardin",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "duration": 2291,
+  "topics": [
+   "AI 安全",
+   "AI 智能体",
+   "人工智能",
+   "科技趋势"
+  ],
+  "url": "https://pod-exp.pages.dev/stEROKktoT0/"
+ },
+ {
+  "id": "uo4q5khW4ps",
+  "title": "选举日特别节目：Nate Silver 做客《Odd Lots》",
+  "channel": "Bloomberg Podcasts",
+  "guests": "Nate Silver",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "duration": 2849,
+  "topics": [
+   "政治与社会",
+   "商业分析",
+   "量化投资"
+  ],
+  "url": "https://pod-exp.pages.dev/uo4q5khW4ps/"
+ },
+ {
+  "id": "yLMjEpMio2w",
+  "title": "从 AI 基础设施到 6G 未来",
+  "channel": "NVIDIA",
+  "guests": "Ronnie Vasishta",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "duration": 2280,
+  "topics": [
+   "AI 基础设施",
+   "产业科技",
+   "机器人与物理 AI",
+   "AI 研究"
+  ],
+  "url": "https://pod-exp.pages.dev/yLMjEpMio2w/"
+ },
+ {
+  "id": "y_lw2P0393k",
+  "title": "SecTor 2026｜用 Claude 还是 Codex？我们能攻破你的应用吗？",
+  "channel": "Black Hat",
+  "guests": "Raz Tel-Vered",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "duration": 2317,
+  "topics": [
+   "AI 安全",
+   "AI 编程",
+   "模型评测"
+  ],
+  "url": "https://pod-exp.pages.dev/y_lw2P0393k/"
  },
  {
   "id": "1dwyL6Iz_PU",
