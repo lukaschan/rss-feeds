@@ -1,5 +1,465 @@
 [
  {
+  "id": "05nqgG1zbfE",
+  "title": "Juan Loaiza，Oracle｜Oracle AI World 2026",
+  "channel": "SiliconANGLE theCUBE",
+  "guests": "Juan Loaiza",
+  "published": "2026-11-04",
+  "addedAt": "2026-11-05",
+  "updatedAt": "2026-11-05",
+  "duration": 1206,
+  "topics": [
+   "AI 安全",
+   "AI 智能体",
+   "企业软件",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/05nqgG1zbfE/"
+ },
+ {
+  "id": "1Lebd8OzWeo",
+  "title": "Waymo 对无人驾驶未来的押注｜The Circuit with Emily Chang",
+  "channel": "Bloomberg Originals",
+  "guests": "Tekedra Mawakana、Amanda Bell",
+  "published": "2026-11-04",
+  "addedAt": "2026-11-05",
+  "updatedAt": "2026-11-05",
+  "duration": 1441,
+  "topics": [
+   "机器人与物理 AI",
+   "产业科技",
+   "科技趋势"
+  ],
+  "url": "https://pod-exp.pages.dev/1Lebd8OzWeo/"
+ },
+ {
+  "id": "4VjI-3FcHSg",
+  "title": "Peter Thiel 的 27 年合作伙伴谈 AI 泡沫、风险投资危机与 PayPal Mafia",
+  "channel": "How I Invest Podcast",
+  "guests": "Jack Selby",
+  "published": "2026-11-04",
+  "addedAt": "2026-11-05",
+  "updatedAt": "2026-11-05",
+  "duration": 3377,
+  "topics": [
+   "投资",
+   "创业与经营",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/4VjI-3FcHSg/"
+ },
+ {
+  "id": "5aqAPkNvslg",
+  "title": "AI 抛售潮是买入机会吗？｜Warren Pies",
+  "channel": "Forward Guidance",
+  "guests": "Warren Pies",
+  "published": "2026-11-04",
+  "addedAt": "2026-11-05",
+  "updatedAt": "2026-11-05",
+  "duration": 3190,
+  "topics": [
+   "AI 基础设施",
+   "宏观经济",
+   "投资",
+   "能源与电网"
+  ],
+  "url": "https://pod-exp.pages.dev/5aqAPkNvslg/"
+ },
+ {
+  "id": "5kmB33JkzeY",
+  "title": "🚨直播：看多一些。中期选举的末日情绪快结束了。CFTC 放行股票永续合约！",
+  "channel": "The Rollup",
+  "guests": "Julian Zawistowski、Armani Ferrante",
+  "published": "2026-11-04",
+  "addedAt": "2026-11-05",
+  "updatedAt": "2026-11-05",
+  "duration": 6460,
+  "topics": [
+   "加密与 Web3",
+   "投资",
+   "金融基础设施",
+   "宏观经济"
+  ],
+  "url": "https://pod-exp.pages.dev/5kmB33JkzeY/"
+ },
+ {
+  "id": "6gtw8oLc82o",
+  "title": "财务上快要被淹没｜Animal Spirits 第489期",
+  "channel": "The Compound",
+  "guests": "Ben Carlson",
+  "published": "2026-11-04",
+  "addedAt": "2026-11-05",
+  "updatedAt": "2026-11-05",
+  "duration": 4192,
+  "topics": [
+   "投资",
+   "宏观经济",
+   "AI 智能体"
+  ],
+  "url": "https://pod-exp.pages.dev/6gtw8oLc82o/"
+ },
+ {
+  "id": "9Asgxtk_kkI",
+  "title": "All-In 播客对民主党横扫选举作出回应！",
+  "channel": "All-In Podcast",
+  "guests": "Ted Cruz、Rahm Emanuel、Shane Coplan、Tim Dillon、Taylor Lorenz、Brad Gerstner、Ben Shapiro",
+  "published": "2026-11-04",
+  "addedAt": "2026-11-05",
+  "updatedAt": "2026-11-05",
+  "duration": 7090,
+  "topics": [
+   "政治与社会",
+   "投资",
+   "科技趋势"
+  ],
+  "url": "https://pod-exp.pages.dev/9Asgxtk_kkI/"
+ },
+ {
+  "id": "9vQb-1ExUac",
+  "title": "At The Money：金融专业人士如何投资自己的钱？｜Masters in Business",
+  "channel": "Bloomberg Podcasts",
+  "guests": "Brian Portnoy",
+  "published": "2026-11-04",
+  "addedAt": "2026-11-05",
+  "updatedAt": "2026-11-05",
+  "duration": 1422,
+  "topics": [
+   "投资",
+   "人生方法",
+   "心理与关系"
+  ],
+  "url": "https://pod-exp.pages.dev/9vQb-1ExUac/"
+ },
+ {
+  "id": "Agy_fs-SOWs",
+  "title": "Ramp 的经济学家发现 AI 论点中的裂缝｜《头脑风暴》第156期",
+  "channel": "ARK Invest",
+  "guests": "Ara Kharazian",
+  "published": "2026-11-04",
+  "addedAt": "2026-11-05",
+  "updatedAt": "2026-11-05",
+  "duration": 2044,
+  "topics": [
+   "人工智能",
+   "AI 基础设施",
+   "商业分析"
+  ],
+  "url": "https://pod-exp.pages.dev/Agy_fs-SOWs/"
+ },
+ {
+  "id": "DqBU9eDOxc8",
+  "title": "Diego Perez de Ayala：华尔街正在上链（Frictionless）",
+  "channel": "The Rollup",
+  "guests": "Diego Perez de Ayala",
+  "published": "2026-11-04",
+  "addedAt": "2026-11-05",
+  "updatedAt": "2026-11-05",
+  "duration": 1994,
+  "topics": [
+   "金融基础设施",
+   "加密与 Web3",
+   "交易",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/DqBU9eDOxc8/"
+ },
+ {
+  "id": "GD09t89a6xA",
+  "title": "Bruce Darringer，BSD Strategic Advisors 创始人",
+  "channel": "The  Alpha Exchange with Dean Curnutt",
+  "guests": "Bruce Darringer",
+  "published": "2026-11-04",
+  "addedAt": "2026-11-05",
+  "updatedAt": "2026-11-05",
+  "duration": 3812,
+  "topics": [
+   "投资",
+   "金融基础设施",
+   "领导力"
+  ],
+  "url": "https://pod-exp.pages.dev/GD09t89a6xA/"
+ },
+ {
+  "id": "QH9Lh7wVZAg",
+  "title": "Fromage-Gate：老派黑客手法对阵法国超市",
+  "channel": "Black Hat",
+  "guests": "The Grugq",
+  "published": "2026-11-04",
+  "addedAt": "2026-11-05",
+  "updatedAt": "2026-11-05",
+  "duration": 2370,
+  "topics": [
+   "AI 安全",
+   "AI 智能体",
+   "科技趋势"
+  ],
+  "url": "https://pod-exp.pages.dev/QH9Lh7wVZAg/"
+ },
+ {
+  "id": "QmDLDy3ZSNE",
+  "title": "Latent Space 幕后：Kill My SaaS、Jev 与 2026 年 AI｜AIEi 上海",
+  "channel": "Latent Space",
+  "guests": "Shawn Wang",
+  "published": "2026-11-04",
+  "addedAt": "2026-11-05",
+  "updatedAt": "2026-11-05",
+  "duration": 4344,
+  "topics": [
+   "AI 智能体",
+   "AI 编程",
+   "创业与经营",
+   "产品"
+  ],
+  "url": "https://pod-exp.pages.dev/QmDLDy3ZSNE/"
+ },
+ {
+  "id": "Sd_Vn1j8qrI",
+  "title": "这些不怕 AI 冲击的生意，每年能让你赚到 1000 万美元",
+  "channel": "My First Million",
+  "guests": "",
+  "published": "2026-11-04",
+  "addedAt": "2026-11-05",
+  "updatedAt": "2026-11-05",
+  "duration": 1785,
+  "topics": [
+   "创业与经营",
+   "商业分析",
+   "人工智能",
+   "消费与文化"
+  ],
+  "url": "https://pod-exp.pages.dev/Sd_Vn1j8qrI/"
+ },
+ {
+  "id": "XZxDawMm4lU",
+  "title": "AI 热潮放缓时会发生什么",
+  "channel": "Invest Like The Best",
+  "guests": "Martin Casado",
+  "published": "2026-11-04",
+  "addedAt": "2026-11-05",
+  "updatedAt": "2026-11-05",
+  "duration": 4497,
+  "topics": [
+   "人工智能",
+   "AI 基础设施",
+   "投资",
+   "创业与经营"
+  ],
+  "url": "https://pod-exp.pages.dev/XZxDawMm4lU/"
+ },
+ {
+  "id": "be-8EqXml1M",
+  "title": "NextEra Energy 首席执行官：为 AI 供电与核能回归｜播客｜In Good Company",
+  "channel": "Norges Bank Investment Management",
+  "guests": "John Ketchum",
+  "published": "2026-11-04",
+  "addedAt": "2026-11-05",
+  "updatedAt": "2026-11-05",
+  "duration": 2558,
+  "topics": [
+   "能源与电网",
+   "AI 基础设施",
+   "产业科技",
+   "领导力"
+  ],
+  "url": "https://pod-exp.pages.dev/be-8EqXml1M/"
+ },
+ {
+  "id": "c-DEYegzHpM",
+  "title": "不卖股票，只靠股息能生活吗？",
+  "channel": "The Compound",
+  "guests": "Duncan Hill",
+  "published": "2026-11-04",
+  "addedAt": "2026-11-05",
+  "updatedAt": "2026-11-05",
+  "duration": 2215,
+  "topics": [
+   "投资",
+   "人生方法"
+  ],
+  "url": "https://pod-exp.pages.dev/c-DEYegzHpM/"
+ },
+ {
+  "id": "dBEbYy2yTaI",
+  "title": "一位前华尔街交易员回答没人愿意回答的问题",
+  "channel": "B The Trader",
+  "guests": "Yanni",
+  "published": "2026-11-04",
+  "addedAt": "2026-11-05",
+  "updatedAt": "2026-11-05",
+  "duration": 2294,
+  "topics": [
+   "交易",
+   "投资",
+   "心理与关系"
+  ],
+  "url": "https://pod-exp.pages.dev/dBEbYy2yTaI/"
+ },
+ {
+  "id": "dSiTwPl0t1U",
+  "title": "会购物、会规划、会八卦的新一代 AI 智能体",
+  "channel": "a16z",
+  "guests": "David Pawlan、Josh Elman",
+  "published": "2026-11-04",
+  "addedAt": "2026-11-05",
+  "updatedAt": "2026-11-05",
+  "duration": 3015,
+  "topics": [
+   "AI 智能体",
+   "AI 安全",
+   "产品"
+  ],
+  "url": "https://pod-exp.pages.dev/dSiTwPl0t1U/"
+ },
+ {
+  "id": "gBfaA6wiN4A",
+  "title": "Sammy Cheung，Efinix｜theCUBE + NYSE Wired：物理 AI 与机器人",
+  "channel": "SiliconANGLE theCUBE",
+  "guests": "Sammy Cheung",
+  "published": "2026-11-04",
+  "addedAt": "2026-11-05",
+  "updatedAt": "2026-11-05",
+  "duration": 1471,
+  "topics": [
+   "半导体",
+   "AI 基础设施",
+   "机器人与物理 AI"
+  ],
+  "url": "https://pod-exp.pages.dev/gBfaA6wiN4A/"
+ },
+ {
+  "id": "gof1NS_jGUo",
+  "title": "比特币贷款要来撼动你的房贷了",
+  "channel": "Anthony Pompliano",
+  "guests": "Michael Tannenbaum",
+  "published": "2026-11-04",
+  "addedAt": "2026-11-05",
+  "updatedAt": "2026-11-05",
+  "duration": 2374,
+  "topics": [
+   "信用市场",
+   "金融基础设施",
+   "加密与 Web3",
+   "商业分析"
+  ],
+  "url": "https://pod-exp.pages.dev/gof1NS_jGUo/"
+ },
+ {
+  "id": "kJu70-mOE2s",
+  "title": "市场快报：蓝色浪潮对市场意味着什么",
+  "channel": "1000x",
+  "guests": "Jonah Van",
+  "published": "2026-11-04",
+  "addedAt": "2026-11-05",
+  "updatedAt": "2026-11-05",
+  "duration": 3615,
+  "topics": [
+   "政治与社会",
+   "宏观经济",
+   "投资",
+   "加密与 Web3"
+  ],
+  "url": "https://pod-exp.pages.dev/kJu70-mOE2s/"
+ },
+ {
+  "id": "lqV6ZNY79aU",
+  "title": "从多户住宅到酒店：David Schwartz 谈 Waterton 的投资策略",
+  "channel": "Columbia Business School",
+  "guests": "David Schwartz",
+  "published": "2026-11-04",
+  "addedAt": "2026-11-05",
+  "updatedAt": "2026-11-05",
+  "duration": 3255,
+  "topics": [
+   "投资",
+   "创业与经营",
+   "宏观经济"
+  ],
+  "url": "https://pod-exp.pages.dev/lqV6ZNY79aU/"
+ },
+ {
+  "id": "pkaOZt_eNdw",
+  "title": "第58期：AI 革命进入第三局——与 Dan Ives（Yorkville Ives 科技分析师）对谈",
+  "channel": "Pitch The PM",
+  "guests": "Dan Ives",
+  "published": "2026-11-04",
+  "addedAt": "2026-11-05",
+  "updatedAt": "2026-11-05",
+  "duration": 1733,
+  "topics": [
+   "人工智能",
+   "AI 基础设施",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/pkaOZt_eNdw/"
+ },
+ {
+  "id": "w14syk7L17c",
+  "title": "Google Cloud Storage 押注成为 AI 关键基础设施｜AppDevANGLE",
+  "channel": "SiliconANGLE theCUBE",
+  "guests": "Ronen Schwartz",
+  "published": "2026-11-04",
+  "addedAt": "2026-11-05",
+  "updatedAt": "2026-11-05",
+  "duration": 1519,
+  "topics": [
+   "AI 基础设施",
+   "AI 智能体",
+   "云基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/w14syk7L17c/"
+ },
+ {
+  "id": "yTzH8GOpjmw",
+  "title": "a16z 的第一位员工谈 a16z 的历史、风险投资与政府改革｜Scott Kupor",
+  "channel": "David Senra",
+  "guests": "Scott Kupor",
+  "published": "2026-11-04",
+  "addedAt": "2026-11-05",
+  "updatedAt": "2026-11-05",
+  "duration": 3496,
+  "topics": [
+   "创业与经营",
+   "投资",
+   "政治与社会",
+   "职业发展"
+  ],
+  "url": "https://pod-exp.pages.dev/yTzH8GOpjmw/"
+ },
+ {
+  "id": "zoH6lhl1ME0",
+  "title": "为何印度下一代科技巨头正藏在眼皮底下｜Paavan Gami",
+  "channel": "Delphi Digital",
+  "guests": "Paavan Gami",
+  "published": "2026-11-04",
+  "addedAt": "2026-11-05",
+  "updatedAt": "2026-11-05",
+  "duration": 4453,
+  "topics": [
+   "投资",
+   "科技趋势",
+   "AI 基础设施",
+   "商业分析"
+  ],
+  "url": "https://pod-exp.pages.dev/zoH6lhl1ME0/"
+ },
+ {
+  "id": "75SWUaCAeuQ",
+  "title": "John Waldron 谈 GDP 增长、人工智能与并购前景",
+  "channel": "Goldman Sachs",
+  "guests": "John Waldron",
+  "published": "2026-11-03",
+  "addedAt": "2026-11-05",
+  "updatedAt": "2026-11-05",
+  "duration": 1294,
+  "topics": [
+   "宏观经济",
+   "商业分析",
+   "人工智能",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/75SWUaCAeuQ/"
+ },
+ {
   "id": "2XwsEzCz-ag",
   "title": "市场开盘：试吃古董 MRE、中期选举形势不妙、下一笔 AI 交易",
   "channel": "threadguy",
