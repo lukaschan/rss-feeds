@@ -5,9 +5,444 @@
 <link>https://pod-exp.pages.dev/</link>
 <description>Field Notes 每日新增文章（自建 RSS）：存档冻结后新发表的篇目，只放摘要 + 原文链接（全文太长，不进 feed）；冻结前的全部篇目见 pod-exp.xml 存档版。</description>
 <language>zh-CN</language>
-<lastBuildDate>Fri, 06 Nov 2026 02:31:42 +0000</lastBuildDate>
+<lastBuildDate>Sat, 07 Nov 2026 01:59:55 +0000</lastBuildDate>
 <generator>rss-feeds-generator (personal)</generator>
 <atom:link href="https://rss-feeds-8x2.pages.dev/pod-exp-new.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>比特币是应对一场无人预见的美国违约的对冲工具</title>
+<link>https://pod-exp.pages.dev/0dyNRJyco1s/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/0dyNRJyco1s/</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+<category>Anthony Pompliano</category>
+<category>宏观经济</category>
+<category>人工智能</category>
+<category>投资</category>
+<category>加密与 Web3</category>
+<description>VanEck CEO Jan Van Eck 分享了公司的十年宏观投资框架，重点讨论印度增长、AI 发展和政府支出风险。他认为，印度的数字化和制度改革将推动经济扩张；AI 投资仍在快速演变，企业需要整理数据、开放内部信息并推动员工采用新工具。谈到财政与市场，他主张配置黄金和比特币以应对美国债务风险，并分析利率、通胀和社保支出的压力。对谈还涉及加密 ETF、区块链基础设施、全天候交易、AI 智能体管理资金，以及 ETF 行业未来可能转向更多个人投资者和直接分销。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/0dyNRJyco1s/cover.webp" alt="" /></p>
+<p><em>Anthony Pompliano · 播出 2026-11-05 · 时长 27:42</em></p>
+<p>VanEck CEO Jan Van Eck 分享了公司的十年宏观投资框架，重点讨论印度增长、AI 发展和政府支出风险。他认为，印度的数字化和制度改革将推动经济扩张；AI 投资仍在快速演变，企业需要整理数据、开放内部信息并推动员工采用新工具。谈到财政与市场，他主张配置黄金和比特币以应对美国债务风险，并分析利率、通胀和社保支出的压力。对谈还涉及加密 ETF、区块链基础设施、全天候交易、AI 智能体管理资金，以及 ETF 行业未来可能转向更多个人投资者和直接分销。</p>
+<h2>章节</h2><ul><li>0:02 美国违约风险</li><li>0:20 VanEck 现状与十年宏观框架</li><li>2:54 为什么印度十年后能与欧洲比肩</li><li>5:00 人工智能的十年趋势与 Token 需求预测</li><li>7:05 VanEck 如何在内部使用 AI</li><li>10:42 政府持续印钞与利率上升</li><li>14:18 黄金、比特币与美国违约风险</li><li>16:50 AI 的通缩效应能抵消政府支出吗？</li><li>17:42 加密 ETF 与哪些山寨币能留下来</li><li>18:48 代币化与全天候交易</li><li>21:47 AI 智能体交易与资金配置</li><li>25:47 氛围编程的玩笑</li><li>25:53 五年后的 ETF 行业</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/0dyNRJyco1s/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>能源安全危机：更高的能源价格会成为未来常态吗？</title>
+<link>https://pod-exp.pages.dev/1pJ1gcE2sHc/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/1pJ1gcE2sHc/</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+<category>Wood Mackenzie</category>
+<category>能源与电网</category>
+<category>地缘政治</category>
+<category>宏观经济</category>
+<description>这场在 ADIPEC 现场录制的讨论从印度尼西亚每天近 100 万桶的石油进口缺口谈起，延伸到供应来源多元化、战略库存、本地供应链和能源基础设施韧性。嘉宾讨论了可再生能源枢纽如何兼顾低成本与可靠供电，也回顾氢能和氨项目从早期热潮回归务实的过程。数据中心快速增长正与制氢争夺电力，而天然气供应又牵动化肥和粮食安全。工程领域的物理约束 AI 有望把设施初步设计从数月压缩到几十分钟。嘉宾认为，长期投资不足叠加需求增长，可能带来一个能源价格更高、投资需求更大的十年。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/1pJ1gcE2sHc/cover.webp" alt="" /></p>
+<p><em>Wood Mackenzie · 播出 2026-11-05 · 时长 44:19</em></p>
+<p>这场在 ADIPEC 现场录制的讨论从印度尼西亚每天近 100 万桶的石油进口缺口谈起，延伸到供应来源多元化、战略库存、本地供应链和能源基础设施韧性。嘉宾讨论了可再生能源枢纽如何兼顾低成本与可靠供电，也回顾氢能和氨项目从早期热潮回归务实的过程。数据中心快速增长正与制氢争夺电力，而天然气供应又牵动化肥和粮食安全。工程领域的物理约束 AI 有望把设施初步设计从数月压缩到几十分钟。嘉宾认为，长期投资不足叠加需求增长，可能带来一个能源价格更高、投资需求更大的十年。</p>
+<h2>章节</h2><ul><li>0:02 印度尼西亚的石油进口挑战</li><li>1:00 能源安全为何成为议程焦点</li><li>3:31 通过供应多元化建立韧性</li><li>7:15 KBR 如何支持关键能源基础设施</li><li>11:17 本地供应链与可再生能源枢纽</li><li>13:16 可再生能源枢纽与可靠供电</li><li>17:07 印度尼西亚的长期能源战略</li><li>20:48 氢能能否提升能源安全？</li><li>24:48 氢能与供应多元化</li><li>27:14 氢能的现实与炒作</li><li>29:30 数据中心与电力需求激增</li><li>32:20 能源安全与粮食安全</li><li>36:23 人工智能与工程效率</li><li>37:35 AI 如何改变能源工程</li><li>41:37 能源系统承压</li><li>41:39 更高能源价格可能到来</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/1pJ1gcE2sHc/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>AGNT 播客第 16 集｜Gemma Allen 与 Raphaëlle d'Ornano</title>
+<link>https://pod-exp.pages.dev/1u9120VFBIw/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/1u9120VFBIw/</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+<category>SiliconANGLE theCUBE</category>
+<category>AI 基础设施</category>
+<category>人工智能</category>
+<category>商业分析</category>
+<category>投资</category>
+<description>本期围绕 Anthropic 可能进行的 IPO，讨论算力需求、供给约束与自建基础设施的必要性，以及 API、云平台分发和自有产品如何影响收入质量与定价权。Raphaëlle d’Ornano 结合 DCF 模型给出收入、算力成本和估值判断，也提醒投资者考虑智能体风险、网络安全、销售成本和毛利率。两位最后谈到 AI 市场情绪与智能体蜂群的发展，认为应以严谨研究看待 AI 行业，而不是跟随市场噪音。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/1u9120VFBIw/cover.webp" alt="" /></p>
+<p><em>SiliconANGLE theCUBE · 播出 2026-11-05 · 时长 20:23</em></p>
+<p>本期围绕 Anthropic 可能进行的 IPO，讨论算力需求、供给约束与自建基础设施的必要性，以及 API、云平台分发和自有产品如何影响收入质量与定价权。Raphaëlle d’Ornano 结合 DCF 模型给出收入、算力成本和估值判断，也提醒投资者考虑智能体风险、网络安全、销售成本和毛利率。两位最后谈到 AI 市场情绪与智能体蜂群的发展，认为应以严谨研究看待 AI 行业，而不是跟随市场噪音。</p>
+<h2>章节</h2><ul><li>0:04 Anthropic IPO 前景与算力成本</li><li>3:08 租用算力，还是自建基础设施</li><li>7:08 租用算力，还是自建基础设施（续）</li><li>7:21 Token 收入与产品定价权</li><li>9:54 市场空间、竞争优势与估值风险</li><li>13:13 收入预测与经营利润率</li><li>17:14 收入预测与经营利润率（续）</li><li>18:01 IPO 前景与智能体 AI 的进展</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/1u9120VFBIw/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>核能热潮是否即将碰壁？</title>
+<link>https://pod-exp.pages.dev/2petOXCDwns/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/2petOXCDwns/</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+<category>Latitude Media</category>
+<category>能源与电网</category>
+<category>地缘政治</category>
+<category>投资</category>
+<description>本期从核燃料周期出发，拆解铀从开采、转化、浓缩到燃料制造的链条，以及供应为何集中在东方、需求为何更多来自西方。Mike Alkin 指出，公用事业公司看重供应安全，长期合约和库存缓冲掩盖了真实紧张程度；过去十年买家每消耗一磅铀，平均只补签略多于半磅的合约。价格上涨可以在几年内推动转化和浓缩扩产，但新矿从发现到投产要 20 至 25 年。对话还解释了浓缩厂“少喂料”如何向市场释放额外铀，以及产能吃紧时“多喂料”可能带来新的铀需求，并讨论俄罗斯浓缩铀禁令对供应链的影响。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/2petOXCDwns/cover.webp" alt="" /></p>
+<p><em>Latitude Media · 播出 2026-11-05 · 时长 36:17</em></p>
+<p>本期从核燃料周期出发，拆解铀从开采、转化、浓缩到燃料制造的链条，以及供应为何集中在东方、需求为何更多来自西方。Mike Alkin 指出，公用事业公司看重供应安全，长期合约和库存缓冲掩盖了真实紧张程度；过去十年买家每消耗一磅铀，平均只补签略多于半磅的合约。价格上涨可以在几年内推动转化和浓缩扩产，但新矿从发现到投产要 20 至 25 年。对话还解释了浓缩厂“少喂料”如何向市场释放额外铀，以及产能吃紧时“多喂料”可能带来新的铀需求，并讨论俄罗斯浓缩铀禁令对供应链的影响。</p>
+<h2>章节</h2><ul><li>0:01 铀供应链的难题</li><li>1:30 核燃料周期是怎么运作的</li><li>3:35 地缘格局：东方供应，西方需求</li><li>7:04 历史繁荣、事故与市场周期</li><li>10:15 核燃料买家的心理与供应安全</li><li>12:45 铀现货市场里有哪些买家</li><li>16:46 长期合约如何扭曲价格</li><li>20:46 长期合约如何扭曲价格（广告）</li><li>22:18 铀够不够用？</li><li>26:19 铀够不够用？（续）</li><li>27:52 上游瓶颈：新矿为何要几十年才能投产</li><li>30:19 离心机动态：少喂料与多喂料</li><li>33:33 俄罗斯浓缩铀禁令及其地缘影响</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/2petOXCDwns/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>人人都能拥有自己的模型：Trajectory 的 Ronak 如何打造持续学习产品</title>
+<link>https://pod-exp.pages.dev/32vxW6GMeLY/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/32vxW6GMeLY/</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+<category>Sequoia Capital</category>
+<category>AI 基础设施</category>
+<category>AI 研究</category>
+<category>AI 智能体</category>
+<category>模型评测</category>
+<description>Trajectory 联合创始人 Ronak Malde 认为，当前智能体虽然聪明，却仍处于“伪持续学习”阶段：模型主要靠离线批量更新，难以从每次真实使用中积累经验。他介绍了 Trajectory 如何把生产轨迹转化为训练信号、为何要把任务而非 token 视为工作的单位，以及帮助 Harvey、Rogo 等企业用自己的数据训练更高效模型的案例。研究重点包括无需模拟环境的 Group Size 1 方法和以少量标注推广奖励信号的元评分器。展望未来，他强调让智能体保持好奇心、持续与人互动并沿着对齐方向学习；产品构建者则像园丁，为能自主成长的产品搭起支架。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/32vxW6GMeLY/cover.webp" alt="" /></p>
+<p><em>Sequoia Capital · 播出 2026-11-05 · 时长 32:01</em></p>
+<p>Trajectory 联合创始人 Ronak Malde 认为，当前智能体虽然聪明，却仍处于“伪持续学习”阶段：模型主要靠离线批量更新，难以从每次真实使用中积累经验。他介绍了 Trajectory 如何把生产轨迹转化为训练信号、为何要把任务而非 token 视为工作的单位，以及帮助 Harvey、Rogo 等企业用自己的数据训练更高效模型的案例。研究重点包括无需模拟环境的 Group Size 1 方法和以少量标注推广奖励信号的元评分器。展望未来，他强调让智能体保持好奇心、持续与人互动并沿着对齐方向学习；产品构建者则像园丁，为能自主成长的产品搭起支架。</p>
+<h2>章节</h2><ul><li>0:02 引言</li><li>0:56 伪持续学习：纸质地图与 Google 地图</li><li>2:48 我们需要新架构吗？Rich Sutton、David Silver 与缺失的一层</li><li>4:33 从一亿美元咨询式模型到产品：Windsurf 的 SWE-1 经验</li><li>7:36 Harvey：成本比前沿模型低六倍，自家基准从 4% 提升到 18%</li><li>8:55 为什么叫 Trajectory：工作的单位是任务，而不是 token</li><li>10:13 持续学习的基础要素：轨迹、可重放环境与奖励</li><li>12:56 Group Size 1 与元评分器：不靠环境或人工标注奖励训练</li><li>16:16 平台：一键训练、评测、部署，适合哪些团队</li><li>18:58 Rogo 与智能密度</li><li>20:14 下一步是什么：好奇心，以及持续学习为何更利于对齐</li><li>24:15 下一步是什么：好奇心，以及持续学习为何更利于对齐</li><li>24:19 研究与产品并肩：产品构建者像园丁</li><li>27:26 为什么加入 Trajectory：从 1% 到 99% 的乐观愿景</li><li>31:27 为什么加入 Trajectory：从 1% 到 99% 的乐观愿景</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/32vxW6GMeLY/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>2026 年中期选举对加密监管和《Clarity 法案》意味着什么</title>
+<link>https://pod-exp.pages.dev/4rtMj2SiLwg/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/4rtMj2SiLwg/</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+<category>Unchained</category>
+<category>加密与 Web3</category>
+<category>政治与社会</category>
+<category>金融基础设施</category>
+<description>民主党在中期选举中大幅胜出，加密行业接下来要面对怎样的监管与立法环境？Laura Shin 与 Mike Katz、Justin Slaughter 讨论《Clarity 法案》前景、民主党可能起草的市场结构法案、SEC 与 CFTC 规则的延续、沃伦与布朗主导委员会后的监督重点，以及特朗普家族加密交易可能受到的调查。嘉宾认为，银行可能借国会拨款与规则制定影响《Genius 法案》的实施；德州数据中心审批暂停对比特币矿工的影响可能有限。两人还反思 Fairshake 的选举支出，强调政治资金无法替代真诚沟通、政策论证与跨党派合作。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/4rtMj2SiLwg/cover.webp" alt="" /></p>
+<p><em>Unchained · 播出 2026-11-05 · 时长 48:12</em></p>
+<p>民主党在中期选举中大幅胜出，加密行业接下来要面对怎样的监管与立法环境？Laura Shin 与 Mike Katz、Justin Slaughter 讨论《Clarity 法案》前景、民主党可能起草的市场结构法案、SEC 与 CFTC 规则的延续、沃伦与布朗主导委员会后的监督重点，以及特朗普家族加密交易可能受到的调查。嘉宾认为，银行可能借国会拨款与规则制定影响《Genius 法案》的实施；德州数据中心审批暂停对比特币矿工的影响可能有限。两人还反思 Fairshake 的选举支出，强调政治资金无法替代真诚沟通、政策论证与跨党派合作。</p>
+<h2>章节</h2><ul><li>0:02 加密行业与沃伦的极端立场</li><li>0:28 Unchained 听众调查</li><li>1:31 Bits + Bips 节目推荐</li><li>1:47 民主党横扫两院对加密行业未来两年的影响</li><li>5:48 一场改写政治格局的选举</li><li>6:52 Clarity Act 前景与民主党可能提出的法案</li><li>10:26 民主党执政后 SEC 和 CFTC 的加密规则会怎样</li><li>14:27 Nexo 与 Bits + Bips 节目推荐</li><li>15:18 沃伦、布朗掌舵委员会对加密行业的影响</li><li>19:19 民主党监督行动会聚焦什么</li><li>23:21 重建信任，从政策善意开始</li><li>27:02 民主党可能调查特朗普家族的加密交易</li><li>31:03 特朗普政府执法变化与国会监督</li><li>35:04 投资者权利法案与市场结构立法</li><li>37:23 银行可能借新国会阻挠《Genius 法案》</li><li>40:18 德州数据中心暂停对比特币矿工的影响</li><li>43:15 Fairshake 花 5,600 万美元阻击布朗：超级 PAC 只是拐杖</li><li>47:15 以诚意沟通，才能推动立法</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/4rtMj2SiLwg/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>谁都能存入 10 亿美元、在一个区块内借走全部 ETH 吗？｜Uneasy Money</title>
+<link>https://pod-exp.pages.dev/5WDvWxHOK90/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/5WDvWxHOK90/</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+<category>Unchained</category>
+<category>加密与 Web3</category>
+<category>金融基础设施</category>
+<category>AI 安全</category>
+<description>本期围绕朝鲜黑客从 Binance 窃取巨额资产后的链上应对展开。LlamaRisk CEO Adam Sadowski 解释了约 30 亿美元资产如何进入以太坊、黑客如何把 USDT 存入 Aave 借出 ETH，以及 Aave 冻结市场为何仍让用户偿债和提款。Kain Warwick、Taylor Monahan 与 Adam 进一步讨论大额借贷限额、人工多签与自动化风险管理、价格预言机的判断边界，以及 AI 如何帮助 Synthetix 找到追回 900 万枚 SNX 的办法。节目后半段复盘 THORChain 的双花、FBI 对朝鲜攻击者的归因及节点恢复运行后的责任风险，最后谈到法国银行遭袭和 ZachXBT 未能冻结的约 3000 万美元。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/5WDvWxHOK90/cover.webp" alt="" /></p>
+<p><em>Unchained · 播出 2026-11-05 · 时长 1:17:51</em></p>
+<p>本期围绕朝鲜黑客从 Binance 窃取巨额资产后的链上应对展开。LlamaRisk CEO Adam Sadowski 解释了约 30 亿美元资产如何进入以太坊、黑客如何把 USDT 存入 Aave 借出 ETH，以及 Aave 冻结市场为何仍让用户偿债和提款。Kain Warwick、Taylor Monahan 与 Adam 进一步讨论大额借贷限额、人工多签与自动化风险管理、价格预言机的判断边界，以及 AI 如何帮助 Synthetix 找到追回 900 万枚 SNX 的办法。节目后半段复盘 THORChain 的双花、FBI 对朝鲜攻击者的归因及节点恢复运行后的责任风险，最后谈到法国银行遭袭和 ZachXBT 未能冻结的约 3000 万美元。</p>
+<h2>章节</h2><ul><li>0:02 开场</li><li>0:22 Unchained 听众调查</li><li>1:17 Bits + Bips 与嘉宾介绍</li><li>1:50 币安 60 亿美元被盗，以及 Tether 和 Circle 如何在几分钟内冻结资金</li><li>5:50 连夜冻结市场，Circle 也迅速采取行动</li><li>9:50 冻结之后的追责与 Binance 的体量</li><li>10:16 黑客如何把 6000 万美元 USDT 通过 Aave 换成 ETH</li><li>14:16 谁都能存入 10 亿美元、在一个区块里借走所有 ETH 吗？</li><li>18:17 借款限额、提款自由与市场挤兑的两难</li><li>22:19 Aave 市场冻结仍允许用户退出</li><li>23:20 Nexo 与 Bits + Bips</li><li>24:00 Kain 将此次响应称为加密行业最成功的反劫持行动之一</li><li>27:51 Aave 的 Guardian、多签风险管理与 AI 攻击代理竞赛</li><li>31:41 Kain 担心给 Aave 增加复杂度</li><li>35:44 不可变合约、形式化验证与外部输入</li><li>37:24 谁来决定价格？预言机、代币化股票与 Chainlink CRE</li><li>41:24 价格源也包含风险判断</li><li>45:00 AI 模型如何帮 Synthetix 找回 900 万枚被盗 SNX</li><li>49:00 AI 提出的方案让团队重新审视“我们能做什么”</li><li>53:02 应急预案与危机中的冷静</li><li>54:43 以太坊一次区块重组让 THORChain 在黑客攻击中发生双花</li><li>58:46 “TraderTraitor”这个名字是谁起的？</li><li>1:00:43 FBI 点名 THOR 节点运营者，可能让他们承担刑事责任</li><li>1:04:44 从 Ronin 与 Tornado Cash 案例看执法风险</li><li>1:07:27 法国银行遭劫、ZachXBT 与无法冻结的 3000 万美元</li><li>1:11:28 传统银行的应急方式遇上链上资金流</li><li>1:15:29 Devcon 闲聊与节目收尾</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/5WDvWxHOK90/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>硅谷 13 年：十亿美元级创始人有何不同</title>
+<link>https://pod-exp.pages.dev/7flA2hJL3HE/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/7flA2hJL3HE/</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+<category>Luba Yudasina</category>
+<category>创业与经营</category>
+<category>投资</category>
+<category>职业发展</category>
+<category>领导力</category>
+<description>本期访谈围绕创业、投资和长期合作展开。Hunter Walk 以 Chime 和 Graphite 为例，谈投资人如何帮助公司穿越低谷、为何“利益攸关”之外还要真正在乎，并分享他评估创始人、市场和使命感的“三明治”框架。他建议关注公司最早的 20 位员工，也讲到用自有资金投资、支持尚未形成共识的新兴基金管理人，以及如何与创始人坦诚讨论取舍。对谈还涉及自我怀疑、合伙关系、育儿和社区服务，呈现了硅谷创业之外更日常的人际经验。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/7flA2hJL3HE/cover.jpg" alt="" /></p>
+<p><em>Luba Yudasina · 播出 2026-11-05 · 时长 38:42</em></p>
+<p>本期访谈围绕创业、投资和长期合作展开。Hunter Walk 以 Chime 和 Graphite 为例，谈投资人如何帮助公司穿越低谷、为何“利益攸关”之外还要真正在乎，并分享他评估创始人、市场和使命感的“三明治”框架。他建议关注公司最早的 20 位员工，也讲到用自有资金投资、支持尚未形成共识的新兴基金管理人，以及如何与创始人坦诚讨论取舍。对谈还涉及自我怀疑、合伙关系、育儿和社区服务，呈现了硅谷创业之外更日常的人际经验。</p>
+<h2>章节</h2><ul><li>0:01 预告</li><li>1:00 Hunter Walk，Homebrew 联合创始人</li><li>1:31 光有利益攸关还不够，还得真正在乎</li><li>2:46 Chime 上市前曾几度濒临倒闭</li><li>4:12 二级交易与“下一个热门”的心态</li><li>6:15 创始人“三明治”</li><li>8:40 Graphite：从种子轮到被 Cursor 收购</li><li>12:36 天真还是危险：创业要付出什么</li><li>14:16 用自己的钱投资，不靠账面升值证明自己</li><li>15:19 为什么要看最早的 20 位员工</li><li>19:18 Corner Health：把基层医疗装进“工具箱”</li><li>21:12 管理自我与冒名顶替感</li><li>25:14 持续升级：卓越与快乐的交汇点</li><li>25:44 共识形成前下注，还是追捧已被加冕的赢家</li><li>29:45 Homebrew 的纹身与 Screendoor</li><li>30:31 Homebrew 纹身与 Screendoor</li><li>32:51 勒布朗、文班亚马，以及支持自己的竞争者</li><li>36:12 食物银行、挨家敲门，以及走进真实生活</li><li>38:19 结束语</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/7flA2hJL3HE/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>Manish Parashar，犹他大学｜HPE 主权 AI：从战略到现实</title>
+<link>https://pod-exp.pages.dev/7qlSgbO73pU/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/7qlSgbO73pU/</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+<category>SiliconANGLE theCUBE</category>
+<category>人工智能</category>
+<category>AI 基础设施</category>
+<category>AI 研究</category>
+<category>AI 安全</category>
+<description>犹他大学首席 AI 官 Manish Parashar 介绍 Redtail AI 工厂如何服务科研、教育、州政府合作和创业，并解释大学为何需要把主权视为一套可按用途调整的治理与运营能力。讨论涵盖开放科研与受控研究的取舍、联邦拨款下的模型限制、研究沙盒、HIPAA/CMMC/NIST 合规环境、算力更新与扩容资金，以及与州政府、慈善捐赠方和联邦机构的合作。Parashar 强调不同项目对控制、访问和数据共享的要求不同；大学需要兼具本地与云端能力的混合环境。主持人还讨论了开放权重模型的竞争力、HPE 的基础设施经验，以及如何根据项目自身目标评估主权，而不是套用纯度测试。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/7qlSgbO73pU/cover.webp" alt="" /></p>
+<p><em>SiliconANGLE theCUBE · 播出 2026-11-05 · 时长 31:26</em></p>
+<p>犹他大学首席 AI 官 Manish Parashar 介绍 Redtail AI 工厂如何服务科研、教育、州政府合作和创业，并解释大学为何需要把主权视为一套可按用途调整的治理与运营能力。讨论涵盖开放科研与受控研究的取舍、联邦拨款下的模型限制、研究沙盒、HIPAA/CMMC/NIST 合规环境、算力更新与扩容资金，以及与州政府、慈善捐赠方和联邦机构的合作。Parashar 强调不同项目对控制、访问和数据共享的要求不同；大学需要兼具本地与云端能力的混合环境。主持人还讨论了开放权重模型的竞争力、HPE 的基础设施经验，以及如何根据项目自身目标评估主权，而不是套用纯度测试。</p>
+<h2>章节</h2><ul><li>0:07 大学的 AI 领导力与主权</li><li>3:44 在科研开放与安全之间求平衡</li><li>6:06 主权 AI 基础设施与经济发展</li><li>9:33 开放模型限制与研究沙盒</li><li>13:35 研究沙盒与治理隔离</li><li>13:56 通过政府 AI 合作推动 Redtail 持续发展</li><li>16:40 扩展合规且不依赖单一供应商的数据环境</li><li>20:02 Redtail 自主与共享的主权支柱</li><li>22:49 开放数据与 AI 模型：治理和竞争</li><li>26:45 犹他选择 HPE 与扩大开放模型</li><li>28:49 按照目标评估犹他州的主权</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/7qlSgbO73pU/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>LLM 创造者：AI 与加密货币将在未来 10 年如何重塑世界——NEAR 创始人｜E193</title>
+<link>https://pod-exp.pages.dev/9PcTyzbK9Uk/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/9PcTyzbK9Uk/</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+<category>When Shift Happens</category>
+<category>AI 基础设施</category>
+<category>AI 安全</category>
+<category>加密与 Web3</category>
+<description>本期围绕“用户拥有的 AI”展开。NEAR 联合创始人 Illia Polosukhin 回顾了从 Google 研究 Transformer 到创办 NEAR 的经历：团队最初想解决跨境支付和数据标注报酬问题，后来把区块链视为个人掌控数据、资产与选择权的基础设施。他认为，中心化 AI 服务会看到用户的提示词、文件和业务信息，私有推理与密码学验证可以提供另一种选择；AI 若成为人们理解世界的主要入口，也可能进一步集中资金和影响力。谈到风险时，他承认生物安全和网络攻击都值得关注，但反对把 AI 末日论当成营销口号，强调现有制衡和防御也在发展。最后，他把个性化医疗视为下一波变化，并提出自动化更容易替代人们只在意结果的工作，而体育、艺术等重视过程的活动可能继续由人来做。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/9PcTyzbK9Uk/cover.webp" alt="" /></p>
+<p><em>When Shift Happens · 播出 2026-11-05 · 时长 56:24</em></p>
+<p>本期围绕“用户拥有的 AI”展开。NEAR 联合创始人 Illia Polosukhin 回顾了从 Google 研究 Transformer 到创办 NEAR 的经历：团队最初想解决跨境支付和数据标注报酬问题，后来把区块链视为个人掌控数据、资产与选择权的基础设施。他认为，中心化 AI 服务会看到用户的提示词、文件和业务信息，私有推理与密码学验证可以提供另一种选择；AI 若成为人们理解世界的主要入口，也可能进一步集中资金和影响力。谈到风险时，他承认生物安全和网络攻击都值得关注，但反对把 AI 末日论当成营销口号，强调现有制衡和防御也在发展。最后，他把个性化医疗视为下一波变化，并提出自动化更容易替代人们只在意结果的工作，而体育、艺术等重视过程的活动可能继续由人来做。</p>
+<h2>章节</h2><ul><li>0:01 片段预告与开场</li><li>2:58 把数据、资产和选择权还给每个人</li><li>4:10 在乌克兰经历恶性通胀</li><li>5:46 为什么现在是学习任何东西的最好时机</li><li>6:58 离开 Google 的重大转折</li><li>7:56 用通俗的话解释《Attention Is All You Need》</li><li>11:57 从研究模型到编程应用</li><li>12:15 赞助口播：Variational 与 Bitwise</li><li>13:05 为什么不是 Google 先推出 ChatGPT</li><li>16:01 AI 领域最聪明的人仍然看错了什么</li><li>17:33 一个支付难题如何把他带进加密行业</li><li>21:34 在熊市里建立 NEAR 生态</li><li>24:45 NEAR 今天是什么，未来又要成为什么</li><li>26:43 赞助口播：KAST</li><li>27:30 NEAR 能处理哪些其他技术栈做不到的事</li><li>29:05 大型 AI 公司会怎样处理你的数据</li><li>31:29 哪些事绝不该交给聊天机器人</li><li>32:54 “1984”式场景：谁在控制 AI 的指令</li><li>35:07 怎样验证你用的 AI（绿色锁标志）</li><li>36:55 Zcash 与私密货币是什么</li><li>40:31 什么是用户拥有的 AI</li><li>42:05 赞助口播：Jupiter 与 Ethena</li><li>42:52 用户拥有的 AI 如何形成可持续的经济体系</li><li>45:00 反对用户拥有的 AI 最有力的论据</li><li>47:24 AI 末日论是不是被夸大了</li><li>51:21 下一场重大变革：个性化医疗</li><li>54:12 人类最难适应的变化是什么</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/9PcTyzbK9Uk/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>AI 如何让 Figma 财务团队成为构建者</title>
+<link>https://pod-exp.pages.dev/9iAQdKxyiQc/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/9iAQdKxyiQc/</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+<category>a16z</category>
+<category>人工智能</category>
+<category>AI 智能体</category>
+<category>金融基础设施</category>
+<category>企业软件</category>
+<description>Figma CFO Praveer Melwani 认为，财务团队正在从核对过去转向帮助业务决定下一步。借助 AI，财务人员可以把催收、费用分析、尽调和数据整合等重复工作自动化，把时间投入客户、实验与战略判断。团队成员亲自做原型能快速验证想法，但成熟方案需要 CIO 与系统团队整合成可靠、可复用的平台。AI 也让招聘更看重求知欲、业务理解、数据素养、沟通和独立判断；财务基本功仍重要，思考不能外包。企业推进自动化应先夯实数据基础，再建立一致指标和报告体系。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/9iAQdKxyiQc/cover.webp" alt="" /></p>
+<p><em>a16z · 播出 2026-11-05 · 时长 50:11</em></p>
+<p>Figma CFO Praveer Melwani 认为，财务团队正在从核对过去转向帮助业务决定下一步。借助 AI，财务人员可以把催收、费用分析、尽调和数据整合等重复工作自动化，把时间投入客户、实验与战略判断。团队成员亲自做原型能快速验证想法，但成熟方案需要 CIO 与系统团队整合成可靠、可复用的平台。AI 也让招聘更看重求知欲、业务理解、数据素养、沟通和独立判断；财务基本功仍重要，思考不能外包。企业推进自动化应先夯实数据基础，再建立一致指标和报告体系。</p>
+<h2>章节</h2><ul><li>0:00 开场预告</li><li>0:54 自动化如何改变财务角色</li><li>4:55 自动化如何改变财务角色（续）</li><li>7:34 怎样才是优秀的财务人才</li><li>10:16 Figma 财务团队自动化的工作流</li><li>14:17 Figma 财务团队自动化的工作流（续）</li><li>15:04 自建还是采购，以及如何识别 AI 垃圾</li><li>19:04 自建还是采购，以及如何识别 AI 垃圾（续）</li><li>19:32 把一次性智能体变成共享系统</li><li>23:32 把一次性智能体变成共享系统（续）</li><li>26:26 谁来定义指标</li><li>30:24 把 AI 工具当作招聘福利</li><li>33:11 把更多时间留给战略</li><li>37:12 把更多时间留给战略（续）</li><li>38:26 未来 12 到 18 个月会有什么变化</li><li>42:27 未来 12 到 18 个月会有什么变化（续）</li><li>46:27 未来 12 到 18 个月会有什么变化（续）</li><li>46:39 从哪里开始做财务自动化</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/9iAQdKxyiQc/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>假招聘面试如何导致币安 63.4 亿美元被盗</title>
+<link>https://pod-exp.pages.dev/B52LPNCnsc0/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/B52LPNCnsc0/</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+<category>Unchained</category>
+<category>加密与 Web3</category>
+<category>金融基础设施</category>
+<category>地缘政治</category>
+<description>本期讨论围绕加密资产安全、朝鲜黑客的社交工程攻击，以及加密行业的风险管理展开。嘉宾解释了币安此次被盗事件中，攻击者如何从开发者电脑入侵，最终借助钱包签名服务转走资金；主持人则追问跨链流动性、冻结资产和传统金融基础设施面临的挑战。节目还谈到加密行业的漏洞赏金生态、中心化稳定币冻结权限、法国银行 Crédit Mutuel Arkéa 遭盗事件，以及以太坊后量子迁移路线图。对话中反复出现的核心问题是：当链上资产可以快速接入现实金融，单靠技术去中心化并不足以应对风险，金融层面的制衡同样重要。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/B52LPNCnsc0/cover.webp" alt="" /></p>
+<p><em>Unchained · 播出 2026-11-05 · 时长 1:29:22</em></p>
+<p>本期讨论围绕加密资产安全、朝鲜黑客的社交工程攻击，以及加密行业的风险管理展开。嘉宾解释了币安此次被盗事件中，攻击者如何从开发者电脑入侵，最终借助钱包签名服务转走资金；主持人则追问跨链流动性、冻结资产和传统金融基础设施面临的挑战。节目还谈到加密行业的漏洞赏金生态、中心化稳定币冻结权限、法国银行 Crédit Mutuel Arkéa 遭盗事件，以及以太坊后量子迁移路线图。对话中反复出现的核心问题是：当链上资产可以快速接入现实金融，单靠技术去中心化并不足以应对风险，金融层面的制衡同样重要。</p>
+<h2>章节</h2><ul><li>0:01 多签治理、搜索广告与币安钱包签名服务</li><li>4:03 假招聘攻击与加密行业的金融风险</li><li>8:04 代币化的实际价值与私人网络行动的边界</li><li>12:07 节目开场与币安被盗后的应急响应</li><li>16:07 深夜应急处置与冻结市场</li><li>20:08 Circle 冻结权限与 Aave 的风险说明</li><li>24:08 黑客借 Aave 做空 ETH 与风险参数</li><li>28:09 风险预言机、借款限额与流动性挤兑</li><li>32:10 市场冻结的含义与共同应对</li><li>36:12 资金外流、冻结资产与 Aave 的应急权限</li><li>40:12 自动化风险响应的三难题</li><li>44:12 风险委托的边界与不可升级合约</li><li>48:14 现实世界数据与价格预言机</li><li>52:15 商品价格预言机与风险信号基础设施</li><li>56:16 Synthetix 处置黑客持仓与 DAO 权限</li><li>1:00:18 新的代币处置思路与治理边界</li><li>1:04:19 事故预案与 Thorchain 重组故障</li><li>1:08:20 洗钱时间线与 TraderTraitor 命名</li><li>1:12:23 FBI 点名 Thor 节点与制裁风险</li><li>1:16:23 Tornado Cash 案与法国银行失窃</li><li>1:20:25 法国银行盗款流入加密交易所</li><li>1:24:26 货币账本、以太坊路线图与 Devcon</li><li>1:28:27 节目收尾</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/B52LPNCnsc0/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>民主党历史性大胜后，股市为何大幅上涨</title>
+<link>https://pod-exp.pages.dev/BsBA9a7Yk20/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/BsBA9a7Yk20/</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+<category>Prof G Markets</category>
+<category>政治与社会</category>
+<category>宏观经济</category>
+<category>AI 基础设施</category>
+<category>投资</category>
+<description>本期先复盘民主党在中期选举中的历史性胜利及其经济含义。Catherine Rampell 认为，高物价、战争和关税让选民把不满直接归咎于特朗普，也提醒民主党既要修复可负担性问题，也要避免把调查变成党派报复。随后，纽约州众议员 Alex Bores 讨论数据中心如何成为选举议题：居民担心水、电、土地和噪音，也因 AI 未经公众选择就进入生活而感到疏离。市场一边押注数据中心建设会放缓，一边认为轻度监管未必影响大型科技公司的利润。最后，Ed Elson 总结民主党胜选后的追责、住房、税制和经济任务。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/BsBA9a7Yk20/cover.webp" alt="" /></p>
+<p><em>Prof G Markets · 播出 2026-11-05 · 时长 39:31</em></p>
+<p>本期先复盘民主党在中期选举中的历史性胜利及其经济含义。Catherine Rampell 认为，高物价、战争和关税让选民把不满直接归咎于特朗普，也提醒民主党既要修复可负担性问题，也要避免把调查变成党派报复。随后，纽约州众议员 Alex Bores 讨论数据中心如何成为选举议题：居民担心水、电、土地和噪音，也因 AI 未经公众选择就进入生活而感到疏离。市场一边押注数据中心建设会放缓，一边认为轻度监管未必影响大型科技公司的利润。最后，Ed Elson 总结民主党胜选后的追责、住房、税制和经济任务。</p>
+<h2>章节</h2><ul><li>0:03 开场</li><li>0:33 市场动态</li><li>1:03 中期选举复盘（嘉宾：Catherine Rampell）</li><li>5:03 中期选举复盘（续）</li><li>9:06 中期选举复盘（续）</li><li>13:07 中期选举复盘（续）</li><li>17:10 中期选举复盘（续）</li><li>21:13 中期选举复盘（续）</li><li>22:06 广告</li><li>22:49 数据中心成为选举议题（嘉宾：Alex Bores）</li><li>26:51 数据中心与社区影响</li><li>30:52 市场如何解读数据中心监管</li><li>34:52 数据中心监管（续）</li><li>35:13 广告</li><li>35:40 蓝色浪潮</li><li>39:16 片尾</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/BsBA9a7Yk20/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>欢迎来到 Gas Vegas：从第一性原理理解大宗商品交易——前高盛大宗商品交易员</title>
+<link>https://pod-exp.pages.dev/C-A9VKh1Uyk/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/C-A9VKh1Uyk/</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+<category>Odds on Open</category>
+<category>能源与电网</category>
+<category>交易</category>
+<category>投资</category>
+<category>宏观经济</category>
+<description>前高盛天然气交易员 John Knorring 从“供给减需求等于库存变化”这一公式出发，讲解库存、储存能力和供需弹性如何驱动大宗商品价格。他以美国天然气为例，介绍亨利枢纽期货、区域基差、天气冲击、页岩革命、发电需求与 LNG 出口，并说明高价如何刺激供给、低价如何创造需求。随后他拆解交易中的想法形成、工具选择、执行和资金管理，以白银交易复盘结构性短缺、看涨期权和未能及时降仓的教训。最后谈到仓位风险、太阳能“鸭子曲线”、实物天然气交易的职业前景，以及在华尔街守住名声、还清房贷的职业建议。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/C-A9VKh1Uyk/cover.webp" alt="" /></p>
+<p><em>Odds on Open · 播出 2026-11-05 · 时长 52:43</em></p>
+<p>前高盛天然气交易员 John Knorring 从“供给减需求等于库存变化”这一公式出发，讲解库存、储存能力和供需弹性如何驱动大宗商品价格。他以美国天然气为例，介绍亨利枢纽期货、区域基差、天气冲击、页岩革命、发电需求与 LNG 出口，并说明高价如何刺激供给、低价如何创造需求。随后他拆解交易中的想法形成、工具选择、执行和资金管理，以白银交易复盘结构性短缺、看涨期权和未能及时降仓的教训。最后谈到仓位风险、太阳能“鸭子曲线”、实物天然气交易的职业前景，以及在华尔街守住名声、还清房贷的职业建议。</p>
+<h2>章节</h2><ul><li>0:02 导言</li><li>2:01 从 CBOT 实习生到高盛天然气交易台</li><li>5:11 供给减需求，等于库存变化</li><li>7:30 Onyx 广告</li><li>8:19 能源是万物的基础成本：烧掉，还是储存</li><li>12:02 可储存性光谱：煤、油、气与电力</li><li>14:31 美国天然气为何如此波动：需求缺乏弹性、天气与储存</li><li>17:20 亨利枢纽：美国天然气为何比全球价格低</li><li>20:40 区域枢纽脱离亨利枢纽时的基差风险</li><li>22:10 Gas Vegas：库存周期与二十年的价格飙升</li><li>26:11 Gas Vegas：库存周期与二十年的价格飙升（续）</li><li>27:22 高价推动供给：水平钻井与页岩革命</li><li>29:51 低价创造需求：发电、LNG 出口与数据中心</li><li>33:52 低价创造需求：发电、LNG 出口与数据中心（续）</li><li>34:20 交易框架：想法、表达、执行与资金管理</li><li>38:01 从亨特兄弟到50美元心理关口：白银</li><li>40:30 白银交易：结构性短缺、廉价看涨期权与错过的离场</li><li>44:31 白银交易：结构性短缺、廉价看涨期权与错过的离场（续）</li><li>46:01 仓位管理、鸭子曲线与 LNG 出口浪潮</li><li>49:02 实物天然气交易为何比自动化衍生品交易更耐久</li><li>51:10 名声无损、房贷还清：给华尔街从业者的建议</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/C-A9VKh1Uyk/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>🚨直播：牛市已至。ETH 飙升！蓝色海啸。ZEC 与 NEAR 走势强劲。Coinbase 加入</title>
+<link>https://pod-exp.pages.dev/IIxAnk2PJUk/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/IIxAnk2PJUk/</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+<category>The Rollup</category>
+<category>加密与 Web3</category>
+<category>交易</category>
+<category>投资</category>
+<category>金融基础设施</category>
+<description>本期从中期选举后的市场反弹谈起，主持人讨论牛市初期回调、通胀与货币贬值交易、隐私币和 DeFi、AI 数据中心建设减速，以及 SEC、CFTC 和《清晰法案》的监管走向。节目随后采访 Coinbase 高级交易产品负责人 Moheeth Alvi，谈美国股票永续合约、全球流动性、衍生品交易比赛、MCP 智能体交易，以及 Coinbase Pro 的重新推出计划。最后两位主持人回应聊天室并展望后续节目。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/IIxAnk2PJUk/cover.jpg" alt="" /></p>
+<p><em>The Rollup · 播出 2026-11-05 · 时长 1:19:33</em></p>
+<p>本期从中期选举后的市场反弹谈起，主持人讨论牛市初期回调、通胀与货币贬值交易、隐私币和 DeFi、AI 数据中心建设减速，以及 SEC、CFTC 和《清晰法案》的监管走向。节目随后采访 Coinbase 高级交易产品负责人 Moheeth Alvi，谈美国股票永续合约、全球流动性、衍生品交易比赛、MCP 智能体交易，以及 Coinbase Pro 的重新推出计划。最后两位主持人回应聊天室并展望后续节目。</p>
+<h2>章节</h2><ul><li>0:02 开场混剪</li><li>4:07 开场混剪</li><li>5:03 欢迎来到 The Rollup</li><li>9:04 欢迎来到 The Rollup</li><li>13:05 欢迎来到 The Rollup</li><li>17:06 欢迎来到 The Rollup</li><li>21:07 欢迎来到 The Rollup</li><li>25:09 欢迎来到 The Rollup</li><li>29:10 欢迎来到 The Rollup</li><li>30:17 新闻与观点</li><li>34:17 新闻与观点</li><li>38:17 新闻与观点</li><li>42:20 新闻与观点</li><li>46:21 新闻与观点</li><li>50:21 新闻与观点</li><li>54:24 新闻与观点</li><li>56:58 Coinbase 高级交易访谈</li><li>1:00:59 Coinbase 高级交易访谈</li><li>1:04:59 Coinbase 高级交易访谈</li><li>1:09:00 Coinbase 高级交易访谈</li><li>1:13:01 Coinbase 高级交易访谈</li><li>1:15:46 收尾</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/IIxAnk2PJUk/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>我们相信市场尚未消化 SpaceX 本季度的表现</title>
+<link>https://pod-exp.pages.dev/KnG7pqewUsQ/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/KnG7pqewUsQ/</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+<category>ARK Invest</category>
+<category>AI 基础设施</category>
+<category>航天</category>
+<category>投资</category>
+<category>产业科技</category>
+<description>这场 ARK Invest 圆桌会讨论 SpaceX 最新季度信息如何改变市场对其收入、算力、Starlink 和 Starship 的判断。嘉宾围绕 20 吉瓦地面算力、每周一到两次 Starship 发射、轨道数据中心和 AI 变现展开讨论，也分析了资本支出如何由客户现金流与债务支持。随后，讨论转向 SpaceX 与 Tesla 合并的高概率判断、股东溢价和监管障碍，再评估 Tesla 的 FSD 采用率、无人驾驶里程、机器人出租车和 Optimus。圆桌最后讨论债务市场、地缘政治、监管、长期执行和合并失败等风险。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/KnG7pqewUsQ/cover.webp" alt="" /></p>
+<p><em>ARK Invest · 播出 2026-11-05 · 时长 1:34:56</em></p>
+<p>这场 ARK Invest 圆桌会讨论 SpaceX 最新季度信息如何改变市场对其收入、算力、Starlink 和 Starship 的判断。嘉宾围绕 20 吉瓦地面算力、每周一到两次 Starship 发射、轨道数据中心和 AI 变现展开讨论，也分析了资本支出如何由客户现金流与债务支持。随后，讨论转向 SpaceX 与 Tesla 合并的高概率判断、股东溢价和监管障碍，再评估 Tesla 的 FSD 采用率、无人驾驶里程、机器人出租车和 Optimus。圆桌最后讨论债务市场、地缘政治、监管、长期执行和合并失败等风险。</p>
+<h2>章节</h2><ul><li>0:09 开场与万亿美元营收预期</li><li>4:13 地面算力的 20 吉瓦</li><li>8:14 Starship 发射频率、Starlink 与轨道算力</li><li>12:14 算力需求、定价与垂直整合</li><li>16:15 轨道数据中心与算力投资来源</li><li>20:16 需求侧与 SpaceX 的资本支出</li><li>24:16 Starlink 企业业务与全域连接</li><li>28:18 Starlink 的移动市场路径与资本分配</li><li>32:18 SpaceX 重组、Starship 回收与合并概率</li><li>36:20 发射成本下降与 SpaceX/Tesla 合并</li><li>40:22 合并的股东回报与定价</li><li>44:24 Cathie Wood 谈超指数增长与宏观风险</li><li>48:26 债务市场与长期执行风险</li><li>52:29 市场定价、监管与执行</li><li>56:29 技术融合与 Tesla 新估值</li><li>1:00:30 FSD 收入与无人驾驶里程</li><li>1:04:32 Tesla 与 Waymo 的规模化竞争</li><li>1:08:33 FSD 授权、充电网络与竞争壁垒</li><li>1:12:35 Tesla 估值期限与机器人出租车落地</li><li>1:16:36 自动驾驶的普及与欧洲竞争</li><li>1:20:38 欧洲市场格局与 Optimus 预期</li><li>1:24:41 Optimus 的时间表与技术难度</li><li>1:28:41 Tesla 的风险：合并、中国与自动驾驶规模</li><li>1:32:41 合并失败的代价与结束语</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/KnG7pqewUsQ/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>KYC 变成 KYA：Sentinel Bio 的 Joshua Monrad 谈 DNA 筛查、能力提升研究与智能体监控</title>
+<link>https://pod-exp.pages.dev/WueUrPQFVaI/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/WueUrPQFVaI/</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+<category>Cognitive Revolution "How AI Changes Everything"</category>
+<category>生命科学</category>
+<category>AI 安全</category>
+<category>AI 智能体</category>
+<category>模型评测</category>
+<description>Nathan Labenz 与 Sentinel Bio 联合创始人 Joshua Monrad 讨论 AI 带来的生物安全风险。他把风险分为人类自行制造、AI 提升人的能力、AI 借助社会工程利用人类，以及完全自动化行动四个阶段，并回顾国家与非国家行为者使用生物武器的历史。两人讨论湿实验室能力提升研究、默会知识、多模态数据和开放模型治理，也分析 DNA 合成筛查、客户身份核验、云实验室监测等现实关卡。Monrad 认为，短期内已有研究充分的病原体更值得关注，而全球生物韧性需要多年甚至数十年建设；他支持在安全条件成熟前暂停相关前沿 AI 发展，同时呼吁把检测、个人防护、疫苗平台和公平分配作为明确目标。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/WueUrPQFVaI/cover.webp" alt="" /></p>
+<p><em>Cognitive Revolution "How AI Changes Everything" · 播出 2026-11-05 · 时长 1:43:54</em></p>
+<p>Nathan Labenz 与 Sentinel Bio 联合创始人 Joshua Monrad 讨论 AI 带来的生物安全风险。他把风险分为人类自行制造、AI 提升人的能力、AI 借助社会工程利用人类，以及完全自动化行动四个阶段，并回顾国家与非国家行为者使用生物武器的历史。两人讨论湿实验室能力提升研究、默会知识、多模态数据和开放模型治理，也分析 DNA 合成筛查、客户身份核验、云实验室监测等现实关卡。Monrad 认为，短期内已有研究充分的病原体更值得关注，而全球生物韧性需要多年甚至数十年建设；他支持在安全条件成熟前暂停相关前沿 AI 发展，同时呼吁把检测、个人防护、疫苗平台和公平分配作为明确目标。</p>
+<h2>章节</h2><ul><li>0:02 本期介绍</li><li>4:02 本期介绍（续）</li><li>5:24 赞助商：Lovable</li><li>7:08 生物风险的四个阶段</li><li>11:09 生物风险的四个阶段（续）</li><li>11:57 生物武器史（上）</li><li>15:58 生物武器史（上，续）</li><li>16:42 赞助商：Claude 与 OutSystems</li><li>19:53 生物武器史（下）</li><li>23:53 生物武器史（下，续）</li><li>27:42 湿实验室能力提升测量（上）</li><li>31:44 湿实验室能力提升测量（上，续）</li><li>34:36 赞助商：Tasklet</li><li>36:15 湿实验室能力提升测量（下）</li><li>40:13 双重用途生物数据治理</li><li>44:14 双重用途生物数据治理（续）</li><li>48:15 双重用途生物数据治理（续）</li><li>52:15 双重用途生物数据治理（续）</li><li>56:15 双重用途生物数据治理（续）</li><li>56:33 DNA 合成筛查</li><li>1:00:33 DNA 合成筛查（续）</li><li>1:04:36 DNA 合成筛查（续）</li><li>1:04:51 评估近期风险</li><li>1:08:53 评估近期风险（续）</li><li>1:12:54 评估近期风险（续）</li><li>1:15:27 讨论暂停 AI</li><li>1:19:28 讨论暂停 AI（续）</li><li>1:23:29 讨论暂停 AI（续）</li><li>1:27:32 讨论暂停 AI（续）</li><li>1:29:38 被忽视的生物安全瓶颈</li><li>1:33:39 被忽视的生物安全瓶颈（续）</li><li>1:34:36 一个积极的生物科技未来</li><li>1:38:37 一个积极的生物科技未来（续）</li><li>1:39:39 节目尾声</li><li>1:43:07 片尾</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/WueUrPQFVaI/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>Trabue Bland（ICE）｜theCUBE + NYSE Wired：为明日赋能</title>
+<link>https://pod-exp.pages.dev/Y323n9MQYMY/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/Y323n9MQYMY/</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+<category>SiliconANGLE theCUBE</category>
+<category>AI 基础设施</category>
+<category>能源与电网</category>
+<category>金融基础设施</category>
+<category>交易</category>
+<description>ICE 高级副总裁 Trabue Bland 认为，能源是人工智能发展的底层约束，AI 工厂、数据中心和算力市场的扩张会进一步改变电力需求、能源交易与基础设施布局。ICE 正在探索芯片租赁价格指数、按能源归一化的算力合约，并尝试为新兴算力市场建立透明价格和风险对冲工具。Bland 还把 AI 基础设施融资与工业革命时期的蒸汽机、铁路和银行体系相比较，指出实体建设与金融市场需要同步演进。对普通人而言，智能体应用的效率提升，是理解 AI 变革的直接入口。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/Y323n9MQYMY/cover.webp" alt="" /></p>
+<p><em>SiliconANGLE theCUBE · 播出 2026-11-05 · 时长 26:18</em></p>
+<p>ICE 高级副总裁 Trabue Bland 认为，能源是人工智能发展的底层约束，AI 工厂、数据中心和算力市场的扩张会进一步改变电力需求、能源交易与基础设施布局。ICE 正在探索芯片租赁价格指数、按能源归一化的算力合约，并尝试为新兴算力市场建立透明价格和风险对冲工具。Bland 还把 AI 基础设施融资与工业革命时期的蒸汽机、铁路和银行体系相比较，指出实体建设与金融市场需要同步演进。对普通人而言，智能体应用的效率提升，是理解 AI 变革的直接入口。</p>
+<h2>章节</h2><ul><li>0:02 能源市场、创新与人工智能革命</li><li>3:41 AI 能源需求与区块链投资</li><li>7:44 AI 能源需求与区块链投资（续）</li><li>8:14 AI 算力期货与投资者对冲</li><li>11:21 把能源市场经验应用到算力</li><li>13:34 从工业革命看 AI 融资</li><li>16:52 能源决定 AI 基础设施的融资与选址</li><li>19:17 ICE 拓展市场与推出新期货合约</li><li>22:19 区块链与 AI 重塑资产和能源</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/Y323n9MQYMY/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>别再给你的 AI 智能体 API 密钥——Kim Maida（Keycard）与 Mason Egger（Temporal）</title>
+<link>https://pod-exp.pages.dev/YqJ4asgj1R8/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/YqJ4asgj1R8/</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+<category>AI Engineer</category>
+<category>AI 智能体</category>
+<category>AI 安全</category>
+<category>AI 基础设施</category>
+<description>Kim Maida 演示如何用 OAuth 令牌交换替代智能体共享 API 密钥：用户先登录并授权，智能体再以自身身份代表用户请求访问，每次工具调用只获得短时、限定范围的令牌。Keycard 的演示展示了智能体身份、用户身份、审批额度和审计日志如何共同工作，让系统区分谁提交、谁批准，以及智能体是在代表谁行动。Mason Egger 随后介绍 Temporal 的持久执行能力，通过强制停止并重启 worker，展示工作流如何从故障点恢复而不重复调用模型或执行已完成的活动。最后，他说明如何通过拦截器和载荷加密避免把敏感凭据写进事件历史。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/YqJ4asgj1R8/cover.webp" alt="" /></p>
+<p><em>AI Engineer · 播出 2026-11-05 · 时长 52:36</em></p>
+<p>Kim Maida 演示如何用 OAuth 令牌交换替代智能体共享 API 密钥：用户先登录并授权，智能体再以自身身份代表用户请求访问，每次工具调用只获得短时、限定范围的令牌。Keycard 的演示展示了智能体身份、用户身份、审批额度和审计日志如何共同工作，让系统区分谁提交、谁批准，以及智能体是在代表谁行动。Mason Egger 随后介绍 Temporal 的持久执行能力，通过强制停止并重启 worker，展示工作流如何从故障点恢复而不重复调用模型或执行已完成的活动。最后，他说明如何通过拦截器和载荷加密避免把敏感凭据写进事件历史。</p>
+<h2>章节</h2><ul><li>0:16 开场介绍</li><li>1:17 给智能体 API 密钥的问题</li><li>2:01 什么是令牌交换</li><li>3:12 跟踪提示词如何经过智能体循环</li><li>5:42 每次工具调用都使用独立令牌</li><li>8:49 搭建费用报销智能体工作坊</li><li>10:29 起点：所有人共用 API 密钥</li><li>12:53 给智能体建立自己的身份</li><li>16:54 给智能体建立自己的身份（续）</li><li>21:06 给智能体建立自己的身份（续）</li><li>21:48 在代码中接入令牌交换</li><li>25:49 在代码中接入令牌交换（续）</li><li>26:06 智能体以自己的身份行事</li><li>28:02 查看审计日志</li><li>31:23 加入人类用户身份，但不冒充用户</li><li>34:01 审批额度，以及谁批准了什么</li><li>38:04 审批额度，以及谁批准了什么（续）</li><li>38:11 追踪委托链</li><li>41:27 Temporal：为智能体提供持久执行</li><li>45:28 Temporal：持久执行（续）</li><li>46:02 运行中杀掉 worker，再恢复执行</li><li>48:09 为什么智能体需要持久性</li><li>49:28 不把密钥写进事件历史</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/YqJ4asgj1R8/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>Gustavo Gomes Salviano，Locaweb 与 Diego Puerta，Dell｜theCUBE + NYSE Wired：AI 工厂</title>
+<link>https://pod-exp.pages.dev/hX_DkvxEuVc/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/hX_DkvxEuVc/</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+<category>SiliconANGLE theCUBE</category>
+<category>AI 基础设施</category>
+<category>人工智能</category>
+<category>云基础设施</category>
+<category>企业软件</category>
+<description>Locaweb 与戴尔的高管讨论 AI 工厂如何把数据管道、算力与业务战略整合起来，并指出 AI 落地已从技术议题变成需要领导层推动的业务转型。对巴西企业而言，数据主权、数据中心容量、GPU 和内存供应、交付周期与成本都在考验基础设施规划；长期合作和本地制造则有助于提前安排需求、维持服务。嘉宾也谈到虚拟化和云等技术浪潮：顺势拥抱变化，可能扩大市场并提升客户价值。AI 进一步让非技术员工能够亲手构建工具、解决问题，新的机会才刚刚开始。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/hX_DkvxEuVc/cover.webp" alt="" /></p>
+<p><em>SiliconANGLE theCUBE · 播出 2026-11-05 · 时长 20:32</em></p>
+<p>Locaweb 与戴尔的高管讨论 AI 工厂如何把数据管道、算力与业务战略整合起来，并指出 AI 落地已从技术议题变成需要领导层推动的业务转型。对巴西企业而言，数据主权、数据中心容量、GPU 和内存供应、交付周期与成本都在考验基础设施规划；长期合作和本地制造则有助于提前安排需求、维持服务。嘉宾也谈到虚拟化和云等技术浪潮：顺势拥抱变化，可能扩大市场并提升客户价值。AI 进一步让非技术员工能够亲手构建工具、解决问题，新的机会才刚刚开始。</p>
+<h2>章节</h2><ul><li>0:01 AI 前沿：全球影响与社区生态</li><li>2:11 AI 驱动的策略：市场影响、基础设施与合作伙伴</li><li>4:23 现代 IT 基础设施的创新与挑战</li><li>7:19 Locaweb 的业务转型与数据中心挑战</li><li>9:28 优化供应链合作与戴尔 GPU 管理</li><li>12:01 协同创新：戴尔如何助力增长与解决方案</li><li>14:17 应对市场变化与技术转型</li><li>16:49 探索 AI 驱动的全球经济转型</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/hX_DkvxEuVc/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>一个失灵的国会为何利好加密货币</title>
+<link>https://pod-exp.pages.dev/idhUyC57T8E/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/idhUyC57T8E/</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+<category>Delphi Digital</category>
+<category>加密与 Web3</category>
+<category>投资</category>
+<category>宏观经济</category>
+<category>政治与社会</category>
+<description>节目讨论中期选举后国会分裂对加密资产、AI 数据中心建设和股票市场的影响。主持人认为，选举周期、能源价格回落、潜在的美联储宽松和去杠杆后的市场状态，可能为风险资产提供支撑；同时讨论特朗普政府、伊朗战争、民主党及 2028 年选举带来的政治变数。随后节目复盘 Binance 黑客事件、中心化托管与自托管的安全取舍，并追问 Hyperliquid 为什么需要另一条链。Kinetiq 联合创始人 Omnia 介绍了 Elysium 的定位、生态合作、上线首日项目、费用分配和吸引 Hyperliquid 资金进入新产品的思路。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/idhUyC57T8E/cover.webp" alt="" /></p>
+<p><em>Delphi Digital · 播出 2026-11-05 · 时长 58:14</em></p>
+<p>节目讨论中期选举后国会分裂对加密资产、AI 数据中心建设和股票市场的影响。主持人认为，选举周期、能源价格回落、潜在的美联储宽松和去杠杆后的市场状态，可能为风险资产提供支撑；同时讨论特朗普政府、伊朗战争、民主党及 2028 年选举带来的政治变数。随后节目复盘 Binance 黑客事件、中心化托管与自托管的安全取舍，并追问 Hyperliquid 为什么需要另一条链。Kinetiq 联合创始人 Omnia 介绍了 Elysium 的定位、生态合作、上线首日项目、费用分配和吸引 Hyperliquid 资金进入新产品的思路。</p>
+<h2>章节</h2><ul><li>0:00 开场预告</li><li>0:39 中期选举一再重复的周期</li><li>3:31 为什么 ZEC 是隐私交易</li><li>5:45 国会僵局会扼杀 AI 交易吗？（一）</li><li>9:49 国会僵局会扼杀 AI 交易吗？（二）</li><li>13:49 国会僵局会扼杀 AI 交易吗？（三）</li><li>15:38 多年来最大规模的对冲基金去杠杆</li><li>19:16 现在是做多的时候吗？</li><li>22:47 民主党会对特朗普的加密业务下手吗？</li><li>25:39 预测市场开始看空 JD Vance（一）</li><li>29:41 预测市场开始看空 JD Vance（二）</li><li>32:21 Binance 是怎么被黑的</li><li>36:10 自托管已经过时了吗？（一）</li><li>40:12 自托管已经过时了吗？（二）</li><li>41:24 Hyperliquid 为什么需要一条 L2（一）</li><li>45:24 Hyperliquid 为什么需要一条 L2（二）</li><li>49:24 Hyperliquid 为什么需要一条 L2（三）</li><li>49:57 上线首日会有哪些项目？（一）</li><li>53:57 上线首日会有哪些项目？（二）</li><li>57:59 上线首日会有哪些项目？（三）</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/idhUyC57T8E/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>Planet Labs CEO：AI 数据中心为何将迁往太空</title>
+<link>https://pod-exp.pages.dev/llGHpPbCtHo/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/llGHpPbCtHo/</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+<category>Sourcery with Molly O'Shea</category>
+<category>人工智能</category>
+<category>AI 基础设施</category>
+<category>航天</category>
+<category>地缘政治</category>
+<description>Planet Labs 联合创始人兼 CEO Will Marshall 介绍了公司如何以卫星星座每天拍摄地球，并将影像数据用于国防、农业、灾害响应、生态保护和金融分析。各国希望获得可自主控制的卫星，以掌握周边态势；AI 则让更多普通用户能直接向卫星数据提问。Marshall 还解释了太空数据中心的潜在能源与成本优势、卫星对国家安全和民用基础设施的重要性，并分享其寻找外星生命的预测、导师经历，以及建设公司的经验：坚持、耐力和使命感最关键。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/llGHpPbCtHo/cover.webp" alt="" /></p>
+<p><em>Sourcery with Molly O'Shea · 播出 2026-11-05 · 时长 40:33</em></p>
+<p>Planet Labs 联合创始人兼 CEO Will Marshall 介绍了公司如何以卫星星座每天拍摄地球，并将影像数据用于国防、农业、灾害响应、生态保护和金融分析。各国希望获得可自主控制的卫星，以掌握周边态势；AI 则让更多普通用户能直接向卫星数据提问。Marshall 还解释了太空数据中心的潜在能源与成本优势、卫星对国家安全和民用基础设施的重要性，并分享其寻找外星生命的预测、导师经历，以及建设公司的经验：坚持、耐力和使命感最关键。</p>
+<h2>章节</h2><ul><li>0:01 AI 数据中心为何走向太空</li><li>0:49 我们会去人才聚集的地方</li><li>1:46 每天拍摄整个地球需要什么</li><li>4:13 现代战争中，信息就是力量</li><li>7:41 各国为什么想要自己的卫星</li><li>8:34 华尔街和大型科技公司也在从太空观察</li><li>10:23 战争的新面貌</li><li>11:16 卫星影像最令人意外的用途</li><li>14:49 30 分钟内拍摄地球任意地点</li><li>17:24 如果可以向卫星提问，会怎样？</li><li>19:41 每个 AI 故事最后都绕不开算力</li><li>20:38 太空数据中心到底合不合理？</li><li>24:39 VCX、Public 与 Deel 广告</li><li>25:34 卫星为什么如此敏感</li><li>26:55 各国为何争取太空主权</li><li>28:37 Planet Labs 的禁售名单包括谁？</li><li>29:18 Will 预测何时会发现外星生命</li><li>33:19 照料地球是我们的宇宙责任</li><li>33:34 NASA 的“外星人热线”内幕</li><li>35:05 童年偶像如何启发 Will 的太空事业</li><li>38:21 坚持和耐力最重要</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/llGHpPbCtHo/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>金钱与权力：稳定币与美元主导地位的历史启示｜Michael Bordo</title>
+<link>https://pod-exp.pages.dev/ooJ3mXqzNgg/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/ooJ3mXqzNgg/</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+<category>Hoover Institution</category>
+<category>加密与 Web3</category>
+<category>宏观经济</category>
+<category>金融基础设施</category>
+<category>地缘政治</category>
+<description>Michael Bordo 与 Carolyn Wilkins 借助英国、美国、加拿大等地的私人货币史，讨论稳定币安全扩展所需的制度基础：可信兑付与平价流通、透明且高质量的储备资产、统一规则、清算协调，以及危机管理和损失分担。美国《GENIUS 法案》强化了储备与兑付要求，但同时兑付、跨境协调和系统性流动性支持仍有缺口。稳定币可能降低跨境支付摩擦、强化美元网络效应，也可能推动数字美元化；然而美元地位最终取决于美国制度信用、财政能力和政策可信度，而非支付技术本身。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/ooJ3mXqzNgg/cover.webp" alt="" /></p>
+<p><em>Hoover Institution · 播出 2026-11-05 · 时长 1:13:48</em></p>
+<p>Michael Bordo 与 Carolyn Wilkins 借助英国、美国、加拿大等地的私人货币史，讨论稳定币安全扩展所需的制度基础：可信兑付与平价流通、透明且高质量的储备资产、统一规则、清算协调，以及危机管理和损失分担。美国《GENIUS 法案》强化了储备与兑付要求，但同时兑付、跨境协调和系统性流动性支持仍有缺口。稳定币可能降低跨境支付摩擦、强化美元网络效应，也可能推动数字美元化；然而美元地位最终取决于美国制度信用、财政能力和政策可信度，而非支付技术本身。</p>
+<h2>章节</h2><ul><li>0:10 研究主题与历史视角</li><li>4:13 私人货币的制度条件</li><li>8:13 公共担保与英国早期银行史</li><li>12:15 英格兰与苏格兰的银行制度</li><li>16:15 美国自由银行与国家银行券</li><li>20:16 清算网络、担保与银行挤兑</li><li>24:17 1907 年恐慌与加拿大经验</li><li>28:18 加拿大体系的边界与私人货币条件</li><li>32:19 《GENIUS 法案》的缺口与平价兑换</li><li>36:19 稳定币脱锚与储备资产风险</li><li>40:21 代币化存款与隐性担保</li><li>44:22 救助边界与跨境稳定币</li><li>48:23 稳定币的匿名性与国际货币史</li><li>52:24 英镑汇票、布雷顿森林体系与美元</li><li>56:24 代币化资产、衍生品与美元地位</li><li>1:00:25 稳定币对国债需求与美元化的影响</li><li>1:04:28 货币力量与战略竞争</li><li>1:08:29 美元制度基础与瑞士法郎</li><li>1:12:30 结论与后续工作</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/ooJ3mXqzNgg/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>等待下一代 AI 模型，或许更划算｜John Stecher（Blackstone）与 Scott Worland（Norm AI）</title>
+<link>https://pod-exp.pages.dev/ra8X7_bnujw/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/ra8X7_bnujw/</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+<category>AI Engineer</category>
+<category>AI 基础设施</category>
+<category>AI 智能体</category>
+<category>模型评测</category>
+<category>AI 编程</category>
+<description>Blackstone 与 Norm AI 的技术负责人讨论如何在模型快速进步时构建经得住变化的系统。John Stecher 强调，企业要先整理好数据，并优化直通式处理，再把智能体用于需要判断的环节；项目是否现在启动，应权衡投资回报、建设成本和等待新模型的价值。他建议快速做出可交互的概念验证并迭代，同时提醒生产落地还涉及基础设施、网络安全、可追踪性和监控。Scott Worland 回顾 Norm 如何从复杂工作流转向智能体平台，利用专家标注的评测集检验变化。他主张在数据、评测和安全核心上持续投入，同时为前沿能力留出接入通道。两人也谈到内部应用如今更适合快速重建，以及 AI 如何让资深工程师重新投入构建。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/ra8X7_bnujw/cover.webp" alt="" /></p>
+<p><em>AI Engineer · 播出 2026-11-05 · 时长 20:45</em></p>
+<p>Blackstone 与 Norm AI 的技术负责人讨论如何在模型快速进步时构建经得住变化的系统。John Stecher 强调，企业要先整理好数据，并优化直通式处理，再把智能体用于需要判断的环节；项目是否现在启动，应权衡投资回报、建设成本和等待新模型的价值。他建议快速做出可交互的概念验证并迭代，同时提醒生产落地还涉及基础设施、网络安全、可追踪性和监控。Scott Worland 回顾 Norm 如何从复杂工作流转向智能体平台，利用专家标注的评测集检验变化。他主张在数据、评测和安全核心上持续投入，同时为前沿能力留出接入通道。两人也谈到内部应用如今更适合快速重建，以及 AI 如何让资深工程师重新投入构建。</p>
+<h2>章节</h2><ul><li>0:15 开场与嘉宾介绍</li><li>1:05 怎样把 AI 智能体用对</li><li>1:32 数据战略要先行</li><li>2:21 直通式处理依然重要</li><li>3:46 Norm 早期的工作流方案</li><li>5:06 智能体让旧代码过时</li><li>6:42 金融服务领域的评测</li><li>7:40 “苦涩的教训”</li><li>8:54 投资回报，以及何时等待下一代模型</li><li>10:26 快速做出概念验证</li><li>12:44 更新到 Claude Code</li><li>14:51 难点在于真正投入生产</li><li>15:46 仍需人工审查的部分</li><li>17:24 重建，而不是一直维护</li><li>19:14 结束语</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/ra8X7_bnujw/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>扩展 Slack 与 GitHub｜Maude Lemaire</title>
+<link>https://pod-exp.pages.dev/x6WqD4qHxSc/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/x6WqD4qHxSc/</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+<category>The Pragmatic Engineer</category>
+<category>AI 编程</category>
+<category>云基础设施</category>
+<category>企业软件</category>
+<category>职业发展</category>
+<description>Maude Lemaire 分享了在 Slack、GitHub 和 Cursor 处理规模化与性能问题的经验：从 Slack 企业版的数据库分片与频道迁移，到 50 万 WebSocket 连接的负载测试、惊群效应和客户端事件洪流；再到 GitHub Rails 单体应用中的散射查询、Vitess 与 Active Record 的限制。她强调测试要贴近产品的真实使用方式，产品团队和平台团队应持续轮岗协作。谈到 AI，她认为模型适合初步探索和辅助实现，却不擅长性能调查、异步系统监控及判断根本假设；工程师仍须亲自验证，打好完整稳定的基础。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/x6WqD4qHxSc/cover.webp" alt="" /></p>
+<p><em>The Pragmatic Engineer · 播出 2026-11-05 · 时长 1:19:29</em></p>
+<p>Maude Lemaire 分享了在 Slack、GitHub 和 Cursor 处理规模化与性能问题的经验：从 Slack 企业版的数据库分片与频道迁移，到 50 万 WebSocket 连接的负载测试、惊群效应和客户端事件洪流；再到 GitHub Rails 单体应用中的散射查询、Vitess 与 Active Record 的限制。她强调测试要贴近产品的真实使用方式，产品团队和平台团队应持续轮岗协作。谈到 AI，她认为模型适合初步探索和辅助实现，却不擅长性能调查、异步系统监控及判断根本假设；工程师仍须亲自验证，打好完整稳定的基础。</p>
+<h2>章节</h2><ul><li>0:02 开场：Slack 与 GitHub 如何扩展</li><li>3:15 早年经历与软件工程之路</li><li>7:16 早年经历与软件工程之路（续）</li><li>7:33 Rent the Runway 的第一份工作</li><li>9:19 HipChat 数据泄露</li><li>10:54 加入 Slack 与扩展挑战</li><li>14:55 加入 Slack 与扩展挑战（续）</li><li>18:56 加入 Slack 与扩展挑战（续）</li><li>22:56 加入 Slack 与扩展挑战（续）</li><li>26:30 负载测试与惊群效应</li><li>30:31 负载测试与惊群效应（续）</li><li>32:29 事件洪流</li><li>36:30 事件洪流（续）</li><li>38:31 Slack 如何改进负载测试</li><li>42:31 Slack 如何改进负载测试（续）</li><li>46:31 Slack 如何改进负载测试（续）</li><li>48:38 2024 年加入 GitHub</li><li>52:39 2024 年加入 GitHub（续）</li><li>56:39 2024 年加入 GitHub（续）</li><li>56:53 Rails 单体应用的挑战</li><li>1:00:56 Rails 单体应用的挑战（续）</li><li>1:02:27 Maude 如何使用 AI</li><li>1:06:29 Maude 如何使用 AI（续）</li><li>1:10:32 Maude 如何使用 AI（续）</li><li>1:12:41 给想从事产品平台工作的工程师的建议</li><li>1:16:42 给想从事产品平台工作的工程师的建议（续）</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/x6WqD4qHxSc/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>代币化、智能体交易、Harmonic：Robinhood 扩大所有权使命，与 CEO Vlad Tenev 对谈</title>
+<link>https://pod-exp.pages.dev/yULk8eNa2mg/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/yULk8eNa2mg/</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+<category>No Priors: AI, Machine Learning, Tech, &amp; Startups</category>
+<category>金融基础设施</category>
+<category>AI 智能体</category>
+<category>数学与科学</category>
+<category>投资</category>
+<description>Vlad Tenev 将 Robinhood 的核心概括为“所有权”：个人持有资产有助于积累财富，广泛持有也关系到社会稳定。他回顾移民经历、保加利亚的高通胀和家人用铜锅保值的故事，并介绍 Harmonic 及 AI 辅助数学研究的方向。访谈随后讨论股票与私营公司代币化、Robinhood Chain、预测市场如何让知识变现，以及智能体交易如何降低策略执行门槛。Tenev 认为，AI 创造的经济收益若集中于少数机构，公众就难以分享成果；Robinhood Ventures、私募投资渠道和 Trump Accounts 都是扩大所有权的尝试。最后，他谈到金融基础设施、合格投资者规则，以及挑战经历如何帮助领导者保持沉着。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/yULk8eNa2mg/cover.webp" alt="" /></p>
+<p><em>No Priors: AI, Machine Learning, Tech, &amp; Startups · 播出 2026-11-05 · 时长 54:08</em></p>
+<p>Vlad Tenev 将 Robinhood 的核心概括为“所有权”：个人持有资产有助于积累财富，广泛持有也关系到社会稳定。他回顾移民经历、保加利亚的高通胀和家人用铜锅保值的故事，并介绍 Harmonic 及 AI 辅助数学研究的方向。访谈随后讨论股票与私营公司代币化、Robinhood Chain、预测市场如何让知识变现，以及智能体交易如何降低策略执行门槛。Tenev 认为，AI 创造的经济收益若集中于少数机构，公众就难以分享成果；Robinhood Ventures、私募投资渠道和 Trump Accounts 都是扩大所有权的尝试。最后，他谈到金融基础设施、合格投资者规则，以及挑战经历如何帮助领导者保持沉着。</p>
+<h2>章节</h2><ul><li>0:02 预告：预测市场与 AI 数学</li><li>0:49 Vlad Tenev 的背景与 Robinhood 的现状</li><li>4:52 从移民经历到 Robinhood 的使命</li><li>8:55 独立成长与数学训练</li><li>12:25 AI 带来的数学革命</li><li>16:27 数学发现会由谁拥有</li><li>18:50 Robinhood 的代币化愿景</li><li>22:52 链上资产与开发者生态</li><li>26:07 用预测市场变现知识</li><li>28:49 智能体交易与交易民主化</li><li>32:50 让更多人把想法变成策略</li><li>33:49 智能体交易带来的基础设施负载</li><li>37:49 智能体交易的增长空间</li><li>38:31 AI 革命中的私营公司所有权</li><li>42:32 Robinhood Ventures 与私募投资渠道</li><li>46:34 个人自主与投资者保护</li><li>48:34 Robinhood 与 Trump Accounts</li><li>50:50 作为领导者保持沉着</li><li>53:52 节目结尾</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/yULk8eNa2mg/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
 <item>
 <title>Juan Loaiza，Oracle｜Oracle AI World 2026</title>
 <link>https://pod-exp.pages.dev/05nqgG1zbfE/</link>
