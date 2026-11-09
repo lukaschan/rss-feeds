@@ -5,9 +5,244 @@
 <link>https://pod-exp.pages.dev/</link>
 <description>Field Notes 每日新增文章（自建 RSS）：存档冻结后新发表的篇目，只放摘要 + 原文链接（全文太长，不进 feed）；冻结前的全部篇目见 pod-exp.xml 存档版。</description>
 <language>zh-CN</language>
-<lastBuildDate>Sun, 08 Nov 2026 01:29:29 +0000</lastBuildDate>
+<lastBuildDate>Mon, 09 Nov 2026 01:45:34 +0000</lastBuildDate>
 <generator>rss-feeds-generator (personal)</generator>
 <atom:link href="https://rss-feeds-8x2.pages.dev/pod-exp-new.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>十年上涨 32,000%：一位交易了 60 年的交易员的 TQQQ 策略｜Les Masonson</title>
+<link>https://pod-exp.pages.dev/HMu4w60FuZ8/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/HMu4w60FuZ8/</guid>
+<pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+<category>TraderLion</category>
+<category>交易</category>
+<category>投资</category>
+<category>量化投资</category>
+<description>Les Masonson 分享了自己从 1957 年开始接触市场、长期研究技术分析与 ETF 的经历，并介绍了纳斯达克期货日内交易和 TQQQ 回测方法。他强调用多个指标交叉确认、先明确投资或交易身份、制定并执行止损规则，也讨论了相对强度、板块轮动、AI 回测的数据与过拟合风险。节目还详细提醒杠杆 ETF 的每日复利会放大波动，横盘和熊市可能造成深度回撤；普通交易者应从低风险品种和小仓位开始，依据日线与周线判断趋势，不必执着买在最低点。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/HMu4w60FuZ8/cover.webp" alt="" /></p>
+<p><em>TraderLion · 播出 2026-11-08 · 时长 1:16:18</em></p>
+<p>Les Masonson 分享了自己从 1957 年开始接触市场、长期研究技术分析与 ETF 的经历，并介绍了纳斯达克期货日内交易和 TQQQ 回测方法。他强调用多个指标交叉确认、先明确投资或交易身份、制定并执行止损规则，也讨论了相对强度、板块轮动、AI 回测的数据与过拟合风险。节目还详细提醒杠杆 ETF 的每日复利会放大波动，横盘和熊市可能造成深度回撤；普通交易者应从低风险品种和小仓位开始，依据日线与周线判断趋势，不必执着买在最低点。</p>
+<h2>章节</h2><ul><li>0:02 AI 回测与核心风控规则</li><li>4:04 AI 回测与核心风控规则</li><li>4:31 Les Masonson 六十年的市场经历</li><li>6:15 纳斯达克期货与 TQQQ：税务及洗售规则差异</li><li>10:17 纳斯达克期货与 TQQQ：税务及洗售规则差异</li><li>11:20 建立技术规则并应对熊市</li><li>15:20 建立技术规则并应对熊市</li><li>18:45 评估移动均线与价格走势过滤条件</li><li>22:45 评估移动均线与价格走势过滤条件</li><li>26:12 肯特纳通道与标准差反转</li><li>30:13 肯特纳通道与标准差反转</li><li>33:43 分析板块相对强度与不同时间周期</li><li>37:44 分析板块相对强度与不同时间周期</li><li>41:15 善用图表平台与软件工具</li><li>45:16 善用图表平台与软件工具</li><li>49:17 善用图表平台与软件工具</li><li>49:30 围绕 200 日均线管理风险与仓位</li><li>53:30 围绕 200 日均线管理风险与仓位</li><li>57:02 RSI 极值与 MACD 柱状图信号</li><li>1:01:07 RSI 极值与 MACD 柱状图信号</li><li>1:05:09 RSI 极值与 MACD 柱状图信号</li><li>1:05:16 市场宽度：纳斯达克 50 日均线与看涨百分比</li><li>1:09:17 市场宽度：纳斯达克 50 日均线与看涨百分比</li><li>1:13:18 市场宽度：纳斯达克 50 日均线与看涨百分比</li><li>1:14:48 即将举行的研讨会与完整策略框架</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/HMu4w60FuZ8/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>如何构建未来：Paul Graham 与 Amjad Masad</title>
+<link>https://pod-exp.pages.dev/Q78dJ0vkWe8/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/Q78dJ0vkWe8/</guid>
+<pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+<category>Y Combinator</category>
+<category>AI 编程</category>
+<category>AI 智能体</category>
+<category>企业软件</category>
+<category>创业与经营</category>
+<description>Paul Graham 与 Replit 联合创始人兼 CEO Amjad Masad 回顾了 Replit 如何从在线协作编程平台逐步走向 AI 编程代理。用户手动在 ChatGPT 与代码编辑器之间复制粘贴的工作流，启发他们把错误修复、工具调用、代码执行、部署和基础设施串成一个能持续运行直至任务完成的系统。两人谈到 Replit 长期积累的沙箱、文件系统和协作能力如何让 agent 像另一位用户一样进入项目，也讨论了企业为何需要兼顾安全、治理与用户效率的工具。对话进一步延伸到 AI 如何改写公司工作方式、个人如何适应技能变化，以及理解算力和指数增长为何有助于预测未来。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/Q78dJ0vkWe8/cover.jpg" alt="" /></p>
+<p><em>Y Combinator · 播出 2026-11-07 · 时长 44:15</em></p>
+<p>Paul Graham 与 Replit 联合创始人兼 CEO Amjad Masad 回顾了 Replit 如何从在线协作编程平台逐步走向 AI 编程代理。用户手动在 ChatGPT 与代码编辑器之间复制粘贴的工作流，启发他们把错误修复、工具调用、代码执行、部署和基础设施串成一个能持续运行直至任务完成的系统。两人谈到 Replit 长期积累的沙箱、文件系统和协作能力如何让 agent 像另一位用户一样进入项目，也讨论了企业为何需要兼顾安全、治理与用户效率的工具。对话进一步延伸到 AI 如何改写公司工作方式、个人如何适应技能变化，以及理解算力和指数增长为何有助于预测未来。</p>
+<h2>章节</h2><ul><li>0:03 你们基本上发明了氛围编程</li><li>2:43 看用户从 ChatGPT 复制粘贴</li><li>5:27 Replit 的起源</li><li>8:01 人们低估了自己预测未来的能力</li><li>10:28 哀悼手艺的消逝</li><li>12:52 一种痴迷用户的文化</li><li>15:15 为什么企业选择 Replit</li><li>17:29 Agent 只是另一个用户</li><li>20:17 产品当时勉强能用，用户却很喜欢</li><li>23:13 一千万美元的项目，如今只要 25 万美元</li><li>25:45 为人类做沙箱</li><li>28:14 自动驾驶式公司</li><li>30:34 AI 如何进入公司</li><li>33:29 Steve Jobs 在 iPad 出现前就看到了什么</li><li>36:00 打破神圣不可侵犯的东西</li><li>38:27 世界其他地方落后两年</li><li>41:16 是计算力带来了 AI</li><li>43:47 默认剧变的人</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/Q78dJ0vkWe8/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>中期选举刚刚把 AI 交易打垮了？</title>
+<link>https://pod-exp.pages.dev/TDOyoS4SMrk/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/TDOyoS4SMrk/</guid>
+<pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+<category>Anthony Pompliano</category>
+<category>加密与 Web3</category>
+<category>宏观经济</category>
+<category>投资</category>
+<category>AI 基础设施</category>
+<description>Jordi Visser 认为，中期选举后的抛售不仅反映政治不确定性，也暴露了高杠杆、AI 资本开支和上市科技公司的结构性压力。他用“标普 500 由 492 只债券和 8 份看涨期权组成”概括企业增长前景，指出 AI 既带来颠覆，也会引来监管、就业和基础设施约束。对比特币，他关注未来加密应用增长、流动性改善和艾略特波浪回调；谈到油价、黄金和利率时，他解释了通胀预期变化如何影响资产表现。两人还讨论高通、对冲基金去杠杆、政治极化，并分享用 AI 识别图表、处理衣物油渍、记录健康数据和选择餐食的实际经历。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/TDOyoS4SMrk/cover.jpg" alt="" /></p>
+<p><em>Anthony Pompliano · 播出 2026-11-07 · 时长 1:02:12</em></p>
+<p>Jordi Visser 认为，中期选举后的抛售不仅反映政治不确定性，也暴露了高杠杆、AI 资本开支和上市科技公司的结构性压力。他用“标普 500 由 492 只债券和 8 份看涨期权组成”概括企业增长前景，指出 AI 既带来颠覆，也会引来监管、就业和基础设施约束。对比特币，他关注未来加密应用增长、流动性改善和艾略特波浪回调；谈到油价、黄金和利率时，他解释了通胀预期变化如何影响资产表现。两人还讨论高通、对冲基金去杠杆、政治极化，并分享用 AI 识别图表、处理衣物油渍、记录健康数据和选择餐食的实际经历。</p>
+<h2>章节</h2><ul><li>0:02 开场</li><li>1:02 中期选举蓝潮与市场抛售</li><li>5:02 AI 进步与大型公司的风险</li><li>5:31 标普 500：492 只债券与 8 份看涨期权</li><li>9:31 八份看涨期权</li><li>9:37 比特币为何可能跑赢上市公司</li><li>13:39 比特币与上市公司</li><li>17:41 Figure 赞助内容</li><li>18:30 比特币流动性与艾略特波浪形态</li><li>22:31 艾略特波浪与比特币回调</li><li>23:34 比特币与 AI 交易</li><li>27:35 AI 交易面临的持续逆风</li><li>29:18 AI 会赢家通吃吗？</li><li>31:40 Marvell 收购与对冲基金去杠杆</li><li>35:41 杠杆仓位与赞助内容</li><li>38:25 伊朗、石油与通胀回落</li><li>42:26 通胀预期见顶</li><li>42:48 黄金、高通与 AI 交易</li><li>46:49 高通、芯片与 AI 交易</li><li>49:09 中期选举梗图与政治极端化</li><li>53:09 政治极端化与财政选择</li><li>54:16 这周我们如何使用 AI</li><li>58:16 AI 健康教练与结尾</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/TDOyoS4SMrk/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>AI:AM：这真的是我们想要的 AI 吗？令人警觉的加速、AI 选举押注、GPU 交易与 AI 原生风险投资</title>
+<link>https://pod-exp.pages.dev/ZZwrUPxU1GY/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/ZZwrUPxU1GY/</guid>
+<pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+<category>Cognitive Revolution "How AI Changes Everything"</category>
+<category>AI 智能体</category>
+<category>AI 安全</category>
+<category>AI 基础设施</category>
+<category>投资</category>
+<description>本期围绕 AI 研发加速及其治理展开，也把视角放到三个具体场景：九个智能体用真钱预测美国中期选举，GPU 服务器在电力、液冷、数据中心就绪度和 KYC 规则之间流转，Theory Ventures 则把数千个研究智能体嵌入投资工作。嘉宾讨论了长程智能体的真实表现、算力利用率、研究品味和人类判断。主持人进一步追问，我们是否应该训练擅长欺骗和串通的 AI，以及“智能体经济”的丰盛能否转化为人类真正珍视的东西。节目最后回到 METR 对算法、数据和训练算力的分析，讨论针对前沿实验室的治理措施。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/ZZwrUPxU1GY/cover.webp" alt="" /></p>
+<p><em>Cognitive Revolution "How AI Changes Everything" · 播出 2026-11-07 · 时长 1:26:17</em></p>
+<p>本期围绕 AI 研发加速及其治理展开，也把视角放到三个具体场景：九个智能体用真钱预测美国中期选举，GPU 服务器在电力、液冷、数据中心就绪度和 KYC 规则之间流转，Theory Ventures 则把数千个研究智能体嵌入投资工作。嘉宾讨论了长程智能体的真实表现、算力利用率、研究品味和人类判断。主持人进一步追问，我们是否应该训练擅长欺骗和串通的 AI，以及“智能体经济”的丰盛能否转化为人类真正珍视的东西。节目最后回到 METR 对算法、数据和训练算力的分析，讨论针对前沿实验室的治理措施。</p>
+<h2>章节</h2><ul><li>0:02 本周节目预告</li><li>4:04 迫在眉睫意味着什么</li><li>8:04 人类时代的尾声</li><li>12:06 赞助商：Claude 与 OutSystems</li><li>16:07 Ballot Bench：选举预测与长程任务</li><li>20:08 预测成绩与真实交易</li><li>24:09 AI 研发的瓶颈转移</li><li>28:09 赞助商：Tasklet；数据中心反对声浪</li><li>32:10 GPU 服务器交易与算力租赁</li><li>36:11 数据中心约束与 KYC 合规</li><li>40:15 合规追溯与执行落差</li><li>44:18 中美合作与算力限制</li><li>48:18 算力供需与 AI 原生投资机构</li><li>52:21 “企业大脑”与研究智能体</li><li>56:21 人的判断与研究价值</li><li>1:00:22 研究数量不是成效指标</li><li>1:04:22 好奇心与工作的未来</li><li>1:08:23 我们想要什么样的 AI？</li><li>1:12:24 智能体经济与丰盛生活</li><li>1:16:25 人类需要的丰盛</li><li>1:20:26 递归式改进与治理</li><li>1:24:53 片尾歌曲与节目鸣谢</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/ZZwrUPxU1GY/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>K 型经济、比特币跌跌撞撞的 18 岁生日，以及迟迟不来的慢行岁月</title>
+<link>https://pod-exp.pages.dev/cBGjPl__0_k/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/cBGjPl__0_k/</guid>
+<pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+<category>Compound Growth Podcast</category>
+<category>宏观经济</category>
+<category>投资</category>
+<category>加密与 Web3</category>
+<category>人生方法</category>
+<description>本期从“K 型经济”谈起：宏观数据看似强劲，普通家庭与资产持有者的体感却可能截然不同。节目拆解标普 500 内部的回撤，讨论 AI 投资、成长股与价值股分化，以及比特币、交易所托管和账户冻结风险。随后讨论退休旅行预算，指出“慢下来阶段”未必如想象中出现，旅行次数减少也可能意味着单次成本更高。最后，Wheeler 把自己 2008 年在洛杉矶的生活预算换算到今天，发现若维持当年生活方式，每月会短缺 1,758 美元；三人由此谈到负债、生活方式膨胀和资产的重要性。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/cBGjPl__0_k/cover.webp" alt="" /></p>
+<p><em>Compound Growth Podcast · 播出 2026-11-07 · 时长 44:36</em></p>
+<p>本期从“K 型经济”谈起：宏观数据看似强劲，普通家庭与资产持有者的体感却可能截然不同。节目拆解标普 500 内部的回撤，讨论 AI 投资、成长股与价值股分化，以及比特币、交易所托管和账户冻结风险。随后讨论退休旅行预算，指出“慢下来阶段”未必如想象中出现，旅行次数减少也可能意味着单次成本更高。最后，Wheeler 把自己 2008 年在洛杉矶的生活预算换算到今天，发现若维持当年生活方式，每月会短缺 1,758 美元；三人由此谈到负债、生活方式膨胀和资产的重要性。</p>
+<h2>章节</h2><ul><li>0:02 好经济里没钱，反而更难熬吗？</li><li>1:05 欢迎回来，Dan 加入节目</li><li>2:42 标普 500 内部藏着熊市</li><li>6:42 AI 投资、负自由现金流与市场分化</li><li>10:44 AI 回撤背后的不同力量</li><li>14:45 Binance 遭窃事件</li><li>15:07 比特币的“18 岁生日”与托管风险</li><li>19:07 退休后旅行预算怎么做</li><li>20:47 退休旅行如何列入长期预算</li><li>24:48 国家公园、旅行趣闻与 AI 内容</li><li>28:15 感恩节餐桌上的 Google 投资讨论</li><li>30:06 感恩节上的科技股争论</li><li>34:06 把 2008 年的生活账单换算到今天</li><li>35:55 2008 年的生活放到今天会怎样</li><li>39:55 生活成本、债务与消费习惯</li><li>42:00 生活方式膨胀，以及资产为何重要</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/cBGjPl__0_k/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>金钱如何创造：中央银行、印钞与通胀｜Gita Gopinath｜FO585 Raj Shamani</title>
+<link>https://pod-exp.pages.dev/dNIef2fGLQY/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/dNIef2fGLQY/</guid>
+<pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+<category>Raj Shamani</category>
+<category>宏观经济</category>
+<category>金融基础设施</category>
+<category>地缘政治</category>
+<category>人工智能</category>
+<description>Gita Gopinath从储蓄、银行融资和央行政策讲起，解释印钞为何不是免费的，并讨论政府借债、美国债务与美元地位。她分析人民币估值、贸易保护主义、供应链转移及印度融入全球制造业的机会，也谈到腐败改革、AI投资回报和全球金融风险。后半段聚焦IMF如何决定救助陷入危机的国家、各国债务何时可能变得危险，以及AI与地缘政治叠加形成的“大赌局”。两人还讨论AI对学习和认知能力的影响、年轻人如何建立专业能力与人际连接，最后谈到职业选择、家庭分工和个人代价。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/dNIef2fGLQY/cover.webp" alt="" /></p>
+<p><em>Raj Shamani · 播出 2026-11-07 · 时长 1:41:07</em></p>
+<p>Gita Gopinath从储蓄、银行融资和央行政策讲起，解释印钞为何不是免费的，并讨论政府借债、美国债务与美元地位。她分析人民币估值、贸易保护主义、供应链转移及印度融入全球制造业的机会，也谈到腐败改革、AI投资回报和全球金融风险。后半段聚焦IMF如何决定救助陷入危机的国家、各国债务何时可能变得危险，以及AI与地缘政治叠加形成的“大赌局”。两人还讨论AI对学习和认知能力的影响、年轻人如何建立专业能力与人际连接，最后谈到职业选择、家庭分工和个人代价。</p>
+<h2>章节</h2><ul><li>0:01 导语</li><li>3:53 钱从哪里来，央行如何控制货币？</li><li>7:55 央行怎样调节货币与利率？</li><li>11:56 央行调控与个人选择</li><li>12:29 政府为什么借钱？美国的债务问题</li><li>16:31 美国债务为何仍受信任？</li><li>18:11 美元为何仍是避险资产？人民币被低估了吗？</li><li>22:12 资本管制、关税与贸易转移</li><li>26:13 关税成本由谁承担？美元还会主导多久？</li><li>28:42 美国经济、世界秩序与美元地位</li><li>32:43 中国金融体系与印度的机会</li><li>36:44 印度改革进展</li><li>37:25 腐败为何难以根除？</li><li>41:24 全球经济发生了什么变化？</li><li>45:25 AI繁荣与地缘政治冲击这场大赌局</li><li>49:26 这场大赌局为何前所未有？</li><li>50:54 全球化为何退潮？</li><li>54:56 全球化缓慢瓦解的后果</li><li>55:33 地缘冲击和AI会引发下一场金融危机吗？</li><li>59:33 AI繁荣的金融连锁风险</li><li>1:03:33 AI还有哪些风险？</li><li>1:03:42 离开IMF后，哪些话终于能说？</li><li>1:07:43 IMF为什么会继续向同一国家放贷？</li><li>1:11:43 IMF成员投票与政治影响</li><li>1:15:45 全球债务何时会变得危险？</li><li>1:19:46 债务压力的传导与危机触发点</li><li>1:22:43 五年预测：AI、地缘政治与世界未来</li><li>1:26:44 AI时代应该怎样学习？</li><li>1:30:45 如何用AI学习，而不是外包思考</li><li>1:32:35 人际连接与全球信任的未来</li><li>1:36:34 没人该听的一条建议</li><li>1:37:25 成为Gita Gopinath付出的个人代价</li><li>1:40:40 片尾</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/dNIef2fGLQY/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>走进 WashU 捐赠基金｜SpaceX 曾占我们管理资产的 20%｜Scott Wilson</title>
+<link>https://pod-exp.pages.dev/iG0UO-KAByY/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/iG0UO-KAByY/</guid>
+<pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+<category>20VC with Harry Stebbings</category>
+<category>投资</category>
+<category>创业与经营</category>
+<category>人工智能</category>
+<description>WashU 首席投资官 Scott Wilson 回顾了如何把捐赠基金从约 80 亿美元发展到近 200 亿美元：保持集中持仓，通过合作伙伴主动挖掘直接投资与联合投资机会，并以底层公司敞口而非单只基金业绩来评估组合。他谈到流动性、支出率、基金规模和估值纪律，也分享了错过给赢家加码、未能在 2021 年及时出售部分资产的教训。对 AI 估值、私募市场退出、欧洲与中国投资，以及如何选择管理人，他给出了审慎而务实的判断。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/iG0UO-KAByY/cover.webp" alt="" /></p>
+<p><em>20VC with Harry Stebbings · 播出 2026-11-07 · 时长 57:17</em></p>
+<p>WashU 首席投资官 Scott Wilson 回顾了如何把捐赠基金从约 80 亿美元发展到近 200 亿美元：保持集中持仓，通过合作伙伴主动挖掘直接投资与联合投资机会，并以底层公司敞口而非单只基金业绩来评估组合。他谈到流动性、支出率、基金规模和估值纪律，也分享了错过给赢家加码、未能在 2021 年及时出售部分资产的教训。对 AI 估值、私募市场退出、欧洲与中国投资，以及如何选择管理人，他给出了审慎而务实的判断。</p>
+<h2>章节</h2><ul><li>0:02 开场：WashU捐赠基金的投资方法</li><li>2:30 Scott上任第一周为何赎回一半以上组合</li><li>4:13 WashU如何从约80亿美元增长到接近200亿美元</li><li>6:16 如果没有支出约束，Scott会把70%至80%投向私募</li><li>7:56 WashU私募组合一半以上投向直接投资和联合投资</li><li>9:17 直接投资如何推动WashU跑赢同业</li><li>11:52 基金集中度限制为何会压低风投回报</li><li>15:02 Scott最大的投资失误：没有给赢家继续加码</li><li>19:00 Scott为何仍然避开超大型基金</li><li>23:01 他们如何主动寻找联合投资机会</li><li>24:56 Scott认为私募市场的AI估值正显露“愚蠢”</li><li>27:52 为什么Scott认为不少AI公司十年后会消失</li><li>29:02 前沿模型的定价能力可能难以维持</li><li>32:21 WashU为何放弃红杉的常青基金结构</li><li>35:29 WashU放弃风投管理人的首要原因</li><li>39:29 组合中的高估值持仓还需要证明自己</li><li>40:34 Scott预计AI行业会经历一轮洗牌</li><li>43:05 WashU九年创造约170亿美元利润</li><li>44:40 让WashU损失数十亿美元的错误</li><li>45:55 Scott后悔没有在2021年卖出更多资产</li><li>47:35 Scott仍然看好欧洲投资</li><li>49:57 WashU为何仍在中国投资</li><li>54:00 快速问答：最欣赏的投资人和基金</li><li>54:10 Scott认为Lee Fixel是他认识的顶尖投资人之一</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/iG0UO-KAByY/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>周末聆听：Power On 谈 Siri AI 的重大进展与 Ternus 的首次业绩电话会｜……</title>
+<link>https://pod-exp.pages.dev/jM55Yvro9tY/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/jM55Yvro9tY/</guid>
+<pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+<category>Bloomberg Podcasts</category>
+<category>人工智能</category>
+<category>AI 智能体</category>
+<category>产品</category>
+<category>商业分析</category>
+<description>本期《Power On》从苹果业绩、产品周期和供应约束谈起，分析 iPhone 需求、内存短缺可能带来的涨价，以及苹果在中国市场的表现。Mark Gurman 和 Vlad Savov 也讨论了 John Ternus 首次参加业绩电话会的表现、iOS 27.3 的更新，以及 Siri AI 终于可以通过语音控制应用和跨应用执行操作。两人比较了苹果 Siri、Meta Muse 与 OpenAI Dots 等 AI 助手，并讨论消费者信任、隐私和周围人的知情权。节目最后以 Siri 名字和初代 iPhone 销量为题进行苹果知识问答。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/jM55Yvro9tY/cover.webp" alt="" /></p>
+<p><em>Bloomberg Podcasts · 播出 2026-11-07 · 时长 1:06:29</em></p>
+<p>本期《Power On》从苹果业绩、产品周期和供应约束谈起，分析 iPhone 需求、内存短缺可能带来的涨价，以及苹果在中国市场的表现。Mark Gurman 和 Vlad Savov 也讨论了 John Ternus 首次参加业绩电话会的表现、iOS 27.3 的更新，以及 Siri AI 终于可以通过语音控制应用和跨应用执行操作。两人比较了苹果 Siri、Meta Muse 与 OpenAI Dots 等 AI 助手，并讨论消费者信任、隐私和周围人的知情权。节目最后以 Siri 名字和初代 iPhone 销量为题进行苹果知识问答。</p>
+<h2>章节</h2><ul><li>0:01 开场广告与新产品闲聊</li><li>4:02 苹果业绩与消费电子市场</li><li>8:02 iPhone 产品周期与业绩指引</li><li>12:04 内存短缺、涨价与中国市场</li><li>16:04 中国的品牌关系与 Ternus 首次业绩电话会</li><li>20:04 Ternus 的表现与交接过渡</li><li>24:05 业绩解释与 Vision Pro</li><li>28:06 肽类报道与广告</li><li>32:08 Apple Intelligence 在中国上线</li><li>36:09 iOS 27.3 的改动</li><li>40:09 健康 App 与 Siri AI 的应用控制</li><li>44:11 Siri AI 的跨应用操作</li><li>48:13 Siri AI、智能体与隐私</li><li>52:14 Apple Watch 常开监听与隐私</li><li>56:15 监听隐私争议与苹果知识问答</li><li>1:00:18 Siri 名字与初代 iPhone 知识问答</li><li>1:04:19 节目收尾与片尾广告</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/jM55Yvro9tY/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>如何以低 70% 的成本获得前沿编程表现——Nouha Dziri，Cohere</title>
+<link>https://pod-exp.pages.dev/maitMe9HCvw/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/maitMe9HCvw/</guid>
+<pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+<category>AI Engineer</category>
+<category>AI 智能体</category>
+<category>AI 编程</category>
+<category>AI 研究</category>
+<description>Cohere 研究科学家 Nouha Dziri 分享了如何设计编程智能体团队，让额外算力真正转化为任务表现。团队能比单个智能体多拿近 10 分，但成本也可能高出数倍。她通过 ProgramBench 和 Commit0 实验说明，关键不是盲目增加智能体，而是识别任务瓶颈：黑箱逆向工程需要并行探索，软件实现任务则可能更受实现能力限制。研究还发现，强主智能体搭配便宜工作智能体可以接近全强模型团队的表现，同时显著降低成本；大量同伴沟通并未带来更多奖励。最后，她讨论了大规模智能体团队的自组织、沟通机制与安全问题。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/maitMe9HCvw/cover.webp" alt="" /></p>
+<p><em>AI Engineer · 播出 2026-11-07 · 时长 31:22</em></p>
+<p>Cohere 研究科学家 Nouha Dziri 分享了如何设计编程智能体团队，让额外算力真正转化为任务表现。团队能比单个智能体多拿近 10 分，但成本也可能高出数倍。她通过 ProgramBench 和 Commit0 实验说明，关键不是盲目增加智能体，而是识别任务瓶颈：黑箱逆向工程需要并行探索，软件实现任务则可能更受实现能力限制。研究还发现，强主智能体搭配便宜工作智能体可以接近全强模型团队的表现，同时显著降低成本；大量同伴沟通并未带来更多奖励。最后，她讨论了大规模智能体团队的自组织、沟通机制与安全问题。</p>
+<h2>章节</h2><ul><li>0:02 开场：如何降低多智能体编程成本</li><li>4:02 团队设计与实验框架</li><li>8:04 提示词如何改变团队表现</li><li>12:05 把工作智能体放在流程的瓶颈处</li><li>16:08 只在早期探索时集中委派</li><li>20:10 强主智能体搭配便宜工作智能体</li><li>24:12 智能体之间的沟通到底有没有用</li><li>28:13 总结与未来方向</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/maitMe9HCvw/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>🚨直播：AI 清洗仍在继续。谁能熬过这场宿醉？！$ZEC 飞涨。隐私是市场押注方向？！</title>
+<link>https://pod-exp.pages.dev/uMTc3tEZaRA/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/uMTc3tEZaRA/</guid>
+<pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+<category>The Rollup</category>
+<category>AI 基础设施</category>
+<category>加密与 Web3</category>
+<category>投资</category>
+<category>金融基础设施</category>
+<description>本期先回顾 AI 资产回调、数据中心建设放缓和宏观事件对风险资产的影响，主持人认为资金可能从 AI 交易转向加密资产，并特别看好 Zcash。Evan Van Ness 随后介绍 Pearl，解释其将 AI 推理中的矩阵乘法用于工作量证明，并讨论量化格式、FP8 硬分叉、算力激励、网络采用和估值风险。后半场 Austin Barack 与 Cool Crypto 讨论 Aerodrome/Arrow 的预测性流动性分配、Alisium 与 HyperCore 的互通、Lighter、Hyperliquid 和 Variational 的竞争，以及 Venice、Grass、隐私 AI、ZEC 期权和市场配置。嘉宾们既看好代币化、全天候交易和 AI 与加密的交集，也提醒这些项目存在波动、护城河有限和宏观环境不确定等风险。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/uMTc3tEZaRA/cover.webp" alt="" /></p>
+<p><em>The Rollup · 播出 2026-11-07 · 时长 1:50:03</em></p>
+<p>本期先回顾 AI 资产回调、数据中心建设放缓和宏观事件对风险资产的影响，主持人认为资金可能从 AI 交易转向加密资产，并特别看好 Zcash。Evan Van Ness 随后介绍 Pearl，解释其将 AI 推理中的矩阵乘法用于工作量证明，并讨论量化格式、FP8 硬分叉、算力激励、网络采用和估值风险。后半场 Austin Barack 与 Cool Crypto 讨论 Aerodrome/Arrow 的预测性流动性分配、Alisium 与 HyperCore 的互通、Lighter、Hyperliquid 和 Variational 的竞争，以及 Venice、Grass、隐私 AI、ZEC 期权和市场配置。嘉宾们既看好代币化、全天候交易和 AI 与加密的交集，也提醒这些项目存在波动、护城河有限和宏观环境不确定等风险。</p>
+<h2>章节</h2><ul><li>0:02 开场混剪</li><li>4:09 开场回顾</li><li>5:07 欢迎来到 The Rollup</li><li>9:09 宏观日程与市场判断</li><li>13:09 隐私资产与市场走势</li><li>17:09 加密板块、AI 与代币化</li><li>21:11 代币化供应链与共同主持人连线</li><li>25:12 嘉宾入场</li><li>25:24 Evan Van Ness 与 Pearl</li><li>29:25 有用的工作量证明</li><li>33:27 Pearl 如何把算力用于 AI</li><li>37:28 Pearl 的计算机制与早期争议</li><li>41:31 量化格式与 Pearl 的核心验证</li><li>45:34 数据中心为什么要挖 Pearl</li><li>49:34 AI 数据中心扩张与 Pearl 的长期设想</li><li>53:36 市场规模、采用率与估值</li><li>57:38 Pearl 的持有周期与价值储存叙事</li><li>1:01:38 价值储存、收尾与下一位嘉宾</li><li>1:07:02 转场与 Hyperliquid 闲聊</li><li>1:09:59 Austin Barack 与 Cool Crypto：Aerodrome／Arrow</li><li>1:14:00 代币化、流动性分配与 Kinetiq</li><li>1:18:01 Alisium 与 HyperCore 的互补关系</li><li>1:22:02 Arrow 与永续交易所竞争</li><li>1:26:02 交易所估值、竞争与 Variational</li><li>1:30:04 市场份额与 AI 代币表现</li><li>1:34:05 Venice、Pearl 与 Zcash 的风险收益</li><li>1:38:07 AI 与加密的交集、Venice 隐私价值</li><li>1:42:12 消费者隐私与收官讨论</li><li>1:46:12 结语：代币化与投资配置</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/uMTc3tEZaRA/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>股市蒸发 3 万亿美元，英伟达与美光遭重创，民主党掀起蓝色浪潮｜Basis Points</title>
+<link>https://pod-exp.pages.dev/xhp9R8BZppM/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/xhp9R8BZppM/</guid>
+<pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+<category>Basis Points </category>
+<category>半导体</category>
+<category>投资</category>
+<category>宏观经济</category>
+<category>AI 基础设施</category>
+<description>Steve 与 Amit 从当天市场蒸发 3 万亿美元、英伟达和美光大跌谈起，讨论民主党胜选是否会改变 AI 数据中心建设与融资环境，以及资本开支增速见顶、半导体周期和私募信贷风险。他们反复区分企业长期基本面与股票估值，讨论分散投资、指数基金、股息、杠杆和散户追逐热门股的风险。后半段转向利率、经济与政治，认为就业、油价、食品、化肥和融资成本共同影响选民，最后强调市场会轮动，投资者应控制风险并依据自身期限和承受力做决定。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/xhp9R8BZppM/cover.webp" alt="" /></p>
+<p><em>Basis Points  · 播出 2026-11-07 · 时长 1:01:12</em></p>
+<p>Steve 与 Amit 从当天市场蒸发 3 万亿美元、英伟达和美光大跌谈起，讨论民主党胜选是否会改变 AI 数据中心建设与融资环境，以及资本开支增速见顶、半导体周期和私募信贷风险。他们反复区分企业长期基本面与股票估值，讨论分散投资、指数基金、股息、杠杆和散户追逐热门股的风险。后半段转向利率、经济与政治，认为就业、油价、食品、化肥和融资成本共同影响选民，最后强调市场会轮动，投资者应控制风险并依据自身期限和承受力做决定。</p>
+<h2>章节</h2><ul><li>0:02 开场、纸杯蛋糕与生日礼物</li><li>3:19 多年来最糟糕的一天</li><li>7:20 市场回撤到底有多严重</li><li>11:21 财报没有显示基本面转坏</li><li>12:11 资本支出见顶，会让半导体继续下跌吗？</li><li>16:12 融资、估值与 AI 交易的风险</li><li>20:15 轮动机会与今天的买入</li><li>22:40 表面之下会不会有私募信贷问题？</li><li>26:40 半导体的高光期可能已经过去？</li><li>29:21 六月的狂热是否已经过头？</li><li>33:21 能承受回撤，才有资格追求上行</li><li>37:23 别因为 FOMO 买入美光</li><li>41:25 指数基金、媒体叙事与生存</li><li>43:45 如何面对极端的市场波动</li><li>47:45 AI 仍在早期，估值与风险回报要重估</li><li>51:45 资金轮动不必只押一个板块</li><li>53:42 蓝色浪潮与选民的钱包</li><li>57:44 选民关注就业、物价与生活成本</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/xhp9R8BZppM/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>为什么系统或许需要一场危机才能改变：Cem Karsan 特辑｜Systematic Investor｜第 425 期</title>
+<link>https://pod-exp.pages.dev/ytXZBUIrd2Q/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/ytXZBUIrd2Q/</guid>
+<pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+<category>Top Traders Unplugged</category>
+<category>宏观经济</category>
+<category>投资</category>
+<category>量化投资</category>
+<category>地缘政治</category>
+<description>Cem Karsan 认为，美国经济正同时承受债务、金融市场规模、民粹主义和中美地缘竞争等结构性压力，政府为维持系统运行而采取的干预，也让市场更加依赖政策支持。他提出，美元仍是美国最强的战略筹码，未来可能通过货币扩张、产业投资和股权支持来应对压力，但这样的政策需要危机提供政治条件。对投资者而言，与其依赖短期预测，不如跨越周期建立韧性：研究自己持有的资产、分散配置、管理风险，并使用适当的工具。两人还讨论了代际变化、社会公平与自然竞争之间难以调和的张力，以及传统 60/40 组合的时间局限。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/ytXZBUIrd2Q/cover.webp" alt="" /></p>
+<p><em>Top Traders Unplugged · 播出 2026-11-07 · 时长 1:04:09</em></p>
+<p>Cem Karsan 认为，美国经济正同时承受债务、金融市场规模、民粹主义和中美地缘竞争等结构性压力，政府为维持系统运行而采取的干预，也让市场更加依赖政策支持。他提出，美元仍是美国最强的战略筹码，未来可能通过货币扩张、产业投资和股权支持来应对压力，但这样的政策需要危机提供政治条件。对投资者而言，与其依赖短期预测，不如跨越周期建立韧性：研究自己持有的资产、分散配置、管理风险，并使用适当的工具。两人还讨论了代际变化、社会公平与自然竞争之间难以调和的张力，以及传统 60/40 组合的时间局限。</p>
+<h2>章节</h2><ul><li>0:02 开场：被动投资的局限</li><li>2:24 市场动态与 11 月初 CTA 表现</li><li>5:24 波动率策略、离散度与对冲基金压力</li><li>8:46 美国中期选举对市场意味着什么</li><li>12:40 威胁美国经济的四股结构性压力</li><li>16:43 威胁美国经济的四股结构性压力（续）</li><li>19:45 美元、地缘政治力量与货币政策的未来</li><li>23:47 美元、地缘政治力量与货币政策的未来（续）</li><li>26:20 印钱、买股票，以及激进干预的理由</li><li>30:21 印钱、买股票，以及激进干预的理由（续）</li><li>30:49 通胀、民粹主义与 AI 对经济的影响</li><li>34:50 通胀、民粹主义与 AI 对经济的影响（续）</li><li>37:22 推动政治与经济变革的代际钟摆</li><li>41:22 推动政治与经济变革的代际钟摆（续）</li><li>44:46 为什么 Cem 认为有意义的改变可能需要一场危机</li><li>48:47 为什么 Cem 认为有意义的改变可能需要一场危机（续）</li><li>50:18 构建超越传统 60/40 的韧性投资组合</li><li>54:19 构建超越传统 60/40 的韧性投资组合（续）</li><li>58:20 构建超越传统 60/40 的韧性投资组合（续）</li><li>59:59 Cem 对潜在金融危机的时间判断</li><li>1:04:01 Cem 对潜在金融危机的时间判断（续）</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/ytXZBUIrd2Q/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>AI 开源之战 🤖｜在 RADAR 采访 OpenCode 的 Dax Raad</title>
+<link>https://pod-exp.pages.dev/f072Zxzb2Xg/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/f072Zxzb2Xg/</guid>
+<pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+<category>RADAR</category>
+<category>AI 编程</category>
+<category>开源软件</category>
+<category>AI 智能体</category>
+<category>创业与经营</category>
+<description>Dax Raad 介绍了 OpenCode 的开源路线、客户端—服务器架构，以及不绑定单一模型的产品定位。他解释团队为何选择先降低试用门槛、扩大个人用户，再逐渐拓展企业市场；也谈到数据留存、企业 fork、Vercel 竞争、团队社交媒体文化和订阅定价。对行业趋势，他认为模型实验室会把模型与 harness 一起优化，OpenCode 应顺应模型能力变化；AI 使用需求仍在各个方向增长，尚非零和。访谈最后讨论远程开发、个人智能体的权限与安全，并以快问快答收尾。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/f072Zxzb2Xg/cover.webp" alt="" /></p>
+<p><em>RADAR · 播出 2026-11-02 · 时长 32:00</em></p>
+<p>Dax Raad 介绍了 OpenCode 的开源路线、客户端—服务器架构，以及不绑定单一模型的产品定位。他解释团队为何选择先降低试用门槛、扩大个人用户，再逐渐拓展企业市场；也谈到数据留存、企业 fork、Vercel 竞争、团队社交媒体文化和订阅定价。对行业趋势，他认为模型实验室会把模型与 harness 一起优化，OpenCode 应顺应模型能力变化；AI 使用需求仍在各个方向增长，尚非零和。访谈最后讨论远程开发、个人智能体的权限与安全，并以快问快答收尾。</p>
+<h2>章节</h2><ul><li>0:02 AI 编程这场混战</li><li>1:33 为什么来到阿根廷</li><li>2:17 AI 生态变化与 OpenCode 的位置</li><li>3:58 OpenCode 的架构与开源 harness</li><li>6:27 数据留存与商业模式</li><li>7:16 开源与企业 fork OpenCode</li><li>8:33 与 Vercel 的关系</li><li>11:07 OpenCode 团队文化与社交媒体</li><li>13:20 OpenCode 面向哪些用户</li><li>14:40 B2B 与 B2C：AI 企业业务模式</li><li>17:29 OpenCode 的产品开发理念</li><li>19:28 模型竞争与企业套餐成本</li><li>22:02 开源模型与大型实验室</li><li>24:31 JEV 解决什么问题</li><li>25:46 模型与 harness 的发展方向</li><li>27:00 云端、本地、个人智能体与安全</li><li>29:33 极客乒乓快问快答</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/f072Zxzb2Xg/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>深度解析：Anthropic 的 S-1 迷思与 Mythos——Jamin Ball，Altimeter</title>
+<link>https://pod-exp.pages.dev/P735f1xlpL0/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/P735f1xlpL0/</guid>
+<pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+<category>Latent Space</category>
+<category>AI 基础设施</category>
+<category>人工智能</category>
+<category>投资</category>
+<category>商业分析</category>
+<description>本期围绕 Anthropic 首份公开 S-1，讨论 IPO 时间窗口、债务融资与数据中心扩张、AI 实验室的现金流和算力效率，以及可转债升值如何造成账面净亏损。Jamin Ball 认为，理解这门生意要看前沿模型能否持续进步、收入能否覆盖算力投入；最新模型贡献大部分收入，推理效率提高也可能带来更多需求。两人还讨论开放权重模型、应用公司自建研究团队、算力供应约束和数据中心融资风险，最后谈到儿童投资账户与直接慈善捐赠。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/P735f1xlpL0/cover.webp" alt="" /></p>
+<p><em>Latent Space · 播出 2026-10-29 · 时长 1:42:28</em></p>
+<p>本期围绕 Anthropic 首份公开 S-1，讨论 IPO 时间窗口、债务融资与数据中心扩张、AI 实验室的现金流和算力效率，以及可转债升值如何造成账面净亏损。Jamin Ball 认为，理解这门生意要看前沿模型能否持续进步、收入能否覆盖算力投入；最新模型贡献大部分收入，推理效率提高也可能带来更多需求。两人还讨论开放权重模型、应用公司自建研究团队、算力供应约束和数据中心融资风险，最后谈到儿童投资账户与直接慈善捐赠。</p>
+<h2>章节</h2><ul><li>0:01 开场精选</li><li>1:08 Jamin Ball 与《Clouded Judgement》</li><li>3:20 解读 Anthropic 首份公开 S-1</li><li>4:28 路演与感恩节前后的 IPO 窗口</li><li>8:29 路演与感恩节前后的 IPO 窗口（续）</li><li>10:04 IPO 如何帮助数据中心融资</li><li>14:05 IPO 如何帮助数据中心融资（续）</li><li>14:55 文件披露了什么：现金与利润率</li><li>17:14 收入增长与 Claude 服务成本</li><li>21:17 收入增长与 Claude 服务成本（续）</li><li>23:31 企业预算中有多少会花在 AI 上？</li><li>27:05 为什么最新模型贡献了大部分收入</li><li>31:06 为什么最新模型贡献了大部分收入（续）</li><li>35:06 为什么最新模型贡献了大部分收入（续）</li><li>39:07 为什么最新模型贡献了大部分收入（续）</li><li>43:07 为什么最新模型贡献了大部分收入（收尾）</li><li>43:55 留在前沿，并给它定价</li><li>47:55 留在前沿，并给它定价（续）</li><li>51:56 前沿模型贬值有多快？</li><li>55:59 前沿模型贬值有多快？（续）</li><li>58:09 前沿实验室的创新者困境</li><li>1:02:10 前沿实验室的创新者困境（续）</li><li>1:05:01 为什么应用公司会自己训练模型</li><li>1:08:05 807 亿美元净亏损与可转债</li><li>1:12:06 807 亿美元净亏损与可转债（续）</li><li>1:16:07 807 亿美元净亏损与可转债（续）</li><li>1:20:08 807 亿美元净亏损与可转债（收尾）</li><li>1:23:00 谁会为下一座 GPU 集群放贷？</li><li>1:27:00 谁会为下一座 GPU 集群放贷？（续）</li><li>1:31:02 谁会为下一座 GPU 集群放贷？（收尾）</li><li>1:32:40 Jamin 还关注 AI 实验室之外的什么</li><li>1:36:34 Brad Gerstner 与儿童投资账户</li><li>1:40:35 Brad Gerstner 与儿童投资账户（续）</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/P735f1xlpL0/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
 <item>
 <title>为科技公司提供资本：Masters In Business 对谈 Ann Berry｜Masters in Business</title>
 <link>https://pod-exp.pages.dev/2utXVW1gDDM/</link>
