@@ -5,9 +5,91 @@
 <link>https://pod-exp.pages.dev/</link>
 <description>Field Notes 每日新增文章（自建 RSS）：存档冻结后新发表的篇目，只放摘要 + 原文链接（全文太长，不进 feed）；冻结前的全部篇目见 pod-exp.xml 存档版。</description>
 <language>zh-CN</language>
-<lastBuildDate>Mon, 09 Nov 2026 01:45:34 +0000</lastBuildDate>
+<lastBuildDate>Tue, 10 Nov 2026 04:10:28 +0000</lastBuildDate>
 <generator>rss-feeds-generator (personal)</generator>
 <atom:link href="https://rss-feeds-8x2.pages.dev/pod-exp-new.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>顶尖公司在 AI 编程上有哪些不同做法｜Martin Harrysson、Prakhar Dixit（麦肯锡）</title>
+<link>https://pod-exp.pages.dev/21tuT-e4NVo/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/21tuT-e4NVo/</guid>
+<pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+<category>AI Engineer</category>
+<category>AI 编程</category>
+<category>AI 智能体</category>
+<category>企业软件</category>
+<description>麦肯锡的 Martin Harrysson、Prakhar Dixit 和 Shilpa 分享了他们在大型企业观察到的 AI 智能体软件开发实践。多数企业的收益仍有限，但约 20% 至 25% 的领先企业已实现端到端两倍提升。关键变化包括：把两周冲刺改成一两天的智能体工作流，采用两到四人的小团队并合并职责，标准化需求和上下文材料，为智能体筛选高质量范例与技能，并将变革管理扩展到组织全体。代码生成加速也可能伴随质量下降，因此审查能力和质量标准需要同步加强。随着构建、测试加快，瓶颈正移向需求、发布以及风险、合规和设计等横向协作。衡量真实影响仍很困难，组织需要把 token 和资源投入最有价值的工作，并逐步建立更成熟的评估方式。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/21tuT-e4NVo/cover.webp" alt="" /></p>
+<p><em>AI Engineer · 播出 2026-11-08 · 时长 20:28</em></p>
+<p>麦肯锡的 Martin Harrysson、Prakhar Dixit 和 Shilpa 分享了他们在大型企业观察到的 AI 智能体软件开发实践。多数企业的收益仍有限，但约 20% 至 25% 的领先企业已实现端到端两倍提升。关键变化包括：把两周冲刺改成一两天的智能体工作流，采用两到四人的小团队并合并职责，标准化需求和上下文材料，为智能体筛选高质量范例与技能，并将变革管理扩展到组织全体。代码生成加速也可能伴随质量下降，因此审查能力和质量标准需要同步加强。随着构建、测试加快，瓶颈正移向需求、发布以及风险、合规和设计等横向协作。衡量真实影响仍很困难，组织需要把 token 和资源投入最有价值的工作，并逐步建立更成熟的评估方式。</p>
+<h2>章节</h2><ul><li>0:14 开场</li><li>1:24 走出幻灭低谷</li><li>3:33 四类行之有效的做法</li><li>5:10 运营模式：缩短周期</li><li>7:17 人才：小团队与角色合并</li><li>8:16 技术：上下文与信任</li><li>9:24 在组织内规模化变革</li><li>10:24 精选技能</li><li>11:37 代码更快，质量却可能下降</li><li>14:07 瓶颈转向需求与发布</li><li>16:09 衡量实际影响</li><li>19:04 总结</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/21tuT-e4NVo/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>比特币专家：美国 40 万亿美元金融重置已开始——现在就行动！</title>
+<link>https://pod-exp.pages.dev/NcEnNQRVKx8/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/NcEnNQRVKx8/</guid>
+<pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+<category>The Iced Coffee Hour</category>
+<category>加密与 Web3</category>
+<category>投资</category>
+<category>人工智能</category>
+<category>金融基础设施</category>
+<description>Anthony Pompliano 回顾自己从错过早期机会、研究加密资产，到在 2018 年比特币熊市中大举买入的经历，并谈到波动、定投和长期持有。他认为比特币可能对冲持续印钞，但也强调普通投资者需要结合年龄、现金流和承受波动的能力确定配置比例。对谈还涉及比特币的技术与监管风险、AI 对资产安全和经济增长的影响、持币公司的折价回购策略，以及通胀、利率、ETF 与传统投资组合之间的关系。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/NcEnNQRVKx8/cover.webp" alt="" /></p>
+<p><em>The Iced Coffee Hour · 播出 2026-11-08 · 时长 1:46:17</em></p>
+<p>Anthony Pompliano 回顾自己从错过早期机会、研究加密资产，到在 2018 年比特币熊市中大举买入的经历，并谈到波动、定投和长期持有。他认为比特币可能对冲持续印钞，但也强调普通投资者需要结合年龄、现金流和承受波动的能力确定配置比例。对谈还涉及比特币的技术与监管风险、AI 对资产安全和经济增长的影响、持币公司的折价回购策略，以及通胀、利率、ETF 与传统投资组合之间的关系。</p>
+<h2>章节</h2><ul><li>0:02 开场</li><li>0:56 全力押注比特币</li><li>4:56 全力押注比特币</li><li>8:01 现在买比特币是不是太晚了？</li><li>12:02 现在买比特币是不是太晚了？</li><li>15:31 赞助商：Claude</li><li>17:11 你应该持有多少比特币？</li><li>21:12 你应该持有多少比特币？</li><li>25:14 你应该持有多少比特币？</li><li>27:24 赞助商：Gusto</li><li>28:45 赞助商：Upwork</li><li>30:03 AI 会让比特币过时吗？</li><li>34:04 AI 会让比特币过时吗？</li><li>35:41 买持有比特币的公司是不是更好？</li><li>39:43 买持有比特币的公司是不是更好？</li><li>41:12 比特币会归零吗？</li><li>45:12 比特币会归零吗？</li><li>47:27 谁是中本聪？</li><li>51:28 谁是中本聪？</li><li>53:14 比特币与 ETF</li><li>57:15 比特币与 ETF</li><li>59:06 赞助商：Shopify</li><li>1:00:00 与约翰·迈克菲同船，船上有 100 支枪</li><li>1:04:03 与约翰·迈克菲同船，船上有 100 支枪</li><li>1:07:08 Graham 对狗狗币的遗憾</li><li>1:11:10 Graham 对狗狗币的遗憾</li><li>1:14:30 为什么卖出最难</li><li>1:18:31 为什么卖出最难</li><li>1:20:39 看好还是看空美国？</li><li>1:24:40 看好还是看空美国？</li><li>1:28:39 把财务交给 AI 安全吗？</li><li>1:32:39 把财务交给 AI 安全吗？</li><li>1:35:38 快问快答预测</li><li>1:39:41 快问快答预测</li><li>1:43:42 快问快答预测</li><li>1:45:07 下期节目</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/NcEnNQRVKx8/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>【百万 AI Engineer 特别节目】斯坦福如何教授 AI 原生工程——Mihail Eric、Monaco</title>
+<link>https://pod-exp.pages.dev/dpY7YzZo4kE/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/dpY7YzZo4kE/</guid>
+<pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+<category>Latent Space</category>
+<category>AI 编程</category>
+<category>AI 智能体</category>
+<category>开源软件</category>
+<category>职业发展</category>
+<description>斯坦福《现代软件开发者》课程正尝试回答一个现实问题：当学生用一句提示就能完成去年的作业，工程教育该教什么？Mihail Eric 介绍课程如何让学生进入陌生的开源代码库、提出改动并接受维护者评审；随后从 Claude Code 的循环、工具和 harness，谈到大代码库的上下文工程、技能与代码审查。他也分享 Monaco 如何决定自建智能体工作空间、采购代码审查工具，并让值班智能体连接 Datadog 和 GitHub。对话最终落到开发者能力的变化：理解问题、做出判断、构建评测，并把个人使用 AI 推进到团队自主协作。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/dpY7YzZo4kE/cover.webp" alt="" /></p>
+<p><em>Latent Space · 播出 2026-11-08 · 时长 2:00:45</em></p>
+<p>斯坦福《现代软件开发者》课程正尝试回答一个现实问题：当学生用一句提示就能完成去年的作业，工程教育该教什么？Mihail Eric 介绍课程如何让学生进入陌生的开源代码库、提出改动并接受维护者评审；随后从 Claude Code 的循环、工具和 harness，谈到大代码库的上下文工程、技能与代码审查。他也分享 Monaco 如何决定自建智能体工作空间、采购代码审查工具，并让值班智能体连接 Datadog 和 GitHub。对话最终落到开发者能力的变化：理解问题、做出判断、构建评测，并把个人使用 AI 推进到团队自主协作。</p>
+<h2>章节</h2><ul><li>0:01 百万 AI Engineer 订阅者特别节目</li><li>0:52 Mihail Eric 与斯坦福 CS146S</li><li>4:54 Mihail Eric 与斯坦福 CS146S（续）</li><li>5:26 初级工程师现在需要学什么</li><li>9:26 初级工程师现在需要学什么（续）</li><li>10:03 开源维护者评审学生代码</li><li>14:04 开源维护者评审学生代码（续）</li><li>15:04 十周课程大纲导览</li><li>19:04 十周课程大纲导览（续）</li><li>23:05 十周课程大纲导览（续）</li><li>24:04 编程智能体的循环、工具与 harness</li><li>28:04 编程智能体的循环、工具与 harness（续）</li><li>32:05 编程智能体的循环、工具与 harness（续）</li><li>32:18 大型代码库的上下文工程</li><li>36:20 大型代码库的上下文工程（续）</li><li>38:15 让你真正理解 diff 的技能</li><li>42:17 让你真正理解 diff 的技能（续）</li><li>46:17 让你真正理解 diff 的技能（续）</li><li>46:42 Monaco.com 争议与飞机横幅</li><li>50:23 Monaco 为销售团队做什么</li><li>54:25 Monaco 为销售团队做什么（续）</li><li>58:26 Monaco 为销售团队做什么（续）</li><li>59:22 Monaco 的工程团队内部</li><li>1:01:40 买来学习，建好留下</li><li>1:05:24 让代码库适配智能体，打通值班闭环</li><li>1:09:25 让代码库适配智能体，打通值班闭环（续）</li><li>1:12:37 当代码审查成为瓶颈</li><li>1:16:37 当代码审查成为瓶颈（续）</li><li>1:20:37 安全、依赖与权限</li><li>1:24:39 安全、依赖与权限（续）</li><li>1:28:40 安全、依赖与权限（续）</li><li>1:30:14 后台智能体与 Stripe Minions</li><li>1:34:15 后台智能体与 Stripe Minions（续）</li><li>1:34:18 MCP 门户与基础设施为何会融合</li><li>1:38:18 MCP 门户与基础设施为何会融合（续）</li><li>1:41:22 构建软件工厂</li><li>1:45:22 构建软件工厂（续）</li><li>1:45:24 开发者还要做什么？</li><li>1:49:26 开发者还要做什么？（续）</li><li>1:52:16 从个人采用到团队自主</li><li>1:56:16 学生、开源项目与工程写作</li><li>2:00:18 深入一个问题，也能创造生意</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/dpY7YzZo4kE/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>这家正在击败中国竞争对手的无人机初创公司｜Adam Bry、Skydio</title>
+<link>https://pod-exp.pages.dev/nb7EinVtdok/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/nb7EinVtdok/</guid>
+<pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+<category>Relentless</category>
+<category>机器人与物理 AI</category>
+<category>制造业</category>
+<category>创业与经营</category>
+<description>Skydio 联合创始人兼 CEO Adam Bry 回顾公司从计算机视觉自主飞行起步，逐渐转向企业与政府客户，并把无人机机巢做成核心业务的过程。他谈到与 DJI 竞争时，重心如何从手动飞行转向自主机巢；中国制裁如何迫使公司重建供应链；产品设计、制造、可靠性和隐私保护面临的取舍；以及公司怎样在研发、扩产和现金流之间管理优先级。贯穿其中的主题是：硬件创业需要长期投入、精干团队、对客户真实需求的理解，以及在关键时刻敢于押注。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/nb7EinVtdok/cover.webp" alt="" /></p>
+<p><em>Relentless · 播出 2026-11-08 · 时长 59:38</em></p>
+<p>Skydio 联合创始人兼 CEO Adam Bry 回顾公司从计算机视觉自主飞行起步，逐渐转向企业与政府客户，并把无人机机巢做成核心业务的过程。他谈到与 DJI 竞争时，重心如何从手动飞行转向自主机巢；中国制裁如何迫使公司重建供应链；产品设计、制造、可靠性和隐私保护面临的取舍；以及公司怎样在研发、扩产和现金流之间管理优先级。贯穿其中的主题是：硬件创业需要长期投入、精干团队、对客户真实需求的理解，以及在关键时刻敢于押注。</p>
+<h2>章节</h2><ul><li>0:01 开场介绍</li><li>0:08 与 DJI 竞争</li><li>2:41 以客户为中心，还是以竞争对手为中心</li><li>4:29 硬件创业的十年酝酿期</li><li>7:02 扩大生产的挑战</li><li>9:34 遭中国列入制裁名单</li><li>11:33 产品取舍</li><li>14:16 设计固定翼无人机</li><li>16:54 好的组织是一种最大化函数</li><li>20:09 单个产品的回本周期</li><li>22:10 做关乎生死存亡的押注</li><li>23:59 政治变化如何影响政府销售</li><li>26:09 隐私</li><li>28:48 把时间花在高杠杆的事情上</li><li>31:02 消除复杂性</li><li>33:40 制造业的挑战</li><li>35:30 无人机被摧毁</li><li>39:20 硬件泡沫</li><li>42:38 掷出一个艰难的六点</li><li>45:53 押上公司去做无人机机巢</li><li>47:44 熬过“兵变”</li><li>49:10 垂直整合，还是寻找优秀供应商</li><li>51:46 背水一战时如何经营</li><li>55:46 在成熟业务中保持发明能力</li><li>56:09 风险投资与现金流</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/nb7EinVtdok/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>E87｜币安63亿美元被盗冲击波</title>
+<link>https://pod-exp.pages.dev/tsyWFzcxa00/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/tsyWFzcxa00/</guid>
+<pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+<category>Web3101</category>
+<category>加密与 Web3</category>
+<category>AI 安全</category>
+<category>金融基础设施</category>
+<description>本期复盘币安约 63 亿美元资产被盗事件，从假招聘和社会工程攻击切入，讨论攻击者如何借员工电脑、内部 AI 工具和 EIP-7702 影响签名与提款流程。嘉宾分析了私钥托管之外的权限管理、Fail-Safe、最小特权、隔离、热钱包限额和延迟交易等防线，也比较了定向渗透与 AI 自动化探测。节目进一步讨论稳定币冻结、被盗资金洗出路径、交易所和 DeFi 的赔付能力、监管合规、自托管责任，以及安全与去中心化之间的取舍。最后，几位嘉宾讨论链上结算、稳定币、RWA 等真实需求能否支撑 Web3 超越金融应用的想象。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/tsyWFzcxa00/cover.webp" alt="" /></p>
+<p><em>Web3101 · 播出 2026-11-08 · 时长 1:18:52</em></p>
+<p>本期复盘币安约 63 亿美元资产被盗事件，从假招聘和社会工程攻击切入，讨论攻击者如何借员工电脑、内部 AI 工具和 EIP-7702 影响签名与提款流程。嘉宾分析了私钥托管之外的权限管理、Fail-Safe、最小特权、隔离、热钱包限额和延迟交易等防线，也比较了定向渗透与 AI 自动化探测。节目进一步讨论稳定币冻结、被盗资金洗出路径、交易所和 DeFi 的赔付能力、监管合规、自托管责任，以及安全与去中心化之间的取舍。最后，几位嘉宾讨论链上结算、稳定币、RWA 等真实需求能否支撑 Web3 超越金融应用的想象。</p>
+<h2>章节</h2><ul><li>0:03 开场与背景</li><li>2:11 时间线复盘：72 小时极限响应与逾 20 亿美元被盗资金迅速冻结</li><li>6:06 深扒攻击路径：私钥没有丢，托管安全不等于资金安全</li><li>7:57 AI Agent 成为内网攻击跳板，企业安全的新风险</li><li>11:57 AI Agent 成为内网攻击跳板，企业安全的新风险（续）</li><li>13:00 定向渗透与 AI 大规模自动化探测</li><li>16:25 令人震惊的安全漏洞：为什么交易所员工能随意安装外部软件？</li><li>18:04 为什么单个员工的权限可能导致整个热钱包被盗？</li><li>19:51 链上惊魂：黑客失手，错过了通过 Aave 扩大损失的机会</li><li>22:11 Fail-Safe 原则失灵：为什么交易所的风控机制没能阻止黑客？</li><li>24:47 三大安全基本原则：Fail-Safe、最小特权原则与隔离原则</li><li>26:39 多链演进带来的巨大防守困境</li><li>28:52 链上余额全透明，黑客能精准计算攻击收益，加密行业成为天然靶场</li><li>29:46 原子化交易的反思：一笔交易就能掏空整个协议！</li><li>32:43 安全与原生去中心化信仰：限制大额交易是否背离 Crypto 精神？</li><li>36:17 技术小课堂：什么是 EIP-7702？它为何成了黑客的提款加速器？</li><li>40:00 Tether 与 Circle 闪电冻结资产，稳定币发行商的应急机制正在改变</li><li>43:40 稳定币发行商的裁判权博弈</li><li>47:41 稳定币发行商的裁判权博弈（续）</li><li>48:04 黑客洗钱路径</li><li>49:25 黑客究竟是谁？来自朝鲜？</li><li>51:43 巨额盗窃为何没有引发巨大恐慌？</li><li>55:44 巨额盗窃为何没有引发巨大恐慌？（续）</li><li>59:46 巨额盗窃为何没有引发巨大恐慌？（续）</li><li>1:01:51 普通用户日益重视合规交易所和专业托管</li><li>1:05:26 一场黑客攻击也在成为 Crypto 监管的政治议题</li><li>1:06:20 交易所被盗、钱包供应链被攻击，Web3 安全焦虑大扩散</li><li>1:10:21 交易所被盗、钱包供应链被攻击，Web3 安全焦虑大扩散（续）</li><li>1:10:37 当 Web3 越来越依赖冻结、赔付和中心化机构，它还剩下什么？</li><li>1:14:37 当 Web3 越来越依赖冻结、赔付和中心化机构，它还剩下什么？（续）</li><li>1:14:39 Web3 仍然满足传统金融无法满足的需求</li><li>1:16:31 2026 请回答：如果 Web3 只剩下金融，还有多少想象力？</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/tsyWFzcxa00/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
 <item>
 <title>十年上涨 32,000%：一位交易了 60 年的交易员的 TQQQ 策略｜Les Masonson</title>
 <link>https://pod-exp.pages.dev/HMu4w60FuZ8/</link>

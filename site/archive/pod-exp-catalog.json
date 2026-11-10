@@ -1,5 +1,87 @@
 [
  {
+  "id": "21tuT-e4NVo",
+  "title": "顶尖公司在 AI 编程上有哪些不同做法｜Martin Harrysson、Prakhar Dixit（麦肯锡）",
+  "channel": "AI Engineer",
+  "guests": "Prakhar Dixit、Shilpa",
+  "published": "2026-11-08",
+  "addedAt": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "duration": 1228,
+  "topics": [
+   "AI 编程",
+   "AI 智能体",
+   "企业软件"
+  ],
+  "url": "https://pod-exp.pages.dev/21tuT-e4NVo/"
+ },
+ {
+  "id": "NcEnNQRVKx8",
+  "title": "比特币专家：美国 40 万亿美元金融重置已开始——现在就行动！",
+  "channel": "The Iced Coffee Hour",
+  "guests": "Anthony Pompliano",
+  "published": "2026-11-08",
+  "addedAt": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "duration": 6377,
+  "topics": [
+   "加密与 Web3",
+   "投资",
+   "人工智能",
+   "金融基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/NcEnNQRVKx8/"
+ },
+ {
+  "id": "dpY7YzZo4kE",
+  "title": "【百万 AI Engineer 特别节目】斯坦福如何教授 AI 原生工程——Mihail Eric、Monaco",
+  "channel": "Latent Space",
+  "guests": "Mihail Eric",
+  "published": "2026-11-08",
+  "addedAt": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "duration": 7245,
+  "topics": [
+   "AI 编程",
+   "AI 智能体",
+   "开源软件",
+   "职业发展"
+  ],
+  "url": "https://pod-exp.pages.dev/dpY7YzZo4kE/"
+ },
+ {
+  "id": "nb7EinVtdok",
+  "title": "这家正在击败中国竞争对手的无人机初创公司｜Adam Bry、Skydio",
+  "channel": "Relentless",
+  "guests": "Adam Bry",
+  "published": "2026-11-08",
+  "addedAt": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "duration": 3578,
+  "topics": [
+   "机器人与物理 AI",
+   "制造业",
+   "创业与经营"
+  ],
+  "url": "https://pod-exp.pages.dev/nb7EinVtdok/"
+ },
+ {
+  "id": "tsyWFzcxa00",
+  "title": "E87｜币安63亿美元被盗冲击波",
+  "channel": "Web3101",
+  "guests": "杨民道、周亚金",
+  "published": "2026-11-08",
+  "addedAt": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "duration": 4732,
+  "topics": [
+   "加密与 Web3",
+   "AI 安全",
+   "金融基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/tsyWFzcxa00/"
+ },
+ {
   "id": "HMu4w60FuZ8",
   "title": "十年上涨 32,000%：一位交易了 60 年的交易员的 TQQQ 策略｜Les Masonson",
   "channel": "TraderLion",
