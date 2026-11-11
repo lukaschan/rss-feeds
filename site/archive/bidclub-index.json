@@ -1,5 +1,137 @@
 [
  {
+  "slug": "neuron-basis-goodfire-s-curt-tigges-agentic-inte",
+  "title": "The Neuron Basis: Goodfire's Curt Tigges on Agentic Interp, Monosemanticity & Reverse Engineering",
+  "title_alt": "神经元基底：Goodfire 的 Curt Tigges 谈智能体驱动的可解释性、单义性与逆向工程",
+  "show_id": "cogrev",
+  "show": "The Cognitive Revolution",
+  "lang": "EN",
+  "date": "2026-11-10",
+  "published_at": "2026-11-10T19:09:02+00:00",
+  "duration_min": 116,
+  "url": "https://bidclub.ai/e/neuron-basis-goodfire-s-curt-tigges-agentic-inte"
+ },
+ {
+  "slug": "where-startups-can-win-beyond-openai-anthropic-h",
+  "title": "Where Startups Can Win Beyond OpenAI and Anthropic | HubSpot’s Dharmesh Shah",
+  "title_alt": "初创公司如何在 OpenAI 和 Anthropic 之外胜出 | HubSpot 的 Dharmesh Shah",
+  "show_id": "a16z",
+  "show": "The a16z Show",
+  "lang": "EN",
+  "date": "2026-11-10",
+  "published_at": "2026-11-10T15:30:23+00:00",
+  "duration_min": 59,
+  "url": "https://bidclub.ai/e/where-startups-can-win-beyond-openai-anthropic-h"
+ },
+ {
+  "slug": "mercor-raises-750m-at-20b-valuation-ceo-brendan",
+  "title": "Mercor Raises $750M at $20B Valuation | CEO Brendan Foody",
+  "title_alt": "Mercor以200亿美元估值融资7.5亿美元｜CEO Brendan Foody",
+  "show_id": "sourcery",
+  "show": "Sourcery",
+  "lang": "EN",
+  "date": "2026-11-10",
+  "published_at": "2026-11-10T13:00:00+00:00",
+  "duration_min": 54,
+  "url": "https://bidclub.ai/e/mercor-raises-750m-at-20b-valuation-ceo-brendan"
+ },
+ {
+  "slug": "nik-storonsky-most-uncompromising-banking-ceo",
+  "title": "Nik Storonsky: The most uncompromising banking CEO",
+  "title_alt": "Nik Storonsky：最不妥协的银行业CEO",
+  "show_id": "cheekypint",
+  "show": "Cheeky Pint",
+  "lang": "EN",
+  "date": "2026-11-10",
+  "published_at": "2026-11-10T12:45:00+00:00",
+  "duration_min": 52,
+  "url": "https://bidclub.ai/e/nik-storonsky-most-uncompromising-banking-ceo"
+ },
+ {
+  "slug": "jensen-huang-affair",
+  "title": "The Jensen Huang Affair",
+  "title_alt": "黄仁勋绯闻风波",
+  "show_id": "hardfork",
+  "show": "Hard Fork",
+  "lang": "EN",
+  "date": "2026-11-10",
+  "published_at": "2026-11-10T11:00:00+00:00",
+  "duration_min": 31,
+  "url": "https://bidclub.ai/e/jensen-huang-affair"
+ },
+ {
+  "slug": "alex-karp-silicon-valley-broke-its-promise-ameri",
+  "title": "Alex Karp on Why AI Will Hurt the Middle Class: You Can’t Have Billionaires Becoming 100x Wealthier",
+  "title_alt": "Alex Karp谈AI为何会冲击中产阶级：不能让亿万富豪的财富膨胀100倍",
+  "show_id": "thebuilders",
+  "show": "The Builders",
+  "lang": "EN",
+  "date": "2026-11-10",
+  "published_at": "2026-11-10T08:01:00+00:00",
+  "duration_min": 50,
+  "url": "https://bidclub.ai/e/alex-karp-silicon-valley-broke-its-promise-ameri"
+ },
+ {
+  "slug": "we-re-cooked-w-armani-ferrante-near-general-kimm",
+  "title": "We're Cooked w/ Armani Ferrante, NEAR & General Kimmitt",
+  "title_alt": "《我们完了》：与 Armani Ferrante、NEAR 和 General Kimmitt 对谈",
+  "show_id": "marketbubble",
+  "show": "Market Bubble",
+  "lang": "EN",
+  "date": "2026-11-10",
+  "published_at": "2026-11-10T02:39:30+00:00",
+  "duration_min": 225,
+  "url": "https://bidclub.ai/e/we-re-cooked-w-armani-ferrante-near-general-kimm"
+ },
+ {
+  "slug": "what-frontier-labs-buy-data-deep-dive-handshake",
+  "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
+  "title_alt": "前沿实验室买什么：与 Handshake AI 深入探讨数据——Garrett Lord 与团队",
+  "show_id": "latentspace",
+  "show": "Latent Space",
+  "lang": "EN",
+  "date": "2026-11-09",
+  "published_at": "2026-11-09T16:41:48+00:00",
+  "duration_min": 164,
+  "url": "https://bidclub.ai/e/what-frontier-labs-buy-data-deep-dive-handshake"
+ },
+ {
+  "slug": "planet-labs-factory-tour",
+  "title": "Planet Labs Factory Tour",
+  "title_alt": "Planet Labs 工厂探访",
+  "show_id": "sourcery",
+  "show": "Sourcery",
+  "lang": "EN",
+  "date": "2026-11-09",
+  "published_at": "2026-11-09T14:44:26+00:00",
+  "duration_min": 40,
+  "url": "https://bidclub.ai/e/planet-labs-factory-tour"
+ },
+ {
+  "slug": "20vc-mistral-ceo-why-energy-is-not-bottleneck-ai",
+  "title": "Mistral CEO: Why OpenAI & Anthropic Will Come for Your Business | Are Chinese Models Truly Safe?",
+  "title_alt": "Mistral CEO：OpenAI 与 Anthropic 为何将进军你的业务？| 中国模型真的安全吗？",
+  "show_id": "20vc",
+  "show": "20VC",
+  "lang": "EN",
+  "date": "2026-11-09",
+  "published_at": "2026-11-09T07:07:00+00:00",
+  "duration_min": 50,
+  "url": "https://bidclub.ai/e/20vc-mistral-ceo-why-energy-is-not-bottleneck-ai"
+ },
+ {
+  "slug": "one-million-ai-engineer-special-stanford-teaches",
+  "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+  "title_alt": "[百万 AI 工程师特别篇] 斯坦福如何教授 AI 原生工程——Mihail Eric，Monaco",
+  "show_id": "latentspace",
+  "show": "Latent Space",
+  "lang": "EN",
+  "date": "2026-11-08",
+  "published_at": "2026-11-08T21:23:29+00:00",
+  "duration_min": 121,
+  "url": "https://bidclub.ai/e/one-million-ai-engineer-special-stanford-teaches"
+ },
+ {
   "slug": "ai-am-is-this-ai-we-want-alarming-acceleration-a",
   "title": "AI:AM: Is THIS the AI We Want? Alarming Acceleration, AI Election Bets, GPU Trading & AI-Native VC",
   "title_alt": "AI:AM：这就是我们想要的 AI 吗？令人警惕的加速、AI 选举押注、GPU 交易与 AI 原生风投",
@@ -444,6 +576,18 @@
   "url": "https://bidclub.ai/e/gaonengliang-2026-11-03-vol-240"
  },
  {
+  "slug": "garry-tan-decides-who-gets-build-future",
+  "title": "Garry Tan Decides Who Gets to Build the Future",
+  "title_alt": "Garry Tan 决定谁能打造未来",
+  "show_id": "thebuilders",
+  "show": "The Builders",
+  "lang": "EN",
+  "date": "2026-11-03",
+  "published_at": "2026-11-03T08:01:00+00:00",
+  "duration_min": 40,
+  "url": "https://bidclub.ai/e/garry-tan-decides-who-gets-build-future"
+ },
+ {
   "slug": "shanghaojin-2026-11-03",
   "title": "市场概述2026年11月3日",
   "title_alt": "Market Overview — November 3, 2026",
@@ -852,6 +996,18 @@
   "url": "https://bidclub.ai/e/why-founders-are-betting-big-factories-mines-ene"
  },
  {
+  "slug": "why-sam-altman-is-against-single-superintelligen",
+  "title": "Why Sam Altman is against a single superintelligence",
+  "title_alt": "Sam Altman为何反对单一超级智能",
+  "show_id": "cheekypint",
+  "show": "Cheeky Pint",
+  "lang": "EN",
+  "date": "2026-10-29",
+  "published_at": "2026-10-29T11:45:00+00:00",
+  "duration_min": 53,
+  "url": "https://bidclub.ai/e/why-sam-altman-is-against-single-superintelligen"
+ },
+ {
   "slug": "168x-qinbafrank-anthropic-ipo-ai-q4-20261029",
   "title": "168X 对话 QinbaFrank：AI 商业化兑现、Anthropic IPO 与 2026 Q4 的市场窗口",
   "title_alt": "168X in Conversation with QinbaFrank: AI Commercialization, Anthropic’s IPO, and the Q4 2026 Market Window",
@@ -886,6 +1042,18 @@
   "published_at": "2026-10-29T07:07:00+00:00",
   "duration_min": 60,
   "url": "https://bidclub.ai/e/20vc-anthropic-files-s1-ahead-2trn-ipo-instinct"
+ },
+ {
+  "slug": "mustafa-suleyman-ai-should-serve-humanity-not-re",
+  "title": "Mustafa Suleyman: AI Should Serve Humanity, Not Replace It",
+  "title_alt": "Mustafa Suleyman：AI应服务人类，而非取代人类",
+  "show_id": "thebuilders",
+  "show": "The Builders",
+  "lang": "EN",
+  "date": "2026-10-29",
+  "published_at": "2026-10-29T07:01:00+00:00",
+  "duration_min": 52,
+  "url": "https://bidclub.ai/e/mustafa-suleyman-ai-should-serve-humanity-not-re"
  },
  {
   "slug": "valley101-2026-10-28-e257-vitalik",
@@ -2040,6 +2208,18 @@
   "url": "https://bidclub.ai/e/flying-tesla-car-robot-brains-halving-cost-every"
  },
  {
+  "slug": "mossfire-2026-10-17",
+  "title": "56. 硅谷国庆见闻 - 愿天下处处是泡沫",
+  "title_alt": "56. Silicon Valley Dispatches Over China's National Day Holiday — May There Be Bubbles Everywhere",
+  "show_id": "mossfire",
+  "show": "苔藓之火",
+  "lang": "ZH",
+  "date": "2026-10-17",
+  "published_at": "2026-10-17T17:11:57+00:00",
+  "duration_min": 32,
+  "url": "https://bidclub.ai/e/mossfire-2026-10-17"
+ },
+ {
   "slug": "ai-am-where-s-steering-wheel-my-agent-set-passwo",
   "title": "AI:AM: Where's the Steering Wheel? My Agent Set the Password, Hidden Valence, Proofs Find Linux Bugs",
   "title_alt": "AI:AM：方向盘在哪儿？我的智能体设了密码、隐藏效价、证明揪出 Linux 漏洞",
@@ -2532,6 +2712,18 @@
   "url": "https://bidclub.ai/e/governing-ai-agents-alan-chan-govai-monitoring-a"
  },
  {
+  "slug": "weishijie-2026-10-14",
+  "title": "91.外滩大会实录：智能体经济的破晓时刻",
+  "title_alt": "91. The Bund Summit Transcript: The Dawn of the Agent Economy",
+  "show_id": "weishijie",
+  "show": "卫诗婕｜漫谈 Light the Star",
+  "lang": "ZH",
+  "date": "2026-10-14",
+  "published_at": "2026-10-14T02:06:32+00:00",
+  "duration_min": 40,
+  "url": "https://bidclub.ai/e/weishijie-2026-10-14"
+ },
+ {
   "slug": "dyna-2-general-purpose-physical-agents-hour-long",
   "title": "The Bitter Lesson of Robotics: Why Scaling Wins — Jason Ma, Dyna Robotics",
   "title_alt": "机器人领域的苦涩教训：为何规模化取胜 — Jason Ma，Dyna Robotics",
@@ -2566,6 +2758,18 @@
   "published_at": "2026-10-13T16:26:58+00:00",
   "duration_min": 45,
   "url": "https://bidclub.ai/e/squawk-pod-paul-tudor-jones-call-2027-vibes-10-1"
+ },
+ {
+  "slug": "mossfire-2026-10-13-55-ai",
+  "title": "55. 从中国缺电到美国缺电：AI能源瓶颈？- 唐奕波",
+  "title_alt": "55. From Power Shortages in China to Power Shortages in the U.S.: An AI Energy Bottleneck? — 唐奕波",
+  "show_id": "mossfire",
+  "show": "苔藓之火",
+  "lang": "ZH",
+  "date": "2026-10-13",
+  "published_at": "2026-10-13T16:00:00+00:00",
+  "duration_min": 63,
+  "url": "https://bidclub.ai/e/mossfire-2026-10-13-55-ai"
  },
  {
   "slug": "david-v-lez-building-nubank-future-global-bankin",
