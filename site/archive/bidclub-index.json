@@ -1,5 +1,89 @@
 [
  {
+  "slug": "ai-could-bring-halo-other-classic-games-back-lif",
+  "title": "How AI Could Bring Halo and Other Classic Games Back to Life",
+  "title_alt": "AI 如何让《光环》等经典游戏重获新生",
+  "show_id": "a16z",
+  "show": "The a16z Show",
+  "lang": "EN",
+  "date": "2026-11-12",
+  "published_at": "2026-11-12T14:50:20+00:00",
+  "duration_min": 46,
+  "url": "https://bidclub.ai/e/ai-could-bring-halo-other-classic-games-back-lif"
+ },
+ {
+  "slug": "powering-ai-driven-drug-discovery-president-isom",
+  "title": "Powering AI-Driven Drug Discovery with President of Isomorphic Labs Max Jaderberg",
+  "title_alt": "借助AI驱动药物发现：Isomorphic Labs总裁Max Jaderberg",
+  "show_id": "nopriors",
+  "show": "No Priors",
+  "lang": "EN",
+  "date": "2026-11-12",
+  "published_at": "2026-11-12T11:00:00+00:00",
+  "duration_min": 39,
+  "url": "https://bidclub.ai/e/powering-ai-driven-drug-discovery-president-isom"
+ },
+ {
+  "slug": "is-circle-more-than-just-usdc-arc-ai-agents-what",
+  "title": "Is Circle More Than Just USDC? Arc, AI Agents, and What’s Next",
+  "title_alt": "Circle 不只是 USDC？Arc、AI Agent，以及下一步",
+  "show_id": "edgepod",
+  "show": "The Edge Podcast",
+  "lang": "EN",
+  "date": "2026-11-12",
+  "published_at": "2026-11-12T07:16:21+00:00",
+  "duration_min": 47,
+  "url": "https://bidclub.ai/e/is-circle-more-than-just-usdc-arc-ai-agents-what"
+ },
+ {
+  "slug": "20vc-jensen-huang-investigation-what-happens-now",
+  "title": "20VC: Jensen Huang Investigation: What Happens Now | Sequoia Leave London, Close Scout Program and End Evergreen Fund | NASDAQ Loses $2.5TRN in 24 hours | Anthropic targets $1.4TRN IPO valuation",
+  "title_alt": "20VC：Jensen Huang 调查：接下来会发生什么 | Sequoia 退出伦敦、关闭 Scout 项目并终止 Evergreen 基金 | 纳斯达克 24 小时内蒸发 2.5万亿美元 | Anthropic 瞄准 1.4万亿美元 IPO 估值",
+  "show_id": "20vc",
+  "show": "20VC",
+  "lang": "EN",
+  "date": "2026-11-12",
+  "published_at": "2026-11-12T07:07:00+00:00",
+  "duration_min": 67,
+  "url": "https://bidclub.ai/e/20vc-jensen-huang-investigation-what-happens-now"
+ },
+ {
+  "slug": "can-jensen-huang-remain-ceo-inside-nvidia-s-next",
+  "title": "Jensen’s Spy Probe, Anthropic’s Debut Week, and Elon’s 30M Robot Workforce | #310",
+  "title_alt": "Jensen 涉间谍指控调查、Anthropic IPO 首周与 Elon 的 3000 万机器人劳动力 | #310",
+  "show_id": "moonshots",
+  "show": "Moonshots",
+  "lang": "EN",
+  "date": "2026-11-11",
+  "published_at": "2026-11-11T21:00:00+00:00",
+  "duration_min": 138,
+  "url": "https://bidclub.ai/e/can-jensen-huang-remain-ceo-inside-nvidia-s-next"
+ },
+ {
+  "slug": "something-is-wrong-bitcoin",
+  "title": "Something Is Wrong With Bitcoin",
+  "title_alt": "比特币出了什么问题",
+  "show_id": "delphidigital",
+  "show": "Delphi Digital",
+  "lang": "EN",
+  "date": "2026-11-11",
+  "published_at": "2026-11-11T17:00:30+00:00",
+  "duration_min": 59,
+  "url": "https://bidclub.ai/e/something-is-wrong-bitcoin"
+ },
+ {
+  "slug": "mike-volpi-why-ai-infrastructure-will-outlast-hy",
+  "title": "Mike Volpi on Why AI Infrastructure Will Outlast the Hype Cycle",
+  "title_alt": "Mike Volpi谈AI基础设施为何能比炒作周期更持久",
+  "show_id": "a16z",
+  "show": "The a16z Show",
+  "lang": "EN",
+  "date": "2026-11-11",
+  "published_at": "2026-11-11T15:30:22+00:00",
+  "duration_min": 56,
+  "url": "https://bidclub.ai/e/mike-volpi-why-ai-infrastructure-will-outlast-hy"
+ },
+ {
   "slug": "ai-is-heading-massive-oversupply-top-hedge-fund",
   "title": "AI is Heading for a Massive Oversupply: Top Hedge Fund Manager’s Prediction | David Orr",
   "title_alt": "AI正走向严重供给过剩：顶级对冲基金经理 David Orr 的预测",
@@ -10,6 +94,78 @@
   "published_at": "2026-11-11T13:13:08+00:00",
   "duration_min": 55,
   "url": "https://bidclub.ai/e/ai-is-heading-massive-oversupply-top-hedge-fund"
+ },
+ {
+  "slug": "building-robinhood-surviving-gamestop-500-millio",
+  "title": "Building Robinhood, Surviving GameStop & A $500 Million Phone Call | Vlad Tenev",
+  "title_alt": "打造 Robinhood、挺过 GameStop 风暴与一通 5 亿美元电话｜Vlad Tenev",
+  "show_id": "davidsenra",
+  "show": "David Senra",
+  "lang": "EN",
+  "date": "2026-11-11",
+  "published_at": "2026-11-11T13:00:26+00:00",
+  "duration_min": 71,
+  "url": "https://bidclub.ai/e/building-robinhood-surviving-gamestop-500-millio"
+ },
+ {
+  "slug": "agents-that-think-together-cisco-s-vijoy-pandey",
+  "title": "Agents That Think Together: Cisco's Vijoy Pandey on Semantic Alignment, Scope, Accord & Concord",
+  "title_alt": "共同思考的智能体：Cisco 的 Vijoy Pandey 谈语义对齐、Scope、Accord 与 Concord",
+  "show_id": "cogrev",
+  "show": "The Cognitive Revolution",
+  "lang": "EN",
+  "date": "2026-11-11",
+  "published_at": "2026-11-11T11:59:15+00:00",
+  "duration_min": 92,
+  "url": "https://bidclub.ai/e/agents-that-think-together-cisco-s-vijoy-pandey"
+ },
+ {
+  "slug": "zach-reitano-building-ro-why-healthcare-should-b",
+  "title": "The Flaw Behind Everything Wrong With US Healthcare",
+  "title_alt": "美国医疗体系种种弊病背后的根本缺陷",
+  "show_id": "iltb",
+  "show": "Invest Like the Best",
+  "lang": "EN",
+  "date": "2026-11-11",
+  "published_at": "2026-11-11T09:00:00+00:00",
+  "duration_min": 76,
+  "url": "https://bidclub.ai/e/zach-reitano-building-ro-why-healthcare-should-b"
+ },
+ {
+  "slug": "504-russia-ukraine-war-putin-zelenskyy-drones-fu",
+  "title": "Russia-Ukraine War: Putin, Zelenskyy, Trump and the Future of Warfare | Lex Fridman Podcast #504",
+  "title_alt": "俄乌战争：普京、泽连斯基、特朗普与战争的未来｜Lex Fridman 播客 #504",
+  "show_id": "lex",
+  "show": "Lex Fridman Podcast",
+  "lang": "EN",
+  "date": "2026-11-10",
+  "published_at": "2026-11-10T23:52:44+00:00",
+  "duration_min": 181,
+  "url": "https://bidclub.ai/e/504-russia-ukraine-war-putin-zelenskyy-drones-fu"
+ },
+ {
+  "slug": "freedom-vs-safety-axon-ceo-rick-smith-future-pol",
+  "title": "Freedom vs. Safety: Axon CEO Rick Smith on the Future of Policing",
+  "title_alt": "自由与安全：Axon CEO Rick Smith 谈警务的未来",
+  "show_id": "allin",
+  "show": "All-In",
+  "lang": "EN",
+  "date": "2026-11-10",
+  "published_at": "2026-11-10T23:03:00+00:00",
+  "duration_min": 56,
+  "url": "https://bidclub.ai/e/freedom-vs-safety-axon-ceo-rick-smith-future-pol"
+ },
+ {
+  "slug": "designing-agents-zeno-rocha-resend",
+  "title": "Designing for Agents — Zeno Rocha, Resend",
+  "title_alt": "为 Agent 设计——Zeno Rocha，Resend",
+  "show_id": "latentspace",
+  "show": "Latent Space",
+  "lang": "EN",
+  "date": "2026-11-10",
+  "published_at": "2026-11-10T20:06:15+00:00",
+  "duration_min": 86,
+  "url": "https://bidclub.ai/e/designing-agents-zeno-rocha-resend"
  },
  {
   "slug": "neuron-basis-goodfire-s-curt-tigges-agentic-inte",
@@ -96,6 +252,54 @@
   "url": "https://bidclub.ai/e/we-re-cooked-w-armani-ferrante-near-general-kimm"
  },
  {
+  "slug": "shanghaojin-2026-11-10",
+  "title": "市场概述2026年11月10日",
+  "title_alt": "Market Overview, November 10, 2026",
+  "show_id": "shanghaojin",
+  "show": "Shanghao Jin",
+  "lang": "ZH",
+  "date": "2026-11-10",
+  "published_at": "2026-11-10T01:57:42+00:00",
+  "duration_min": 39,
+  "url": "https://bidclub.ai/e/shanghaojin-2026-11-10"
+ },
+ {
+  "slug": "weishijie-2026-11-10",
+  "title": "92.【番外】财富是诅咒，围猎顶级富人的 100 种方式｜黄仁勋事件有感",
+  "title_alt": "92. [Bonus] Wealth Is a Curse: 100 Ways to Hunt the Ultra-Rich | Reflections on the Huang Renxun Episode",
+  "show_id": "weishijie",
+  "show": "卫诗婕｜漫谈 Light the Star",
+  "lang": "ZH",
+  "date": "2026-11-10",
+  "published_at": "2026-11-10T00:50:41+00:00",
+  "duration_min": 86,
+  "url": "https://bidclub.ai/e/weishijie-2026-11-10"
+ },
+ {
+  "slug": "mossfire-2026-11-10-61-harvey",
+  "title": "61. 在Harvey训练大模型是什么体验？- Joey Wang",
+  "title_alt": "61. What’s It Like to Train Large Models at Harvey? — Joey Wang",
+  "show_id": "mossfire",
+  "show": "苔藓之火",
+  "lang": "ZH",
+  "date": "2026-11-10",
+  "published_at": "2026-11-10T00:00:00+00:00",
+  "duration_min": 72,
+  "url": "https://bidclub.ai/e/mossfire-2026-11-10-61-harvey"
+ },
+ {
+  "slug": "valley101-2026-11-09-e258-hf0",
+  "title": "E258｜聊聊硅谷创业“修道院”HF0与OpenRouter早期故事",
+  "title_alt": "E258 | Inside HF0, Silicon Valley’s Startup “Monastery,” and OpenRouter’s Early Story",
+  "show_id": "valley101",
+  "show": "硅谷101",
+  "lang": "ZH",
+  "date": "2026-11-09",
+  "published_at": "2026-11-09T23:00:00+00:00",
+  "duration_min": 54,
+  "url": "https://bidclub.ai/e/valley101-2026-11-09-e258-hf0"
+ },
+ {
   "slug": "what-frontier-labs-buy-data-deep-dive-handshake",
   "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
   "title_alt": "前沿实验室买什么：与 Handshake AI 深入探讨数据——Garrett Lord 与团队",
@@ -132,6 +336,18 @@
   "url": "https://bidclub.ai/e/20vc-mistral-ceo-why-energy-is-not-bottleneck-ai"
  },
  {
+  "slug": "tulongzhishu-2026-11-09",
+  "title": "从 3.9%时间占比到\"字节时间\"，我们是怎么走到这儿的？",
+  "title_alt": "From a 3.9% Share of User Time to “ByteDance Time”: How Did We Get Here?",
+  "show_id": "tulongzhishu",
+  "show": "屠龙之术",
+  "lang": "ZH",
+  "date": "2026-11-09",
+  "published_at": "2026-11-09T03:33:43+00:00",
+  "duration_min": 62,
+  "url": "https://bidclub.ai/e/tulongzhishu-2026-11-09"
+ },
+ {
   "slug": "one-million-ai-engineer-special-stanford-teaches",
   "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
   "title_alt": "[百万 AI 工程师特别篇] 斯坦福如何教授 AI 原生工程——Mihail Eric，Monaco",
@@ -142,6 +358,30 @@
   "published_at": "2026-11-08T21:23:29+00:00",
   "duration_min": 121,
   "url": "https://bidclub.ai/e/one-million-ai-engineer-special-stanford-teaches"
+ },
+ {
+  "slug": "shizilukou-2026-11-08-rsi-neolab",
+  "title": "【年终复盘②】RSI可能是NeoLab的机会、PA真的有用、创业要造灭火器还是砖头？｜对话谷雨",
+  "title_alt": "Year-End Review ②: RSI Could Be an Opportunity for NeoLab, PA Really Is Useful, and Should Startups Build a Fire Extinguisher or a Brick? | A Conversation with 谷雨",
+  "show_id": "shizilukou",
+  "show": "十字路口Crossing",
+  "lang": "ZH",
+  "date": "2026-11-08",
+  "published_at": "2026-11-08T16:00:00+00:00",
+  "duration_min": 41,
+  "url": "https://bidclub.ai/e/shizilukou-2026-11-08-rsi-neolab"
+ },
+ {
+  "slug": "win-deals-grow-250b-business-nikesh-arora-palo-a",
+  "title": "How to Win Deals & Grow a $250B Business | Nikesh Arora, Palo Alto Networks",
+  "title_alt": "如何赢得交易、做大2500亿美元业务｜Nikesh Arora，Palo Alto Networks",
+  "show_id": "davidsenra",
+  "show": "David Senra",
+  "lang": "EN",
+  "date": "2026-11-08",
+  "published_at": "2026-11-08T13:00:32+00:00",
+  "duration_min": 62,
+  "url": "https://bidclub.ai/e/win-deals-grow-250b-business-nikesh-arora-palo-a"
  },
  {
   "slug": "ai-am-is-this-ai-we-want-alarming-acceleration-a",
@@ -264,6 +504,18 @@
   "url": "https://bidclub.ai/e/controlling-biology-fabian-theis-helmholtz-munic"
  },
  {
+  "slug": "what-do-midterms-mean-crypto-ai",
+  "title": "What Do The Midterms Mean For Crypto And AI?",
+  "title_alt": "美国中期选举对加密货币和 AI 意味着什么？",
+  "show_id": "empirepod",
+  "show": "Empire",
+  "lang": "EN",
+  "date": "2026-11-06",
+  "published_at": "2026-11-06T11:00:30+00:00",
+  "duration_min": 64,
+  "url": "https://bidclub.ai/e/what-do-midterms-mean-crypto-ai"
+ },
+ {
   "slug": "why-tech-right-lost-big-this-week",
   "title": "Why the Tech Right Lost Big This Week",
   "title_alt": "本周科技右翼为何遭遇重挫",
@@ -358,6 +610,18 @@
   "published_at": "2026-11-05T21:29:03+00:00",
   "duration_min": 105,
   "url": "https://bidclub.ai/e/kyc-becomes-kya-sentinel-bio-s-joshua-monrad-dna"
+ },
+ {
+  "slug": "mossfire-2026-11-05-60-gavin",
+  "title": "60. 美国中期选举的账单来了：关税，油价，电费，我的股票 - Gavin Newton-Tanzer",
+  "title_alt": "60. The Midterm Bill Comes Due: Tariffs, Gas Prices, Electricity Bills, and My Stocks - Gavin Newton-Tanzer",
+  "show_id": "mossfire",
+  "show": "苔藓之火",
+  "lang": "ZH",
+  "date": "2026-11-05",
+  "published_at": "2026-11-05T18:24:40+00:00",
+  "duration_min": 68,
+  "url": "https://bidclub.ai/e/mossfire-2026-11-05-60-gavin"
  },
  {
   "slug": "why-broken-congress-is-bullish-crypto",
@@ -552,6 +816,18 @@
   "url": "https://bidclub.ai/e/andrew-huberman-focus-energy-performing-at-your"
  },
  {
+  "slug": "company-building-america-s-uranium-supply-from-s",
+  "title": "The company building America’s uranium supply from scratch",
+  "title_alt": "从零打造美国铀供应链的公司",
+  "show_id": "cheekypint",
+  "show": "Cheeky Pint",
+  "lang": "EN",
+  "date": "2026-11-03",
+  "published_at": "2026-11-03T12:45:00+00:00",
+  "duration_min": 59,
+  "url": "https://bidclub.ai/e/company-building-america-s-uranium-supply-from-s"
+ },
+ {
   "slug": "ep-042-gdpx-benchmark-frontier-ai",
   "title": "Ep. 042 - GDPx: The Benchmark for Frontier AI | Andrew Megalaa, Jordan Nanos, Max Kan",
   "title_alt": "第042期 - GDPx：前沿 AI 的基准 | Andrew Megalaa, Jordan Nanos, Max Kan",
@@ -648,6 +924,18 @@
   "url": "https://bidclub.ai/e/what-iphone-packaging-reveals-about-robotics-opp"
  },
  {
+  "slug": "tulongzhishu-2026-11-02",
+  "title": "一个非典型内容创作者的知识付费新尝试，也是一个重轻粉丝对重轻的致敬",
+  "title_alt": "An Unconventional Creator’s New Paid-Knowledge Experiment—and a 重轻 Fan’s Tribute to 重轻",
+  "show_id": "tulongzhishu",
+  "show": "屠龙之术",
+  "lang": "ZH",
+  "date": "2026-11-02",
+  "published_at": "2026-11-02T16:00:00+00:00",
+  "duration_min": 20,
+  "url": "https://bidclub.ai/e/tulongzhishu-2026-11-02"
+ },
+ {
   "slug": "america-is-exporting-its-40-trillion-debt",
   "title": "How America Is Exporting Its $40 Trillion Debt",
   "title_alt": "美国如何输出其40万亿美元债务",
@@ -706,6 +994,18 @@
   "published_at": "2026-11-02T04:43:47+00:00",
   "duration_min": 97,
   "url": "https://bidclub.ai/e/why-leibniz-couldn-t-find-mind-inside-mill-josch"
+ },
+ {
+  "slug": "mossfire-2026-11-01-50-25",
+  "title": "紧急加更：当科创50跌成科创25，全球AI泡沫到底破没破？- 慧客堂 X 苔藓之火",
+  "title_alt": "Urgent Bonus Episode: When STAR 50 Becomes STAR 25, Has the Global AI Bubble Actually Burst? – Huiketang X Mossfire",
+  "show_id": "mossfire",
+  "show": "苔藓之火",
+  "lang": "ZH",
+  "date": "2026-11-01",
+  "published_at": "2026-11-01T16:10:24+00:00",
+  "duration_min": 77,
+  "url": "https://bidclub.ai/e/mossfire-2026-11-01-50-25"
  },
  {
   "slug": "shizilukou-2026-11-01-ai-10",
@@ -1308,6 +1608,18 @@
   "url": "https://bidclub.ai/e/supabase-s-plan-billion-ai-built-apps"
  },
  {
+  "slug": "mossfire-2026-10-26-57-ai",
+  "title": "57. AI硬件是下一轮共识？从具身拳皇到万能赛博工牌 - FoloToy / 魂伴科技",
+  "title_alt": "57. Is AI Hardware the Next Consensus Trade? From Embodied King of Fighters to the All-Purpose Cyber Badge - FoloToy / Hunban Technology",
+  "show_id": "mossfire",
+  "show": "苔藓之火",
+  "lang": "ZH",
+  "date": "2026-10-26",
+  "published_at": "2026-10-26T17:00:00+00:00",
+  "duration_min": 93,
+  "url": "https://bidclub.ai/e/mossfire-2026-10-26-57-ai"
+ },
+ {
   "slug": "eval-ai-scientists-that-knows-answer-key-ian-qui",
   "title": "An Eval for AI Scientists That Knows the Answer Key - Ian Quigley, Leash Bio",
   "title_alt": "一项自带标准答案的 AI 科学家评测——Ian Quigley，Leash Bio",
@@ -1584,6 +1896,18 @@
   "url": "https://bidclub.ai/e/amazon-ceo-220-billion-still-can-t-meet-ai-deman"
  },
  {
+  "slug": "what-s-deal-billy-evans-spoiler-filled-guide-you",
+  "title": "What’s the Deal With Billy Evans? A Spoiler-Filled Guide to ‘You Can See Everything’",
+  "title_alt": "Billy Evans 到底怎么回事？《You Can See Everything》剧透版指南",
+  "show_id": "hardfork",
+  "show": "Hard Fork",
+  "lang": "EN",
+  "date": "2026-10-23",
+  "published_at": "2026-10-23T11:00:00+00:00",
+  "duration_min": 59,
+  "url": "https://bidclub.ai/e/what-s-deal-billy-evans-spoiler-filled-guide-you"
+ },
+ {
   "slug": "ep-040-asml-is-building-hybrid-bonding-tool-its",
   "title": "Ep. 040 - ASML Is Building a Hybrid Bonding Tool, and We Have the Patents (AI Supply Chain)",
   "title_alt": "第040期 - ASML正在研发混合键合设备，我们找到了相关专利（AI供应链）",
@@ -1630,6 +1954,18 @@
   "published_at": "2026-10-23T09:00:57+00:00",
   "duration_min": 98,
   "url": "https://bidclub.ai/e/netflix-angst-end-internet-q-amp-meta-s-vr-glass"
+ },
+ {
+  "slug": "after-builders-musk-thiel",
+  "title": "After The Builders: On Musk and Thiel",
+  "title_alt": "《建造者之后：谈 Musk 与 Thiel》",
+  "show_id": "thebuilders",
+  "show": "The Builders",
+  "lang": "EN",
+  "date": "2026-10-23",
+  "published_at": "2026-10-23T08:00:00+00:00",
+  "duration_min": 50,
+  "url": "https://bidclub.ai/e/after-builders-musk-thiel"
  },
  {
   "slug": "why-ai-compute-comes-rectangles-erik-bernhardsso",
@@ -3130,6 +3466,18 @@
   "published_at": "2026-10-08T23:00:00+00:00",
   "duration_min": 46,
   "url": "https://bidclub.ai/e/valley101-2026-10-08-e255"
+ },
+ {
+  "slug": "mossfire-2026-10-08-54-ai",
+  "title": "完整版 - 搜索，推荐，聊天：AI时代广告的第三次跃迁",
+  "title_alt": "Full Episode - Search, Recommendation, Chat: The Third Leap in Advertising in the AI Era",
+  "show_id": "mossfire",
+  "show": "苔藓之火",
+  "lang": "ZH",
+  "date": "2026-10-08",
+  "published_at": "2026-10-08T22:02:55+00:00",
+  "duration_min": 102,
+  "url": "https://bidclub.ai/e/mossfire-2026-10-08-54-ai"
  },
  {
   "slug": "shizilukou-2026-10-08-ai-kk",
