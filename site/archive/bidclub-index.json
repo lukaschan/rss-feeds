@@ -1,5 +1,113 @@
 [
  {
+  "slug": "avalanche-that-hit-math-is-coming-ai-development",
+  "title": "The avalanche that hit math is coming for AI development",
+  "title_alt": "席卷数学的雪崩，正向 AI 开发而来",
+  "show_id": "dwarkesh",
+  "show": "Dwarkesh Podcast",
+  "lang": "EN",
+  "date": "2026-11-13",
+  "published_at": "2026-11-13T18:37:51+00:00",
+  "duration_min": 44,
+  "url": "https://bidclub.ai/e/avalanche-that-hit-math-is-coming-ai-development"
+ },
+ {
+  "slug": "cyberattacks-used-take-months-ai-can-do-it-minut",
+  "title": "How to Defend Against AI Hackers, with Wiz’s Ami Luttwak",
+  "title_alt": "如何防御 AI 黑客：专访 Wiz 的 Ami Luttwak",
+  "show_id": "a16z",
+  "show": "The a16z Show",
+  "lang": "EN",
+  "date": "2026-11-13",
+  "published_at": "2026-11-13T15:30:16+00:00",
+  "duration_min": 46,
+  "url": "https://bidclub.ai/e/cyberattacks-used-take-months-ai-can-do-it-minut"
+ },
+ {
+  "slug": "spacex-palantir-anduril-onodrim-return-conglomer",
+  "title": "SpaceX, Palantir, Anduril & Onodrim | The Return of Conglomerates",
+  "title_alt": "SpaceX、Palantir、Anduril 与 Onodrim｜企业集团的回归",
+  "show_id": "sourcery",
+  "show": "Sourcery",
+  "lang": "EN",
+  "date": "2026-11-13",
+  "published_at": "2026-11-13T11:17:36+00:00",
+  "duration_min": 61,
+  "url": "https://bidclub.ai/e/spacex-palantir-anduril-onodrim-return-conglomer"
+ },
+ {
+  "slug": "nvidia-after-jensen-huang-what-huang-meant-ai-ec",
+  "title": "Nvidia After Jensen Huang: AI, Chip Bans & Washington | Sharp Tech with Ben Thompson",
+  "title_alt": "Jensen Huang之后的Nvidia：AI、芯片禁令与华盛顿 | Ben Thompson《Sharp Tech》",
+  "show_id": "sharptech",
+  "show": "Sharp Tech",
+  "lang": "EN",
+  "date": "2026-11-13",
+  "published_at": "2026-11-13T02:10:56+00:00",
+  "duration_min": 108,
+  "url": "https://bidclub.ai/e/nvidia-after-jensen-huang-what-huang-meant-ai-ec"
+ },
+ {
+  "slug": "latetalk-2026-11-13-187-liberai",
+  "title": "187: 对话LiberAI刘松铭：Astra来袭，00后物理AI创始人看到的胜率",
+  "title_alt": "187: A Conversation with LiberAI’s Liu Songming: Astra Arrives, and How a Post-2000 Physical AI Founder Sees the Odds",
+  "show_id": "latetalk",
+  "show": "晚点聊 LateTalk",
+  "lang": "ZH",
+  "date": "2026-11-13",
+  "published_at": "2026-11-13T01:15:00+00:00",
+  "duration_min": 130,
+  "url": "https://bidclub.ai/e/latetalk-2026-11-13-187-liberai"
+ },
+ {
+  "slug": "zhangxiaojun-2026-11-13",
+  "title": "156. 《侠》｜对影之刃零制作人梁其伟6小时访谈",
+  "title_alt": "156. “Xia” | A Six-Hour Interview with Phantom Blade Zero Producer 梁其伟",
+  "show_id": "zhangxiaojun",
+  "show": "张小珺Jùn｜商业访谈录",
+  "lang": "ZH",
+  "date": "2026-11-13",
+  "published_at": "2026-11-13T00:00:00+00:00",
+  "duration_min": 387,
+  "url": "https://bidclub.ai/e/zhangxiaojun-2026-11-13"
+ },
+ {
+  "slug": "jensen-huang-is-out-at-nvidia",
+  "title": "Everything You Need to Know About the Jensen Huang Spy Story | Hard Fork",
+  "title_alt": "关于 Jensen Huang 间谍事件，你需要知道的一切 | Hard Fork",
+  "show_id": "hardfork",
+  "show": "Hard Fork",
+  "lang": "EN",
+  "date": "2026-11-12",
+  "published_at": "2026-11-12T23:02:01+00:00",
+  "duration_min": 39,
+  "url": "https://bidclub.ai/e/jensen-huang-is-out-at-nvidia"
+ },
+ {
+  "slug": "svvector-2026-11-12-q3-ai",
+  "title": "硅谷坐标 × 周默：深度拆解科技巨头 Q3 财报｜AI 投资进入验证期",
+  "title_alt": "Silicon Valley Coordinates × Zhou Mo: A Deep Dive into Q3 Earnings from Big Tech | AI Investment Enters the Validation Phase",
+  "show_id": "svvector",
+  "show": "硅谷坐标 Silicon Valley Vector",
+  "lang": "ZH",
+  "date": "2026-11-12",
+  "published_at": "2026-11-12T22:13:12+00:00",
+  "duration_min": 91,
+  "url": "https://bidclub.ai/e/svvector-2026-11-12-q3-ai"
+ },
+ {
+  "slug": "jensen-huang-s-exit-could-change-ai-industry-for",
+  "title": "\"Jensen Huang's Exit Could Change the AI Industry Forever\" - Dylan Patel",
+  "title_alt": "《黄仁勋离任或将永远改变AI行业》— Dylan Patel",
+  "show_id": "tbpn",
+  "show": "TBPN",
+  "lang": "EN",
+  "date": "2026-11-12",
+  "published_at": "2026-11-12T21:18:11+00:00",
+  "duration_min": 31,
+  "url": "https://bidclub.ai/e/jensen-huang-s-exit-could-change-ai-industry-for"
+ },
+ {
   "slug": "ai-could-bring-halo-other-classic-games-back-lif",
   "title": "How AI Could Bring Halo and Other Classic Games Back to Life",
   "title_alt": "AI 如何让《光环》等经典游戏重获新生",
@@ -10,6 +118,18 @@
   "published_at": "2026-11-12T14:50:20+00:00",
   "duration_min": 46,
   "url": "https://bidclub.ai/e/ai-could-bring-halo-other-classic-games-back-lif"
+ },
+ {
+  "slug": "ep-044-is-nvidia-over-emergency-pod-chinatalk-dy",
+  "title": "Ep. 044 - Is NVIDIA Over? EMERGENCY Pod with ChinaTalk | Dylan Patel, Jordan Nanos, Jordan Schneider",
+  "title_alt": "第044期——NVIDIA 要完了吗？与 ChinaTalk 的紧急播客 | Dylan Patel、Jordan Nanos、Jordan Schneider",
+  "show_id": "semianalysis",
+  "show": "SemiAnalysis",
+  "lang": "EN",
+  "date": "2026-11-12",
+  "published_at": "2026-11-12T12:00:00+00:00",
+  "duration_min": 51,
+  "url": "https://bidclub.ai/e/ep-044-is-nvidia-over-emergency-pod-chinatalk-dy"
  },
  {
   "slug": "powering-ai-driven-drug-discovery-president-isom",
