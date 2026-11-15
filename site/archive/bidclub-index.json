@@ -1,5 +1,77 @@
 [
  {
+  "slug": "42zhangjing-2026-11-14-2c-2b",
+  "title": "复盘 2C 和 2B Agent 发展脉络｜对谈 Afk.surf 创始人嘉琛",
+  "title_alt": "A Retrospective on the Evolution of 2C and 2B Agents | A Conversation with Afk.surf Founder 贺嘉琛",
+  "show_id": "42zhangjing",
+  "show": "42章经",
+  "lang": "ZH",
+  "date": "2026-11-14",
+  "published_at": "2026-11-14T13:00:00+00:00",
+  "duration_min": 50,
+  "url": "https://bidclub.ai/e/42zhangjing-2026-11-14-2c-2b"
+ },
+ {
+  "slug": "ai-modern-enigma-nathan-s-keynote-at-it-revoluti",
+  "title": "AI, the Modern Enigma: Nathan's Keynote at IT Revolution's Enterprise AI Summit at Bletchley Park",
+  "title_alt": "AI：现代谜题——Nathan 在布莱切利园 IT Revolution 企业 AI 峰会上的主题演讲",
+  "show_id": "cogrev",
+  "show": "The Cognitive Revolution",
+  "lang": "EN",
+  "date": "2026-11-14",
+  "published_at": "2026-11-14T09:05:22+00:00",
+  "duration_min": 45,
+  "url": "https://bidclub.ai/e/ai-modern-enigma-nathan-s-keynote-at-it-revoluti"
+ },
+ {
+  "slug": "20vc-taking-nvidia-fractile-ceo-future-chips-wha",
+  "title": "20VC: Taking on NVIDIA: Fractile CEO on the Future of Chips | What Everyone Gets Wrong About Capex Spending | The Winners and Losers in Neo Clouds with Walter Goodwin",
+  "title_alt": "20VC：挑战 NVIDIA：Fractile CEO 谈芯片的未来｜资本开支到底哪里被看错了｜Walter Goodwin 谈新云的赢家与输家",
+  "show_id": "20vc",
+  "show": "20VC",
+  "lang": "EN",
+  "date": "2026-11-14",
+  "published_at": "2026-11-14T07:07:00+00:00",
+  "duration_min": 76,
+  "url": "https://bidclub.ai/e/20vc-taking-nvidia-fractile-ceo-future-chips-wha"
+ },
+ {
+  "slug": "jensen-ousted-as-nvidia-ceo-spy-scandal-export-r",
+  "title": "Jensen OUT as Nvidia CEO: \"Spy\" Scandal, Export Restrictions, Market Impact",
+  "title_alt": "Jensen卸任Nvidia CEO：“间谍”风波、出口限制与市场影响",
+  "show_id": "allin",
+  "show": "All-In",
+  "lang": "EN",
+  "date": "2026-11-14",
+  "published_at": "2026-11-14T02:35:00+00:00",
+  "duration_min": 85,
+  "url": "https://bidclub.ai/e/jensen-ousted-as-nvidia-ceo-spy-scandal-export-r"
+ },
+ {
+  "slug": "jensen-s-departure-nvidia-s-succession-plan-ai-d",
+  "title": "Jensen’s Departure, NVIDIA’s succession plan, AI doomer response, and Demis talks RSI | #311 (Live)",
+  "title_alt": "Jensen离任、NVIDIA继任计划、AI末日论回应与Demis谈递归自我改进｜#311（直播）",
+  "show_id": "moonshots",
+  "show": "Moonshots",
+  "lang": "EN",
+  "date": "2026-11-14",
+  "published_at": "2026-11-14T02:03:00+00:00",
+  "duration_min": 122,
+  "url": "https://bidclub.ai/e/jensen-s-departure-nvidia-s-succession-plan-ai-d"
+ },
+ {
+  "slug": "episode-203-november-13-2026",
+  "title": "Episode 203 - November 13, 2026",
+  "title_alt": "第203集 - 2026年11月13日",
+  "show_id": "biotechhangout",
+  "show": "Biotech Hangout",
+  "lang": "EN",
+  "date": "2026-11-13",
+  "published_at": "2026-11-13T20:36:17+00:00",
+  "duration_min": 61,
+  "url": "https://bidclub.ai/e/episode-203-november-13-2026"
+ },
+ {
   "slug": "avalanche-that-hit-math-is-coming-ai-development",
   "title": "The avalanche that hit math is coming for AI development",
   "title_alt": "席卷数学的雪崩，正向 AI 开发而来",
