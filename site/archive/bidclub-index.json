@@ -1,5 +1,17 @@
 [
  {
+  "slug": "latetalk-2026-11-15-188-ai",
+  "title": "188: 黄仁勋闪电离职之后：英伟达、AI 基建、中美竞争和算力江湖",
+  "title_alt": "188: After Jensen Huang’s Sudden Departure: Nvidia, AI Infrastructure, US-China Competition, and the Compute Ecosystem",
+  "show_id": "latetalk",
+  "show": "晚点聊 LateTalk",
+  "lang": "ZH",
+  "date": "2026-11-15",
+  "published_at": "2026-11-15T03:30:00+00:00",
+  "duration_min": 76,
+  "url": "https://bidclub.ai/e/latetalk-2026-11-15-188-ai"
+ },
+ {
   "slug": "42zhangjing-2026-11-14-2c-2b",
   "title": "复盘 2C 和 2B Agent 发展脉络｜对谈 Afk.surf 创始人嘉琛",
   "title_alt": "A Retrospective on the Evolution of 2C and 2B Agents | A Conversation with Afk.surf Founder 贺嘉琛",
