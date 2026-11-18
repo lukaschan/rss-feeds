@@ -1,5 +1,53 @@
 [
  {
+  "slug": "databricks-ceo-agi-is-already-here-why-companies",
+  "title": "Databricks CEO: AGI Is Already Here, Why Companies Are Behind, and the Superintelligence Debate",
+  "title_alt": "Databricks CEO：AGI 已经到来，企业为何落后，以及超级智能之争",
+  "show_id": "allin",
+  "show": "All-In",
+  "lang": "EN",
+  "date": "2026-11-17",
+  "published_at": "2026-11-17T21:43:00+00:00",
+  "duration_min": 62,
+  "url": "https://bidclub.ai/e/databricks-ceo-agi-is-already-here-why-companies"
+ },
+ {
+  "slug": "brad-gerstner-geoffrey-canada-raising-floor-ever",
+  "title": "Giving Every Kid a Stake in Capitalism | Brad Gerstner & Geoffrey Canada",
+  "title_alt": "让每个孩子都拥有资本主义的一份权益 | Brad Gerstner 与 Geoffrey Canada",
+  "show_id": "iltb",
+  "show": "Invest Like the Best",
+  "lang": "EN",
+  "date": "2026-11-17",
+  "published_at": "2026-11-17T13:00:00+00:00",
+  "duration_min": 84,
+  "url": "https://bidclub.ai/e/brad-gerstner-geoffrey-canada-raising-floor-ever"
+ },
+ {
+  "slug": "dylan-patel-ai-market-shakeout-building-semianal",
+  "title": "Dylan Patel, SemiAnalysis",
+  "title_alt": "Dylan Patel，SemiAnalysis",
+  "show_id": "sourcery",
+  "show": "Sourcery",
+  "lang": "EN",
+  "date": "2026-11-17",
+  "published_at": "2026-11-17T11:00:00+00:00",
+  "duration_min": 51,
+  "url": "https://bidclub.ai/e/dylan-patel-ai-market-shakeout-building-semianal"
+ },
+ {
+  "slug": "weishijie-2026-11-17-94-ai",
+  "title": "94.中国 AI 从追赶到原创，真正的难题是什么？｜与商汤林达华的 3 小时访谈",
+  "title_alt": "94. China AI: From Catch-Up to Original Innovation—What Is the Real Challenge? | A 3-Hour Interview with SenseTime’s Lin Dahua",
+  "show_id": "weishijie",
+  "show": "卫诗婕｜漫谈 Light the Star",
+  "lang": "ZH",
+  "date": "2026-11-17",
+  "published_at": "2026-11-17T04:00:00+00:00",
+  "duration_min": 154,
+  "url": "https://bidclub.ai/e/weishijie-2026-11-17-94-ai"
+ },
+ {
   "slug": "shanghaojin-2026-11-17",
   "title": "市场概述2026年11月17日",
   "title_alt": "Market Overview — November 17, 2026",
@@ -394,6 +442,18 @@
   "published_at": "2026-11-12T12:00:00+00:00",
   "duration_min": 51,
   "url": "https://bidclub.ai/e/ep-044-is-nvidia-over-emergency-pod-chinatalk-dy"
+ },
+ {
+  "slug": "baidu-world-2026-11-12-intelligent-organization",
+  "title": "百度世界2026：下一幕，智能组织（完整主论坛）",
+  "title_alt": "Baidu World 2026: The Next Act, Intelligent Organizations (Full Main Forum)",
+  "show_id": "baidu-world-handpicked",
+  "show": "百度世界大会",
+  "lang": "ZH",
+  "date": "2026-11-12",
+  "published_at": "2026-11-12T11:03:41+00:00",
+  "duration_min": 171,
+  "url": "https://bidclub.ai/e/baidu-world-2026-11-12-intelligent-organization"
  },
  {
   "slug": "powering-ai-driven-drug-discovery-president-isom",
