@@ -1,5 +1,101 @@
 [
  {
+  "slug": "latetalk-2026-11-19-189-geodesic",
+  "title": "189: Geodesic顾全全：预训练有点“无聊”了，但用scaling改变AI制药才刚开始",
+  "title_alt": "189: Geodesic’s Gu Quanquan: Pretraining Is Getting a Little “Boring,” but Scaling to Transform AI Drug Discovery Is Just Beginning",
+  "show_id": "latetalk",
+  "show": "晚点聊 LateTalk",
+  "lang": "ZH",
+  "date": "2026-11-19",
+  "published_at": "2026-11-19T00:00:00+00:00",
+  "duration_min": 96,
+  "url": "https://bidclub.ai/e/latetalk-2026-11-19-189-geodesic"
+ },
+ {
+  "slug": "what-it-takes-build-ai-that-actually-knows-you",
+  "title": "What It Takes to Run a Personal Assistant Around the Clock",
+  "title_alt": "让个人助理全天候运转需要什么",
+  "show_id": "a16z",
+  "show": "The a16z Show",
+  "lang": "EN",
+  "date": "2026-11-18",
+  "published_at": "2026-11-18T15:30:09+00:00",
+  "duration_min": 33,
+  "url": "https://bidclub.ai/e/what-it-takes-build-ai-that-actually-knows-you"
+ },
+ {
+  "slug": "solo-gp-most-new-vc-funds-are-built-fail-kevin-c",
+  "title": "Solo GP: Most New VC Funds Are Built to Fail | Kevin Costa",
+  "title_alt": "单人GP：多数新VC基金从一开始就注定难有回报 | Kevin Costa",
+  "show_id": "delphidigital",
+  "show": "Delphi Digital",
+  "lang": "EN",
+  "date": "2026-11-18",
+  "published_at": "2026-11-18T13:00:33+00:00",
+  "duration_min": 87,
+  "url": "https://bidclub.ai/e/solo-gp-most-new-vc-funds-are-built-fail-kevin-c"
+ },
+ {
+  "slug": "why-now-is-golden-age-building-brian-armstrong-c",
+  "title": "Why Now Is The Golden Age of Building | Brian Armstrong, Coinbase",
+  "title_alt": "为何此刻是创业的黄金时代｜Brian Armstrong，Coinbase",
+  "show_id": "davidsenra",
+  "show": "David Senra",
+  "lang": "EN",
+  "date": "2026-11-18",
+  "published_at": "2026-11-18T13:00:25+00:00",
+  "duration_min": 60,
+  "url": "https://bidclub.ai/e/why-now-is-golden-age-building-brian-armstrong-c"
+ },
+ {
+  "slug": "stan-druckenmiller-ai-markets-next-ten-years-tom",
+  "title": "Stan Druckenmiller on AI, Markets and the Next Ten Years | TomorrowX Summit.",
+  "title_alt": "Stan Druckenmiller 谈 AI、市场与未来十年 | TomorrowX Summit",
+  "show_id": "iconnections-handpicked",
+  "show": "iConnections · TomorrowX Summit",
+  "lang": "EN",
+  "date": "2026-11-18",
+  "published_at": "2026-11-18T05:08:38+00:00",
+  "duration_min": 24,
+  "url": "https://bidclub.ai/e/stan-druckenmiller-ai-markets-next-ten-years-tom"
+ },
+ {
+  "slug": "zhangxiaojun-2026-11-18-157-personal",
+  "title": "157. 复盘Personal Agent集体诞生背后：和蔡伟聊AI产品史、需求真伪、入口与未来想象",
+  "title_alt": "157. Looking Back at the Birth of Personal Agents: A Conversation with 蔡伟 on AI Product History, Real vs. Imagined Demand, Interfaces and Future Possibilities",
+  "show_id": "zhangxiaojun",
+  "show": "张小珺Jùn｜商业访谈录",
+  "lang": "ZH",
+  "date": "2026-11-18",
+  "published_at": "2026-11-18T03:08:54+00:00",
+  "duration_min": 164,
+  "url": "https://bidclub.ai/e/zhangxiaojun-2026-11-18-157-personal"
+ },
+ {
+  "slug": "retail-ai-american-dream-gavin-baker-antonio-gra",
+  "title": "Retail, AI and the American Dream | Gavin Baker, Antonio Gracias & Ron Biscardi | TomorrowX Summit",
+  "title_alt": "散户、AI与美国梦｜Gavin Baker、Antonio Gracias 与 Ron Biscardi｜TomorrowX Summit",
+  "show_id": "iconnections-handpicked",
+  "show": "iConnections · TomorrowX Summit",
+  "lang": "EN",
+  "date": "2026-11-17",
+  "published_at": "2026-11-17T22:56:42+00:00",
+  "duration_min": 16,
+  "url": "https://bidclub.ai/e/retail-ai-american-dream-gavin-baker-antonio-gra"
+ },
+ {
+  "slug": "brad-gerstner-why-anthropic-s-ipo-is-10x-oversub",
+  "title": "Brad Gerstner: Why Anthropic's IPO Is 10x Oversubscribed | TomorrowX Summit",
+  "title_alt": "Brad Gerstner：为什么Anthropic的IPO超额认购10倍｜TomorrowX Summit",
+  "show_id": "iconnections-handpicked",
+  "show": "iConnections · TomorrowX Summit",
+  "lang": "EN",
+  "date": "2026-11-17",
+  "published_at": "2026-11-17T22:28:50+00:00",
+  "duration_min": 24,
+  "url": "https://bidclub.ai/e/brad-gerstner-why-anthropic-s-ipo-is-10x-oversub"
+ },
+ {
   "slug": "databricks-ceo-agi-is-already-here-why-companies",
   "title": "Databricks CEO: AGI Is Already Here, Why Companies Are Behind, and the Superintelligence Debate",
   "title_alt": "Databricks CEO：AGI 已经到来，企业为何落后，以及超级智能之争",
@@ -10,6 +106,18 @@
   "published_at": "2026-11-17T21:43:00+00:00",
   "duration_min": 62,
   "url": "https://bidclub.ai/e/databricks-ceo-agi-is-already-here-why-companies"
+ },
+ {
+  "slug": "goldman-sachs-ceo-david-solomon-have-we-seen-pea",
+  "title": "Goldman Sachs CEO David Solomon: Have We Seen the Peak in AI? | TomorrowX Summit",
+  "title_alt": "高盛CEO David Solomon：AI是否已经见顶？| TomorrowX Summit",
+  "show_id": "iconnections-handpicked",
+  "show": "iConnections · TomorrowX Summit",
+  "lang": "EN",
+  "date": "2026-11-17",
+  "published_at": "2026-11-17T21:22:13+00:00",
+  "duration_min": 20,
+  "url": "https://bidclub.ai/e/goldman-sachs-ceo-david-solomon-have-we-seen-pea"
  },
  {
   "slug": "brad-gerstner-geoffrey-canada-raising-floor-ever",
