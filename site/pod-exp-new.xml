@@ -5,9 +5,42 @@
 <link>https://pod-exp.pages.dev/</link>
 <description>Field Notes 每日新增文章（自建 RSS）：存档冻结后新发表的篇目，只放摘要 + 原文链接（全文太长，不进 feed）；冻结前的全部篇目见 pod-exp.xml 存档版。</description>
 <language>zh-CN</language>
-<lastBuildDate>Thu, 19 Nov 2026 03:37:37 +0000</lastBuildDate>
+<lastBuildDate>Fri, 20 Nov 2026 03:26:42 +0000</lastBuildDate>
 <generator>rss-feeds-generator (personal)</generator>
 <atom:link href="https://rss-feeds-8x2.pages.dev/pod-exp-new.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>合并才是瓶颈｜Prasanna Sankar，Vorflux</title>
+<link>https://pod-exp.pages.dev/TlOAhw9t5DA/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/TlOAhw9t5DA/</guid>
+<pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+<category>AI Engineer</category>
+<category>AI 编程</category>
+<category>AI 智能体</category>
+<category>AI 基础设施</category>
+<description>本期演讲中，Rippling 联合创始人、Vorflux 创始人 Prasanna Sankar 围绕“如何用 AI 最大化个人与团队杠杆”展开分享。他回顾了从 IDE 自动补全到长时运行云端 Agent 的跃迁，指出要让开发者真正迁移到云端，必须依次攻克六大工程瓶颈：云端复现本地开发环境、加大规划阶段的推理算力投入、基于依赖图的多子 Agent 编排、云端浏览器与端到端测试（含录屏与预发布链接）、多模型独立代码评审，以及自动 rebase 的合并队列。当写代码不再是瓶颈，问题便转移到项目管理与“如何主动发起工作”。为此，Vorflux 2.0 推出了 7×24 小时在线的 Autobot，从客户通话、生产告警等现有信号中捕获意图并自动推进，同时通过预算、权限渐进与明确责任人来规避无差别自动化带来的噪音与失控风险。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/TlOAhw9t5DA/cover.webp" alt="" /></p>
+<p><em>AI Engineer · 播出 2026-11-10 · 时长 20:06</em></p>
+<p>本期演讲中，Rippling 联合创始人、Vorflux 创始人 Prasanna Sankar 围绕“如何用 AI 最大化个人与团队杠杆”展开分享。他回顾了从 IDE 自动补全到长时运行云端 Agent 的跃迁，指出要让开发者真正迁移到云端，必须依次攻克六大工程瓶颈：云端复现本地开发环境、加大规划阶段的推理算力投入、基于依赖图的多子 Agent 编排、云端浏览器与端到端测试（含录屏与预发布链接）、多模型独立代码评审，以及自动 rebase 的合并队列。当写代码不再是瓶颈，问题便转移到项目管理与“如何主动发起工作”。为此，Vorflux 2.0 推出了 7×24 小时在线的 Autobot，从客户通话、生产告警等现有信号中捕获意图并自动推进，同时通过预算、权限渐进与明确责任人来规避无差别自动化带来的噪音与失控风险。</p>
+<h2>章节</h2><ul><li>0:08 Prasanna 的背景与向长时运行 Agent 任务的演进</li><li>3:46 在云端复现本地开发环境</li><li>5:10 规划投入与依赖感知的编排</li><li>6:41 浏览器测试、录屏与预发布链接</li><li>7:45 独立评审与合并队列</li><li>8:48 瓶颈转移到了项目管理</li><li>10:40 从现有信号中自动发起工作</li><li>12:58 为什么无差别的自动化会失败</li><li>14:17 Autobot、所有权与一个客户支持案例</li><li>16:57 编排、运行边界与下一个瓶颈</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/TlOAhw9t5DA/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>Tom Lee：回调已经结束——美股即将迎来大涨</title>
+<link>https://pod-exp.pages.dev/fbLTiHQKlOc/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/fbLTiHQKlOc/</guid>
+<pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+<category>Prof G Markets</category>
+<category>投资</category>
+<category>人工智能</category>
+<category>宏观经济</category>
+<category>科技趋势</category>
+<description>本期《Prof G Markets》围绕美股科技股回调、AI 泡沫争议及苹果最新财报展开。上半场，Fundstrat 联合创始人 Tom Lee 指出，近期纳斯达克 10% 的回调已接近尾声，年底前标普 500 有望冲至 8200–8400 点；他认为当前 AI 浪潮带来了实打实的生产力提升，不同于 1999 年的互联网泡沫或次贷危机，所谓的“循环融资”更接近早期生态建设，且历史表明中期选举若出现民主党横扫，市场往往迎来显著反弹。下半场，《Apple in China》作者 Patrick McGee 解析了新任 CEO John Ternus 执掌下的苹果首份财报，探讨了售价 1999 美元的折叠屏 iPhone Duo 面临的碎屏争议与量产挑战，并指出苹果在 AI 军备竞赛中保持克制、聚焦端侧芯片（Apple Silicon）的务实策略，使其在市场担忧资本开支过热时反而具备避险优势。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/fbLTiHQKlOc/cover.webp" alt="" /></p>
+<p><em>Prof G Markets · 播出 2026-11-04 · 时长 34:49</em></p>
+<p>本期《Prof G Markets》围绕美股科技股回调、AI 泡沫争议及苹果最新财报展开。上半场，Fundstrat 联合创始人 Tom Lee 指出，近期纳斯达克 10% 的回调已接近尾声，年底前标普 500 有望冲至 8200–8400 点；他认为当前 AI 浪潮带来了实打实的生产力提升，不同于 1999 年的互联网泡沫或次贷危机，所谓的“循环融资”更接近早期生态建设，且历史表明中期选举若出现民主党横扫，市场往往迎来显著反弹。下半场，《Apple in China》作者 Patrick McGee 解析了新任 CEO John Ternus 执掌下的苹果首份财报，探讨了售价 1999 美元的折叠屏 iPhone Duo 面临的碎屏争议与量产挑战，并指出苹果在 AI 军备竞赛中保持克制、聚焦端侧芯片（Apple Silicon）的务实策略，使其在市场担忧资本开支过热时反而具备避险优势。</p>
+<h2>章节</h2><ul><li>0:02 开场预告：Tom Lee 谈年底行情</li><li>0:36 市场动态速览</li><li>1:00 多头逻辑：为什么回调已经见底（Tom Lee）</li><li>5:01 AI 泡沫之辩：循环融资还是生态建设？（Tom Lee）</li><li>9:01 指数增长周期与 Anthropic 的增速放缓（Tom Lee）</li><li>13:02 下游应用赢家与标普 8000 点预测（Tom Lee）</li><li>17:03 嘉宾致谢与频道订阅（Tom Lee）</li><li>17:25 广告时间：SoFi</li><li>18:29 苹果四季度财报与 iPhone Duo 初体验（Patrick McGee）</li><li>22:29 折叠屏品控争议与苹果的 AI 战略（Patrick McGee）</li><li>26:30 高估值下的“下一件大事”争议（Patrick McGee）</li><li>30:31 蒂姆·库克的“实用主义”遗产（Patrick McGee）</li><li>31:11 广告时间：Vanta</li><li>32:37 中期选举前瞻：蓝色浪潮预测（Ed Elson）</li><li>34:34 片尾致谢</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/fbLTiHQKlOc/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
 <item>
 <title>顶尖公司在 AI 编程上有哪些不同做法｜Martin Harrysson、Prakhar Dixit（麦肯锡）</title>
 <link>https://pod-exp.pages.dev/21tuT-e4NVo/</link>

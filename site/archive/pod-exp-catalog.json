@@ -1,5 +1,38 @@
 [
  {
+  "id": "TlOAhw9t5DA",
+  "title": "合并才是瓶颈｜Prasanna Sankar，Vorflux",
+  "channel": "AI Engineer",
+  "guests": "Prasanna Sankar",
+  "published": "2026-11-10",
+  "addedAt": "2026-11-20",
+  "updatedAt": "2026-11-20",
+  "duration": 1206,
+  "topics": [
+   "AI 编程",
+   "AI 智能体",
+   "AI 基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/TlOAhw9t5DA/"
+ },
+ {
+  "id": "fbLTiHQKlOc",
+  "title": "Tom Lee：回调已经结束——美股即将迎来大涨",
+  "channel": "Prof G Markets",
+  "guests": "Tom Lee、Patrick McGee",
+  "published": "2026-11-04",
+  "addedAt": "2026-11-20",
+  "updatedAt": "2026-11-20",
+  "duration": 2089,
+  "topics": [
+   "投资",
+   "人工智能",
+   "宏观经济",
+   "科技趋势"
+  ],
+  "url": "https://pod-exp.pages.dev/fbLTiHQKlOc/"
+ },
+ {
   "id": "21tuT-e4NVo",
   "title": "顶尖公司在 AI 编程上有哪些不同做法｜Martin Harrysson、Prakhar Dixit（麦肯锡）",
   "channel": "AI Engineer",
