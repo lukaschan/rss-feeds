@@ -5,9 +5,24 @@
 <link>https://allin.qiaomu.ai/</link>
 <description>All-In 播客每日新增中文精读（自建 RSS）：存档冻结后新发表的文章，每篇带封面图与中文精读全文，文末附原节目视频链接；冻结前的全部文章见 allin.xml 存档版。</description>
 <language>zh-CN</language>
-<lastBuildDate>Fri, 20 Nov 2026 03:27:29 +0000</lastBuildDate>
+<lastBuildDate>Sat, 21 Nov 2026 03:16:39 +0000</lastBuildDate>
 <generator>rss-feeds-generator (personal)</generator>
 <atom:link href="https://rss-feeds-8x2.pages.dev/allin-new.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>E298 Anthropic 上市，英伟达陷入危机，市场暴跌，开源监管收紧？</title>
+<link>https://allin.qiaomu.ai/ep/e298/</link>
+<guid isPermaLink="true">https://allin.qiaomu.ai/ep/e298/</guid>
+<pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+<category>All-In</category>
+<description>Anthropic 上市引发多空激辩，英伟达面临股价、人才与法律危机，白宫拟收紧中国开源模型披露，查马斯提出十大AI巨头论。 含官方音频、视频与英文文稿。</description>
+<enclosure url="https://allin.qiaomu.ai/og/e298.jpg" type="image/jpeg" length="0" />
+<content:encoded><![CDATA[<p><img src="https://allin.qiaomu.ai/og/e298.jpg" alt="" /></p>
+<p><em>2026-11-20</em></p>
+<p>Anthropic 上市引发多空激辩，英伟达面临股价、人才与法律危机，白宫拟收紧中国开源模型披露，查马斯提出十大AI巨头论。 含官方音频、视频与英文文稿。</p>
+<p>本期站方暂未提供中文精读（无 Markdown 版），以下为本期简介；可通过文末链接观看原节目视频，或打开中文精读网页版查看。</p>
+<hr />
+<p>原节目视频（YouTube）：<a href="https://www.youtube.com/watch?v=G5w7EyF-aFQ">https://www.youtube.com/watch?v=G5w7EyF-aFQ</a><br />中文精读网页版：<a href="https://allin.qiaomu.ai/ep/e298/">https://allin.qiaomu.ai/ep/e298/</a></p>]]></content:encoded>
+</item>
 <item>
 <title>Databricks CEO：AGI 已经到来，企业为何落后，超级智能之争</title>
 <link>https://allin.qiaomu.ai/ep/databricks-ceo-agi-already-here-companies-are/</link>
