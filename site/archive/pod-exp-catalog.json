@@ -1,5 +1,2805 @@
 [
  {
+  "id": "-JSecnudwvY",
+  "title": "Microsoft Ignite 开幕主题演讲｜KEY01",
+  "channel": "Microsoft Events",
+  "guests": "Jacob Andreou、Ryder Booth、Steph Waters、Andrew Gidney、Nirja Trivedi、Efe Abugo、Rohan Kumar、Tony Leraris、Deepalok Roy Chowdhury、Sharoon Srivastava、Arun Ulag、Eren Orbey、Jay Parikh、Charu Jain、Seth Juarez、Mustafa Suleyman、Arthur Sadoun、Charles Lamanna、Jeremy Legg、Vandana Sharma、Stephanie Cronin、Yina Arenas、Aleš Holeček、David Weston、Leigh-Ann Russell",
+  "published": "2026-11-20",
+  "addedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "duration": 8773,
+  "topics": [
+   "AI 智能体",
+   "AI 安全",
+   "AI 基础设施",
+   "企业软件"
+  ],
+  "url": "https://pod-exp.pages.dev/-JSecnudwvY/"
+ },
+ {
+  "id": "7_h1U2ghPCs",
+  "title": "Coplan、Friedman 和 Tenev 谈这场“赌局”",
+  "channel": "New York Times Events",
+  "guests": "Shayne Coplan、Adena Friedman、Vlad Tenev",
+  "published": "2026-11-19",
+  "addedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "duration": 2143,
+  "topics": [
+   "交易",
+   "投资",
+   "金融基础设施",
+   "加密与 Web3"
+  ],
+  "url": "https://pod-exp.pages.dev/7_h1U2ghPCs/"
+ },
+ {
+  "id": "MsZmV9wzEZ8",
+  "title": "Satya Nadella 谈新算法",
+  "channel": "New York Times Events",
+  "guests": "Satya Nadella",
+  "published": "2026-11-19",
+  "addedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "duration": 1906,
+  "topics": [
+   "AI 安全",
+   "AI 基础设施",
+   "AI 智能体",
+   "企业软件"
+  ],
+  "url": "https://pod-exp.pages.dev/MsZmV9wzEZ8/"
+ },
+ {
+  "id": "QARxiqCkJF4",
+  "title": "Palmer Luckey 谈“战争 2.0”",
+  "channel": "New York Times Events",
+  "guests": "Palmer Luckey",
+  "published": "2026-11-19",
+  "addedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "duration": 3079,
+  "topics": [
+   "AI 安全",
+   "地缘政治",
+   "产业科技"
+  ],
+  "url": "https://pod-exp.pages.dev/QARxiqCkJF4/"
+ },
+ {
+  "id": "r9tBI340-vA",
+  "title": "克里斯蒂娜·拉加德谈新全球秩序",
+  "channel": "New York Times Events",
+  "guests": "Christine Lagarde",
+  "published": "2026-11-19",
+  "addedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "duration": 1720,
+  "topics": [
+   "地缘政治",
+   "宏观经济",
+   "投资",
+   "金融基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/r9tBI340-vA/"
+ },
+ {
+  "id": "-QzXc2CKMuM",
+  "title": "倍耐力 CEO：一级方程式、智能轮胎与欧洲汽车工业｜播客｜In Good Company",
+  "channel": "Norges Bank Investment Management",
+  "guests": "Andrea Casaluci",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "duration": 1795,
+  "topics": [
+   "制造业",
+   "产业科技",
+   "创业与经营",
+   "领导力"
+  ],
+  "url": "https://pod-exp.pages.dev/-QzXc2CKMuM/"
+ },
+ {
+  "id": "1vG5URliEOY",
+  "title": "第 60 期：$ANT Anthropic 的 3500 亿美元营收之路？与 Sean Emory（Avory & Co 首席投资官）对谈",
+  "channel": "Pitch The PM",
+  "guests": "Sean Emory",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "duration": 4059,
+  "topics": [
+   "人工智能",
+   "AI 基础设施",
+   "投资",
+   "企业软件"
+  ],
+  "url": "https://pod-exp.pages.dev/1vG5URliEOY/"
+ },
+ {
+  "id": "2XhNQMz5Y-w",
+  "title": "走进 Crow Holdings：Michael Levy 谈房地产的下一章",
+  "channel": "Columbia Business School",
+  "guests": "迈克尔·利维",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "duration": 3853,
+  "topics": [
+   "投资",
+   "商业分析",
+   "领导力",
+   "宏观经济"
+  ],
+  "url": "https://pod-exp.pages.dev/2XhNQMz5Y-w/"
+ },
+ {
+  "id": "Cb9w4QII1wU",
+  "title": "美国正在遗忘的冷战教训",
+  "channel": "Joe Lonsdale",
+  "guests": "Roger Zakheim",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "duration": 2498,
+  "topics": [
+   "地缘政治",
+   "产业科技",
+   "人类历史"
+  ],
+  "url": "https://pod-exp.pages.dev/Cb9w4QII1wU/"
+ },
+ {
+  "id": "DOLBzaD0Kx8",
+  "title": "Netflix 流媒体王冠保卫战内幕 ｜ The Circuit with Emily Chang",
+  "channel": "Bloomberg Originals",
+  "guests": "Ted Sarandos、Ben Affleck、Lily Collins、Darren Star、Minyoung Kim、Elizabeth Stone、Sohee Kim",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "duration": 2644,
+  "topics": [
+   "商业分析",
+   "创意产业",
+   "人工智能",
+   "消费与文化"
+  ],
+  "url": "https://pod-exp.pages.dev/DOLBzaD0Kx8/"
+ },
+ {
+  "id": "HZt1UsoIohE",
+  "title": "年度最大输家 ｜ Animal Spirits 491",
+  "channel": "The Compound",
+  "guests": "Ben Carlson",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "duration": 4384,
+  "topics": [
+   "投资",
+   "宏观经济",
+   "半导体",
+   "消费与文化"
+  ],
+  "url": "https://pod-exp.pages.dev/HZt1UsoIohE/"
+ },
+ {
+  "id": "KF48_oFLq8U",
+  "title": "接班、挑战者与集中化时代：对话 HighVista Strategies 的 Kirsten Morin",
+  "channel": "Origins Podcast",
+  "guests": "Kirsten Morin",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "duration": 2614,
+  "topics": [
+   "投资",
+   "商业分析",
+   "领导力"
+  ],
+  "url": "https://pod-exp.pages.dev/KF48_oFLq8U/"
+ },
+ {
+  "id": "Sm49goL7Eyc",
+  "title": "Solo GP：大多数新 VC 基金生来就是为了失败 ｜ Kevin Costa",
+  "channel": "Delphi Digital",
+  "guests": "Kevin Costa",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "duration": 5233,
+  "topics": [
+   "投资",
+   "创业与经营",
+   "心理与关系",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/Sm49goL7Eyc/"
+ },
+ {
+  "id": "iYhSb3phjbs",
+  "title": "为什么 67 家公司选择退出 OKX ICE 的代币化股票交易？",
+  "channel": "Unchained",
+  "guests": "Brett Redfearn、Jamie Selway",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "duration": 3833,
+  "topics": [
+   "加密与 Web3",
+   "金融基础设施",
+   "交易",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/iYhSb3phjbs/"
+ },
+ {
+  "id": "lf8pFv3Jx4Q",
+  "title": "GTA VI 如何成为史上最昂贵的电子游戏｜Odd Lots",
+  "channel": "Bloomberg Podcasts",
+  "guests": "Jason Schreier",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "duration": 3017,
+  "topics": [
+   "商业分析",
+   "创意产业",
+   "消费与文化",
+   "科技趋势"
+  ],
+  "url": "https://pod-exp.pages.dev/lf8pFv3Jx4Q/"
+ },
+ {
+  "id": "uMO3zS5FLoc",
+  "title": "回马枪 CEO（们）：对话 MongoDB 的 Dev Ittycheria",
+  "channel": "Sequoia Capital",
+  "guests": "Dev Ittycheria",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "duration": 3350,
+  "topics": [
+   "领导力",
+   "创业与经营",
+   "企业软件",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/uMO3zS5FLoc/"
+ },
+ {
+  "id": "xN9GxNIddxo",
+  "title": "主权 AI 专题对谈｜SC26",
+  "channel": "SiliconANGLE theCUBE",
+  "guests": "Amit Eyal Govrin",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "duration": 1388,
+  "topics": [
+   "AI 基础设施",
+   "云基础设施",
+   "企业软件",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/xN9GxNIddxo/"
+ },
+ {
+  "id": "tY96Iz_N7sc",
+  "title": "哪些股票将因英伟达的爆雷而受益？| WAYT？",
+  "channel": "The Compound",
+  "guests": "",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "duration": 4073,
+  "topics": [
+   "半导体",
+   "投资",
+   "交易",
+   "AI 基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/tY96Iz_N7sc/"
+ },
+ {
+  "id": "N5YwZjN4_oI",
+  "title": "欧洲的 AI 未来：与 Judith Dada 对谈｜Pub Conversations",
+  "channel": "NVIDIA",
+  "guests": "Judith Dada",
+  "published": "2026-10-19",
+  "addedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "duration": 2174,
+  "topics": [
+   "人工智能",
+   "AI 基础设施",
+   "企业软件",
+   "未来社会"
+  ],
+  "url": "https://pod-exp.pages.dev/N5YwZjN4_oI/"
+ },
+ {
+  "id": "SWsH0Kh9KGc",
+  "title": "ESPN 主席吉米·皮塔罗谈体育迷的新玩法",
+  "channel": "Goldman Sachs",
+  "guests": "Jimmy Pitaro",
+  "published": "2026-09-10",
+  "addedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "duration": 1225,
+  "topics": [
+   "商业分析",
+   "消费与文化",
+   "领导力"
+  ],
+  "url": "https://pod-exp.pages.dev/SWsH0Kh9KGc/"
+ },
+ {
+  "id": "0kFwIg3Q__4",
+  "title": "Anthropic 历史性 IPO 冲至 2 万亿美元｜Altimeter 的「AI 四季」",
+  "channel": "Sourcery with Molly O'Shea",
+  "guests": "Apoorv Agrawal",
+  "published": "2026-11-20",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3094,
+  "topics": [
+   "人工智能",
+   "AI 基础设施",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/0kFwIg3Q__4/"
+ },
+ {
+  "id": "6-igMd6Bzyw",
+  "title": "股市开盘：Anthropic IPO 就是今天，Tomorrow X 峰会复盘，接下来呢？",
+  "channel": "threadguy",
+  "guests": "",
+  "published": "2026-11-20",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 6997,
+  "topics": [
+   "交易",
+   "Degen",
+   "投资",
+   "AI 基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/6-igMd6Bzyw/"
+ },
+ {
+  "id": "75zAEcopwCk",
+  "title": "加密市场崩盘之际，Anthropic 完成史上最大 IPO",
+  "channel": "Bankless",
+  "guests": "",
+  "published": "2026-11-20",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3936,
+  "topics": [
+   "加密与 Web3",
+   "人工智能",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/75zAEcopwCk/"
+ },
+ {
+  "id": "FsmMLGSiP4A",
+  "title": "网络安全 CEO 谈失控的 AI 智能体、下一场网络安全危机与 AI 军备竞赛",
+  "channel": "How I Invest Podcast",
+  "guests": "Sanaz Yashar",
+  "published": "2026-11-20",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3043,
+  "topics": [
+   "人工智能",
+   "AI 安全",
+   "AI 智能体",
+   "地缘政治"
+  ],
+  "url": "https://pod-exp.pages.dev/FsmMLGSiP4A/"
+ },
+ {
+  "id": "G5w7EyF-aFQ",
+  "title": "Anthropic 上市、Nvidia 陷入危机、市场暴跌、开源遭打压？",
+  "channel": "All-In Podcast",
+  "guests": "",
+  "published": "2026-11-20",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 4601,
+  "topics": [
+   "人工智能",
+   "AI 基础设施",
+   "开源软件",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/G5w7EyF-aFQ/"
+ },
+ {
+  "id": "LwSPtWC0cXM",
+  "title": "股市开盘：Anthropic 史上最烂 IPO？市场陷入困境，彻底熄火",
+  "channel": "threadguy",
+  "guests": "",
+  "published": "2026-11-20",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 9209,
+  "topics": [
+   "加密与 Web3",
+   "交易",
+   "宏观经济",
+   "AI 基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/LwSPtWC0cXM/"
+ },
+ {
+  "id": "TtOoLanFzGw",
+  "title": "为什么 AI 让 DHH 每天工作 16 小时",
+  "channel": "a16z",
+  "guests": "DHH",
+  "published": "2026-11-20",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3135,
+  "topics": [
+   "AI 智能体",
+   "AI 编程",
+   "开源软件"
+  ],
+  "url": "https://pod-exp.pages.dev/TtOoLanFzGw/"
+ },
+ {
+  "id": "EuoTg-wra24",
+  "title": "前 SIG 交易员：\"波动率对做市商来说简直太美妙了。\"",
+  "channel": "Odds on Open",
+  "guests": "Alex Monahan",
+  "published": "2026-11-19",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3583,
+  "topics": [
+   "交易",
+   "期权",
+   "Degen",
+   "创业与经营"
+  ],
+  "url": "https://pod-exp.pages.dev/EuoTg-wra24/"
+ },
+ {
+  "id": "RZ4BBkSZ3io",
+  "title": "黄仁勋会回归 NVIDIA 吗｜Kalshi、Mercor、Fractile：巨额融资还在继续",
+  "channel": "20VC with Harry Stebbings",
+  "guests": "Jason Lemkin、Rory O'Driscoll",
+  "published": "2026-11-19",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 4512,
+  "topics": [
+   "投资",
+   "AI 智能体",
+   "人工智能",
+   "企业软件"
+  ],
+  "url": "https://pod-exp.pages.dev/RZ4BBkSZ3io/"
+ },
+ {
+  "id": "ZmH2QDO0c1U",
+  "title": "Anthropic 的 IPO、Lighter 被盗与宕机不断的一周",
+  "channel": "Unchained",
+  "guests": "",
+  "published": "2026-11-19",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 4667,
+  "topics": [
+   "加密与 Web3",
+   "AI 安全",
+   "人工智能",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/ZmH2QDO0c1U/"
+ },
+ {
+  "id": "_wLzJINt9iQ",
+  "title": "超级智能需要物理世界｜专访 Arda CEO 兼联合创始人 Bob McGrew",
+  "channel": "No Priors: AI, Machine Learning, Tech, & Startups",
+  "guests": "Bob McGrew",
+  "published": "2026-11-19",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3597,
+  "topics": [
+   "机器人与物理 AI",
+   "制造业",
+   "人工智能",
+   "创业与经营"
+  ],
+  "url": "https://pod-exp.pages.dev/_wLzJINt9iQ/"
+ },
+ {
+  "id": "cTFNOTt-jGs",
+  "title": "TomorrowX：Brian Armstrong、Gavin Baker、Andrew Feldman 等",
+  "channel": "Sourcery with Molly O'Shea",
+  "guests": "Andrew Feldman、Keller Rinaudo Cliffton、Matteo Franceschetti、Brian Armstrong、Gavin Baker、Igor Kurganov、Guillermo Rauch、Vibhav Altekar、Ron Biscardi、Harper Carroll",
+  "published": "2026-11-19",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 7773,
+  "topics": [
+   "AI 基础设施",
+   "机器人与物理 AI",
+   "创业与经营",
+   "AI 安全"
+  ],
+  "url": "https://pod-exp.pages.dev/cTFNOTt-jGs/"
+ },
+ {
+  "id": "drpASO63CJc",
+  "title": "Gavin Baker：英伟达为何需要黄仁勋回任 CEO",
+  "channel": "Sourcery with Molly O'Shea",
+  "guests": "Gavin Baker",
+  "published": "2026-11-19",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1345,
+  "topics": [
+   "AI 基础设施",
+   "半导体",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/drpASO63CJc/"
+ },
+ {
+  "id": "gDW9An30_c0",
+  "title": "为什么 Nick Bostrom 认为超级智能可能终结衰老",
+  "channel": "a16z",
+  "guests": "Nick Bostrom",
+  "published": "2026-11-19",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2328,
+  "topics": [
+   "AI 安全",
+   "人工智能",
+   "哲学与文明",
+   "未来社会"
+  ],
+  "url": "https://pod-exp.pages.dev/gDW9An30_c0/"
+ },
+ {
+  "id": "lwfewYL7X0o",
+  "title": "Jacob Coxon 对阵 Robin Hanson：我们应该放慢 AI 吗？",
+  "channel": "Y Combinator",
+  "guests": "Jacob Coxon、Robin Hanson",
+  "published": "2026-11-19",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3932,
+  "topics": [
+   "AI 安全",
+   "人工智能",
+   "政治与社会",
+   "未来社会"
+  ],
+  "url": "https://pod-exp.pages.dev/lwfewYL7X0o/"
+ },
+ {
+  "id": "tvFlPSWYQdA",
+  "title": "这可能是你在加密世界致富的最后大好机会｜CryptoBanter 创始人｜E195",
+  "channel": "When Shift Happens",
+  "guests": "Ran Neuner",
+  "published": "2026-11-19",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3574,
+  "topics": [
+   "加密与 Web3",
+   "投资",
+   "交易",
+   "AI 智能体"
+  ],
+  "url": "https://pod-exp.pages.dev/tvFlPSWYQdA/"
+ },
+ {
+  "id": "x0VSm6IjcDQ",
+  "title": "把 Linear 的 GTM 做到 1 亿美元以上 ARR —— Linear COO Cristina Cordova",
+  "channel": "Latent Space",
+  "guests": "Cristina Cordova",
+  "published": "2026-11-19",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 5012,
+  "topics": [
+   "AI 智能体",
+   "企业软件",
+   "创业与经营",
+   "产品"
+  ],
+  "url": "https://pod-exp.pages.dev/x0VSm6IjcDQ/"
+ },
+ {
+  "id": "0Hvs6-XODgU",
+  "title": "Ramp 押注「100 倍员工」",
+  "channel": "Y Combinator",
+  "guests": "Eric Glyman",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3259,
+  "topics": [
+   "人工智能",
+   "AI 智能体",
+   "企业软件",
+   "创业与经营"
+  ],
+  "url": "https://pod-exp.pages.dev/0Hvs6-XODgU/"
+ },
+ {
+  "id": "11Zqjd1miuE",
+  "title": "从长远看，你该买入杠杆股票 ETF 吗？",
+  "channel": "The Compound",
+  "guests": "Dave Nadig、Bill Sweet",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2146,
+  "topics": [
+   "投资",
+   "期权",
+   "交易"
+  ],
+  "url": "https://pod-exp.pages.dev/11Zqjd1miuE/"
+ },
+ {
+  "id": "2v_kV33RqLA",
+  "title": "🚨直播：伦敦 BREAKPOINT 大会第二天！Solana x CoinGecko！？Tristan Thompson、Yannick Schrade 等",
+  "channel": "The Rollup",
+  "guests": "Austin Federa、Jack Anorak、Emmett Hollyer、Ryan Rasmussen、Yannik Schrade、Tristan Thompson、Se Yong Park、Kash Dhanda、Hitoshi Harada、Anatoly Yakovenko、Mert Mumtaz、Kristin Smith、Kyle Samani、Matt Hougan、Nigel Farage、Sajid Javid、Baroness Sugg、Ed Vaizey",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 12479,
+  "topics": [
+   "加密与 Web3",
+   "金融基础设施",
+   "投资",
+   "交易"
+  ],
+  "url": "https://pod-exp.pages.dev/2v_kV33RqLA/"
+ },
+ {
+  "id": "4Cjb7691GJ8",
+  "title": "Harjot Gill 谈软件工厂与代码评审",
+  "channel": "The Pragmatic Engineer",
+  "guests": "Harjot Gill",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 5251,
+  "topics": [
+   "AI 编程",
+   "AI 智能体",
+   "创业与经营",
+   "企业软件"
+  ],
+  "url": "https://pod-exp.pages.dev/4Cjb7691GJ8/"
+ },
+ {
+  "id": "6TGuqKcI5RU",
+  "title": "为什么对 AI 来说，运维生产环境比写代码更难｜Lightwork",
+  "channel": "Lightspeed Venture Partners",
+  "guests": "Spiros Xanthos",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1300,
+  "topics": [
+   "人工智能",
+   "AI 智能体",
+   "AI 基础设施",
+   "模型评测"
+  ],
+  "url": "https://pod-exp.pages.dev/6TGuqKcI5RU/"
+ },
+ {
+  "id": "6uV3bo8_NYU",
+  "title": "为什么 Dan Niles 在 Anthropic IPO 前把四成仓位换成了现金",
+  "channel": "WOLF Financial",
+  "guests": "Dan Niles",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1218,
+  "topics": [
+   "投资",
+   "人工智能",
+   "AI 基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/6uV3bo8_NYU/"
+ },
+ {
+  "id": "9Ws2u1ecBfw",
+  "title": "FactSet CEO Sanoke Viswanathan 谈 AI 与投资的未来 ｜ Baron 投资大会",
+  "channel": "Baron Capital",
+  "guests": "Sanoke Viswanathan",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2276,
+  "topics": [
+   "人工智能",
+   "金融基础设施",
+   "企业软件"
+  ],
+  "url": "https://pod-exp.pages.dev/9Ws2u1ecBfw/"
+ },
+ {
+  "id": "EAZq8Ly98Ls",
+  "title": "事实证明：想赚到大钱，并不需要什么聪明的点子",
+  "channel": "My First Million",
+  "guests": "",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3997,
+  "topics": [
+   "商业分析",
+   "创业与经营",
+   "消费与文化",
+   "创作者经济"
+  ],
+  "url": "https://pod-exp.pages.dev/EAZq8Ly98Ls/"
+ },
+ {
+  "id": "FkYg7ZywuPs",
+  "title": "Andrew Vaz 与 Saurabh Kapoor（Dell Technologies）｜ SC26",
+  "channel": "SiliconANGLE theCUBE",
+  "guests": "Andrew Vaz、Saurabh Kapoor",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1203,
+  "topics": [
+   "AI 基础设施",
+   "云基础设施",
+   "企业软件"
+  ],
+  "url": "https://pod-exp.pages.dev/FkYg7ZywuPs/"
+ },
+ {
+  "id": "KX-e5AJAwBs",
+  "title": "加密葬礼、CZ 对决 Star、召回黄仁勋？｜The Chopping Block",
+  "channel": "Unchained",
+  "guests": "Joshua Lim",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3381,
+  "topics": [
+   "加密与 Web3",
+   "投资",
+   "半导体",
+   "地缘政治"
+  ],
+  "url": "https://pod-exp.pages.dev/KX-e5AJAwBs/"
+ },
+ {
+  "id": "KloEh7sl4ww",
+  "title": "前 YC COO 变身 150 亿美元公司 CEO：AI 最大的机会不在软件",
+  "channel": "Luba Yudasina",
+  "guests": "Qasar Younis",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3907,
+  "topics": [
+   "机器人与物理 AI",
+   "产业科技",
+   "创业与经营",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/KloEh7sl4ww/"
+ },
+ {
+  "id": "M6CuDJvuRAg",
+  "title": "THL Partners 的 Todd Abbrecht：私募股权的 AI 大考、构筑护城河与收购的艺术",
+  "channel": "How I Invest Podcast",
+  "guests": "Todd Abbrecht",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3703,
+  "topics": [
+   "投资",
+   "人工智能",
+   "商业分析"
+  ],
+  "url": "https://pod-exp.pages.dev/M6CuDJvuRAg/"
+ },
+ {
+  "id": "Mvf6GuEUAJw",
+  "title": "Sam Altman 谈 Jensen Huang、Anthropic 的 IPO 与愈演愈烈的 AI 反弹 ｜ Future Proof",
+  "channel": "Semafor",
+  "guests": "Sam Altman",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1874,
+  "topics": [
+   "人工智能",
+   "AI 基础设施",
+   "半导体",
+   "政治与社会"
+  ],
+  "url": "https://pod-exp.pages.dev/Mvf6GuEUAJw/"
+ },
+ {
+  "id": "NJVcwHxNBmA",
+  "title": "XBOW 谈 AI 代码风险：模型漂移时，治理由谁负责 ｜ AppDevANGLE",
+  "channel": "SiliconANGLE theCUBE",
+  "guests": "Nico Waisman",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1256,
+  "topics": [
+   "AI 安全",
+   "AI 编程",
+   "企业软件"
+  ],
+  "url": "https://pod-exp.pages.dev/NJVcwHxNBmA/"
+ },
+ {
+  "id": "NuoEkfIkKX4",
+  "title": "为什么人生这场游戏就该难 ｜ Brian Armstrong, Coinbase",
+  "channel": "David Senra",
+  "guests": "Brian Armstrong",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3628,
+  "topics": [
+   "AI 智能体",
+   "加密与 Web3",
+   "金融基础设施",
+   "创业与经营"
+  ],
+  "url": "https://pod-exp.pages.dev/NuoEkfIkKX4/"
+ },
+ {
+  "id": "bERmUEJhWFM",
+  "title": "Black Hat USA 2026｜AI 能做出原创安全研究吗？来认识 HTTP Terminator",
+  "channel": "Black Hat",
+  "guests": "James Kettle",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2264,
+  "topics": [
+   "AI 安全",
+   "AI 智能体",
+   "AI 研究",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/bERmUEJhWFM/"
+ },
+ {
+  "id": "byxX26OEzI4",
+  "title": "Genie 4 如何让 Gemini 扮演导演，实时操纵世界｜Lightwork",
+  "channel": "Lightspeed Venture Partners",
+  "guests": "Diego Rivas",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1612,
+  "topics": [
+   "人工智能",
+   "AI 研究",
+   "机器人与物理 AI",
+   "创作"
+  ],
+  "url": "https://pod-exp.pages.dev/byxX26OEzI4/"
+ },
+ {
+  "id": "cEALveaXMhI",
+  "title": "Duncan Ng 与 Kevin Cochrane，Vultr ｜ SC26",
+  "channel": "SiliconANGLE theCUBE",
+  "guests": "Kevin Cochrane、Duncan Ng",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1210,
+  "topics": [
+   "AI 基础设施",
+   "云基础设施",
+   "AI 智能体",
+   "半导体"
+  ],
+  "url": "https://pod-exp.pages.dev/cEALveaXMhI/"
+ },
+ {
+  "id": "eYyLHx-chQA",
+  "title": "为什么越来越多的安全团队需要在本地运行的 AI ｜ Cyber60",
+  "channel": "Lightspeed Venture Partners",
+  "guests": "Nir Zuk",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1478,
+  "topics": [
+   "AI 安全",
+   "企业软件",
+   "创业与经营",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/eYyLHx-chQA/"
+ },
+ {
+  "id": "g7ceecPoLY4",
+  "title": "贝莱德的比特币押注才刚刚开始",
+  "channel": "Anthony Pompliano",
+  "guests": "Robbie Mitchnick",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1614,
+  "topics": [
+   "加密与 Web3",
+   "金融基础设施",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/g7ceecPoLY4/"
+ },
+ {
+  "id": "gulYQ6eP-Lo",
+  "title": "AI、信任与决策的未来 ｜ Hoover Institution",
+  "channel": "Hoover Institution",
+  "guests": "Max Lamparth",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2487,
+  "topics": [
+   "人工智能",
+   "AI 安全",
+   "AI 研究",
+   "模型评测"
+  ],
+  "url": "https://pod-exp.pages.dev/gulYQ6eP-Lo/"
+ },
+ {
+  "id": "kBJe4H_WobA",
+  "title": "打造一个真正懂你的 AI，到底需要什么",
+  "channel": "a16z",
+  "guests": "Ken Liu",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1991,
+  "topics": [
+   "人工智能",
+   "AI 智能体",
+   "AI 安全",
+   "产品"
+  ],
+  "url": "https://pod-exp.pages.dev/kBJe4H_WobA/"
+ },
+ {
+  "id": "qgna4vlxqNM",
+  "title": "黄仁勋刚刚戳破 AI 泡沫了吗？",
+  "channel": "Prof G Markets",
+  "guests": "Gil Luria、Sherri Davidoff",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2468,
+  "topics": [
+   "人工智能",
+   "半导体",
+   "AI 基础设施",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/qgna4vlxqNM/"
+ },
+ {
+  "id": "tR6tq7d7kr8",
+  "title": "Alex Bouzari, DDN ｜ SC26",
+  "channel": "SiliconANGLE theCUBE",
+  "guests": "Alex Bouzari",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1293,
+  "topics": [
+   "AI 基础设施",
+   "人工智能",
+   "云基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/tR6tq7d7kr8/"
+ },
+ {
+  "id": "uJG53ligJt4",
+  "title": "NVIDIA SC26 特别演讲",
+  "channel": "NVIDIA",
+  "guests": "Ian Buck",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2898,
+  "topics": [
+   "AI 基础设施",
+   "AI 智能体",
+   "数学与科学"
+  ],
+  "url": "https://pod-exp.pages.dev/uJG53ligJt4/"
+ },
+ {
+  "id": "x9cfddsJqas",
+  "title": "Cathie Wood：AI 市场抛售之后，ARK 看到了哪些机会",
+  "channel": "WOLF Financial",
+  "guests": "Cathie Wood",
+  "published": "2026-11-18",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1405,
+  "topics": [
+   "投资",
+   "人工智能",
+   "生命科学",
+   "AI 基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/x9cfddsJqas/"
+ },
+ {
+  "id": "15RzneAI8Ok",
+  "title": "核能与地热：它们能满足不断增长的电力需求吗？｜Interchange Recharged",
+  "channel": "Wood Mackenzie",
+  "guests": "Jenifer Shafer、Anna Littlefield",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3564,
+  "topics": [
+   "能源与电网",
+   "AI 基础设施",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/15RzneAI8Ok/"
+ },
+ {
+  "id": "1bR0gtecoHU",
+  "title": "Databricks CEO：AGI 已经到来、企业为何落后，以及超级智能之争",
+  "channel": "All-In Podcast",
+  "guests": "Ali Ghodsi",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3726,
+  "topics": [
+   "人工智能",
+   "AI 智能体",
+   "AI 安全",
+   "企业软件"
+  ],
+  "url": "https://pod-exp.pages.dev/1bR0gtecoHU/"
+ },
+ {
+  "id": "1tuVmPhg0UM",
+  "title": "Armani Ferrante：Backpack 正在重建整个华尔街（华尔街 2.0）",
+  "channel": "The Rollup",
+  "guests": "Armani Ferrante",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2142,
+  "topics": [
+   "加密与 Web3",
+   "金融基础设施",
+   "交易"
+  ],
+  "url": "https://pod-exp.pages.dev/1tuVmPhg0UM/"
+ },
+ {
+  "id": "3-msc-6BZ0g",
+  "title": "加密能建起机构级衍生品市场吗？｜DAS London 2026",
+  "channel": "Blockworks",
+  "guests": "Nick、Maxime Seiler、Robbie Peterson",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2169,
+  "topics": [
+   "加密与 Web3",
+   "期权",
+   "金融基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/3-msc-6BZ0g/"
+ },
+ {
+  "id": "6JuoWevUfaw",
+  "title": "稳定币与新型银行：重构全球个人金融 ｜ DAS London 2026",
+  "channel": "Blockworks",
+  "guests": "Max、Rob Hadick、Katherine Porter、Paul、Pankaj Bengani",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2554,
+  "topics": [
+   "加密与 Web3",
+   "金融基础设施",
+   "AI 智能体"
+  ],
+  "url": "https://pod-exp.pages.dev/6JuoWevUfaw/"
+ },
+ {
+  "id": "81TbdQHkkTU",
+  "title": "围绕 AI 算力兴起的金融市场｜Andrawes Bahou,Compute Desk",
+  "channel": "Lightspeed Venture Partners",
+  "guests": "Andrawes Bahou",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2587,
+  "topics": [
+   "AI 基础设施",
+   "金融基础设施",
+   "交易",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/81TbdQHkkTU/"
+ },
+ {
+  "id": "A8H06BYjEq4",
+  "title": "Black Hat USA 2026 ｜ LLM 威胁建模：PHANTOM-B 模型",
+  "channel": "Black Hat",
+  "guests": "Adam Shostack",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2425,
+  "topics": [
+   "AI 安全",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/A8H06BYjEq4/"
+ },
+ {
+  "id": "Air1P1bKgB0",
+  "title": "比特币什么时候才会再次上涨？",
+  "channel": "Anthony Pompliano",
+  "guests": "Shehzan Maredia",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1726,
+  "topics": [
+   "加密与 Web3",
+   "投资",
+   "金融基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/Air1P1bKgB0/"
+ },
+ {
+  "id": "D7D1CPOoub4",
+  "title": "微型数据中心如何化解 AI 的电力危机",
+  "channel": "Latitude Media",
+  "guests": "Jim Kapsis",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3371,
+  "topics": [
+   "AI 基础设施",
+   "能源与电网",
+   "政治与社会"
+  ],
+  "url": "https://pod-exp.pages.dev/D7D1CPOoub4/"
+ },
+ {
+  "id": "DFf6t9Q4yss",
+  "title": "Airtable 创始人谈 AI 为何打破 SaaS 的既定打法",
+  "channel": "Sources Podcast",
+  "guests": "Howie Liu",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3502,
+  "topics": [
+   "AI 智能体",
+   "人工智能",
+   "企业软件",
+   "创业与经营"
+  ],
+  "url": "https://pod-exp.pages.dev/DFf6t9Q4yss/"
+ },
+ {
+  "id": "G4q_p8aq-gc",
+  "title": "Citadel 的 Pablo Salame 谈风险承担、领导力与对伟大想法的追求",
+  "channel": "Goldman Sachs",
+  "guests": "Pablo Salame",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1449,
+  "topics": [
+   "领导力",
+   "投资",
+   "交易",
+   "职业发展"
+  ],
+  "url": "https://pod-exp.pages.dev/G4q_p8aq-gc/"
+ },
+ {
+  "id": "IPh9YsWvDQk",
+  "title": "与 Codex 共事的新方式｜OpenAI 的 Dominik Kundel 与 Charlie Guo",
+  "channel": "AI Engineer",
+  "guests": "Dominik Kundel",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3483,
+  "topics": [
+   "AI 智能体",
+   "AI 编程",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/IPh9YsWvDQk/"
+ },
+ {
+  "id": "KrVH-MKJviI",
+  "title": "杰夫·贝索斯谈黄仁勋、投身 AI 竞赛与挑选詹姆斯·邦德",
+  "channel": "Semafor",
+  "guests": "Jeff Bezos、Vik Bajaj",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1932,
+  "topics": [
+   "人工智能",
+   "机器人与物理 AI",
+   "制造业",
+   "政治与社会"
+  ],
+  "url": "https://pod-exp.pages.dev/KrVH-MKJviI/"
+ },
+ {
+  "id": "Ltz1R_Pv1xo",
+  "title": "Shay 不买 Anthropic，改买什么？",
+  "channel": "WOLF Financial",
+  "guests": "Shay Boloor",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1763,
+  "topics": [
+   "投资",
+   "AI 基础设施",
+   "半导体",
+   "交易"
+  ],
+  "url": "https://pod-exp.pages.dev/Ltz1R_Pv1xo/"
+ },
+ {
+  "id": "MC5CPzEThzo",
+  "title": "驱动世界上最伟大的创始人的，到底是什么｜Josh Wolfe，Lux Capital",
+  "channel": "Relentless",
+  "guests": "Josh Wolfe",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 4318,
+  "topics": [
+   "创业与经营",
+   "投资",
+   "领导力"
+  ],
+  "url": "https://pod-exp.pages.dev/MC5CPzEThzo/"
+ },
+ {
+  "id": "U9UbmfA_jn8",
+  "title": "华尔街对大选反应过度了（与 Adam Kovacevich 对谈）",
+  "channel": "WOLF Financial",
+  "guests": "Adam Kovacevich",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1375,
+  "topics": [
+   "AI 基础设施",
+   "人工智能",
+   "政治与社会",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/U9UbmfA_jn8/"
+ },
+ {
+  "id": "WKGLOsoolao",
+  "title": "Lauren Kolodny（Acrew Capital）——如何找到你的 Spark 与 Spike【完整演讲】",
+  "channel": "Stanford eCorner",
+  "guests": "Lauren Kolodny、Finn、Osvaldo、Waleed、Lisa",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2946,
+  "topics": [
+   "职业发展",
+   "创业与经营",
+   "投资",
+   "人生方法"
+  ],
+  "url": "https://pod-exp.pages.dev/WKGLOsoolao/"
+ },
+ {
+  "id": "ZdNIWuZd6oI",
+  "title": "DeFi 的下一波上涨｜DAS London 2026",
+  "channel": "Blockworks",
+  "guests": "Stani Kulechov",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1582,
+  "topics": [
+   "加密与 Web3",
+   "金融基础设施",
+   "信用市场"
+  ],
+  "url": "https://pod-exp.pages.dev/ZdNIWuZd6oI/"
+ },
+ {
+  "id": "_85D7euYTYc",
+  "title": "稳定币：批发级财资通道 ｜ DAS London 2026",
+  "channel": "Blockworks",
+  "guests": "Reese Bidder、David Packman、Francisco Maroto、Eric Whittham",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2187,
+  "topics": [
+   "加密与 Web3",
+   "金融基础设施",
+   "宏观经济"
+  ],
+  "url": "https://pod-exp.pages.dev/_85D7euYTYc/"
+ },
+ {
+  "id": "cBArIbI6gVA",
+  "title": "Dylan Patel 谈 Anthropic 的 IPO 与 AI 市场",
+  "channel": "Sourcery with Molly O'Shea",
+  "guests": "Dylan Patel",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3051,
+  "topics": [
+   "人工智能",
+   "AI 基础设施",
+   "投资",
+   "创业与经营"
+  ],
+  "url": "https://pod-exp.pages.dev/cBArIbI6gVA/"
+ },
+ {
+  "id": "cDZXDzRrvK8",
+  "title": "为 7×24 小时结算重构机构级市场基础设施 ｜ DAS London 2026",
+  "channel": "Blockworks",
+  "guests": "David Olsen、Emma、Keone Hon、Melvin",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1881,
+  "topics": [
+   "加密与 Web3",
+   "金融基础设施",
+   "交易"
+  ],
+  "url": "https://pod-exp.pages.dev/cDZXDzRrvK8/"
+ },
+ {
+  "id": "f7J8g2L6_h4",
+  "title": "黄仁勋真的有可能重返英伟达吗？",
+  "channel": "Prof G Markets",
+  "guests": "Deirdre Bosa、Rohan Goswami",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2411,
+  "topics": [
+   "半导体",
+   "地缘政治",
+   "投资",
+   "AI 基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/f7J8g2L6_h4/"
+ },
+ {
+  "id": "g0TFbXUCiBY",
+  "title": "Preet Virk（Worcester Polytechnic Institute）与 Andy Mills（Penguin Solutions）｜ SC26",
+  "channel": "SiliconANGLE theCUBE",
+  "guests": "Preet Virk、Andy Mills",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1322,
+  "topics": [
+   "AI 基础设施",
+   "半导体",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/g0TFbXUCiBY/"
+ },
+ {
+  "id": "hTHgTZTfslc",
+  "title": "Fractile 的 70 亿美元押注：芯片优先的前沿 AI｜Lightwork",
+  "channel": "Lightspeed Venture Partners",
+  "guests": "Walter、Guru Chahal、Jonah Cader",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1500,
+  "topics": [
+   "AI 基础设施",
+   "半导体",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/hTHgTZTfslc/"
+ },
+ {
+  "id": "iGBxzoc5C6Q",
+  "title": "欧洲数字资产生态的现状 ｜ DAS London 2026",
+  "channel": "Blockworks",
+  "guests": "Alex Laughton Scott、Victor、Leopold",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1767,
+  "topics": [
+   "加密与 Web3",
+   "金融基础设施",
+   "投资",
+   "创业与经营"
+  ],
+  "url": "https://pod-exp.pages.dev/iGBxzoc5C6Q/"
+ },
+ {
+  "id": "khtGcYe4foc",
+  "title": "2027 年展望：全球经济增长平稳，但风险偏向下行",
+  "channel": "Goldman Sachs",
+  "guests": "Jan Hatzius、Dominic Wilson",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2072,
+  "topics": [
+   "宏观经济",
+   "投资",
+   "人工智能",
+   "能源与电网"
+  ],
+  "url": "https://pod-exp.pages.dev/khtGcYe4foc/"
+ },
+ {
+  "id": "s1LWe8KZzYM",
+  "title": "投资天才揭示 AI 正在如何改变私募股权",
+  "channel": "Joe Lonsdale",
+  "guests": "Geoff Rehnert",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2273,
+  "topics": [
+   "投资",
+   "人工智能",
+   "创业与经营",
+   "信用市场"
+  ],
+  "url": "https://pod-exp.pages.dev/s1LWe8KZzYM/"
+ },
+ {
+  "id": "tsl1f-TrETk",
+  "title": "难的并不是买入趋势跟踪｜Systematic Investor｜Ep.426",
+  "channel": "Top Traders Unplugged",
+  "guests": "Yoav Git",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 4264,
+  "topics": [
+   "量化投资",
+   "投资",
+   "宏观经济"
+  ],
+  "url": "https://pod-exp.pages.dev/tsl1f-TrETk/"
+ },
+ {
+  "id": "u6pCmQd0Wrg",
+  "title": "给每个孩子一份资本主义的股份 ｜ 布拉德·格斯特纳与杰弗里·卡纳达",
+  "channel": "Invest Like The Best",
+  "guests": "布拉德·格斯特纳、杰弗里·卡纳达",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 5063,
+  "topics": [
+   "投资",
+   "政治与社会",
+   "人工智能",
+   "未来社会"
+  ],
+  "url": "https://pod-exp.pages.dev/u6pCmQd0Wrg/"
+ },
+ {
+  "id": "w5WCA_7dIks",
+  "title": "Adam Glick、Alison Biers 与 Srinath Alapati，Dell Technologies ｜ SC26",
+  "channel": "SiliconANGLE theCUBE",
+  "guests": "Adam Glick、Alison Biers、Srinath Alapati",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1459,
+  "topics": [
+   "人工智能",
+   "AI 基础设施",
+   "AI 智能体"
+  ],
+  "url": "https://pod-exp.pages.dev/w5WCA_7dIks/"
+ },
+ {
+  "id": "yfIMPQ2GSTU",
+  "title": "与 Global X 共绘 2027 年的颠覆图谱",
+  "channel": "WOLF Financial",
+  "guests": "Lis Agosto、Tejas Dessai",
+  "published": "2026-11-17",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2953,
+  "topics": [
+   "投资",
+   "AI 基础设施",
+   "能源与电网",
+   "地缘政治"
+  ],
+  "url": "https://pod-exp.pages.dev/yfIMPQ2GSTU/"
+ },
+ {
+  "id": "-23zDl6Pkeg",
+  "title": "0.25% 的股权值得拿吗？签字前你必须知道的事",
+  "channel": "Money Rehab with Nicole Lapin",
+  "guests": "Nadya Okamoto",
+  "published": "2026-11-16",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3955,
+  "topics": [
+   "创作者经济",
+   "投资",
+   "创业与经营"
+  ],
+  "url": "https://pod-exp.pages.dev/-23zDl6Pkeg/"
+ },
+ {
+  "id": "-N5u_-r6jx0",
+  "title": "RWAs、金库与链上收益的追寻｜DAS Asia 2026",
+  "channel": "Blockworks",
+  "guests": "Hunter、James Hayson、Patrick、Arnaud Simorre",
+  "published": "2026-11-16",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2100,
+  "topics": [
+   "加密与 Web3",
+   "金融基础设施",
+   "投资",
+   "信用市场"
+  ],
+  "url": "https://pod-exp.pages.dev/-N5u_-r6jx0/"
+ },
+ {
+  "id": "-RXyHsF79i8",
+  "title": "代币化的下一阶段跃升｜DAS Asia 2026",
+  "channel": "Blockworks",
+  "guests": "Mark Atard、Nikil Sharma、Asamar、Roland Chai",
+  "published": "2026-11-16",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1919,
+  "topics": [
+   "金融基础设施",
+   "加密与 Web3",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/-RXyHsF79i8/"
+ },
+ {
+  "id": "0NE89Nzfk20",
+  "title": "代码变得廉价之后的软件工程｜对话 Satya Nadella",
+  "channel": "The Pragmatic Engineer",
+  "guests": "Satya Nadella",
+  "published": "2026-11-16",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3819,
+  "topics": [
+   "人工智能",
+   "AI 编程",
+   "AI 智能体",
+   "AI 基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/0NE89Nzfk20/"
+ },
+ {
+  "id": "2rGtTRgMbio",
+  "title": "350 万美元交易员逐步拆解他最赚钱的策略",
+  "channel": "B The Trader",
+  "guests": "Eduardo",
+  "published": "2026-11-16",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1820,
+  "topics": [
+   "交易",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/2rGtTRgMbio/"
+ },
+ {
+  "id": "3K9L0dRRzOs",
+  "title": "两个初学者如何打造出全球最受欢迎的处理器｜Steve Furber",
+  "channel": "Ryan Peterman",
+  "guests": "Steve Furber",
+  "published": "2026-11-16",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3339,
+  "topics": [
+   "半导体",
+   "产业科技",
+   "数学与科学"
+  ],
+  "url": "https://pod-exp.pages.dev/3K9L0dRRzOs/"
+ },
+ {
+  "id": "5HpphRnlzxk",
+  "title": "Black Hat 美国 2026｜LANJack：将广告变成物联网侦察工具",
+  "channel": "Black Hat",
+  "guests": "Moriya Pedael",
+  "published": "2026-11-16",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1529,
+  "topics": [
+   "产业科技",
+   "科技趋势"
+  ],
+  "url": "https://pod-exp.pages.dev/5HpphRnlzxk/"
+ },
+ {
+  "id": "9lVSYriKja4",
+  "title": "比特币 ETF 创下永远不会被打破的纪录",
+  "channel": "Anthony Pompliano",
+  "guests": "Eric Balchunas",
+  "published": "2026-11-16",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1718,
+  "topics": [
+   "投资",
+   "加密与 Web3",
+   "金融基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/9lVSYriKja4/"
+ },
+ {
+  "id": "AGwNx57ABfM",
+  "title": "给我 92 分钟，我让你在商场上快得离谱",
+  "channel": "My First Million",
+  "guests": "James Currier",
+  "published": "2026-11-16",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 5477,
+  "topics": [
+   "创业与经营",
+   "人生方法",
+   "人工智能",
+   "心理与关系"
+  ],
+  "url": "https://pod-exp.pages.dev/AGwNx57ABfM/"
+ },
+ {
+  "id": "BE2JqjsN4aY",
+  "title": "Jev 缔造者谈美国开源模型能否追上中国｜智能与 token 的成本｜Diogo Almeida",
+  "channel": "20VC with Harry Stebbings",
+  "guests": "Diogo Almeida",
+  "published": "2026-11-16",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 4409,
+  "topics": [
+   "人工智能",
+   "模型评测",
+   "企业软件",
+   "创业与经营"
+  ],
+  "url": "https://pod-exp.pages.dev/BE2JqjsN4aY/"
+ },
+ {
+  "id": "NWqr0nv4UyQ",
+  "title": "英伟达的 2 万亿美元丑闻即将愈演愈烈",
+  "channel": "Prof G Markets",
+  "guests": "艾德·埃尔森",
+  "published": "2026-11-16",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 4260,
+  "topics": [
+   "半导体",
+   "投资",
+   "地缘政治",
+   "商业分析"
+  ],
+  "url": "https://pod-exp.pages.dev/NWqr0nv4UyQ/"
+ },
+ {
+  "id": "S4_l_j3SCjk",
+  "title": "Jeff Tatarchuk，TensorWave｜theCUBE + NYSE Wired：AI 工厂",
+  "channel": "SiliconANGLE theCUBE",
+  "guests": "Jeff Tatarchuk",
+  "published": "2026-11-16",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1378,
+  "topics": [
+   "AI 基础设施",
+   "能源与电网",
+   "半导体"
+  ],
+  "url": "https://pod-exp.pages.dev/S4_l_j3SCjk/"
+ },
+ {
+  "id": "TFj6gOm0p5I",
+  "title": "Will Depue：“是时候对 AI 乐观一点了……”",
+  "channel": "threadguy",
+  "guests": "Will Depue",
+  "published": "2026-11-16",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1518,
+  "topics": [
+   "人工智能",
+   "AI 研究",
+   "未来社会",
+   "数学与科学"
+  ],
+  "url": "https://pod-exp.pages.dev/TFj6gOm0p5I/"
+ },
+ {
+  "id": "Vu0XZSz-aj4",
+  "title": "伊丽莎白·沃伦再次获得对加密货币出手的机会",
+  "channel": "Bankless",
+  "guests": "贾斯汀·斯劳特",
+  "published": "2026-11-16",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 4259,
+  "topics": [
+   "加密与 Web3",
+   "政治与社会",
+   "金融基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/Vu0XZSz-aj4/"
+ },
+ {
+  "id": "ZfnKrbETmak",
+  "title": "CBS Faculty Live｜Stijn Van Nieuwerburgh 教授谈 AI 基础设施建设融资",
+  "channel": "Columbia Business School",
+  "guests": "Stijn Van Nieuwerburgh",
+  "published": "2026-11-16",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3627,
+  "topics": [
+   "AI 基础设施",
+   "信用市场",
+   "宏观经济",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/ZfnKrbETmak/"
+ },
+ {
+  "id": "bVO8yebfHw4",
+  "title": "辩论：机构该选 Solana 还是 Hyperliquid｜DAS Asia 2026",
+  "channel": "Blockworks",
+  "guests": "Kyle、David",
+  "published": "2026-11-16",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1822,
+  "topics": [
+   "加密与 Web3",
+   "金融基础设施",
+   "交易",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/bVO8yebfHw4/"
+ },
+ {
+  "id": "e-OELl_818g",
+  "title": "贝勒捐赠基金：重新思考风险投资、集中化组合与复利的力量",
+  "channel": "How I Invest Podcast",
+  "guests": "Renee Hanna",
+  "published": "2026-11-16",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3809,
+  "topics": [
+   "投资",
+   "商业分析",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/e-OELl_818g/"
+ },
+ {
+  "id": "g_67TmQ8lGY",
+  "title": "历史能告诉我们关于这场 AI 革命的什么 ｜ Tyler Cowen & Alex Imas",
+  "channel": "a16z",
+  "guests": "Alex Imas、Tyler Cowen",
+  "published": "2026-11-16",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3798,
+  "topics": [
+   "人工智能",
+   "宏观经济",
+   "AI 智能体",
+   "AI 安全"
+  ],
+  "url": "https://pod-exp.pages.dev/g_67TmQ8lGY/"
+ },
+ {
+  "id": "j9RlAEOKOFI",
+  "title": "让数字美元走进日常金融｜DAS Asia 2026",
+  "channel": "Blockworks",
+  "guests": "Guy Young、John Nahas",
+  "published": "2026-11-16",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1317,
+  "topics": [
+   "加密与 Web3",
+   "金融基础设施",
+   "创业与经营"
+  ],
+  "url": "https://pod-exp.pages.dev/j9RlAEOKOFI/"
+ },
+ {
+  "id": "jESNja0Egsc",
+  "title": "走进 OpenAI，英国还跟得上美国吗？｜George Osborne",
+  "channel": "The Master Investor Podcast with Wilfred Frost",
+  "guests": "George Osborne",
+  "published": "2026-11-16",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3925,
+  "topics": [
+   "人工智能",
+   "AI 基础设施",
+   "宏观经济",
+   "政治与社会"
+  ],
+  "url": "https://pod-exp.pages.dev/jESNja0Egsc/"
+ },
+ {
+  "id": "k-mWEYffNT8",
+  "title": "悬在英伟达危机之上的\"不可能三角\"｜Odd Lots",
+  "channel": "Bloomberg Podcasts",
+  "guests": "Tian Yang",
+  "published": "2026-11-16",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2750,
+  "topics": [
+   "地缘政治",
+   "宏观经济",
+   "AI 基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/k-mWEYffNT8/"
+ },
+ {
+  "id": "k9-03VNyKak",
+  "title": "SBI 对链上资产管理的押注｜DAS Asia 2026",
+  "channel": "Blockworks",
+  "guests": "Cafe Lin、Tarun",
+  "published": "2026-11-16",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1208,
+  "topics": [
+   "加密与 Web3",
+   "金融基础设施",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/k9-03VNyKak/"
+ },
+ {
+  "id": "qLvECJOz_Yw",
+  "title": "🚨 直播：Breakpoint 伦敦站第一天！极度恐慌——Anthropic 的 IPO 在抽干加密市场吗？",
+  "channel": "The Rollup",
+  "guests": "Greg Osuri、Rachel Conlan、Vinh Tran、Ben Ungvari、Farokh、Brian Huang、Graham Ferguson、Ryan Navi、Illia Polosukhin、Lucas Bruder、Miller Whitehouse-Levine、Michael Marcantonio",
+  "published": "2026-11-16",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 18230,
+  "topics": [
+   "加密与 Web3",
+   "金融基础设施",
+   "交易",
+   "AI 基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/qLvECJOz_Yw/"
+ },
+ {
+  "id": "tx2mIKJ6YVs",
+  "title": "Mastercard CEO 谈 AI 智能体与 16 万亿美元网络威胁｜WSJ Leadership Institute",
+  "channel": "WSJ Podcasts",
+  "guests": "Michael Miebach",
+  "published": "2026-11-16",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1611,
+  "topics": [
+   "领导力",
+   "金融基础设施",
+   "AI 智能体",
+   "地缘政治"
+  ],
+  "url": "https://pod-exp.pages.dev/tx2mIKJ6YVs/"
+ },
+ {
+  "id": "vZisK18dUrU",
+  "title": "链上机构货币市场的发展之路｜DAS Asia 2026",
+  "channel": "Blockworks",
+  "guests": "",
+  "published": "2026-11-16",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1220,
+  "topics": [
+   "加密与 Web3",
+   "金融基础设施",
+   "信用市场"
+  ],
+  "url": "https://pod-exp.pages.dev/vZisK18dUrU/"
+ },
+ {
+  "id": "xCVxLAp8ibc",
+  "title": "AI 将如何改变加密世界？｜DAS Asia 2026",
+  "channel": "Blockworks",
+  "guests": "Rhino、Katrina、Logan、Evan",
+  "published": "2026-11-16",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1746,
+  "topics": [
+   "人工智能",
+   "AI 智能体",
+   "加密与 Web3",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/xCVxLAp8ibc/"
+ },
+ {
+  "id": "ygGGhEob9tQ",
+  "title": "Betsy Chernoff ｜ WEKA AI 产品营销负责人",
+  "channel": "SiliconANGLE theCUBE",
+  "guests": "Betsy Chernoff",
+  "published": "2026-11-16",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1465,
+  "topics": [
+   "AI 基础设施",
+   "人工智能",
+   "云基础设施",
+   "模型评测"
+  ],
+  "url": "https://pod-exp.pages.dev/ygGGhEob9tQ/"
+ },
+ {
+  "id": "3RqNnfgf8Lg",
+  "title": "Anthropic 的 IPO 如何重塑 AI 投资格局｜WSJ《一周市场观察》",
+  "channel": "WSJ Podcasts",
+  "guests": "Matthew Witheiler",
+  "published": "2026-11-15",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1986,
+  "topics": [
+   "人工智能",
+   "AI 基础设施",
+   "投资",
+   "企业软件"
+  ],
+  "url": "https://pod-exp.pages.dev/3RqNnfgf8Lg/"
+ },
+ {
+  "id": "Cyt3LU8TyNc",
+  "title": "“自动化都去哪儿了？”｜Diogo Almeida，TypeSafe AI",
+  "channel": "AI Engineer",
+  "guests": "Diogo Almeida",
+  "published": "2026-11-15",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1399,
+  "topics": [
+   "AI 智能体",
+   "AI 编程",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/Cyt3LU8TyNc/"
+ },
+ {
+  "id": "Da4A4Xr7wXc",
+  "title": "为什么 AI 智能体正在改变普通人管钱的方式 ｜ TrueNorth 创始人 ｜ Drops E48",
+  "channel": "When Shift Happens",
+  "guests": "Alex Lee、Willy Chuang",
+  "published": "2026-11-15",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3865,
+  "topics": [
+   "AI 智能体",
+   "交易",
+   "加密与 Web3"
+  ],
+  "url": "https://pod-exp.pages.dev/Da4A4Xr7wXc/"
+ },
+ {
+  "id": "EfnyQtt0Qgk",
+  "title": "住房专家：究竟什么时候该买房——以及要避开什么！｜Jason Oppenheim",
+  "channel": "The Iced Coffee Hour",
+  "guests": "Jason Oppenheim",
+  "published": "2026-11-15",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 5891,
+  "topics": [
+   "投资",
+   "人工智能",
+   "政治与社会",
+   "消费与文化"
+  ],
+  "url": "https://pod-exp.pages.dev/EfnyQtt0Qgk/"
+ },
+ {
+  "id": "MA-hFuccd9Q",
+  "title": "一位5亿美元基金经理的30年交易智慧｜Ross Haber",
+  "channel": "TraderLion",
+  "guests": "Ross Haber",
+  "published": "2026-11-15",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 6322,
+  "topics": [
+   "交易",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/MA-hFuccd9Q/"
+ },
+ {
+  "id": "WY0cdD4gNoQ",
+  "title": "Meta 的 Muse：今年最成功的消费级产品发布幕后｜Mona Sarantakos",
+  "channel": "Lenny's Podcast",
+  "guests": "Mona Sarantakos",
+  "published": "2026-11-15",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 5235,
+  "topics": [
+   "AI 智能体",
+   "产品",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/WY0cdD4gNoQ/"
+ },
+ {
+  "id": "bkEXqYGa3oo",
+  "title": "什么才叫\"真正\"的创业者 ｜ Michael Rubin，Fanatics",
+  "channel": "David Senra",
+  "guests": "Michael Rubin",
+  "published": "2026-11-15",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 4100,
+  "topics": [
+   "创业与经营",
+   "商业分析",
+   "消费与文化",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/bkEXqYGa3oo/"
+ },
+ {
+  "id": "m1a6KN8G9Fo",
+  "title": "美国的新型军事技术：无人机、数据与人工智能——与托尼·罗宾斯和乔·朗斯代尔对谈",
+  "channel": "CAZ Investments",
+  "guests": "Joe Lonsdale",
+  "published": "2026-11-15",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3270,
+  "topics": [
+   "人工智能",
+   "AI 基础设施",
+   "产业科技",
+   "地缘政治"
+  ],
+  "url": "https://pod-exp.pages.dev/m1a6KN8G9Fo/"
+ },
+ {
+  "id": "DF2i8Z4na4Y",
+  "title": "华尔街如何应对黄仁勋之后的英伟达时代｜Odd Lots",
+  "channel": "Bloomberg Podcasts",
+  "guests": "Stacy Rasgon",
+  "published": "2026-11-14",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2134,
+  "topics": [
+   "半导体",
+   "AI 基础设施",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/DF2i8Z4na4Y/"
+ },
+ {
+  "id": "UZ8eYaAf08M",
+  "title": "AI 算力危机：为什么我们需要比现在多数千倍的算力｜Fractile 创始人",
+  "channel": "20VC with Harry Stebbings",
+  "guests": "Walter Goodwin",
+  "published": "2026-11-14",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 4558,
+  "topics": [
+   "AI 基础设施",
+   "半导体",
+   "能源与电网",
+   "产业科技"
+  ],
+  "url": "https://pod-exp.pages.dev/UZ8eYaAf08M/"
+ },
+ {
+  "id": "Uv2w4VTU-iQ",
+  "title": "黄仁勋不再担任英伟达 CEO：“间谍”丑闻、出口限制与市场影响",
+  "channel": "All-In Podcast",
+  "guests": "",
+  "published": "2026-11-14",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 5095,
+  "topics": [
+   "半导体",
+   "地缘政治",
+   "AI 基础设施",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/Uv2w4VTU-iQ/"
+ },
+ {
+  "id": "asHjYwa7naE",
+  "title": "AI——现代恩尼格玛：Nathan 在 IT Revolution 企业 AI 峰会（布莱切利园）上的主题演讲",
+  "channel": "Cognitive Revolution \"How AI Changes Everything\"",
+  "guests": "Jean Kim",
+  "published": "2026-11-14",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2616,
+  "topics": [
+   "人工智能",
+   "AI 安全",
+   "AI 智能体",
+   "模型评测"
+  ],
+  "url": "https://pod-exp.pages.dev/asHjYwa7naE/"
+ },
+ {
+  "id": "dOwqsYtXp6k",
+  "title": "剩下的时间里，AI 安全问题能解决吗？｜Decoder",
+  "channel": "Decoder with Nilay Patel",
+  "guests": "Helen Toner",
+  "published": "2026-11-14",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 4184,
+  "topics": [
+   "AI 安全",
+   "人工智能",
+   "AI 研究",
+   "政治与社会"
+  ],
+  "url": "https://pod-exp.pages.dev/dOwqsYtXp6k/"
+ },
+ {
+  "id": "wLJ_jy3wyN8",
+  "title": "黄仁勋离开英伟达，比特币暴跌？！",
+  "channel": "Anthony Pompliano",
+  "guests": "Jordi Visser",
+  "published": "2026-11-14",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3067,
+  "topics": [
+   "AI 基础设施",
+   "加密与 Web3",
+   "宏观经济",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/wLJ_jy3wyN8/"
+ },
+ {
+  "id": "y1-9yeYLJUo",
+  "title": "AI 同事的崛起",
+  "channel": "Y Combinator",
+  "guests": "Lauren Tan、Roman Ugarte",
+  "published": "2026-11-14",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3606,
+  "topics": [
+   "AI 智能体",
+   "AI 编程",
+   "企业软件"
+  ],
+  "url": "https://pod-exp.pages.dev/y1-9yeYLJUo/"
+ },
+ {
+  "id": "2GjJPYLyQlw",
+  "title": "Arthur Lewis, Dell Technologies ｜ theCUBE + NYSE Wired： AI Factories",
+  "channel": "SiliconANGLE theCUBE",
+  "guests": "Arthur Lewis",
+  "published": "2026-11-13",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1334,
+  "topics": [
+   "AI 智能体",
+   "AI 基础设施",
+   "人工智能",
+   "AI 安全"
+  ],
+  "url": "https://pod-exp.pages.dev/2GjJPYLyQlw/"
+ },
+ {
+  "id": "4BW93Pvc-EA",
+  "title": "杰夫·多尔曼：为什么 ETH 作为价值储存资产说不通",
+  "channel": "Unchained",
+  "guests": "杰夫·多尔曼",
+  "published": "2026-11-13",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3056,
+  "topics": [
+   "加密与 Web3",
+   "投资",
+   "金融基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/4BW93Pvc-EA/"
+ },
+ {
+  "id": "4J7tjyVCrqA",
+  "title": "SpaceX、Palantir、Anduril 与 Onodrim｜企业集团的回归",
+  "channel": "Sourcery with Molly O'Shea",
+  "guests": "Christian Garrett",
+  "published": "2026-11-13",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3643,
+  "topics": [
+   "航天",
+   "AI 基础设施",
+   "投资",
+   "地缘政治"
+  ],
+  "url": "https://pod-exp.pages.dev/4J7tjyVCrqA/"
+ },
+ {
+  "id": "731fH2N2rdI",
+  "title": "该死的，Jensen！｜TCAF 268",
+  "channel": "The Compound",
+  "guests": "JC Parets",
+  "published": "2026-11-13",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 4517,
+  "topics": [
+   "投资",
+   "人工智能",
+   "半导体",
+   "宏观经济"
+  ],
+  "url": "https://pod-exp.pages.dev/731fH2N2rdI/"
+ },
+ {
+  "id": "LWvdUtdUPtE",
+  "title": "与 Sidney Powell 探讨链上借贷",
+  "channel": "Galaxy",
+  "guests": "Beimnet Abebe、Sidney Powell",
+  "published": "2026-11-13",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2865,
+  "topics": [
+   "信用市场",
+   "加密与 Web3",
+   "金融基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/LWvdUtdUPtE/"
+ },
+ {
+  "id": "MspRSCAb6uI",
+  "title": "Black Hat USA 2026｜ChatMate：借助沙箱逃逸在 AI 助手上实现\"远程提示词执行\"",
+  "channel": "Black Hat",
+  "guests": "Ori Lahav",
+  "published": "2026-11-13",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2184,
+  "topics": [
+   "AI 安全",
+   "云基础设施",
+   "AI 基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/MspRSCAb6uI/"
+ },
+ {
+  "id": "PbD9pVXxsYM",
+  "title": "网络攻击过去要花几个月，AI 几分钟就能搞定。",
+  "channel": "a16z",
+  "guests": "Ami Luttwak",
+  "published": "2026-11-13",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2766,
+  "topics": [
+   "AI 安全",
+   "AI 智能体",
+   "云基础设施",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/PbD9pVXxsYM/"
+ },
+ {
+  "id": "PkAmyub12K8",
+  "title": "Mozilla 如何用 GPT-6 Cyber 发现并修复 Firefox 漏洞",
+  "channel": "OpenAI",
+  "guests": "Brian Grinstead",
+  "published": "2026-11-13",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1219,
+  "topics": [
+   "AI 安全",
+   "AI 智能体",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/PkAmyub12K8/"
+ },
+ {
+  "id": "UExgCSJdIn4",
+  "title": "以……聊天的速度做交易？",
+  "channel": "Jane Street",
+  "guests": "Chloe Casale",
+  "published": "2026-11-13",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 5641,
+  "topics": [
+   "交易",
+   "人工智能",
+   "企业软件",
+   "职业发展"
+  ],
+  "url": "https://pod-exp.pages.dev/UExgCSJdIn4/"
+ },
+ {
+  "id": "V8yOSpJ6D1c",
+  "title": "一家 20 亿美元律所为何突然倒闭｜Odd Lots",
+  "channel": "Bloomberg Podcasts",
+  "guests": "John Morley",
+  "published": "2026-11-13",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3531,
+  "topics": [
+   "商业分析",
+   "创业与经营"
+  ],
+  "url": "https://pod-exp.pages.dev/V8yOSpJ6D1c/"
+ },
+ {
+  "id": "bmoCcesBvI4",
+  "title": "Black Hat USA 2026 ｜ AI 与网络防御的未来圆桌",
+  "channel": "Black Hat",
+  "guests": "Katie Moussouris、Morgan Adamski、Fotios Chantzis、Sergiy Konovalov",
+  "published": "2026-11-13",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2460,
+  "topics": [
+   "人工智能",
+   "AI 安全",
+   "AI 智能体",
+   "产业科技"
+  ],
+  "url": "https://pod-exp.pages.dev/bmoCcesBvI4/"
+ },
+ {
+  "id": "cShRMQilzr0",
+  "title": "投资财务安全：Masters in Business 对话 Salim Ramji ｜ Masters in Business",
+  "channel": "Bloomberg Podcasts",
+  "guests": "Salim Ramji",
+  "published": "2026-11-13",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3095,
+  "topics": [
+   "投资",
+   "金融基础设施",
+   "领导力"
+  ],
+  "url": "https://pod-exp.pages.dev/cShRMQilzr0/"
+ },
+ {
+  "id": "fo9ey6NIidI",
+  "title": "Conor Moore，USD.AI ｜ theCUBE + NYSE Wired：AI 工厂",
+  "channel": "SiliconANGLE theCUBE",
+  "guests": "Conor Moore",
+  "published": "2026-11-13",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1560,
+  "topics": [
+   "AI 基础设施",
+   "信用市场",
+   "金融基础设施",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/fo9ey6NIidI/"
+ },
+ {
+  "id": "h4JhXQoW6kE",
+  "title": "加密市场刚刚没能通过牛市关键考验！接下来会怎样？",
+  "channel": "Bankless",
+  "guests": "",
+  "published": "2026-11-13",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3655,
+  "topics": [
+   "加密与 Web3",
+   "投资",
+   "金融基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/h4JhXQoW6kE/"
+ },
+ {
+  "id": "ir-DFO_5yPw",
+  "title": "Elon Musk 与 Ron Baron：Terafab、星舰与太空数据中心｜Baron 投资大会 2026",
+  "channel": "Baron Capital",
+  "guests": "Elon Musk",
+  "published": "2026-11-13",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3746,
+  "topics": [
+   "AI 基础设施",
+   "半导体",
+   "航天",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/ir-DFO_5yPw/"
+ },
+ {
+  "id": "lE-zyiWhz0M",
+  "title": "Hunter Walk：为什么风险投资越来越难做，如何挑选优秀创始人，以及如何逆共识投资",
+  "channel": "How I Invest Podcast",
+  "guests": "Hunter Walk",
+  "published": "2026-11-13",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 4618,
+  "topics": [
+   "投资",
+   "创业与经营",
+   "金融基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/lE-zyiWhz0M/"
+ },
+ {
+  "id": "rgFfu_UOAfI",
+  "title": "每月仅 600 万美元手续费，以太坊 2400 亿美元市值撑得住吗？",
+  "channel": "Unchained",
+  "guests": "Jeff Dorman",
+  "published": "2026-11-13",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2376,
+  "topics": [
+   "加密与 Web3",
+   "投资",
+   "商业分析"
+  ],
+  "url": "https://pod-exp.pages.dev/rgFfu_UOAfI/"
+ },
+ {
+  "id": "vUNGgm2v6TQ",
+  "title": "在加密圈赢，很容易（嘉宾：Brian Jung）",
+  "channel": "Maurits Markets",
+  "guests": "Brian Jung",
+  "published": "2026-11-13",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3289,
+  "topics": [
+   "交易",
+   "加密与 Web3",
+   "创作者经济",
+   "人生方法"
+  ],
+  "url": "https://pod-exp.pages.dev/vUNGgm2v6TQ/"
+ },
+ {
+  "id": "-A1vEiQgu3g",
+  "title": "40亿美元基金经理揭秘：他将在2027年全仓押注的5种加密货币｜E194",
+  "channel": "When Shift Happens",
+  "guests": "Haseeb Qureshi",
+  "published": "2026-11-12",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 4193,
+  "topics": [
+   "加密与 Web3",
+   "投资",
+   "金融基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/-A1vEiQgu3g/"
+ },
+ {
+  "id": "8LPlyogOa_4",
+  "title": "完全可复用火箭｜对话 Stoke Space 的 Devon Papandrew",
+  "channel": "ARK Invest",
+  "guests": "德文·帕潘德鲁",
+  "published": "2026-11-12",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2842,
+  "topics": [
+   "航天",
+   "创业与经营",
+   "投资",
+   "制造业"
+  ],
+  "url": "https://pod-exp.pages.dev/8LPlyogOa_4/"
+ },
+ {
+  "id": "BVuI5_ujxpM",
+  "title": "EP 59 认识 JACK：Citadel 头号选股人 Jack Woodruff，前 Citadel 合伙人、Candlestick Capital CIO",
+  "channel": "Pitch The PM",
+  "guests": "Jack Woodruff",
+  "published": "2026-11-12",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3946,
+  "topics": [
+   "投资",
+   "创业与经营",
+   "领导力"
+  ],
+  "url": "https://pod-exp.pages.dev/BVuI5_ujxpM/"
+ },
+ {
+  "id": "Cs-co0vaYCc",
+  "title": "为什么亚历克西斯·奥哈尼安比所有人都更早押注女子体育 ｜ The Deal",
+  "channel": "Bloomberg Originals",
+  "guests": "亚历克西斯·奥哈尼安",
+  "published": "2026-11-12",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1441,
+  "topics": [
+   "投资",
+   "商业分析",
+   "消费与文化",
+   "科技趋势"
+  ],
+  "url": "https://pod-exp.pages.dev/Cs-co0vaYCc/"
+ },
+ {
+  "id": "HDRy6XmE2RQ",
+  "title": "AI 或许能让《光环》等经典游戏重获新生",
+  "channel": "a16z",
+  "guests": "Anish Acharya、Jonathan Lai",
+  "published": "2026-11-12",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2771,
+  "topics": [
+   "AI 编程",
+   "人工智能",
+   "创作"
+  ],
+  "url": "https://pod-exp.pages.dev/HDRy6XmE2RQ/"
+ },
+ {
+  "id": "IiKf3BgBezE",
+  "title": "用 AI 驱动药物发现｜对话 Isomorphic Labs 总裁 Max Jaderberg",
+  "channel": "No Priors: AI, Machine Learning, Tech, & Startups",
+  "guests": "Max Jaderberg",
+  "published": "2026-11-12",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2356,
+  "topics": [
+   "人工智能",
+   "AI 研究",
+   "生命科学"
+  ],
+  "url": "https://pod-exp.pages.dev/IiKf3BgBezE/"
+ },
+ {
+  "id": "JW5s9Md4U2U",
+  "title": "黄仁勋的崛起与清算 ｜ The Circuit with Emily Chang",
+  "channel": "Bloomberg Originals",
+  "guests": "黄仁勋",
+  "published": "2026-11-12",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2707,
+  "topics": [
+   "半导体",
+   "AI 基础设施",
+   "地缘政治",
+   "AI 安全"
+  ],
+  "url": "https://pod-exp.pages.dev/JW5s9Md4U2U/"
+ },
+ {
+  "id": "JcYT99SCwp0",
+  "title": "前 60 亿美元基金经理：即使判断正确，仍可能被彻底击垮",
+  "channel": "Odds on Open",
+  "guests": "Roger Ehrenberg",
+  "published": "2026-11-12",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 4199,
+  "topics": [
+   "投资",
+   "量化投资",
+   "AI 基础设施",
+   "创业与经营"
+  ],
+  "url": "https://pod-exp.pages.dev/JcYT99SCwp0/"
+ },
+ {
+  "id": "K-bfrqHH4pw",
+  "title": "Benchmark Breakfast 11/12/26｜Anthropic 的 IPO、危机中的 NVIDIA、中期选举与 600 亿美元 VC",
+  "channel": "Uncapped | Benchmark Breakfast",
+  "guests": "",
+  "published": "2026-11-12",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3751,
+  "topics": [
+   "人工智能",
+   "AI 基础设施",
+   "投资",
+   "政治与社会"
+  ],
+  "url": "https://pod-exp.pages.dev/K-bfrqHH4pw/"
+ },
+ {
+  "id": "PcZxdYkG1GY",
+  "title": "走进 Abridge 超越「AI 记录员」的转型｜Venture Doctors",
+  "channel": "Lightspeed Venture Partners",
+  "guests": "Shiv Rao",
+  "published": "2026-11-12",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3377,
+  "topics": [
+   "AI 智能体",
+   "企业软件",
+   "生命科学"
+  ],
+  "url": "https://pod-exp.pages.dev/PcZxdYkG1GY/"
+ },
+ {
+  "id": "YmxpxJZvm4M",
+  "title": "Cyber at the Frontier｜发布 Daybreak Red Team 与 Daybreak Defense Factory",
+  "channel": "OpenAI",
+  "guests": "Fouad Matin、Clint Gibler、Alexander Thiemann、Matt Boyle",
+  "published": "2026-11-12",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2076,
+  "topics": [
+   "AI 安全",
+   "AI 智能体",
+   "AI 编程",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/YmxpxJZvm4M/"
+ },
+ {
+  "id": "fa-lRXcSioU",
+  "title": "Brittany Kaiser（Alpha Commute）与 Anuj Jaiswal（Fortanix）｜ theCUBE + NYSE Wired：网络安全",
+  "channel": "SiliconANGLE theCUBE",
+  "guests": "Brittany Kaiser、Anuj Jaiswal",
+  "published": "2026-11-12",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1313,
+  "topics": [
+   "AI 安全",
+   "AI 基础设施",
+   "云基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/fa-lRXcSioU/"
+ },
+ {
+  "id": "ffh7fdwfrWU",
+  "title": "红杉撤出伦敦、关闭 Scout 计划并结束 Evergreen 基金｜纳斯达克 24 小时蒸发 2.5 万亿美元",
+  "channel": "20VC with Harry Stebbings",
+  "guests": "Jason Lemkin、Rory O’Driscoll",
+  "published": "2026-11-12",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 4044,
+  "topics": [
+   "AI 智能体",
+   "AI 安全",
+   "企业软件",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/ffh7fdwfrWU/"
+ },
+ {
+  "id": "hEGqaStcCdw",
+  "title": "把全部身家押进 Zcash 后，我被「Z 清算」（Ziquidated）了",
+  "channel": "Taiki Maeda",
+  "guests": "",
+  "published": "2026-11-12",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2197,
+  "topics": [
+   "加密与 Web3",
+   "投资",
+   "交易",
+   "Degen"
+  ],
+  "url": "https://pod-exp.pages.dev/hEGqaStcCdw/"
+ },
+ {
+  "id": "hIoTWnAekCc",
+  "title": "核电能为 AI 热潮供能吗？",
+  "channel": "Latitude Media",
+  "guests": "David Faherty",
+  "published": "2026-11-12",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2675,
+  "topics": [
+   "能源与电网",
+   "AI 基础设施",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/hIoTWnAekCc/"
+ },
+ {
   "id": "izZ0K22fJ5Y",
   "title": "以太坊基金会诉讼案、Vitalik 的销毁机制转向与 Anthropic IPO",
   "channel": "Unchained",
@@ -14,6 +2814,273 @@
    "开源软件"
   ],
   "url": "https://pod-exp.pages.dev/izZ0K22fJ5Y/"
+ },
+ {
+  "id": "mJviDNOhIyw",
+  "title": "比特币如何永远付给你 15%",
+  "channel": "Anthony Pompliano",
+  "guests": "Matt Cole",
+  "published": "2026-11-12",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1679,
+  "topics": [
+   "加密与 Web3",
+   "投资",
+   "信用市场"
+  ],
+  "url": "https://pod-exp.pages.dev/mJviDNOhIyw/"
+ },
+ {
+  "id": "q0sib7uUaAY",
+  "title": "AI 与能源：韧性跟得上需求吗？",
+  "channel": "Wood Mackenzie",
+  "guests": "Per Erik Holsten、Chris Rezendes、Jim Masso、Bruno Melles",
+  "published": "2026-11-12",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 4023,
+  "topics": [
+   "能源与电网",
+   "人工智能",
+   "产业科技",
+   "AI 基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/q0sib7uUaAY/"
+ },
+ {
+  "id": "qDdrklPGtUg",
+  "title": "Vitalik 该不该把以太坊的\"推销\"交给别人来做？—— Uneasy Money",
+  "channel": "Unchained",
+  "guests": "Greg Markou",
+  "published": "2026-11-12",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 4552,
+  "topics": [
+   "加密与 Web3",
+   "AI 基础设施",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/qDdrklPGtUg/"
+ },
+ {
+  "id": "xUqlu9Uxmrc",
+  "title": "Dan Tapiero：比特币熊市已经结束，下一个目标是 100 万美元（比特币展望）",
+  "channel": "The Rollup",
+  "guests": "Dan Tapiero",
+  "published": "2026-11-12",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2358,
+  "topics": [
+   "加密与 Web3",
+   "投资",
+   "宏观经济",
+   "金融基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/xUqlu9Uxmrc/"
+ },
+ {
+  "id": "0K9cRDIT2ug",
+  "title": "True Anomaly 创始人 Even Rogers 谈太空战、中国的军事优势与防务科技热潮",
+  "channel": "How I Invest Podcast",
+  "guests": "Even Rogers",
+  "published": "2026-11-11",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3683,
+  "topics": [
+   "航天",
+   "地缘政治",
+   "创业与经营",
+   "产业科技"
+  ],
+  "url": "https://pod-exp.pages.dev/0K9cRDIT2ug/"
+ },
+ {
+  "id": "2wrQ4HnpwOA",
+  "title": "与 Ju Rhyu（'08 届）和 Vennette Ho（'05 届）对谈美妆并购与创业",
+  "channel": "Columbia Business School",
+  "guests": "Vennette Ho",
+  "published": "2026-11-11",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3648,
+  "topics": [
+   "创业与经营",
+   "交易",
+   "消费与文化",
+   "职业发展"
+  ],
+  "url": "https://pod-exp.pages.dev/2wrQ4HnpwOA/"
+ },
+ {
+  "id": "82IKuUHVQBA",
+  "title": "中期选举刚刚打破了 AI 交易吗？｜The Brainstorm 第157期",
+  "channel": "ARK Invest",
+  "guests": "Brett",
+  "published": "2026-11-11",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3081,
+  "topics": [
+   "AI 基础设施",
+   "人工智能",
+   "投资",
+   "AI 安全"
+  ],
+  "url": "https://pod-exp.pages.dev/82IKuUHVQBA/"
+ },
+ {
+  "id": "CM3oXmVoxWo",
+  "title": "Lighter 对 Hyperliquid：顶级交易员认为哪边上涨空间更大",
+  "channel": "Bankless",
+  "guests": "KoolKrypto",
+  "published": "2026-11-11",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3737,
+  "topics": [
+   "加密与 Web3",
+   "交易",
+   "投资",
+   "期权"
+  ],
+  "url": "https://pod-exp.pages.dev/CM3oXmVoxWo/"
+ },
+ {
+  "id": "G-oIeOHw2_c",
+  "title": "如果每年都能确定拿到 5 万美元，你会怎么做？",
+  "channel": "The Compound",
+  "guests": "Bill Sweet",
+  "published": "2026-11-11",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2728,
+  "topics": [
+   "投资",
+   "宏观经济",
+   "人生方法"
+  ],
+  "url": "https://pod-exp.pages.dev/G-oIeOHw2_c/"
+ },
+ {
+  "id": "G_WVmxyPSp4",
+  "title": "Mike Milken：谁能获得资本？｜Podcast｜In Good Company",
+  "channel": "Norges Bank Investment Management",
+  "guests": "Mike Milken",
+  "published": "2026-11-11",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2367,
+  "topics": [
+   "信用市场",
+   "投资",
+   "创业与经营",
+   "生命科学"
+  ],
+  "url": "https://pod-exp.pages.dev/G_WVmxyPSp4/"
+ },
+ {
+  "id": "IlgvRtTwaUs",
+  "title": "AI 奇点要来了吗？｜Jane Street AI 圆桌对谈",
+  "channel": "Jane Street",
+  "guests": "Jaime Sevilla、Ege Erdil、Ryan Greenblatt、Daniel Kokotajlo",
+  "published": "2026-11-11",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 6130,
+  "topics": [
+   "AI 安全",
+   "AI 研究",
+   "科技趋势",
+   "模型评测"
+  ],
+  "url": "https://pod-exp.pages.dev/IlgvRtTwaUs/"
+ },
+ {
+  "id": "LI3lxzHfRrU",
+  "title": "Mike Volpi 谈 AI 基础设施为何能穿越炒作周期",
+  "channel": "a16z",
+  "guests": "Mike Volpi",
+  "published": "2026-11-11",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3366,
+  "topics": [
+   "AI 基础设施",
+   "半导体",
+   "投资",
+   "商业分析"
+  ],
+  "url": "https://pod-exp.pages.dev/LI3lxzHfRrU/"
+ },
+ {
+  "id": "Lt-agPBukU8",
+  "title": "比特币有点不对劲",
+  "channel": "Delphi Digital",
+  "guests": "",
+  "published": "2026-11-11",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3525,
+  "topics": [
+   "投资",
+   "人工智能",
+   "加密与 Web3",
+   "宏观经济"
+  ],
+  "url": "https://pod-exp.pages.dev/Lt-agPBukU8/"
+ },
+ {
+  "id": "P6PzZwrIRqw",
+  "title": "Celine Halioua（Loyal）——在不同领域交汇处发现机会【完整演讲】",
+  "channel": "Stanford eCorner",
+  "guests": "Celine Halioua、Gabby、Sam、Manat、Caden、Poom、Arista、Yuvan、Faina",
+  "published": "2026-11-11",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2972,
+  "topics": [
+   "生命科学",
+   "创业与经营",
+   "领导力"
+  ],
+  "url": "https://pod-exp.pages.dev/P6PzZwrIRqw/"
+ },
+ {
+  "id": "XDYwp2O4jic",
+  "title": "以太坊是黄金吗？切腹诉讼 + 英伟达蜜罐 ｜ The Chopping Block",
+  "channel": "Unchained",
+  "guests": "",
+  "published": "2026-11-11",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3040,
+  "topics": [
+   "加密与 Web3",
+   "投资",
+   "地缘政治",
+   "半导体"
+  ],
+  "url": "https://pod-exp.pages.dev/XDYwp2O4jic/"
+ },
+ {
+  "id": "cOR50k1hOjU",
+  "title": "打造房地产投资的未来｜Rosenthal，Index Industries",
+  "channel": "Lightspeed Venture Partners",
+  "guests": "Josh Rosenthal",
+  "published": "2026-11-11",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1250,
+  "topics": [
+   "加密与 Web3",
+   "金融基础设施",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/cOR50k1hOjU/"
  },
  {
   "id": "cU9uOHRWDmE",
@@ -31,6 +3098,172 @@
    "人生方法"
   ],
   "url": "https://pod-exp.pages.dev/cU9uOHRWDmE/"
+ },
+ {
+  "id": "cuvCFUzUyIk",
+  "title": "构建面向实时人类表达的基础模型｜Nuance Labs",
+  "channel": "Lightspeed Venture Partners",
+  "guests": "Fangchang Ma、Edward Zhang、Karren Yang",
+  "published": "2026-11-11",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3168,
+  "topics": [
+   "人工智能",
+   "AI 研究",
+   "创业与经营"
+  ],
+  "url": "https://pod-exp.pages.dev/cuvCFUzUyIk/"
+ },
+ {
+  "id": "eVnAUsJIDy4",
+  "title": "投资者对趋势跟踪的误解 ｜ Philippe Jordan ｜ Top Traders Unplugged ｜ Ep. 154",
+  "channel": "Top Traders Unplugged",
+  "guests": "Philippe Jordan",
+  "published": "2026-11-11",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3958,
+  "topics": [
+   "量化投资",
+   "投资",
+   "AI 智能体"
+  ],
+  "url": "https://pod-exp.pages.dev/eVnAUsJIDy4/"
+ },
+ {
+  "id": "jcyzW0rmW6c",
+  "title": "刚到底发生了什么？！ ｜ Animal Spirits 490",
+  "channel": "The Compound",
+  "guests": "",
+  "published": "2026-11-11",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 4319,
+  "topics": [
+   "投资",
+   "宏观经济",
+   "人工智能",
+   "政治与社会"
+  ],
+  "url": "https://pod-exp.pages.dev/jcyzW0rmW6c/"
+ },
+ {
+  "id": "jjTIHrWst3k",
+  "title": "1Password 如何在团队还没准备好之前就押注 AI｜Cyber60",
+  "channel": "Lightspeed Venture Partners",
+  "guests": "David Faugno",
+  "published": "2026-11-11",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1669,
+  "topics": [
+   "企业软件",
+   "AI 安全",
+   "AI 智能体",
+   "创业与经营"
+  ],
+  "url": "https://pod-exp.pages.dev/jjTIHrWst3k/"
+ },
+ {
+  "id": "lAG4njluIbQ",
+  "title": "共同思考的智能体：思科 Vijoy Pandey 谈语义对齐、Scope、Accord 与 Concord",
+  "channel": "Cognitive Revolution \"How AI Changes Everything\"",
+  "guests": "Vijoy Pandey",
+  "published": "2026-11-11",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 5425,
+  "topics": [
+   "AI 智能体",
+   "AI 基础设施",
+   "开源软件"
+  ],
+  "url": "https://pod-exp.pages.dev/lAG4njluIbQ/"
+ },
+ {
+  "id": "mWPWO6J_66I",
+  "title": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 直播：DAS 伦敦第二天！恐惧弥漫。比特币跌破 7.5 万美元是礼物吗？！",
+  "channel": "The Rollup",
+  "guests": "Rebecca Rettig、Sandy Jones、Dan Tapiero、Andy Kangpan、Nicole Sandler、Eric Saraniecki、Lior Messika、Kash Razzaghi、Sophia Bantanidis、Chris Holmes、Nick Forster、James Wo、Shaunda Devens",
+  "published": "2026-11-11",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 17257,
+  "topics": [
+   "加密与 Web3",
+   "金融基础设施",
+   "投资",
+   "宏观经济"
+  ],
+  "url": "https://pod-exp.pages.dev/mWPWO6J_66I/"
+ },
+ {
+  "id": "njMrG-beqvo",
+  "title": "Sri Ambati 与 Ranil Boteju｜theCUBE + NYSE Wired：专家混合",
+  "channel": "SiliconANGLE theCUBE",
+  "guests": "Sri Ambati、Ranil Boteju",
+  "published": "2026-11-11",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1510,
+  "topics": [
+   "AI 基础设施",
+   "AI 智能体",
+   "AI 编程",
+   "模型评测"
+  ],
+  "url": "https://pod-exp.pages.dev/njMrG-beqvo/"
+ },
+ {
+  "id": "p8IhboBVlno",
+  "title": "重创对冲基金的那场完美风暴 ｜ Odd Lots",
+  "channel": "Bloomberg Podcasts",
+  "guests": "Nishant Kumar、Michael Ball",
+  "published": "2026-11-11",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 3169,
+  "topics": [
+   "投资",
+   "量化投资",
+   "AI 基础设施",
+   "宏观经济"
+  ],
+  "url": "https://pod-exp.pages.dev/p8IhboBVlno/"
+ },
+ {
+  "id": "r50vLZ7aF1k",
+  "title": "英伟达市值蒸发 1.5 万亿美元——最糟糕的还在后头吗？",
+  "channel": "Prof G Markets",
+  "guests": "Gil Luria、Justin Wolfers",
+  "published": "2026-11-11",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 1899,
+  "topics": [
+   "半导体",
+   "宏观经济",
+   "AI 基础设施",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/r50vLZ7aF1k/"
+ },
+ {
+  "id": "uND6iY2qp_c",
+  "title": "AlphaGenome 2：教 AI 读懂整个人类基因组",
+  "channel": "Google DeepMind",
+  "guests": "Žiga Avsec、Adam Gayoso",
+  "published": "2026-11-11",
+  "addedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "duration": 2387,
+  "topics": [
+   "生命科学",
+   "AI 研究",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/uND6iY2qp_c/"
  },
  {
   "id": "Uq_f0_9G-es",
