@@ -1,5 +1,65 @@
 [
  {
+  "slug": "latetalk-2026-11-23-190-agent",
+  "title": "190: 对话蚂蚁蔡伟：灵光来做「个人Agent」，不是因为它很火",
+  "title_alt": "190: A Conversation with Cai Wei of Ant Group: Lingguang Is Building a “Personal Agent” for More Than Just the Hype",
+  "show_id": "latetalk",
+  "show": "晚点聊 LateTalk",
+  "lang": "ZH",
+  "date": "2026-11-23",
+  "published_at": "2026-11-23T01:00:00+00:00",
+  "duration_min": 112,
+  "url": "https://bidclub.ai/e/latetalk-2026-11-23-190-agent"
+ },
+ {
+  "slug": "valley101-2026-11-22-e259-ai",
+  "title": "E259｜机械神教与反人性策略：华尔街量化巨头的AI之路",
+  "title_alt": "E259 | The Machine Cult and an Anti-Human Strategy: Wall Street Quant Giants’ AI Journey",
+  "show_id": "valley101",
+  "show": "硅谷101",
+  "lang": "ZH",
+  "date": "2026-11-22",
+  "published_at": "2026-11-22T23:00:00+00:00",
+  "duration_min": 151,
+  "url": "https://bidclub.ai/e/valley101-2026-11-22-e259-ai"
+ },
+ {
+  "slug": "why-next-spacex-tesla-will-take-20-years-build-z",
+  "title": "Why the Next SpaceX & Tesla Will Take 20 Years to Build | Zipline CEO",
+  "title_alt": "为什么下一个 SpaceX 和 Tesla 需要 20 年才能建成｜Zipline CEO",
+  "show_id": "sourcery",
+  "show": "Sourcery",
+  "lang": "EN",
+  "date": "2026-11-22",
+  "published_at": "2026-11-22T13:17:25+00:00",
+  "duration_min": 19,
+  "url": "https://bidclub.ai/e/why-next-spacex-tesla-will-take-20-years-build-z"
+ },
+ {
+  "slug": "why-founders-like-jensen-huang-are-irreplaceable",
+  "title": "Why Founders Like Jensen Huang Are Irreplaceable | Tobi Lütke, Shopify",
+  "title_alt": "为什么像 Jensen Huang 这样的创始人不可替代 | Tobi Lütke，Shopify",
+  "show_id": "davidsenra",
+  "show": "David Senra",
+  "lang": "EN",
+  "date": "2026-11-22",
+  "published_at": "2026-11-22T13:00:05+00:00",
+  "duration_min": 70,
+  "url": "https://bidclub.ai/e/why-founders-like-jensen-huang-are-irreplaceable"
+ },
+ {
+  "slug": "vercel-ceo-everything-hackable-will-be-hacked",
+  "title": "Vercel CEO: “Everything Hackable Will Be Hacked”",
+  "title_alt": "Vercel CEO：“凡是能被黑的，最终都会被黑”",
+  "show_id": "sourcery",
+  "show": "Sourcery",
+  "lang": "EN",
+  "date": "2026-11-22",
+  "published_at": "2026-11-22T12:54:52+00:00",
+  "duration_min": 16,
+  "url": "https://bidclub.ai/e/vercel-ceo-everything-hackable-will-be-hacked"
+ },
+ {
   "slug": "cerebras-ceo-truth-about-ipo-wealth-we-made-1-00",
   "title": "Cerebras CEO: The Truth About IPO Wealth, \"We Made 1,000 Millionaires\"",
   "title_alt": "Cerebras CEO：IPO财富真相——“我们创造了1,000位百万富翁”",
