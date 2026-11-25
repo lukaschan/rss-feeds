@@ -1,5 +1,718 @@
 [
  {
+  "id": "k5PwGjTXpuE",
+  "title": "Ziv Kedem 与 Avi Raichel｜Dreeze",
+  "channel": "SiliconANGLE theCUBE",
+  "guests": "Ziv Kedem、Avi Raichel",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 1723,
+  "topics": [
+   "云基础设施",
+   "企业软件",
+   "创业与经营"
+  ],
+  "url": "https://pod-exp.pages.dev/k5PwGjTXpuE/"
+ },
+ {
+  "id": "1Ri3zpi1koU",
+  "title": "Thomas Healy 银行里躺着 3 亿美元，依然转身离开了自己的行业",
+  "channel": "Yahoo Finance",
+  "guests": "Thomas Healy",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 1463,
+  "topics": [
+   "创业与经营",
+   "能源与电网",
+   "AI 基础设施",
+   "制造业"
+  ],
+  "url": "https://pod-exp.pages.dev/1Ri3zpi1koU/"
+ },
+ {
+  "id": "1Z3ro4ocj-Y",
+  "title": "杰夫·贝索斯谈\"为原子而生的 AI\"、与民主党打交道及挑选下一任邦德｜Compound Interest",
+  "channel": "Semafor",
+  "guests": "Jeff Bezos、Vik Bajaj",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 2198,
+  "topics": [
+   "人工智能",
+   "机器人与物理 AI",
+   "制造业",
+   "政治与社会"
+  ],
+  "url": "https://pod-exp.pages.dev/1Z3ro4ocj-Y/"
+ },
+ {
+  "id": "2KqJNCfqlzM",
+  "title": "Satya Nadella 谈\"新算法\"",
+  "channel": "New York Times Podcasts",
+  "guests": "Satya Nadella",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 2043,
+  "topics": [
+   "人工智能",
+   "AI 基础设施",
+   "AI 安全",
+   "AI 智能体"
+  ],
+  "url": "https://pod-exp.pages.dev/2KqJNCfqlzM/"
+ },
+ {
+  "id": "3wai0RyIFTk",
+  "title": "黄仁勋是唐纳德·特朗普的“特殊男孩” ｜ The Vergecast",
+  "channel": "The Verge",
+  "guests": "Hayden Field",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 2292,
+  "topics": [
+   "人工智能",
+   "半导体",
+   "政治与社会",
+   "商业分析"
+  ],
+  "url": "https://pod-exp.pages.dev/3wai0RyIFTk/"
+ },
+ {
+  "id": "67XqMbWFAm4",
+  "title": "Benchmark Breakfast 11/24/26：Anthropic IPO、网络安全、NVIDIA 与英雄投资",
+  "channel": "Uncapped | Benchmark Breakfast",
+  "guests": "Chetan Puttagunta",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 2682,
+  "topics": [
+   "投资",
+   "AI 安全",
+   "半导体",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/67XqMbWFAm4/"
+ },
+ {
+  "id": "AcrObHNRslk",
+  "title": "史无前例的腐败：黄仁勋（Jensen Huang）如何官复原职",
+  "channel": "Prof G Markets",
+  "guests": "Scott Galloway",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 1623,
+  "topics": [
+   "半导体",
+   "地缘政治",
+   "政治与社会",
+   "商业分析"
+  ],
+  "url": "https://pod-exp.pages.dev/AcrObHNRslk/"
+ },
+ {
+  "id": "CDN5X5z4gLw",
+  "title": "特朗普请回黄仁勋、OpenAI 提议给 AI\"限速\"、AI 通过了镜子测试｜EP #315",
+  "channel": "Peter H. Diamandis",
+  "guests": "Salim Ismail、Dave Blundin、Alex Wissner-Gross",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 4635,
+  "topics": [
+   "人工智能",
+   "半导体",
+   "数学与科学",
+   "AI 安全"
+  ],
+  "url": "https://pod-exp.pages.dev/CDN5X5z4gLw/"
+ },
+ {
+  "id": "CDeg_oxH9RQ",
+  "title": "NVIDIA 的“两套说辞”与物理 AI 之争",
+  "channel": "The Road to Autonomy",
+  "guests": "Brad Olesen",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 3817,
+  "topics": [
+   "人工智能",
+   "半导体",
+   "机器人与物理 AI",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/CDeg_oxH9RQ/"
+ },
+ {
+  "id": "Em6tbhj9o6A",
+  "title": "对 RSI 最强有力的反驳",
+  "channel": "Dwarkesh Patel",
+  "guests": "Max Fence",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 3924,
+  "topics": [
+   "人工智能",
+   "AI 研究",
+   "AI 安全"
+  ],
+  "url": "https://pod-exp.pages.dev/Em6tbhj9o6A/"
+ },
+ {
+  "id": "EsNvJrkgAr4",
+  "title": "前亚马逊董事揭秘：贝索斯为了赢所做的一切",
+  "channel": "The Knowledge Project Podcast",
+  "guests": "Bing Gordon",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 4205,
+  "topics": [
+   "领导力",
+   "创业与经营",
+   "投资",
+   "产品"
+  ],
+  "url": "https://pod-exp.pages.dev/EsNvJrkgAr4/"
+ },
+ {
+  "id": "FGmv0RH7dQo",
+  "title": "帕尔默·拉基谈\"战争 2.0\"",
+  "channel": "New York Times Podcasts",
+  "guests": "Palmer Luckey",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 3201,
+  "topics": [
+   "地缘政治",
+   "人工智能",
+   "政治与社会",
+   "科技趋势"
+  ],
+  "url": "https://pod-exp.pages.dev/FGmv0RH7dQo/"
+ },
+ {
+  "id": "I5z8S8HVdtY",
+  "title": "Jack Kokko：AI 正在赋予分析师超能力 ｜ TomorrowX Summit",
+  "channel": "iConnections",
+  "guests": "Jack Kokko",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 1275,
+  "topics": [
+   "人工智能",
+   "AI 智能体",
+   "金融基础设施",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/I5z8S8HVdtY/"
+ },
+ {
+  "id": "K8rdrWQRd20",
+  "title": "大脑帮助我们构建了 AI。现在，AI 正在解释大脑。",
+  "channel": "Google DeepMind",
+  "guests": "Maria Eckstein、Kim Stachenfeld",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 2591,
+  "topics": [
+   "人工智能",
+   "AI 研究",
+   "生命科学"
+  ],
+  "url": "https://pod-exp.pages.dev/K8rdrWQRd20/"
+ },
+ {
+  "id": "OFEGikYwUKI",
+  "title": "Jack Gamble：为什么黄仁勋救不了 AI 泡沫",
+  "channel": "New Era Finance Podcast",
+  "guests": "Jack Gamble",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 3952,
+  "topics": [
+   "AI 基础设施",
+   "信用市场",
+   "加密与 Web3",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/OFEGikYwUKI/"
+ },
+ {
+  "id": "OO8XqqsIJSM",
+  "title": "AI 智能爆炸、政变风险与加州前沿 AI 规则 | AI:AM",
+  "channel": "Cognitive Revolution \"How AI Changes Everything\"",
+  "guests": "Tom Davidson、McKenzie Arnold",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 10517,
+  "topics": [
+   "人工智能",
+   "AI 安全",
+   "半导体",
+   "地缘政治"
+  ],
+  "url": "https://pod-exp.pages.dev/OO8XqqsIJSM/"
+ },
+ {
+  "id": "QZbEiQ7zrmg",
+  "title": "AI 智能体将如何改变比特币？",
+  "channel": "Anthony Pompliano",
+  "guests": "William Mougayar",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 3132,
+  "topics": [
+   "加密与 Web3",
+   "AI 智能体",
+   "金融基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/QZbEiQ7zrmg/"
+ },
+ {
+  "id": "SRhXgeNluIk",
+  "title": "软件工厂：逃离垃圾山｜Steve Yegge（Gas Town）",
+  "channel": "AI Engineer",
+  "guests": "Steve Yegge",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 1282,
+  "topics": [
+   "AI 智能体",
+   "AI 编程",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/SRhXgeNluIk/"
+ },
+ {
+  "id": "TvsF67C2F54",
+  "title": "如何交付数百万行由智能体编写的代码｜Jarred Sumner（Anthropic）",
+  "channel": "AI Engineer",
+  "guests": "Jarred Sumner",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 1349,
+  "topics": [
+   "AI 编程",
+   "AI 智能体",
+   "AI 基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/TvsF67C2F54/"
+ },
+ {
+  "id": "VxHUzQ6ytDw",
+  "title": "佐赫兰·夸梅·马姆达尼谈社会主义与资本主义",
+  "channel": "New York Times Podcasts",
+  "guests": "佐赫兰·马姆达尼",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 2227,
+  "topics": [
+   "政治与社会",
+   "宏观经济",
+   "商业分析"
+  ],
+  "url": "https://pod-exp.pages.dev/VxHUzQ6ytDw/"
+ },
+ {
+  "id": "WI0hKxcck3A",
+  "title": "为什么不能像测试软件一样测试硬件？｜ Nominal 的 McCord、Hoch 和 Strauss",
+  "channel": "Lightspeed Venture Partners",
+  "guests": "Cameron McCord、Jason Hoch、Bryce Strauss",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 3006,
+  "topics": [
+   "机器人与物理 AI",
+   "AI 智能体",
+   "制造业",
+   "企业软件"
+  ],
+  "url": "https://pod-exp.pages.dev/WI0hKxcck3A/"
+ },
+ {
+  "id": "XTST47gVzIk",
+  "title": "9·11 二十五周年：监控、技术与民主的历史和未来",
+  "channel": "Hoover Institution",
+  "guests": "Anne Neuberger、Christopher Wray",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 5047,
+  "topics": [
+   "地缘政治",
+   "政治与社会",
+   "科技趋势",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/XTST47gVzIk/"
+ },
+ {
+  "id": "XymmJNOQmD8",
+  "title": "什么将决定 AI 投资周期的持久性？",
+  "channel": "Goldman Sachs",
+  "guests": "Chamath Palihapitiya、Eric Sheridan",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 1513,
+  "topics": [
+   "人工智能",
+   "AI 基础设施",
+   "投资",
+   "能源与电网"
+  ],
+  "url": "https://pod-exp.pages.dev/XymmJNOQmD8/"
+ },
+ {
+  "id": "YGmyTJnX-KU",
+  "title": "黄仁勋回归 ｜ WAYT？",
+  "channel": "The Compound",
+  "guests": "Sam Koppelman",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 3985,
+  "topics": [
+   "半导体",
+   "AI 基础设施",
+   "投资",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/YGmyTJnX-KU/"
+ },
+ {
+  "id": "YncbdhUL4cQ",
+  "title": "谁在为 AI 建设买单？Diameter 与 Oaktree 谈 AI 信用｜TomorrowX Summit",
+  "channel": "iConnections",
+  "guests": "Scott Goodwin、Andrew West",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 1644,
+  "topics": [
+   "AI 基础设施",
+   "信用市场",
+   "投资",
+   "半导体"
+  ],
+  "url": "https://pod-exp.pages.dev/YncbdhUL4cQ/"
+ },
+ {
+  "id": "_ozs1IjwiUI",
+  "title": "美国选举的新弱点",
+  "channel": "The Atlantic",
+  "guests": "马克·埃利亚斯",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 2736,
+  "topics": [
+   "政治与社会",
+   "人文与思想"
+  ],
+  "url": "https://pod-exp.pages.dev/_ozs1IjwiUI/"
+ },
+ {
+  "id": "agQmon5rieE",
+  "title": "AI 转型始于正确的商业问题",
+  "channel": "Columbia Business School",
+  "guests": "David Rogers",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 2162,
+  "topics": [
+   "人工智能",
+   "领导力",
+   "创业与经营"
+  ],
+  "url": "https://pod-exp.pages.dev/agQmon5rieE/"
+ },
+ {
+  "id": "c0kUqeV3kH8",
+  "title": "大到不能\"炒\"：黄仁勋重返英伟达",
+  "channel": "New York Times Podcasts",
+  "guests": "特里普·米克尔、乔纳森·斯旺",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 1855,
+  "topics": [
+   "半导体",
+   "地缘政治",
+   "政治与社会",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/c0kUqeV3kH8/"
+ },
+ {
+  "id": "ca_aFwflbSw",
+  "title": "Pearl 如何让 AI 数据中心成为比特币的挑战者",
+  "channel": "Unchained",
+  "guests": "Ryan Watkins",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 3828,
+  "topics": [
+   "加密与 Web3",
+   "AI 基础设施",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/ca_aFwflbSw/"
+ },
+ {
+  "id": "cgwqDp8EgqI",
+  "title": "太阳能已经到来：它能为 AI 热潮供电吗？",
+  "channel": "Wood Mackenzie",
+  "guests": "Howard Wenger",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 2172,
+  "topics": [
+   "能源与电网",
+   "AI 基础设施",
+   "产业科技"
+  ],
+  "url": "https://pod-exp.pages.dev/cgwqDp8EgqI/"
+ },
+ {
+  "id": "efoZj_7oVJs",
+  "title": "这是网络安全的黑暗时代",
+  "channel": "Invest Like The Best",
+  "guests": "Scott Wu",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 3884,
+  "topics": [
+   "AI 安全",
+   "AI 智能体",
+   "AI 编程",
+   "AI 基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/efoZj_7oVJs/"
+ },
+ {
+  "id": "f1jI38-E0rQ",
+  "title": "「瞬息全宇宙」式网络安全危机 ｜ The Ezra Klein Show",
+  "channel": "The Ezra Klein Show",
+  "guests": "Nicole Perlroth",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 3417,
+  "topics": [
+   "AI 安全",
+   "人工智能",
+   "科技趋势"
+  ],
+  "url": "https://pod-exp.pages.dev/f1jI38-E0rQ/"
+ },
+ {
+  "id": "gkd5eOQGASU",
+  "title": "中国问题专家谈黄仁勋的回归",
+  "channel": "Unsupervised Learning: With Jacob Effron",
+  "guests": "Jordan Schneider",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 2476,
+  "topics": [
+   "半导体",
+   "地缘政治",
+   "人工智能",
+   "AI 基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/gkd5eOQGASU/"
+ },
+ {
+  "id": "kH4cENP-dBU",
+  "title": "这门橡皮鸭生意年赚 32.1 万美元……却要价 270 万美元",
+  "channel": "Acquisitions Anonymous Podcast",
+  "guests": "Will McCertie",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 2472,
+  "topics": [
+   "商业分析",
+   "创业与经营",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/kH4cENP-dBU/"
+ },
+ {
+  "id": "l-ENmLkrelA",
+  "title": "你的英伟达股票该怎么办？",
+  "channel": "The Compound",
+  "guests": "",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 1923,
+  "topics": [
+   "投资",
+   "量化投资",
+   "人生方法"
+  ],
+  "url": "https://pod-exp.pages.dev/l-ENmLkrelA/"
+ },
+ {
+  "id": "o6KIjtkRdOI",
+  "title": "CrowdStrike CEO：AI 网络攻击浪潮、超高速黑客攻击与补丁难题",
+  "channel": "All-In Podcast",
+  "guests": "George Kurtz",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 3208,
+  "topics": [
+   "AI 安全",
+   "AI 智能体",
+   "人工智能",
+   "地缘政治"
+  ],
+  "url": "https://pod-exp.pages.dev/o6KIjtkRdOI/"
+ },
+ {
+  "id": "pvv6fMGs2fQ",
+  "title": "黄仁勋震撼回归对 AI 交易意味着什么｜Odd Lots",
+  "channel": "Bloomberg Podcasts",
+  "guests": "Alexander Altmann",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 2162,
+  "topics": [
+   "人工智能",
+   "半导体",
+   "投资",
+   "宏观经济"
+  ],
+  "url": "https://pod-exp.pages.dev/pvv6fMGs2fQ/"
+ },
+ {
+  "id": "qRx17d0TWAk",
+  "title": "Jensen 回来了。接下来怎么办？",
+  "channel": "Dumb Money Live",
+  "guests": "",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 3555,
+  "topics": [
+   "投资",
+   "半导体",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/qRx17d0TWAk/"
+ },
+ {
+  "id": "qwimDI0tdwc",
+  "title": "这家 AI 创业公司正在帮购房者摆脱房产经纪人佣金",
+  "channel": "Luba Yudasina",
+  "guests": "Ben Bear",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 3717,
+  "topics": [
+   "创业与经营",
+   "产业科技",
+   "领导力"
+  ],
+  "url": "https://pod-exp.pages.dev/qwimDI0tdwc/"
+ },
+ {
+  "id": "s2wObwrtkPs",
+  "title": "埃隆·马斯克谈创新与权力",
+  "channel": "New York Times Podcasts",
+  "guests": "埃隆·马斯克",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 2775,
+  "topics": [
+   "航天",
+   "人工智能",
+   "政治与社会",
+   "地缘政治"
+  ],
+  "url": "https://pod-exp.pages.dev/s2wObwrtkPs/"
+ },
+ {
+  "id": "s3_iltPngEc",
+  "title": "克里斯蒂娜·拉加德谈全球新秩序",
+  "channel": "New York Times Podcasts",
+  "guests": "克里斯蒂娜·拉加德",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 1829,
+  "topics": [
+   "宏观经济",
+   "地缘政治",
+   "金融基础设施",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/s3_iltPngEc/"
+ },
+ {
+  "id": "sCNie3TeExc",
+  "title": "欢迎回来，奇普斯先生：黄仁勋的回归｜The GoodFellows 答观众来信",
+  "channel": "Hoover Institution",
+  "guests": "尼尔·弗格森、约翰·科克伦、H.R. 麦克马斯特",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 3305,
+  "topics": [
+   "地缘政治",
+   "政治与社会",
+   "领导力",
+   "半导体"
+  ],
+  "url": "https://pod-exp.pages.dev/sCNie3TeExc/"
+ },
+ {
+  "id": "tRaFbDFBl_A",
+  "title": "OpenAI 的 Noam Brown：为什么博弈论没有通向通用智能（No Limit 决赛现场实录）",
+  "channel": "Sequoia Capital",
+  "guests": "Noam Brown",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 1838,
+  "topics": [
+   "AI 研究",
+   "人工智能",
+   "职业发展"
+  ],
+  "url": "https://pod-exp.pages.dev/tRaFbDFBl_A/"
+ },
+ {
   "id": "SBXbWatmbtk",
   "title": "Dan Doney：复杂金融即将触达全球投资者",
   "channel": "The Rollup",
@@ -14,6 +727,23 @@
    "投资"
   ],
   "url": "https://pod-exp.pages.dev/SBXbWatmbtk/"
+ },
+ {
+  "id": "yEYriR--a8U",
+  "title": "交易 Anthropic：做多（+2x $ANTT）还是做空（-2x $ANTZ）？｜直播实录",
+  "channel": "WOLF Financial",
+  "guests": "Scott Redler、Tannor Manson、Fahad Khalid、Roy、Mark Newton、Hamid Shojaee、Evan",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-24",
+  "updatedAt": "2026-11-24",
+  "duration": 14127,
+  "topics": [
+   "投资",
+   "交易",
+   "人工智能",
+   "半导体"
+  ],
+  "url": "https://pod-exp.pages.dev/yEYriR--a8U/"
  },
  {
   "id": "-NFMsM2y0Vk",
