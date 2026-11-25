@@ -441,18 +441,25 @@ def _parse_js_catalog(raw):
 
 def _fetch_pod_catalog(base):
     """Field Notes 已改版：单文件目录 assets/catalog-data.js 不复存在，
-    目录拆成按月分片，首页 HTML 内嵌分片清单
+    目录拆成按月分片，分片清单嵌在页面 HTML 里
     （"key":"2026-11","href":"assets/catalog/zh-2026-11.<hash>.js"，
     每片是 (window.FN_SHARDS||{})["2026-11"] = [...]）。
+    清单位置会变：2026-11-02 时在首页，2026-11-25 起改在 /archive/ 页；
+    分片 URL 的 hash 每次站方重建都会换，必须每次现读清单、不能写死。
     逐片抓取、按 id 去重合并；整体做内容级重试，失败上抛由 main 按源隔离。"""
     last_exc = None
     for attempt in range(3):
         try:
-            home = fetch_text(f"{base}/")
-            shards = re.findall(
-                r'"key":"(20\d\d-\d\d)","href":"(assets/catalog/[^"]+\.js)"', home)
+            shards = []
+            for page in (f"{base}/archive/", f"{base}/"):
+                html = fetch_text(page)
+                shards = re.findall(
+                    r'"key":"(20\d\d-\d\d)","href":"(?:\.\./)?(assets/catalog/[^"]+\.js)"',
+                    html)
+                if shards:
+                    break
             if not shards:
-                raise ValueError("首页里找不到目录分片清单（站点结构可能又变了）")
+                raise ValueError("首页与 /archive/ 里都找不到目录分片清单（站点结构可能又变了）")
             merged, seen = [], set()
             for _key, href in shards:
                 for x in _parse_js_catalog(fetch_text(f"{base}/{href}")):
