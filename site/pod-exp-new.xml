@@ -5,9 +5,60 @@
 <link>https://pod-exp.pages.dev/</link>
 <description>Field Notes 每日新增文章（自建 RSS）：存档冻结后新发表的篇目，只放摘要 + 原文链接（全文太长，不进 feed）；冻结前的全部篇目见 pod-exp.xml 存档版。</description>
 <language>zh-CN</language>
-<lastBuildDate>Wed, 25 Nov 2026 07:31:47 +0000</lastBuildDate>
+<lastBuildDate>Thu, 26 Nov 2026 04:12:07 +0000</lastBuildDate>
 <generator>rss-feeds-generator (personal)</generator>
 <atom:link href="https://rss-feeds-8x2.pages.dev/pod-exp-new.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>革命 vs 文艺复兴｜Thariq Shihipar（OpenAI）</title>
+<link>https://pod-exp.pages.dev/Qe9d9dWyED0/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/Qe9d9dWyED0/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>Latent Space</category>
+<category>AI 编程</category>
+<category>AI 智能体</category>
+<category>产品</category>
+<category>AI 研究</category>
+<description>这是 Latent Space 在 AI Engineer CODE 大会现场录制的一期对谈。嘉宾 Thariq Shihipar 当时刚结束在 Anthropic（Claude Code）的工作，并在节目发布当天宣布加入 OpenAI；他在大会上的闭幕演讲主题是「革命 vs 文艺复兴」。他复盘了自己过去一年对 coding agent 的误判：模型并非只会一种工作方式的「外星生物」，而是像人一样用 Figma、computer use 来干活。他展示了自己做格斗游戏时发明的 /human 文件夹——一套 lint 规则严格、像规格说明一样可读的脚本语言，让人能亲手调参数、理解模型在做什么。两人还聊了游戏平衡作为系统理解力评测、决策模型（decision models）与「一次前向传播的智能」、个人软件为什么「做出来却不想用」、RSI 更可能以「知识工作化」而非剧烈颠覆的方式展开，以及年轻人需要的「成就感假肢」——从 WoW 公……</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/Qe9d9dWyED0/cover.webp" alt="" /></p>
+<p><em>Latent Space · 播出 2026-11-25 · 时长 54:00</em></p>
+<p>这是 Latent Space 在 AI Engineer CODE 大会现场录制的一期对谈。嘉宾 Thariq Shihipar 当时刚结束在 Anthropic（Claude Code）的工作，并在节目发布当天宣布加入 OpenAI；他在大会上的闭幕演讲主题是「革命 vs 文艺复兴」。他复盘了自己过去一年对 coding agent 的误判：模型并非只会一种工作方式的「外星生物」，而是像人一样用 Figma、computer use 来干活。他展示了自己做格斗游戏时发明的 /human 文件夹——一套 lint 规则严格、像规格说明一样可读的脚本语言，让人能亲手调参数、理解模型在做什么。两人还聊了游戏平衡作为系统理解力评测、决策模型（decision models）与「一次前向传播的智能」、个人软件为什么「做出来却不想用」、RSI 更可能以「知识工作化」而非剧烈颠覆的方式展开，以及年轻人需要的「成就感假肢」——从 WoW 公……</p>
+<h2>章节</h2><ul><li>0:02 冷开场</li><li>0:26 开场：Thariq 加入 OpenAI</li><li>3:03 赞助商：Atlassian 的 Jira</li><li>3:24 Agent 让 Thariq 意外的地方</li><li>6:48 /human 文件夹</li><li>9:08 软件作为手艺</li><li>11:12 游戏平衡</li><li>15:07 野心</li><li>19:07 决策模型</li><li>23:08 决策模型（续）</li><li>26:39 陆地还是水面测试</li><li>30:27 个人软件</li><li>34:27 个人软件（续）</li><li>37:47 采用与落地</li><li>41:47 采用与落地（续）</li><li>42:27 自动化研究</li><li>46:28 自动化研究（续）</li><li>48:30 看得见的工作成果</li><li>52:31 看得见的工作成果（续）</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/Qe9d9dWyED0/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>黄仁勋的“光”：详解AI算力背后的光通信产业链、英伟达赌注与技术博弈</title>
+<link>https://pod-exp.pages.dev/TYo20zW3MCo/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/TYo20zW3MCo/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>硅谷101</category>
+<category>AI 基础设施</category>
+<category>半导体</category>
+<category>产业科技</category>
+<category>商业分析</category>
+<description>黄仁勋辞职11天后回归英伟达，而他在过去一年砸下几十亿美元押注的光通信产业，正经历一场过山车。这期《硅谷101》从物理原理讲起：GPU算力增速跑赢互连带宽，撞上“通信墙”，铜连接在距离、带宽、功耗上逼近极限，光正从数据中心之间一路逼近芯片本身。视频拆解了一颗光模块背后的全球产业链——磷化铟衬底、外延、激光器、硅光芯片、DSP、封装与组装——以及英伟达力推的CPO（共封装光学）与可插拔、LPO、XPO、NPO等路线的博弈。两位业内人士点评了卖方市场、厂商利益与技术分野。最后回到资本市场：中期选举的政策变数、CPO兑现节奏之争、对华光模块进口限制，叠加2000年光纤泡沫的遗产——看对未来，和在正确的时间抵达未来，是两回事。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/TYo20zW3MCo/cover.webp" alt="" /></p>
+<p><em>硅谷101 · 播出 2026-11-25 · 时长 45:11</em></p>
+<p>黄仁勋辞职11天后回归英伟达，而他在过去一年砸下几十亿美元押注的光通信产业，正经历一场过山车。这期《硅谷101》从物理原理讲起：GPU算力增速跑赢互连带宽，撞上“通信墙”，铜连接在距离、带宽、功耗上逼近极限，光正从数据中心之间一路逼近芯片本身。视频拆解了一颗光模块背后的全球产业链——磷化铟衬底、外延、激光器、硅光芯片、DSP、封装与组装——以及英伟达力推的CPO（共封装光学）与可插拔、LPO、XPO、NPO等路线的博弈。两位业内人士点评了卖方市场、厂商利益与技术分野。最后回到资本市场：中期选举的政策变数、CPO兑现节奏之争、对华光模块进口限制，叠加2000年光纤泡沫的遗产——看对未来，和在正确的时间抵达未来，是两回事。</p>
+<h2>章节</h2><ul><li>0:00 黄仁勋回来了，光通信的故事变了吗？</li><li>2:48 算力“撞墙”：GPU越强，为什么越需要“光”？</li><li>5:36 距离、带宽与功耗：铜连接的三道极限</li><li>7:29 Scale Up、Out与Across：光的三次逼近</li><li>11:31 从衬底到激光器：磷化铟与EML路线</li><li>15:31 EML紧缺与第二条路线：硅光登场</li><li>19:33 精密封装与规模制造：一颗光模块如何交付</li><li>20:04 一颗光模块的旅行：产业链的钱流向哪里？</li><li>23:03 “光离芯片太远了”：可插拔光模块的原罪</li><li>25:36 CPO的两个战场：Scale Out与Scale Up</li><li>27:08 CPO之外：中间路线与“标准之争”</li><li>31:10 “标准之争”：没有统一答案的路线图</li><li>32:11 激光器双雄暗战：CPO逼出的一道新考题</li><li>36:11 资本市场泼来一盆冰水</li><li>36:28 数据中心建设生变：资本市场重估需求</li><li>38:13 CPO的兑现之困：市场还需要等多久？</li><li>39:56 政策风险：订单最终会流向哪里？</li><li>41:50 泡沫遗产：看对未来，与在正确的时间抵达未来</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/TYo20zW3MCo/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>Elon Musk 谈为什么未来应该让你庆幸活着｜TomorrowX 峰会</title>
+<link>https://pod-exp.pages.dev/DY8clym2-jQ/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/DY8clym2-jQ/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>iConnections</category>
+<category>航天</category>
+<category>AI 基础设施</category>
+<category>机器人与物理 AI</category>
+<category>未来社会</category>
+<description>Elon Musk 在奥斯汀 TomorrowX 峰会收官环节从中国连线，与 Gavin Baker、Antonio Gracias 对谈约 55 分钟。他复盘 Starship 首次接住飞船的意义：完全且快速的可复用可把入轨成本降一百倍、支撑每年百万吨级入轨质量，并让文明走向月球与火星城市。他详解 xAI 推倒重来、用 C/C++ 贴近裸金属重写训练栈的经过，指出大规模 AI 训练本质是网络问题，Grok 的目标是「有用」而非跑分。话题还覆盖 Optimus 人形机器人（12–18 个月做家务、先干 24/7 重工业）、Cybercab 推广、Terafab 芯片厂、每月半吉瓦的算力上线节奏、为何轨道算力比 Starlink V3 更简单、Neuralink 的 Telepathy 与 Blindsight，以及他眼中 AI 安全的核心：极致求真、好奇、在乎人类。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/DY8clym2-jQ/cover.webp" alt="" /></p>
+<p><em>iConnections · 播出 2026-11-19 · 时长 55:03</em></p>
+<p>Elon Musk 在奥斯汀 TomorrowX 峰会收官环节从中国连线，与 Gavin Baker、Antonio Gracias 对谈约 55 分钟。他复盘 Starship 首次接住飞船的意义：完全且快速的可复用可把入轨成本降一百倍、支撑每年百万吨级入轨质量，并让文明走向月球与火星城市。他详解 xAI 推倒重来、用 C/C++ 贴近裸金属重写训练栈的经过，指出大规模 AI 训练本质是网络问题，Grok 的目标是「有用」而非跑分。话题还覆盖 Optimus 人形机器人（12–18 个月做家务、先干 24/7 重工业）、Cybercab 推广、Terafab 芯片厂、每月半吉瓦的算力上线节奏、为何轨道算力比 Starlink V3 更简单、Neuralink 的 Telepathy 与 Blindsight，以及他眼中 AI 安全的核心：极致求真、好奇、在乎人类。</p>
+<h2>章节</h2><ul><li>0:04 Elon 从中国连线</li><li>2:16 Starship 首次接住飞船</li><li>4:59 在月球和火星上建城市</li><li>9:01 二十五年走到今天</li><li>11:25 重建 xAI 与 Grok 训练栈</li><li>15:26 世界上最好的训练栈软件</li><li>16:23 为什么 AI 训练是个网络问题</li><li>19:55 有用胜过跑分</li><li>21:59 Optimus 与「不作秀」的机器人演示</li><li>25:26 Optimus 什么时候能做家务？</li><li>27:33 Optimus 的第一份工作：重工业</li><li>28:55 Cybercab 与 FSD</li><li>30:31 Terafab</li><li>33:55 10 吉瓦算力的钱从哪来</li><li>35:49 亲自干体力活</li><li>39:49 每月上线半吉瓦算力</li><li>41:08 在太空扩展算力</li><li>42:49 轨道算力 vs. Starlink V3</li><li>46:43 Neuralink 与 Telepathy</li><li>48:53 Blindsight</li><li>49:40 AI 安全与极致求真的 AI</li><li>52:45 Jensen Huang 与美国梦</li><li>54:36 致谢与收官</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/DY8clym2-jQ/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
 <item>
 <title>Ziv Kedem 与 Avi Raichel｜Dreeze</title>
 <link>https://pod-exp.pages.dev/k5PwGjTXpuE/</link>
@@ -211,6 +262,22 @@
 <p>全文：<a href="https://pod-exp.pages.dev/FGmv0RH7dQo/">在原站阅读本篇全文</a></p>]]></content:encoded>
 </item>
 <item>
+<title>Ryan Watkins 谈 Pearl 为何可能超越比特币</title>
+<link>https://pod-exp.pages.dev/GvtefMSx8gY/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/GvtefMSx8gY/</guid>
+<pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+<category>Unchained</category>
+<category>加密与 Web3</category>
+<category>AI 基础设施</category>
+<category>投资</category>
+<description>Syncracy Capital 联合创始人 Ryan Watkins 阐述了他重仓 Pearl 的逻辑。他认为比特币的僵化路线正在暴露三块短板：量子迁移难以协调、社区对机构化路线的分歧，以及最根本的长期安全预算——手续费市场没有形成，等于把网络安全押在"币价永远上涨"上。Pearl 用"有用工作量证明"破局：矿工不再是跑无意义的哈希，而是用 GPU 做矩阵乘法，一边承接 AI 推理、一边挖矿。只要挖矿开销随 FP8 等升级压向零，云厂商"不挖就亏"会成为常态，双工矿工也将在博弈中胜出。据 Syncracy 测算，全球约 12.5% 的数据中心算力即可让 Pearl 在"算力—能源足迹"上超越比特币——他把这一天称为"P 日"，预计可能在这个十年结束前到来，但也反复强调：这不是赌翻转，而是储值资产类别里一笔跨周期的风险押注。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/GvtefMSx8gY/cover.webp" alt="" /></p>
+<p><em>Unchained · 播出 2026-11-24 · 时长 1:16:51</em></p>
+<p>Syncracy Capital 联合创始人 Ryan Watkins 阐述了他重仓 Pearl 的逻辑。他认为比特币的僵化路线正在暴露三块短板：量子迁移难以协调、社区对机构化路线的分歧，以及最根本的长期安全预算——手续费市场没有形成，等于把网络安全押在"币价永远上涨"上。Pearl 用"有用工作量证明"破局：矿工不再是跑无意义的哈希，而是用 GPU 做矩阵乘法，一边承接 AI 推理、一边挖矿。只要挖矿开销随 FP8 等升级压向零，云厂商"不挖就亏"会成为常态，双工矿工也将在博弈中胜出。据 Syncracy 测算，全球约 12.5% 的数据中心算力即可让 Pearl 在"算力—能源足迹"上超越比特币——他把这一天称为"P 日"，预计可能在这个十年结束前到来，但也反复强调：这不是赌翻转，而是储值资产类别里一笔跨周期的风险押注。</p>
+<h2>章节</h2><ul><li>0:01 片头另一节目片段：链上升级、智能体市场与英伟达 CEO 之问</li><li>4:03 片头片段（续）：AI 实验室的变现、英伟达危机与供应链投毒</li><li>8:04 片头片段收尾与正片开场：欢迎收看 Unchained</li><li>12:06 比特币的僵化、量子迁移与长期安全预算</li><li>16:08 "AI 比特币"这个梗背后：一次风险押注与工作量证明的本义</li><li>20:10 "零成本"挖矿设想与有用工作量证明</li><li>24:13 储值资产没有内在价值：Pearl 的位置与 AI 计算的"历史账本"</li><li>28:14 Pearl 到底是什么：矩阵乘法挖矿、八成的"合成算力"与 FP8 升级</li><li>32:15 GPU kernel 工程：Pearl 团队最被低估的能力</li><li>36:17 团队进展、"P 日"与 12.5% 的数学题</li><li>40:18 怎么跨越认知门槛：人脉、Together AI 与算力指标</li><li>44:22 双工矿工的博弈与采用路径</li><li>48:22 比特币矿工会来吗，以及储值资产的成色从何而来</li><li>52:23 凭什么存得住价值、创始团队与 51% 攻击之辩</li><li>56:23 51% 攻击的账算不划算，以及外界的三点质疑</li><li>1:00:24 "公平发射"已死？内部人持币与 Venice 之辨</li><li>1:04:25 理想的"实用性"是什么，以及挖矿开销离零有多远</li><li>1:08:26 "一单位算力"的路径，以及 P 日之后比特币还剩什么</li><li>1:12:28 如果比特币真被超越，以及接下来该看什么</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/GvtefMSx8gY/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
 <title>Jack Kokko：AI 正在赋予分析师超能力 ｜ TomorrowX Summit</title>
 <link>https://pod-exp.pages.dev/I5z8S8HVdtY/</link>
 <guid isPermaLink="true">https://pod-exp.pages.dev/I5z8S8HVdtY/</guid>
@@ -391,6 +458,23 @@
 <p>本期 Goldman Sachs Exchanges 聚焦 AI 投资周期的持久性。Social Capital 创始人 Chamath Palihapitiya 解释了 AI 回报为何迟迟不兑现：变革管理是最大瓶颈，生产力提升会在价值链中被吞掉，上市公司 EPS 里几乎看不到 AI 的贡献；neocloud 的商业模式是“银行的反面”——收入短期且投机、义务长期而固定，盈亏取决于利用率能否爬进上部约 25% 的盈利区。Goldman Sachs 分析师 Eric Sheridan 相对乐观：hyperscaler 的积压订单中约 50% 将在两年内转成收入，按保守假设也能轻松实现 15% 以上的投入资本回报。两人一致认为，决定周期能否延续的是需求、资本和电力；若周期放缓，风险主要由依赖 AI 主题的中间商型 neocloud 承担，而 hyperscaler 的资产负债表足够稳。</p>
 <h2>章节</h2><ul><li>0:05 引言</li><li>1:06 为什么 AI 回报仍然难以兑现</li><li>4:20 neocloud 的经济学</li><li>8:20 利用率灰色地带与缺席的 ROI</li><li>10:49 不断上升的积压订单在说什么</li><li>14:09 15% 回报的账是怎么算的</li><li>17:04 需求、资本和电力</li><li>19:17 谁来承担放缓的风险</li><li>23:22 结语</li></ul>
 <p>全文：<a href="https://pod-exp.pages.dev/XymmJNOQmD8/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>谷歌把华尔街搬上链的计划 ｜ Rich Widmann</title>
+<link>https://pod-exp.pages.dev/Y5FDVeAQzcI/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/Y5FDVeAQzcI/</guid>
+<pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+<category>Empire</category>
+<category>加密与 Web3</category>
+<category>金融基础设施</category>
+<category>云基础设施</category>
+<category>AI 智能体</category>
+<description>谷歌数字资产产品战略总监 Rich Widmann 系统讲述了谷歌的加密布局：从节点服务、GCUL 许可链，到 MPC 托管与后量子密码学。 - 谷歌把自己定位为“中立的基础设施层”：不直接下场做托管，而是把 MPC 密钥签名、TEE、后量子签名等能力打包成企业可采购的技术。 - 托管按基点收费的黄金时代正在终结，托管商要靠牌照、品牌与托管之上的增值服务建护城河。 - 交易场所加“万物应用”是 2026 年版的“造链”；代币化让支付、股票、预测市场共享同一本账，agentic 支付将争夺新结算层。 - 谷歌量子团队的论文显示破解椭圆曲线密码所需量子比特数低于旧估计，时间表可能提前到本十年末，给比特币等协议出了一道集体行动难题。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/Y5FDVeAQzcI/cover.webp" alt="" /></p>
+<p><em>Empire · 播出 2026-11-24 · 时长 1:11:08</em></p>
+<p>谷歌数字资产产品战略总监 Rich Widmann 系统讲述了谷歌的加密布局：从节点服务、GCUL 许可链，到 MPC 托管与后量子密码学。 - 谷歌把自己定位为“中立的基础设施层”：不直接下场做托管，而是把 MPC 密钥签名、TEE、后量子签名等能力打包成企业可采购的技术。 - 托管按基点收费的黄金时代正在终结，托管商要靠牌照、品牌与托管之上的增值服务建护城河。 - 交易场所加“万物应用”是 2026 年版的“造链”；代币化让支付、股票、预测市场共享同一本账，agentic 支付将争夺新结算层。 - 谷歌量子团队的论文显示破解椭圆曲线密码所需量子比特数低于旧估计，时间表可能提前到本十年末，给比特币等协议出了一道集体行动难题。</p>
+<h2>章节</h2><ul><li>0:01 开场：谷歌数字资产产品战略总监 Rich Widmann</li><li>1:04 市场没看懂谷歌的哪些地方</li><li>4:35 谷歌如何进入加密领域</li><li>8:37 谷歌如何进入加密领域：为什么是 B2B</li><li>12:39 节点业务之后：上手才发现的真相</li><li>16:39 谷歌如何进入加密领域：跨团队攻关</li><li>17:52 谷歌为什么自己造了一条链</li><li>21:54 谷歌为什么自己造了一条链：打法与商业模式</li><li>25:54 谷歌为什么自己造了一条链：穿越周期</li><li>28:44 许可链 vs 免许可链</li><li>32:46 许可链 vs 免许可链：各自的角色</li><li>36:47 许可链 vs 免许可链：灰色地带</li><li>39:55 谷歌为什么退出节点业务</li><li>43:55 谷歌为什么退出节点业务（续）</li><li>45:27 谷歌的 MPC 托管布局</li><li>49:29 谷歌的 MPC 托管布局：没有拼缝</li><li>53:30 谷歌的 MPC 托管布局：为什么不叫“谷歌托管”</li><li>53:58 托管商们接下来会怎样</li><li>56:15 交易场所成了新公链</li><li>59:12 智能体、购物与可编程货币</li><li>1:03:13 智能体、购物与可编程货币（续）</li><li>1:04:08 量子计算会不会干掉比特币</li><li>1:08:09 量子计算会不会干掉比特币（续）</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/Y5FDVeAQzcI/">在原站阅读本篇全文</a></p>]]></content:encoded>
 </item>
 <item>
 <title>黄仁勋回归 ｜ WAYT？</title>

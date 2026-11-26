@@ -1,5 +1,77 @@
 [
  {
+  "slug": "crypto-is-dead",
+  "title": "Crypto Is Dead?!",
+  "title_alt": "加密货币已死？！",
+  "show_id": "1000x",
+  "show": "1000x",
+  "lang": "EN",
+  "date": "2026-11-25",
+  "published_at": "2026-11-25T23:27:25+00:00",
+  "duration_min": 53,
+  "url": "https://bidclub.ai/e/crypto-is-dead"
+ },
+ {
+  "slug": "revolution-vs-renaissance-thariq-shihipar-openai",
+  "title": "The Revolution vs The Renaissance — Thariq Shihipar, OpenAI",
+  "title_alt": "革命 vs. 文艺复兴——Thariq Shihipar，OpenAI",
+  "show_id": "latentspace",
+  "show": "Latent Space",
+  "lang": "EN",
+  "date": "2026-11-25",
+  "published_at": "2026-11-25T22:28:01+00:00",
+  "duration_min": 54,
+  "url": "https://bidclub.ai/e/revolution-vs-renaissance-thariq-shihipar-openai"
+ },
+ {
+  "slug": "why-every-crypto-chart-looks-horrific",
+  "title": "Why Every Crypto Chart Looks Horrific",
+  "title_alt": "为什么所有加密货币走势图都惨不忍睹",
+  "show_id": "delphidigital",
+  "show": "Delphi Digital",
+  "lang": "EN",
+  "date": "2026-11-25",
+  "published_at": "2026-11-25T17:00:23+00:00",
+  "duration_min": 64,
+  "url": "https://bidclub.ai/e/why-every-crypto-chart-looks-horrific"
+ },
+ {
+  "slug": "deep-dive-into-palmer-luckey-s-bank-jacob-hirshm",
+  "title": "A Deep Dive Into Palmer Luckey’s Bank | Jacob Hirshman, Erebor",
+  "title_alt": "深度拆解 Palmer Luckey 的银行 | Jacob Hirshman，Erebor",
+  "show_id": "davidsenra",
+  "show": "David Senra",
+  "lang": "EN",
+  "date": "2026-11-25",
+  "published_at": "2026-11-25T13:00:03+00:00",
+  "duration_min": 61,
+  "url": "https://bidclub.ai/e/deep-dive-into-palmer-luckey-s-bank-jacob-hirshm"
+ },
+ {
+  "slug": "trump-saves-jensen-sky-bails-out-rune-end-old-cr",
+  "title": "Trump Saves Jensen, Sky Bails Out Rune & The End of Old Crypto | Weekly Roundup",
+  "title_alt": "特朗普救回 Jensen，Sky 为 Rune 解围，旧加密时代落幕｜每周综述",
+  "show_id": "empirepod",
+  "show": "Empire",
+  "lang": "EN",
+  "date": "2026-11-25",
+  "published_at": "2026-11-25T11:00:36+00:00",
+  "duration_min": 64,
+  "url": "https://bidclub.ai/e/trump-saves-jensen-sky-bails-out-rune-end-old-cr"
+ },
+ {
+  "slug": "episode-3-friends-we-made-along-way",
+  "title": "Episode 3: The Friends We Made Along the Way",
+  "title_alt": "第3集：一路走来结识的朋友",
+  "show_id": "thebuilders",
+  "show": "The Builders",
+  "lang": "EN",
+  "date": "2026-11-25",
+  "published_at": "2026-11-25T08:00:00+00:00",
+  "duration_min": 43,
+  "url": "https://bidclub.ai/e/episode-3-friends-we-made-along-way"
+ },
+ {
   "slug": "valley101-2026-11-24-e260-coreweave",
   "title": "E260｜黄仁勋归来之际，深聊英伟达、CoreWeave和算力信用市场",
   "title_alt": "E260 | As 黄仁勋 Returns: A Deep Dive into Nvidia, CoreWeave and the Compute Credit Market",
@@ -130,18 +202,6 @@
   "published_at": "2026-11-23T11:00:13+00:00",
   "duration_min": 81,
   "url": "https://bidclub.ai/e/google-s-plan-bring-wall-street-onchain-rich-wid"
- },
- {
-  "slug": "ray-dalio-5-forces-reshaping-global-economy",
-  "title": "Ray Dalio on the 5 Forces Reshaping the Global Economy",
-  "title_alt": "Ray Dalio谈重塑全球经济的5股力量",
-  "show_id": "sourcery",
-  "show": "Sourcery",
-  "lang": "EN",
-  "date": "2026-11-23",
-  "published_at": "2026-11-23T11:00:00+00:00",
-  "duration_min": 51,
-  "url": "https://bidclub.ai/e/ray-dalio-5-forces-reshaping-global-economy"
  },
  {
   "slug": "ray-dalio-five-forces-reshaping-global-economy",

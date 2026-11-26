@@ -1,5 +1,56 @@
 [
  {
+  "id": "Qe9d9dWyED0",
+  "title": "革命 vs 文艺复兴｜Thariq Shihipar（OpenAI）",
+  "channel": "Latent Space",
+  "guests": "Thariq Shihipar",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 3240,
+  "topics": [
+   "AI 编程",
+   "AI 智能体",
+   "产品",
+   "AI 研究"
+  ],
+  "url": "https://pod-exp.pages.dev/Qe9d9dWyED0/"
+ },
+ {
+  "id": "TYo20zW3MCo",
+  "title": "黄仁勋的“光”：详解AI算力背后的光通信产业链、英伟达赌注与技术博弈",
+  "channel": "硅谷101",
+  "guests": "Cathy、匿名",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 2711,
+  "topics": [
+   "AI 基础设施",
+   "半导体",
+   "产业科技",
+   "商业分析"
+  ],
+  "url": "https://pod-exp.pages.dev/TYo20zW3MCo/"
+ },
+ {
+  "id": "DY8clym2-jQ",
+  "title": "Elon Musk 谈为什么未来应该让你庆幸活着｜TomorrowX 峰会",
+  "channel": "iConnections",
+  "guests": "Elon Musk",
+  "published": "2026-11-19",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 3303,
+  "topics": [
+   "航天",
+   "AI 基础设施",
+   "机器人与物理 AI",
+   "未来社会"
+  ],
+  "url": "https://pod-exp.pages.dev/DY8clym2-jQ/"
+ },
+ {
   "id": "k5PwGjTXpuE",
   "title": "Ziv Kedem 与 Avi Raichel｜Dreeze",
   "channel": "SiliconANGLE theCUBE",
@@ -202,6 +253,22 @@
   "url": "https://pod-exp.pages.dev/FGmv0RH7dQo/"
  },
  {
+  "id": "GvtefMSx8gY",
+  "title": "Ryan Watkins 谈 Pearl 为何可能超越比特币",
+  "channel": "Unchained",
+  "guests": "Ryan Watkins",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 4611,
+  "topics": [
+   "加密与 Web3",
+   "AI 基础设施",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/GvtefMSx8gY/"
+ },
+ {
   "id": "I5z8S8HVdtY",
   "title": "Jack Kokko：AI 正在赋予分析师超能力 ｜ TomorrowX Summit",
   "channel": "iConnections",
@@ -382,6 +449,23 @@
    "能源与电网"
   ],
   "url": "https://pod-exp.pages.dev/XymmJNOQmD8/"
+ },
+ {
+  "id": "Y5FDVeAQzcI",
+  "title": "谷歌把华尔街搬上链的计划 ｜ Rich Widmann",
+  "channel": "Empire",
+  "guests": "Rich Widmann",
+  "published": "2026-11-24",
+  "addedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "duration": 4268,
+  "topics": [
+   "加密与 Web3",
+   "金融基础设施",
+   "云基础设施",
+   "AI 智能体"
+  ],
+  "url": "https://pod-exp.pages.dev/Y5FDVeAQzcI/"
  },
  {
   "id": "YGmyTJnX-KU",
