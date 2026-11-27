@@ -1,5 +1,269 @@
 [
  {
+  "id": "qjPcaZf_plo",
+  "title": "Clay 如何打造 GTM 智能体｜Jeff Barg（AI 负责人）",
+  "channel": "Latent Space",
+  "guests": "Jeff Barg",
+  "published": "2026-11-26",
+  "addedAt": "2026-11-27",
+  "updatedAt": "2026-11-27",
+  "duration": 4343,
+  "topics": [
+   "AI 智能体",
+   "企业软件",
+   "产品",
+   "创业与经营"
+  ],
+  "url": "https://pod-exp.pages.dev/qjPcaZf_plo/"
+ },
+ {
+  "id": "2jry-DR7OdU",
+  "title": "当 SOC 的动作里只有 2% 完全由人完成，会发生什么｜Cyber60",
+  "channel": "Lightspeed Venture Partners",
+  "guests": "Nick Schneider",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 1481,
+  "topics": [
+   "AI 安全",
+   "AI 智能体",
+   "创业与经营"
+  ],
+  "url": "https://pod-exp.pages.dev/2jry-DR7OdU/"
+ },
+ {
+  "id": "4loDjAiKZnk",
+  "title": "黄仁勋反击战 ｜ RIP MailChimp ｜ Stephen 的新播客应用",
+  "channel": "Primary Technology",
+  "guests": "",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 5274,
+  "topics": [
+   "人工智能",
+   "科技趋势",
+   "商业分析",
+   "产品"
+  ],
+  "url": "https://pod-exp.pages.dev/4loDjAiKZnk/"
+ },
+ {
+  "id": "6TtCssRppBE",
+  "title": "Melissa Ma 谈投资者为何看错了中国、谁能赢得 AI 竞赛，以及亚洲 PE 大甩卖",
+  "channel": "How I Invest Podcast",
+  "guests": "Melissa Ma",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 4069,
+  "topics": [
+   "投资",
+   "地缘政治",
+   "人工智能",
+   "机器人与物理 AI"
+  ],
+  "url": "https://pod-exp.pages.dev/6TtCssRppBE/"
+ },
+ {
+  "id": "9oNvKMd7xJo",
+  "title": "Anthropic 在 2026 年是怎么开发软件的——对话 Katelyn Lesse",
+  "channel": "The Pragmatic Engineer",
+  "guests": "Katelyn Lesse",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 6645,
+  "topics": [
+   "AI 智能体",
+   "AI 编程",
+   "AI 基础设施",
+   "职业发展"
+  ],
+  "url": "https://pod-exp.pages.dev/9oNvKMd7xJo/"
+ },
+ {
+  "id": "D4Eg4LXl-lw",
+  "title": "华盛顿想让市场跌得更低 ｜ 每周盘点",
+  "channel": "Forward Guidance",
+  "guests": "Cem Karsan、Noel Smith",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 3855,
+  "topics": [
+   "宏观经济",
+   "期权",
+   "投资",
+   "地缘政治"
+  ],
+  "url": "https://pod-exp.pages.dev/D4Eg4LXl-lw/"
+ },
+ {
+  "id": "DSFFZyq_qsg",
+  "title": "我们得谈谈 Jensen 了",
+  "channel": "My First Million",
+  "guests": "",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 2951,
+  "topics": [
+   "投资",
+   "人生方法",
+   "创业与经营",
+   "商业分析"
+  ],
+  "url": "https://pod-exp.pages.dev/DSFFZyq_qsg/"
+ },
+ {
+  "id": "DgUdPQr4AfQ",
+  "title": "Black Hat USA 2026 ｜ 收件箱之外的检测工程",
+  "channel": "Black Hat",
+  "guests": "Akash Parasumanna Sridhar",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 1782,
+  "topics": [
+   "企业软件",
+   "开源软件"
+  ],
+  "url": "https://pod-exp.pages.dev/DgUdPQr4AfQ/"
+ },
+ {
+  "id": "Dhc46v0rZfQ",
+  "title": "科技巨头准备砸更多钱赢下 2028 ｜ The Vergecast",
+  "channel": "The Verge",
+  "guests": "Molly White",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 2047,
+  "topics": [
+   "政治与社会",
+   "加密与 Web3",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/Dhc46v0rZfQ/"
+ },
+ {
+  "id": "E2OukfQy6rQ",
+  "title": "酿酒人队老板 Mark Attanasio 谈体育投资——以及 MLB 的停摆 ｜ WSJ's Take On the Week",
+  "channel": "WSJ Podcasts",
+  "guests": "Mark Attanasio、Jared Diamond",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 1739,
+  "topics": [
+   "投资",
+   "信用市场",
+   "商业分析"
+  ],
+  "url": "https://pod-exp.pages.dev/E2OukfQy6rQ/"
+ },
+ {
+  "id": "GbrEKNZTCEE",
+  "title": "加密已死？！",
+  "channel": "1000x",
+  "guests": "Jonah",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 3170,
+  "topics": [
+   "加密与 Web3",
+   "交易",
+   "投资",
+   "职业发展"
+  ],
+  "url": "https://pod-exp.pages.dev/GbrEKNZTCEE/"
+ },
+ {
+  "id": "HeQr708j5V0",
+  "title": "为什么每一张加密货币图表都惨不忍睹",
+  "channel": "Delphi Digital",
+  "guests": "",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 3819,
+  "topics": [
+   "加密与 Web3",
+   "宏观经济",
+   "期权",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/HeQr708j5V0/"
+ },
+ {
+  "id": "MAKpf8pdNeQ",
+  "title": "工作的未来与意义",
+  "channel": "New York Times Podcasts",
+  "guests": "Chloe Malle、Ryan Gellert、Emma Grede、Andrew Ng、Mike Rowe、Ramit Sethi",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 4961,
+  "topics": [
+   "职业发展",
+   "人工智能",
+   "未来社会",
+   "人生方法"
+  ],
+  "url": "https://pod-exp.pages.dev/MAKpf8pdNeQ/"
+ },
+ {
+  "id": "NpsUhS7Mi5w",
+  "title": "向中国出售芯片的理由：对话 ASML 的克里斯托夫·富凯 ｜ Future Proof",
+  "channel": "Semafor",
+  "guests": "克里斯托夫·富凯",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 2891,
+  "topics": [
+   "半导体",
+   "地缘政治",
+   "AI 基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/NpsUhS7Mi5w/"
+ },
+ {
+  "id": "O_dAi5KlVO0",
+  "title": "深度解析 Palmer Luckey 的银行｜Jacob Hirshman，Erebor",
+  "channel": "David Senra",
+  "guests": "Jacob Hirshman",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 3671,
+  "topics": [
+   "金融基础设施",
+   "信用市场",
+   "创业与经营",
+   "产业科技"
+  ],
+  "url": "https://pod-exp.pages.dev/O_dAi5KlVO0/"
+ },
+ {
+  "id": "PMUf8gd3_us",
+  "title": "交易 60 年后，我最信任的市场预警信号｜Dr. Eric Wish",
+  "channel": "TraderLion",
+  "guests": "Dr. Eric Wish",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 4016,
+  "topics": [
+   "交易",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/PMUf8gd3_us/"
+ },
+ {
   "id": "Qe9d9dWyED0",
   "title": "革命 vs 文艺复兴｜Thariq Shihipar（OpenAI）",
   "channel": "Latent Space",
@@ -17,6 +281,40 @@
   "url": "https://pod-exp.pages.dev/Qe9d9dWyED0/"
  },
  {
+  "id": "TUcuKoELcYU",
+  "title": "Jensen 回来了，Sky 动摇了，AI 挑战黎曼猜想",
+  "channel": "Unchained",
+  "guests": "",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 6282,
+  "topics": [
+   "加密与 Web3",
+   "人工智能",
+   "模型评测",
+   "投资"
+  ],
+  "url": "https://pod-exp.pages.dev/TUcuKoELcYU/"
+ },
+ {
+  "id": "TVTxXbd9noQ",
+  "title": "黄仁勋的回归 ｜ Everybody's Business",
+  "channel": "Bloomberg Podcasts",
+  "guests": "Brad Stone、Deena Shanker",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 1700,
+  "topics": [
+   "半导体",
+   "人工智能",
+   "宏观经济",
+   "消费与文化"
+  ],
+  "url": "https://pod-exp.pages.dev/TVTxXbd9noQ/"
+ },
+ {
   "id": "TYo20zW3MCo",
   "title": "黄仁勋的“光”：详解AI算力背后的光通信产业链、英伟达赌注与技术博弈",
   "channel": "硅谷101",
@@ -32,6 +330,257 @@
    "商业分析"
   ],
   "url": "https://pod-exp.pages.dev/TYo20zW3MCo/"
+ },
+ {
+  "id": "TlQCGSkigmw",
+  "title": "科技股自 2003 年以来最严重的回撤之一：底部到了吗？｜ The Brainstorm 159",
+  "channel": "ARK Invest",
+  "guests": "",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 2824,
+  "topics": [
+   "人工智能",
+   "投资",
+   "半导体",
+   "机器人与物理 AI"
+  ],
+  "url": "https://pod-exp.pages.dev/TlQCGSkigmw/"
+ },
+ {
+  "id": "VB74Np3UnIQ",
+  "title": "黄仁勋重返英伟达。接下来呢？",
+  "channel": "Machine Gods",
+  "guests": "",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 2869,
+  "topics": [
+   "人工智能",
+   "科技趋势",
+   "数学与科学",
+   "政治与社会"
+  ],
+  "url": "https://pod-exp.pages.dev/VB74Np3UnIQ/"
+ },
+ {
+  "id": "Vod7xXFriv0",
+  "title": "比特币牛市将在 2027 年到来？",
+  "channel": "Anthony Pompliano",
+  "guests": "Simon McLoughlin",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 1736,
+  "topics": [
+   "加密与 Web3",
+   "AI 智能体",
+   "投资",
+   "金融基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/Vod7xXFriv0/"
+ },
+ {
+  "id": "X5-rcyASwPo",
+  "title": "为什么黄仁勋、Sam Altman 这样的科技 CEO 总能卷土重来｜WSJ Tech News Briefing",
+  "channel": "WSJ Podcasts",
+  "guests": "Keach Hagey、Bob McMillan",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 1333,
+  "topics": [
+   "人工智能",
+   "领导力",
+   "产业科技"
+  ],
+  "url": "https://pod-exp.pages.dev/X5-rcyASwPo/"
+ },
+ {
+  "id": "c0bUxcIu2Hc",
+  "title": "当 AI 替你构建投资组合，谁来检查作业？ 嘉宾 Rob Carver ｜ Systematic Investor ｜ 第 427 期",
+  "channel": "Top Traders Unplugged",
+  "guests": "Rob Carver",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 4455,
+  "topics": [
+   "量化投资",
+   "投资",
+   "人工智能"
+  ],
+  "url": "https://pod-exp.pages.dev/c0bUxcIu2Hc/"
+ },
+ {
+  "id": "cElMncVlQhI",
+  "title": "追讨朝鲜的 64 亿美元 Binance 赃款还值得吗？—— Uneasy Money",
+  "channel": "Unchained",
+  "guests": "",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 5264,
+  "topics": [
+   "加密与 Web3",
+   "人工智能",
+   "金融基础设施",
+   "科技趋势"
+  ],
+  "url": "https://pod-exp.pages.dev/cElMncVlQhI/"
+ },
+ {
+  "id": "ctnKooYX8Lc",
+  "title": "特朗普救回 Jensen、Sky 为 Rune 兜底、旧加密时代终结｜每周综述",
+  "channel": "Empire",
+  "guests": "",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 3826,
+  "topics": [
+   "加密与 Web3",
+   "人工智能",
+   "AI 基础设施",
+   "金融基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/ctnKooYX8Lc/"
+ },
+ {
+  "id": "e5qK2E18EMQ",
+  "title": "人工智能与 AGI 的地平线",
+  "channel": "New York Times Podcasts",
+  "guests": "Clem Delangue、Dan Hendrycks、Lila Ibrahim、Mati Staniszewski、Max Hodak",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 4779,
+  "topics": [
+   "人工智能",
+   "AI 安全",
+   "地缘政治",
+   "半导体"
+  ],
+  "url": "https://pod-exp.pages.dev/e5qK2E18EMQ/"
+ },
+ {
+  "id": "gnM5OZUgeww",
+  "title": "Anthropic 的 IPO 已经破发——现在怎么办？",
+  "channel": "Prof G Markets",
+  "guests": "乔治·诺布尔、查尔斯·埃尔森",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 1518,
+  "topics": [
+   "人工智能",
+   "AI 基础设施",
+   "投资",
+   "商业分析"
+  ],
+  "url": "https://pod-exp.pages.dev/gnM5OZUgeww/"
+ },
+ {
+  "id": "iKOCtTxmKcw",
+  "title": "Demi Guo（Pika）｜AI 视频的种种可能【完整对谈】",
+  "channel": "Stanford eCorner",
+  "guests": "Demi Guo",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 2483,
+  "topics": [
+   "人工智能",
+   "创作",
+   "创意产业",
+   "创业与经营"
+  ],
+  "url": "https://pod-exp.pages.dev/iKOCtTxmKcw/"
+ },
+ {
+  "id": "iqN5JoP9ZRU",
+  "title": "股市大到不能倒｜Animal Spirits 第 492 期",
+  "channel": "The Compound",
+  "guests": "",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 5189,
+  "topics": [
+   "投资",
+   "宏观经济",
+   "人工智能",
+   "半导体"
+  ],
+  "url": "https://pod-exp.pages.dev/iqN5JoP9ZRU/"
+ },
+ {
+  "id": "kt3ZA5sO1Ws",
+  "title": "SpaceX 是如何起步的｜Tom Mueller",
+  "channel": "Relentless",
+  "guests": "Tom Mueller",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 3204,
+  "topics": [
+   "航天",
+   "创业与经营",
+   "制造业",
+   "未来社会"
+  ],
+  "url": "https://pod-exp.pages.dev/kt3ZA5sO1Ws/"
+ },
+ {
+  "id": "qQGUeDkvOEI",
+  "title": "亚当·图兹谈黄仁勋重返英伟达（另：丰饶角）｜ Ones and Tooze 第 270 集",
+  "channel": "Foreign Policy",
+  "guests": "Adam Tooze",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 2919,
+  "topics": [
+   "半导体",
+   "政治与社会",
+   "哲学与文明",
+   "能源与电网"
+  ],
+  "url": "https://pod-exp.pages.dev/qQGUeDkvOEI/"
+ },
+ {
+  "id": "qrR7p95TeKo",
+  "title": "Euroclear CEO：全球金融的\"管道系统\" ｜ Podcast ｜ In Good Company",
+  "channel": "Norges Bank Investment Management",
+  "guests": "瓦莱丽·于尔班",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 1880,
+  "topics": [
+   "金融基础设施",
+   "地缘政治",
+   "领导力"
+  ],
+  "url": "https://pod-exp.pages.dev/qrR7p95TeKo/"
+ },
+ {
+  "id": "xJSXR55HFMI",
+  "title": "Chris Camillo 透露黄仁勋回归后他在英伟达的下一步动作",
+  "channel": "WOLF Financial",
+  "guests": "Chris Camillo",
+  "published": "2026-11-25",
+  "addedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "duration": 2212,
+  "topics": [
+   "投资",
+   "人工智能",
+   "AI 基础设施"
+  ],
+  "url": "https://pod-exp.pages.dev/xJSXR55HFMI/"
  },
  {
   "id": "DY8clym2-jQ",

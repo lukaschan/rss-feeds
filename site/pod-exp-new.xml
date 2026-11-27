@@ -5,9 +5,273 @@
 <link>https://pod-exp.pages.dev/</link>
 <description>Field Notes 每日新增文章（自建 RSS）：存档冻结后新发表的篇目，只放摘要 + 原文链接（全文太长，不进 feed）；冻结前的全部篇目见 pod-exp.xml 存档版。</description>
 <language>zh-CN</language>
-<lastBuildDate>Thu, 26 Nov 2026 04:12:07 +0000</lastBuildDate>
+<lastBuildDate>Fri, 27 Nov 2026 04:18:20 +0000</lastBuildDate>
 <generator>rss-feeds-generator (personal)</generator>
 <atom:link href="https://rss-feeds-8x2.pages.dev/pod-exp-new.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>Clay 如何打造 GTM 智能体｜Jeff Barg（AI 负责人）</title>
+<link>https://pod-exp.pages.dev/qjPcaZf_plo/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/qjPcaZf_plo/</guid>
+<pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+<category>Latent Space</category>
+<category>AI 智能体</category>
+<category>企业软件</category>
+<category>产品</category>
+<category>创业与经营</category>
+<description>本期嘉宾是 Clay 的 AI 负责人 Jeff Barg——他创办的 Avenue 在 2024 年被仅 50 人的 Clay 收购，如今 Clay 已近 600 人。Jeff 首先拆解了「GTM 工程师」这一新工种：把获客这件事工程化，混合智能体工程、数据工程和软件工程。他梳理了 Clay 的智能体体系——做单元任务的 Claygent、搭工作流的 Sculptor、以及 12 周连发中推出、正快速变成主界面的 Workflows，并解释了为何把自家智能体围绕 CLI 重构成编程智能体。工程经验还包括：用 BullMQ/Postgres/ClickHouse 手搓可靠性层、评估体系从产品缺陷一路演化、以及「auto」模型路由背后的洞察——用户其实讨厌模型选择器。他还分享了一个开放姿态：不让自家智能体刻意赢过「Clay + Claude Code」，实测外部与自家 harness 使用率接近五五开；用分类模型花 1500 美元……</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/qjPcaZf_plo/cover.webp" alt="" /></p>
+<p><em>Latent Space · 播出 2026-11-26 · 时长 1:12:23</em></p>
+<p>本期嘉宾是 Clay 的 AI 负责人 Jeff Barg——他创办的 Avenue 在 2024 年被仅 50 人的 Clay 收购，如今 Clay 已近 600 人。Jeff 首先拆解了「GTM 工程师」这一新工种：把获客这件事工程化，混合智能体工程、数据工程和软件工程。他梳理了 Clay 的智能体体系——做单元任务的 Claygent、搭工作流的 Sculptor、以及 12 周连发中推出、正快速变成主界面的 Workflows，并解释了为何把自家智能体围绕 CLI 重构成编程智能体。工程经验还包括：用 BullMQ/Postgres/ClickHouse 手搓可靠性层、评估体系从产品缺陷一路演化、以及「auto」模型路由背后的洞察——用户其实讨厌模型选择器。他还分享了一个开放姿态：不让自家智能体刻意赢过「Clay + Claude Code」，实测外部与自家 harness 使用率接近五五开；用分类模型花 1500 美元……</p>
+<h2>章节</h2><ul><li>0:02 开场</li><li>0:58 嘉宾介绍：Clay AI 负责人 Jeff Barg</li><li>3:28 GTM 工程师到底是干什么的</li><li>7:29 名单之外：Clay 的灵活性</li><li>8:21 五人公司 Avenue 被 Clay 收购</li><li>12:21 Signals：为营收搭建在线系统</li><li>16:10 一家 AI 公司却没人做 AI</li><li>18:45 Claygent 与 Sculptor</li><li>22:46 Sculptor 的能力边界与早期评估</li><li>24:49 为什么 Clay 围绕编程智能体重建自家智能体</li><li>27:48 后训练与开源权重模型什么时候划算</li><li>30:35 花 1500 美元给全世界的公司做资格判定</li><li>32:40 哪里还离不开前沿智能</li><li>34:17 为什么用户讨厌模型选择器</li><li>37:09 Clay 怎么评估自家智能体</li><li>41:10 纽约找不着智能体工程师</li><li>42:15 不用 Temporal 也不用 LangGraph：Clay 全自研的技术栈</li><li>45:44 智能体规模化后哪里出了问题</li><li>48:27 为什么 Clay 的智能体不该赢过 Clay + Claude Code</li><li>52:28 CLI 是被内部团队催出来的</li><li>54:26 OpenAI 在发布前两天叫停了 Clay 的上线</li><li>58:26 创始人模式与信念的勇气</li><li>1:00:11 Workflows：从用户抵制到智能体搭建</li><li>1:04:13 Sculptor 重构版即将全面发布</li><li>1:08:14 为什么智能体还不会调试自己的 trace</li><li>1:09:59 对编程智能体的期待与 Sculptor 预告</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/qjPcaZf_plo/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>当 SOC 的动作里只有 2% 完全由人完成，会发生什么｜Cyber60</title>
+<link>https://pod-exp.pages.dev/2jry-DR7OdU/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/2jry-DR7OdU/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>Lightspeed Venture Partners</category>
+<category>AI 安全</category>
+<category>AI 智能体</category>
+<category>创业与经营</category>
+<description>一年半以前，Arctic Wolf 安全运营中心里几乎每个结果都要经过人的手；而在最近六个月，SOC 里 60% 的动作已完全由智能体完成，只有 2% 完全由人执行。本期 Cyber60，Lightspeed 的 Guru Chahal 对话 Arctic Wolf CEO Nick Schneider：公司为什么在 ChatGPT 上线时恰好重构了平台，又如何把十多年攒下的数据与处置上下文灌进「专家蜂群」；客户凭什么信任智能体替自己做出的决策——答案落在可观测性上；每周 10 万亿次调查的规模与生态共同体为什么构成护城河；自建与并购的账怎么算。Nick 还回顾了从 CRO 到 CEO 的交接、平台重构期的教训，并回答了创始人最关心的问题：第一个 GTM 负责人该何时招、招什么样的人，以及为什么做渠道只能全押、不能半投。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/2jry-DR7OdU/cover.webp" alt="" /></p>
+<p><em>Lightspeed Venture Partners · 播出 2026-11-25 · 时长 24:41</em></p>
+<p>一年半以前，Arctic Wolf 安全运营中心里几乎每个结果都要经过人的手；而在最近六个月，SOC 里 60% 的动作已完全由智能体完成，只有 2% 完全由人执行。本期 Cyber60，Lightspeed 的 Guru Chahal 对话 Arctic Wolf CEO Nick Schneider：公司为什么在 ChatGPT 上线时恰好重构了平台，又如何把十多年攒下的数据与处置上下文灌进「专家蜂群」；客户凭什么信任智能体替自己做出的决策——答案落在可观测性上；每周 10 万亿次调查的规模与生态共同体为什么构成护城河；自建与并购的账怎么算。Nick 还回顾了从 CRO 到 CEO 的交接、平台重构期的教训，并回答了创始人最关心的问题：第一个 GTM 负责人该何时招、招什么样的人，以及为什么做渠道只能全押、不能半投。</p>
+<h2>章节</h2><ul><li>0:00 欢迎来到 Cyber60</li><li>1:43 Arctic Wolf 是做什么的</li><li>2:16 从 CRO 到 CEO</li><li>4:37 AI 如何改变安全运营</li><li>7:13 智能体化 SOC 与 AI 安全</li><li>9:47 Arctic Wolf 的竞争优势</li><li>11:43 自建还是收购</li><li>13:26 规模化扩张的经验教训</li><li>15:28 第一位 GTM 负责人怎么招</li><li>18:19 什么时候该上渠道销售</li><li>20:39 快问快答</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/2jry-DR7OdU/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>黄仁勋反击战 ｜ RIP MailChimp ｜ Stephen 的新播客应用</title>
+<link>https://pod-exp.pages.dev/4loDjAiKZnk/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/4loDjAiKZnk/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>Primary Technology</category>
+<category>人工智能</category>
+<category>科技趋势</category>
+<category>商业分析</category>
+<category>产品</category>
+<description>感恩节周，两位主持人先聊了 Jason 在拉斯维加斯 F1 大奖赛当摄影记者的见闻：围场里的名人分层、用 iPhone 随手拍的明星照片、以及那场 35 次领跑更迭、300 多次超车的疯狂比赛。主体部分是 Jensen Huang 被英伟达董事会一致投票赶下台、又在一个周末后被一致投票请回的事件：Trump 声称是自己打电话促成的回归，Jensen 则对员工否认；两人顺着 Jason Calacanis 在 MSNOW 上"GPU 耶稣复活了"的言论，讨论了"AI pilled"心态、循环融资吹起的 AI 泡沫，以及"曲线必须往右上角走"对公司治理的侵蚀。随后是坏消息：Bending Spoons 收购 MailChimp；以及好消息：GTA 6 首日收入约 37 亿美元、超过好莱坞影史纪录。最后半小时是 Stephen 的重磅发布——他几乎全程在 iPhone Duo 上与 Claude 对话做出来了播客应用 WaveCast……</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/4loDjAiKZnk/cover.webp" alt="" /></p>
+<p><em>Primary Technology · 播出 2026-11-25 · 时长 1:27:54</em></p>
+<p>感恩节周，两位主持人先聊了 Jason 在拉斯维加斯 F1 大奖赛当摄影记者的见闻：围场里的名人分层、用 iPhone 随手拍的明星照片、以及那场 35 次领跑更迭、300 多次超车的疯狂比赛。主体部分是 Jensen Huang 被英伟达董事会一致投票赶下台、又在一个周末后被一致投票请回的事件：Trump 声称是自己打电话促成的回归，Jensen 则对员工否认；两人顺着 Jason Calacanis 在 MSNOW 上"GPU 耶稣复活了"的言论，讨论了"AI pilled"心态、循环融资吹起的 AI 泡沫，以及"曲线必须往右上角走"对公司治理的侵蚀。随后是坏消息：Bending Spoons 收购 MailChimp；以及好消息：GTA 6 首日收入约 37 亿美元、超过好莱坞影史纪录。最后半小时是 Stephen 的重磅发布——他几乎全程在 iPhone Duo 上与 Claude 对话做出来了播客应用 WaveCast……</p>
+<h2>章节</h2><ul><li>0:00 开场</li><li>4:02 开场（续）</li><li>4:42 Jason 在 F1 现场</li><li>8:43 围场里的名气分层（续）</li><li>12:48 iPhone Duo 与疯狂的比赛</li><li>16:49 Verstappen 的第 40 圈</li><li>19:17 黄仁勋回归英伟达</li><li>23:18 董事会急转弯</li><li>27:22 问责时代的错觉</li><li>31:23 "经济是一起人质事件"</li><li>35:22 赞助商：Granola</li><li>37:48 赞助商：Base44</li><li>39:16 赞助商：Copilot Money</li><li>40:47 什么是"AI pilled"</li><li>44:49 这套话术的本质</li><li>48:52 泡沫、绿鞋与"线必须往上涨"</li><li>52:53 AI 末日论与"当人"的感恩节</li><li>56:56 感恩节寄语</li><li>57:07 RIP MailChimp</li><li>1:00:46 GTA VI 与好莱坞不想承认的事</li><li>1:04:38 Stephen 的新应用：WaveCast</li><li>1:08:40 WaveCast 的功能（续）</li><li>1:12:42 WaveCast 收费与"app 已死"论</li><li>1:16:43 给自己做 app 的时代</li><li>1:20:46 "想要什么功能，问 Claude 就行"</li><li>1:24:48 Contextly 新功能与收尾</li><li>1:28:49 Kan Do 团队版与 "用 iPhone 造 app"</li><li>1:32:51 同步引擎与自建后端</li><li>1:36:54 同步的成本账</li><li>1:40:56 存储定价与节目收尾</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/4loDjAiKZnk/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>Melissa Ma 谈投资者为何看错了中国、谁能赢得 AI 竞赛，以及亚洲 PE 大甩卖</title>
+<link>https://pod-exp.pages.dev/6TtCssRppBE/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/6TtCssRppBE/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>How I Invest Podcast</category>
+<category>投资</category>
+<category>地缘政治</category>
+<category>人工智能</category>
+<category>机器人与物理 AI</category>
+<description>Melissa Ma 是 Asia Alternatives 的联合创始人兼管理合伙人，管理约 130 亿美元。本期她回顾二十年前如何凭"亚洲国内消费"这个逆主流论点创立公司：头二十一年 51% 资金投向中国，如今降到 25% 到三分之一——背后是 2022 年以来的"中国信心危机"（监管整顿、疫情、房地产）。但她认为中国从未变得不可投：经济务实主义始终压过意识形态。她把亚洲私募二级市场称为"完美风暴"——第一代基金到期、全亚洲折价、美国买家缺席，公司因此把二级占比从 5% 提到 30% 以上。她还谈到印度靠并购和本土资金破解流动性、澳大利亚的机会型打法、物理 AI 时代亚洲的结构性优势，以及 Warren Hellman"别当猪"的教诲：长期主义与 LP 利益一致。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/6TtCssRppBE/cover.webp" alt="" /></p>
+<p><em>How I Invest Podcast · 播出 2026-11-25 · 时长 1:07:49</em></p>
+<p>Melissa Ma 是 Asia Alternatives 的联合创始人兼管理合伙人，管理约 130 亿美元。本期她回顾二十年前如何凭"亚洲国内消费"这个逆主流论点创立公司：头二十一年 51% 资金投向中国，如今降到 25% 到三分之一——背后是 2022 年以来的"中国信心危机"（监管整顿、疫情、房地产）。但她认为中国从未变得不可投：经济务实主义始终压过意识形态。她把亚洲私募二级市场称为"完美风暴"——第一代基金到期、全亚洲折价、美国买家缺席，公司因此把二级占比从 5% 提到 30% 以上。她还谈到印度靠并购和本土资金破解流动性、澳大利亚的机会型打法、物理 AI 时代亚洲的结构性优势，以及 Warren Hellman"别当猪"的教诲：长期主义与 LP 利益一致。</p>
+<h2>章节</h2><ul><li>0:01 Melissa 如何打造 130 亿美元的私募股权公司</li><li>2:14 Asia Alternatives 为何下调中国敞口</li><li>3:45 中国信心危机背后的三股力量</li><li>7:45 教育改革、疫情与房地产：三重打击逐一拆解</li><li>11:33 为什么 Melissa 仍然认为中国可投</li><li>15:34 经济务实主义从未被放弃</li><li>16:08 亚洲私募二级市场为何是大机会</li><li>19:12 亚洲二级市场的折价与"完美风暴"</li><li>23:12 谁在卖？结构性 alpha 的买方构成</li><li>24:29 为什么印度和日本替代不了中国</li><li>27:00 印度并购市场如何改善流动性</li><li>31:02 从少数股权到控股：印度的自然演化</li><li>35:02 本土资金崛起与澳大利亚的机会型市场</li><li>39:03 如何让 LP 接受重返曾经亏损的市场</li><li>43:03 全球资金回流亚洲的顺序</li><li>43:21 中国的 AI 战略与硅谷有何不同</li><li>47:21 扩散优先：开源模型、物理 AI 与监管</li><li>51:22 芯片、台湾与"硅盾"博弈</li><li>55:23 一个中国政策的"亮线"</li><li>55:31 Warren Hellman 关于打造长久公司的教诲</li><li>59:31 LP 利益一致与"重关系"的真正含义</li><li>1:03:33 全女性团队曾被写进风险因素</li><li>1:07:36 同样的错误不再犯</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/6TtCssRppBE/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>Anthropic 在 2026 年是怎么开发软件的——对话 Katelyn Lesse</title>
+<link>https://pod-exp.pages.dev/9oNvKMd7xJo/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/9oNvKMd7xJo/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>The Pragmatic Engineer</category>
+<category>AI 智能体</category>
+<category>AI 编程</category>
+<category>AI 基础设施</category>
+<category>职业发展</category>
+<description>Anthropic 平台工程负责人 Katelyn Lesse 讲述：公司如何把服务所有 Claude token 的 API 从 Python 重写为 Rust——CPU 短缺下模型写 Rust 已足够好，shadow traffic 让重写可验证；新人入职指南几乎就是「问 Claude」；从零构建 Claude Managed Agents 的野心与坑；工程团队仍按「两个披萨团队」拥有系统并担责，但 PR 分类、CI 修复、oncall 第一道门、常驻 QA agent 已大量交给 agent；一位产品经理真的把缓存诊断功能推上了生产；传统算法代码面试已被逐步淘汰，换成考「与 agent 协作干活」的面试；职级与绩效保留，但「耗时=复杂度」的标尺失效，只剩 impact 兜底；面对工程师的身份危机，她的答案是把野心值调高——治愈疾病级的难题仍需要安全、基建、认证上钻得很深的人去铺路。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/9oNvKMd7xJo/cover.webp" alt="" /></p>
+<p><em>The Pragmatic Engineer · 播出 2026-11-25 · 时长 1:50:45</em></p>
+<p>Anthropic 平台工程负责人 Katelyn Lesse 讲述：公司如何把服务所有 Claude token 的 API 从 Python 重写为 Rust——CPU 短缺下模型写 Rust 已足够好，shadow traffic 让重写可验证；新人入职指南几乎就是「问 Claude」；从零构建 Claude Managed Agents 的野心与坑；工程团队仍按「两个披萨团队」拥有系统并担责，但 PR 分类、CI 修复、oncall 第一道门、常驻 QA agent 已大量交给 agent；一位产品经理真的把缓存诊断功能推上了生产；传统算法代码面试已被逐步淘汰，换成考「与 agent 协作干活」的面试；职级与绩效保留，但「耗时=复杂度」的标尺失效，只剩 impact 兜底；面对工程师的身份危机，她的答案是把野心值调高——治愈疾病级的难题仍需要安全、基建、认证上钻得很深的人去铺路。</p>
+<h2>章节</h2><ul><li>0:01 开场</li><li>3:09 Stripe 之前的经历</li><li>7:04 Claude API 是怎么运作的</li><li>10:21 Claude API 的 Rust 重写（一）</li><li>14:23 Claude API 的 Rust 重写（二）</li><li>18:24 Claude API 的 Rust 重写（三）</li><li>22:25 Claude API 的 Rust 重写（四）</li><li>23:40 用影子流量验证重写</li><li>27:41 用影子流量验证重写（二）· 赞助商口播</li><li>31:11 用 Claude 帮新人上手</li><li>35:12 用 Claude 帮新人上手（二）</li><li>39:13 用 Claude 帮新人上手（三）</li><li>43:14 用 Claude 帮新人上手（四）</li><li>44:35 从零构建 Claude Managed Agents（一）</li><li>48:35 从零构建 Claude Managed Agents（二）</li><li>52:36 从零构建 Claude Managed Agents（三）</li><li>53:59 Anthropic 的工程团队怎么运转（一）</li><li>58:00 Anthropic 的工程团队怎么运转（二）</li><li>58:43 agent 自己包揽的部分（一）</li><li>1:02:45 agent 自己包揽的部分（二）</li><li>1:04:47 人类 code review</li><li>1:06:41 带着 Claude 值班</li><li>1:09:31 产品经理往生产环境发功能（一）</li><li>1:13:33 产品经理往生产环境发功能（二）</li><li>1:16:25 Anthropic 的软件工厂（一）</li><li>1:20:26 Anthropic 的软件工厂（二）</li><li>1:24:13 逐步淘汰传统代码面试（一）</li><li>1:28:13 逐步淘汰传统代码面试（二）</li><li>1:28:24 职级、晋升和绩效考核（一）</li><li>1:32:24 职级、晋升和绩效考核（二）</li><li>1:33:21 软件工程师的身份危机（一）</li><li>1:37:22 软件工程师的身份危机（二）</li><li>1:41:22 软件工程师的身份危机（三）</li><li>1:45:22 软件工程师的身份危机（四）</li><li>1:47:23 推荐一本书</li><li>1:48:12 收尾要点</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/9oNvKMd7xJo/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>华盛顿想让市场跌得更低 ｜ 每周盘点</title>
+<link>https://pod-exp.pages.dev/D4Eg4LXl-lw/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/D4Eg4LXl-lw/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>Forward Guidance</category>
+<category>宏观经济</category>
+<category>期权</category>
+<category>投资</category>
+<category>地缘政治</category>
+<description>本期 Forward Guidance 感恩节特别版（周二录制），主持人 Quinn Thompson 请来波动率交易员 Cem Karsan 与做市商出身的 Noel Smith——两人刚刚联手。Cem 重申他喊了五六个月的核心判断：中期选举之后，一个极度主动的政府的激励会从"托住市场"变成"放手让它回到更自然的路径"，标普将走出一轮 25% 到 40% 的下跌——基准情形是到十二月的阶梯式阴跌，而非崩盘。他把分析框架概括为"三条腿的凳子"：宏观、资金流、以及政府激励这第三条腿。两人还拆解了 AI 资本开支如何挤出主权债、霍尔木兹海峡为何长期难以重开、为什么 40 的 VIX"根本不算事"、Waller 主张加息 50 个基点为何是"信誉表演"，以及 Cem 再次喊出的"买黄金看涨、卖原油看跌"组合和对 2027 年四大品种的具体路径预测。按 Cem 的说法：政府刚亲口告诉你，他们愿意剪掉肥尾、但不想让市场涨——听清楚这个信号……</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/D4Eg4LXl-lw/cover.webp" alt="" /></p>
+<p><em>Forward Guidance · 播出 2026-11-25 · 时长 1:04:15</em></p>
+<p>本期 Forward Guidance 感恩节特别版（周二录制），主持人 Quinn Thompson 请来波动率交易员 Cem Karsan 与做市商出身的 Noel Smith——两人刚刚联手。Cem 重申他喊了五六个月的核心判断：中期选举之后，一个极度主动的政府的激励会从"托住市场"变成"放手让它回到更自然的路径"，标普将走出一轮 25% 到 40% 的下跌——基准情形是到十二月的阶梯式阴跌，而非崩盘。他把分析框架概括为"三条腿的凳子"：宏观、资金流、以及政府激励这第三条腿。两人还拆解了 AI 资本开支如何挤出主权债、霍尔木兹海峡为何长期难以重开、为什么 40 的 VIX"根本不算事"、Waller 主张加息 50 个基点为何是"信誉表演"，以及 Cem 再次喊出的"买黄金看涨、卖原油看跌"组合和对 2027 年四大品种的具体路径预测。按 Cem 的说法：政府刚亲口告诉你，他们愿意剪掉肥尾、但不想让市场涨——听清楚这个信号……</p>
+<h2>章节</h2><ul><li>0:08 周二录制的感恩节特别节目</li><li>4:11 周二录制的感恩节特别节目</li><li>4:37 凳子的第三条腿</li><li>8:37 凳子的第三条腿</li><li>8:48 25% 到 40% 的下跌</li><li>10:46 赞助：Fidelity 与 Blockworks MCP</li><li>11:53 AI 资本开支挤出主权债</li><li>15:55 AI 资本开支挤出主权债</li><li>16:24 市场宽度与两条路径</li><li>20:25 市场宽度与两条路径</li><li>23:45 阶梯式下跌到十二月</li><li>27:42 Noel 谈市场结构</li><li>28:12 赞助：Fidelity 与 Blockworks MCP</li><li>29:26 Noel 谈市场结构（续）</li><li>33:03 Waller 的信誉表演</li><li>37:03 Waller 的信誉表演</li><li>39:45 买黄金看涨、卖原油看跌</li><li>41:37 40 的 VIX 还不够</li><li>45:37 40 的 VIX 还不够</li><li>49:39 40 的 VIX 还不够</li><li>52:32 更深的下跌、被压缩的波动率</li><li>56:33 更深的下跌、被压缩的波动率</li><li>58:32 Cem 的 2027 年区间预测</li><li>1:02:32 Cem 的 2027 年区间预测</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/D4Eg4LXl-lw/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>我们得谈谈 Jensen 了</title>
+<link>https://pod-exp.pages.dev/DSFFZyq_qsg/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/DSFFZyq_qsg/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>My First Million</category>
+<category>投资</category>
+<category>人生方法</category>
+<category>创业与经营</category>
+<category>商业分析</category>
+<description>Jensen 重回英伟达 CEO 之位，股价单日暴涨 32%，两位主播由此开聊：Shaan 自曝当年在亚马逊差点踩中静默期「内幕交易」、被法务一句「你是谁」打发；Sam 则讲了自己饭局闲聊竟引来 SEC 电话的经历。随后两人深聊 Jensen 下台又回锅的来龙去脉——婚外情、疑似「间谍」传闻、WSJ 报道，以及美国社会对权势男人私德的态度变迁。话题转到投资：Shaan 拆解自己 60% 个股的组合和「非凡股权收藏家」的打孔卡式打法。接着借 Pete Carroll 的 1-7 分「竞争者评分」，两人坦诚互相诊断对方是「4 分」，引出《百年人生》《每周工作四小时》和 Sam Altman 的间隔年：怎么给 sabbatical 改名、怎么给一年假期算账，最后落在「像背着车贷一样生活」和《利润优先》的强制储蓄哲学上。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/DSFFZyq_qsg/cover.jpg" alt="" /></p>
+<p><em>My First Million · 播出 2026-11-25 · 时长 49:11</em></p>
+<p>Jensen 重回英伟达 CEO 之位，股价单日暴涨 32%，两位主播由此开聊：Shaan 自曝当年在亚马逊差点踩中静默期「内幕交易」、被法务一句「你是谁」打发；Sam 则讲了自己饭局闲聊竟引来 SEC 电话的经历。随后两人深聊 Jensen 下台又回锅的来龙去脉——婚外情、疑似「间谍」传闻、WSJ 报道，以及美国社会对权势男人私德的态度变迁。话题转到投资：Shaan 拆解自己 60% 个股的组合和「非凡股权收藏家」的打孔卡式打法。接着借 Pete Carroll 的 1-7 分「竞争者评分」，两人坦诚互相诊断对方是「4 分」，引出《百年人生》《每周工作四小时》和 Sam Altman 的间隔年：怎么给 sabbatical 改名、怎么给一年假期算账，最后落在「像背着车贷一样生活」和《利润优先》的强制储蓄哲学上。</p>
+<h2>章节</h2><ul><li>0:02 王者归来</li><li>3:31 Shaan 的「内幕交易」惊魂</li><li>5:56 Jensen 回归（上）</li><li>9:57 Jensen 回归（中）</li><li>13:58 Jensen 回归（下）</li><li>15:35 Shaan 拆解自己的投资组合</li><li>19:01 打孔卡式投资</li><li>21:46 橄榄球教练教我们的带队伍之道</li><li>24:06 从 4 分到 7 分</li><li>28:08 4 分的活法，10 分的人生</li><li>30:25 《百年人生》</li><li>34:27 Sam Altman 的间隔年</li><li>36:41 给「长假」改个名</li><li>39:01 给你的长假算一笔账</li><li>43:02 借口的毯子</li><li>43:20 像背着车贷一样生活</li><li>44:35 利润优先</li><li>48:35 荐播：《Content is Profit》</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/DSFFZyq_qsg/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>Black Hat USA 2026 ｜ 收件箱之外的检测工程</title>
+<link>https://pod-exp.pages.dev/DgUdPQr4AfQ/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/DgUdPQr4AfQ/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>Black Hat</category>
+<category>企业软件</category>
+<category>开源软件</category>
+<description>Akash Parasumanna Sridhar 是医疗行业的一名安全工程师——也是公司里唯一一个做安全的人。他在 Black Hat USA 2026 分享的核心观点是：邮件网关拦不住一切，他 18 个月的生产数据显示，63% 的定向钓鱼被网关单独漏掉，而且这不分行业。他的解法不是买新工具，而是把手头已有的东西组合起来：把邮件遥测接入 SIEM，用检测工程和 Sigma 规则补上网关看不到的"行为"视角——先收集、规范化、富化数据、摸清自己公司的邮件模式，再落地为五条生产验证过的规则：高管显示名冒充、新注册域名加关键词（invoice、payment、urgent）、可信域名 SPF/DKIM 认证失败、带 HTML 表单的凭证窃取、运营时机异常。他还完整复盘了一个"伪造 CEO + 假供应商"的转发线程 BEC 案例（4.5 万美元收据差点被付出），并展示了自己搭建的 SOAR 工作流。落地效果：检出率从 37% 提到 9……</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/DgUdPQr4AfQ/cover.webp" alt="" /></p>
+<p><em>Black Hat · 播出 2026-11-25 · 时长 29:42</em></p>
+<p>Akash Parasumanna Sridhar 是医疗行业的一名安全工程师——也是公司里唯一一个做安全的人。他在 Black Hat USA 2026 分享的核心观点是：邮件网关拦不住一切，他 18 个月的生产数据显示，63% 的定向钓鱼被网关单独漏掉，而且这不分行业。他的解法不是买新工具，而是把手头已有的东西组合起来：把邮件遥测接入 SIEM，用检测工程和 Sigma 规则补上网关看不到的"行为"视角——先收集、规范化、富化数据、摸清自己公司的邮件模式，再落地为五条生产验证过的规则：高管显示名冒充、新注册域名加关键词（invoice、payment、urgent）、可信域名 SPF/DKIM 认证失败、带 HTML 表单的凭证窃取、运营时机异常。他还完整复盘了一个"伪造 CEO + 假供应商"的转发线程 BEC 案例（4.5 万美元收据差点被付出），并展示了自己搭建的 SOAR 工作流。落地效果：检出率从 37% 提到 9……</p>
+<h2>章节</h2><ul><li>0:12 开场：第一次 Black Hat，主题是邮件威胁可见性</li><li>4:13 运营现实：最大的盲区是业务必须放行的事</li><li>8:15 先建上下文，再找模式；案例：伪造供应商的转发线程</li><li>12:16 漏洞在会话上下文里；我自建的 SOAR 工作流</li><li>16:19 五个检测信号（下）：可信域名、钓鱼基础设施、时机异常；生产数据</li><li>20:19 规则二到规则五：关键词、认证失败、钓鱼话术、时机窗口</li><li>24:20 三个要点、GitHub 规则包与现场问答（一）</li><li>28:21 现场问答（二）与收尾</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/DgUdPQr4AfQ/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>科技巨头准备砸更多钱赢下 2028 ｜ The Vergecast</title>
+<link>https://pod-exp.pages.dev/Dhc46v0rZfQ/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/Dhc46v0rZfQ/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>The Verge</category>
+<category>政治与社会</category>
+<category>加密与 Web3</category>
+<category>人工智能</category>
+<description>本期 Vergecast 邀请长期追踪科技业政治献金的 Molly White（Citation Needed 作者、Tech Influence Watch 运营者），复盘 2026 年美国中期选举中 AI 与加密行业政治花钱的双重惨败：OpenAI、Andreessen Horowitz 关联的超级 PAC「Leading the Future」沿用加密打法、在广告中绝口不提 AI，却被 Anthropic 关联的对手 PAC 硬生生把 AI 顶成选战议题；加密行业在俄亥俄豪掷 6400 万美元依然败北，全年投入的竞争性选战几乎全输。两人聊到行业如何在选后把自己包装成"造王者"、一边倒押注共和党后能否靠"思想转向"骗回民主党、科技亿万富翁的背书为何开始变成毒药，以及通往 2028 的路上值得盯紧的早期信号——调查、游说话术与押注策略。节目尾声是主持人对 iPhone Duo 的一段"求救"。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/Dhc46v0rZfQ/cover.webp" alt="" /></p>
+<p><em>The Verge · 播出 2026-11-25 · 时长 34:07</em></p>
+<p>本期 Vergecast 邀请长期追踪科技业政治献金的 Molly White（Citation Needed 作者、Tech Influence Watch 运营者），复盘 2026 年美国中期选举中 AI 与加密行业政治花钱的双重惨败：OpenAI、Andreessen Horowitz 关联的超级 PAC「Leading the Future」沿用加密打法、在广告中绝口不提 AI，却被 Anthropic 关联的对手 PAC 硬生生把 AI 顶成选战议题；加密行业在俄亥俄豪掷 6400 万美元依然败北，全年投入的竞争性选战几乎全输。两人聊到行业如何在选后把自己包装成"造王者"、一边倒押注共和党后能否靠"思想转向"骗回民主党、科技亿万富翁的背书为何开始变成毒药，以及通往 2028 的路上值得盯紧的早期信号——调查、游说话术与押注策略。节目尾声是主持人对 iPhone Duo 的一段"求救"。</p>
+<h2>章节</h2><ul><li>0:03 开场</li><li>1:12 AI 超级 PAC 翻车</li><li>5:13 AI 超级 PAC 翻车（续）</li><li>5:31 隐形广告与 AI 话术</li><li>9:33 隐形广告与 AI 话术（续）</li><li>10:05 加密的撒钱惨遭碾压</li><li>12:31 重整旗鼓备战 2028</li><li>16:32 重整旗鼓备战 2028（续）</li><li>20:34 重整旗鼓备战 2028（续）</li><li>21:33 政客会跟这些钱划清界限吗？</li><li>25:13 值得盯紧的早期信号</li><li>29:14 值得盯紧的早期信号（续）</li><li>30:41 还有一件事</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/Dhc46v0rZfQ/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>酿酒人队老板 Mark Attanasio 谈体育投资——以及 MLB 的停摆 ｜ WSJ's Take On the Week</title>
+<link>https://pod-exp.pages.dev/E2OukfQy6rQ/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/E2OukfQy6rQ/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>WSJ Podcasts</category>
+<category>投资</category>
+<category>信用市场</category>
+<category>商业分析</category>
+<description>密尔沃基酿酒人队刚拿下队史首个世界大赛冠军，老板 Mark Attanasio——另类投资管理公司 Crescent Capital 管理合伙人、垃圾债时代出身的信用投资人——与两位主持及 WSJ 棒球记者 Jared Diamond 复盘了这笔当年的「困境资产」如何翻身：2004 年他看中的不是烂成绩，而是社区热情、新球馆和顶级农场系统。话题随后转入迫近的劳资谈判：12 月 1 日可能到来的停摆、资方想要的工资帽与工资下限、工会死守的「第三轨」。Attanasio 认为收入分成体系其实对球员整体更有利，Jared 则拆解了本地电视转播崩塌如何把小市场球队的收入鸿沟撕得更大。后半段聊投资：体育作为「反 AI 交易」的估值逻辑、私募信用的流动性错配、英伟达式表外融资的风险，以及 Soros、Munger 留下的分散化课。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/E2OukfQy6rQ/cover.webp" alt="" /></p>
+<p><em>WSJ Podcasts · 播出 2026-11-25 · 时长 28:59</em></p>
+<p>密尔沃基酿酒人队刚拿下队史首个世界大赛冠军，老板 Mark Attanasio——另类投资管理公司 Crescent Capital 管理合伙人、垃圾债时代出身的信用投资人——与两位主持及 WSJ 棒球记者 Jared Diamond 复盘了这笔当年的「困境资产」如何翻身：2004 年他看中的不是烂成绩，而是社区热情、新球馆和顶级农场系统。话题随后转入迫近的劳资谈判：12 月 1 日可能到来的停摆、资方想要的工资帽与工资下限、工会死守的「第三轨」。Attanasio 认为收入分成体系其实对球员整体更有利，Jared 则拆解了本地电视转播崩塌如何把小市场球队的收入鸿沟撕得更大。后半段聊投资：体育作为「反 AI 交易」的估值逻辑、私募信用的流动性错配、英伟达式表外融资的风险，以及 Soros、Munger 留下的分散化课。</p>
+<h2>章节</h2><ul><li>0:01 冷开场：MLB 能避免停摆吗？</li><li>0:21 认识酿酒人队老板 Mark Attanasio</li><li>1:47 迫近的 MLB 劳资纠纷</li><li>2:42 把酿酒人队当「困境资产」买下</li><li>6:43 买下「困境资产」（续）</li><li>6:47 打造世界冠军球队</li><li>9:28 小市场球队的棒球经济学</li><li>12:38 工资帽之争</li><li>15:54 为什么 MLB 球队估值落后于其他联盟</li><li>17:14 本地电视转播崩盘与媒体改革</li><li>21:02 球员工会的回应</li><li>21:38 AI、信用风险与「反 AI 交易」</li><li>23:37 私募信用风险与 AI 市场泡沫</li><li>25:34 集中度风险与投资心得</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/E2OukfQy6rQ/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>加密已死？！</title>
+<link>https://pod-exp.pages.dev/GbrEKNZTCEE/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/GbrEKNZTCEE/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>1000x</category>
+<category>加密与 Web3</category>
+<category>交易</category>
+<category>投资</category>
+<category>职业发展</category>
+<description>Jonah 发了一条推文——"加密这行就是让人难受，趁你还能走赶紧走"——全网炸了。本期他自辩、Avi 拆台。Jonah 的理由：他当过 Cumberland 交易主管，两年下来只觉得丧；FTX 和 Trump 政府先后断送了加密两次走向主流的机会；剩下的只有 meme 币和 pump-and-dump。在他看来，在加密行业上班只有两个正当理由：赚翻了，或者永远不打算离开；而离开之后还能爬回大树顶端的窗口正在飞速关闭。Avi 几乎全盘反对：加密只有两类——货币，以及跑在加密轨道上真挣钱的公司；后者仍被低估。他承认"无许可平行金融"的梦死于黑客与无人审计的代码，但金融基建上链仍会赢。两人真正共识的部分是：发币不是骗子，卖币才是——两人还自曝了 1000x 代币亏掉 50 万美元的往事。后半程是行情：Avi 为什么在 79 美元全仓 Nebius、V 型与 U 型修复之别，以及 Jonah 的"十二月是流动性真空"判断。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/GbrEKNZTCEE/cover.webp" alt="" /></p>
+<p><em>1000x · 播出 2026-11-25 · 时长 52:50</em></p>
+<p>Jonah 发了一条推文——"加密这行就是让人难受，趁你还能走赶紧走"——全网炸了。本期他自辩、Avi 拆台。Jonah 的理由：他当过 Cumberland 交易主管，两年下来只觉得丧；FTX 和 Trump 政府先后断送了加密两次走向主流的机会；剩下的只有 meme 币和 pump-and-dump。在他看来，在加密行业上班只有两个正当理由：赚翻了，或者永远不打算离开；而离开之后还能爬回大树顶端的窗口正在飞速关闭。Avi 几乎全盘反对：加密只有两类——货币，以及跑在加密轨道上真挣钱的公司；后者仍被低估。他承认"无许可平行金融"的梦死于黑客与无人审计的代码，但金融基建上链仍会赢。两人真正共识的部分是：发币不是骗子，卖币才是——两人还自曝了 1000x 代币亏掉 50 万美元的往事。后半程是行情：Avi 为什么在 79 美元全仓 Nebius、V 型与 U 型修复之别，以及 Jonah 的"十二月是流动性真空"判断。</p>
+<h2>章节</h2><ul><li>0:03 开场预告</li><li>1:16 那条惹怒全网的推文</li><li>3:25 他为什么离开加密行业</li><li>6:06 留在加密的唯二理由</li><li>10:08 发币不卖，只有中本聪做到了</li><li>11:05 "我彻头彻尾不同意"</li><li>15:06 储值之争</li><li>15:17 加密行业到底谁在赚钱</li><li>19:19 贝塔浪头结束了</li><li>23:21 一条醒目的大红线</li><li>27:00 发币不是骗子，卖币才是</li><li>31:02 看空的是岗位，不是技术</li><li>33:52 还剩谁在卖</li><li>36:20 V 型修复与 U 型修复</li><li>40:22 这是一场流动性挤兑</li><li>44:23 催化剂与"lateral"买法</li><li>48:27 十二月流动性真空</li><li>52:29 免责声明（收尾）</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/GbrEKNZTCEE/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>为什么每一张加密货币图表都惨不忍睹</title>
+<link>https://pod-exp.pages.dev/HeQr708j5V0/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/HeQr708j5V0/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>Delphi Digital</category>
+<category>加密与 Web3</category>
+<category>宏观经济</category>
+<category>期权</category>
+<category>投资</category>
+<description>本期四位 Delphi 成员复盘了一周的剧烈回撤：黄仁勋回归 NVIDIA 也未能止住跌势，说明市场担忧远大于这一家公司；他们用期权而非预测市场押注他回归，讨论了交易商 2019 年以来最大的做空 Gamma、为何反弹多是空头回补而非新钱，以及 2018 年末与 2022 年两种剧本的概率。宏观部分关注通胀数据、美联储何时被迫转向、2% 通胀目标的荒诞由来，以及信用市场发出的警告。加密部分讨论资产如何逐步脱离比特币贝塔（HYPE、Lighter 分层、Venice/Grass 无关联）、比特币的矿工与量子难题、Zcash 与 Pearl 的抛压结构，并翻遍自选列表得出结论：几乎所有图表都没法看。最后聊到圣诞行情、AI 新股对比特币的资金分流、Anthropic 迟迟不上市的制度问题，以及感恩节会不会就是底。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/HeQr708j5V0/cover.webp" alt="" /></p>
+<p><em>Delphi Digital · 播出 2026-11-25 · 时长 1:03:39</em></p>
+<p>本期四位 Delphi 成员复盘了一周的剧烈回撤：黄仁勋回归 NVIDIA 也未能止住跌势，说明市场担忧远大于这一家公司；他们用期权而非预测市场押注他回归，讨论了交易商 2019 年以来最大的做空 Gamma、为何反弹多是空头回补而非新钱，以及 2018 年末与 2022 年两种剧本的概率。宏观部分关注通胀数据、美联储何时被迫转向、2% 通胀目标的荒诞由来，以及信用市场发出的警告。加密部分讨论资产如何逐步脱离比特币贝塔（HYPE、Lighter 分层、Venice/Grass 无关联）、比特币的矿工与量子难题、Zcash 与 Pearl 的抛压结构，并翻遍自选列表得出结论：几乎所有图表都没法看。最后聊到圣诞行情、AI 新股对比特币的资金分流、Anthropic 迟迟不上市的制度问题，以及感恩节会不会就是底。</p>
+<h2>章节</h2><ul><li>0:00 开场</li><li>0:49 黄仁勋回归了，接下来呢？</li><li>3:58 期权胜过预测市场</li><li>7:58 期权胜过预测市场</li><li>8:10 伊朗真停火能改变一切吗？</li><li>11:17 2019 年以来最大的做空 Gamma</li><li>15:18 2019 年以来最大的做空 Gamma</li><li>19:19 2019 年以来最大的做空 Gamma</li><li>19:55 加密资产开始摆脱比特币贝塔</li><li>23:56 加密资产开始摆脱比特币贝塔</li><li>24:21 比特币还不是黄金</li><li>27:16 比特币的矿工与量子难题</li><li>31:21 比特币的矿工与量子难题</li><li>32:06 Zcash 撑得住吗？</li><li>36:08 Zcash 撑得住吗？</li><li>37:22 每张加密图表都很难看</li><li>40:48 会有圣诞行情吗？</li><li>44:52 会有圣诞行情吗？</li><li>46:07 比特币对阵 AI 新股</li><li>49:33 美联储何时不得不转向</li><li>51:54 2% 的目标是谁定的？</li><li>55:55 2% 的目标是谁定的？</li><li>57:42 Anthropic 该不该早点上市？</li><li>1:00:00 感恩节就是底吗？</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/HeQr708j5V0/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>工作的未来与意义</title>
+<link>https://pod-exp.pages.dev/MAKpf8pdNeQ/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/MAKpf8pdNeQ/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>New York Times Podcasts</category>
+<category>职业发展</category>
+<category>人工智能</category>
+<category>未来社会</category>
+<category>人生方法</category>
+<description>《纽约时报》调查记者 Jodi Kantor 主持 DealBook 峰会分组论坛，与 Vogue 美国版编辑内容负责人 Chloe Malle、Patagonia CEO Ryan Gellert、创业者 Emma Grede、AI 专家 Andrew Ng、mikeroweWORKS 基金会 CEO Mike Rowe、理财作家 Ramit Sethi 共同讨论年轻人的工作未来。话题覆盖：年轻人的悲观是否有依据、数字化求职流程的冰冷体验、远程办公之争、AI 聊天机器人造成的学习损失、可验证任务与判断力任务之别、四年制大学的成本与价值、1.8 万亿学贷、住房与医保等结构性困境，以及每位嘉宾给年轻人留下的一句真心话。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/MAKpf8pdNeQ/cover.webp" alt="" /></p>
+<p><em>New York Times Podcasts · 播出 2026-11-25 · 时长 1:22:41</em></p>
+<p>《纽约时报》调查记者 Jodi Kantor 主持 DealBook 峰会分组论坛，与 Vogue 美国版编辑内容负责人 Chloe Malle、Patagonia CEO Ryan Gellert、创业者 Emma Grede、AI 专家 Andrew Ng、mikeroweWORKS 基金会 CEO Mike Rowe、理财作家 Ramit Sethi 共同讨论年轻人的工作未来。话题覆盖：年轻人的悲观是否有依据、数字化求职流程的冰冷体验、远程办公之争、AI 聊天机器人造成的学习损失、可验证任务与判断力任务之别、四年制大学的成本与价值、1.8 万亿学贷、住房与医保等结构性困境，以及每位嘉宾给年轻人留下的一句真心话。</p>
+<h2>章节</h2><ul><li>0:03 开场：DealBook 峰会分组讨论登场</li><li>4:05 起点各不相同：从仓库打包到宿舍创业</li><li>8:06 年轻人该悲观吗？六位嘉宾轮番表态</li><li>12:10 Mike Rowe 与 Ramit Sethi：悲观到底是不是一种选择</li><li>16:11 求职流程变了：冰冷、没有面孔的数字化筛选</li><li>20:12 Emma Grede：走出去，回到生活里</li><li>24:13 Andrew Ng：真正的问题是技能错配</li><li>28:13 少投简历，投得更好</li><li>32:15 Mike Rowe：去有鱼的地方钓鱼</li><li>36:16 远程办公之争：Ramit 对决全场</li><li>40:18 去大城市，尽快去</li><li>44:19 Mike Rowe：热情太贵，追随不起</li><li>48:21 Andrew Ng：可验证任务与判断力任务</li><li>52:22 大学的帐：Mike 的 1.8 万亿与 Ryan 的招聘观</li><li>56:23 Patagonia 不看学历；Emma：必须上大学的时代过去了</li><li>1:00:23 一人一句：该对 Andrea 的儿子说什么</li><li>1:04:23 结构性问题：住房、医保与中期选举</li><li>1:08:23 NIMBY 与压垮年轻人的三座大山</li><li>1:12:25 展示梦幻世界的人，怎么谈"真实"</li><li>1:16:27 一人一句收尾：最真、最有用的那句话</li><li>1:20:28 结束语与制作名单</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/MAKpf8pdNeQ/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>向中国出售芯片的理由：对话 ASML 的克里斯托夫·富凯 ｜ Future Proof</title>
+<link>https://pod-exp.pages.dev/NpsUhS7Mi5w/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/NpsUhS7Mi5w/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>Semafor</category>
+<category>半导体</category>
+<category>地缘政治</category>
+<category>AI 基础设施</category>
+<description>ASML CEO 克里斯托夫·富凯在 Semafor 的 Future Proof 上解释：EUV 光刻机为何是人类造过最复杂的机器（校车大小、2000 多家供应商、光学部件需数年制造），以及为何 AI 算力潮把它变成“瓶颈中的瓶颈”——今年产出已提高 50%、明年还要再增 30%。他认为出口管制必须保留，但目标应是制造“代际差”：不卖最先进的 EUV（中国拿到的设备落后 13 年、其间 ASML 已迭代八代），却继续供应 DUV，让中国近 30 年保持对其技术接近 100% 的依赖；彻底断供只会逼中国加倍自研，最终反而失控。他还回应了“EUV 被运进中国”的谣言（我们能数清每台机器在哪）、中国光刻进展（宣称很多、数据为零；EUV 差距 10–15 年）、摩尔定律（从每两年 2 倍变 10 倍）、xLight/FEL 等新光源的成本门槛，以及行业对基础研究和两种 AI 恐惧的看法。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/NpsUhS7Mi5w/cover.webp" alt="" /></p>
+<p><em>Semafor · 播出 2026-11-25 · 时长 48:11</em></p>
+<p>ASML CEO 克里斯托夫·富凯在 Semafor 的 Future Proof 上解释：EUV 光刻机为何是人类造过最复杂的机器（校车大小、2000 多家供应商、光学部件需数年制造），以及为何 AI 算力潮把它变成“瓶颈中的瓶颈”——今年产出已提高 50%、明年还要再增 30%。他认为出口管制必须保留，但目标应是制造“代际差”：不卖最先进的 EUV（中国拿到的设备落后 13 年、其间 ASML 已迭代八代），却继续供应 DUV，让中国近 30 年保持对其技术接近 100% 的依赖；彻底断供只会逼中国加倍自研，最终反而失控。他还回应了“EUV 被运进中国”的谣言（我们能数清每台机器在哪）、中国光刻进展（宣称很多、数据为零；EUV 差距 10–15 年）、摩尔定律（从每两年 2 倍变 10 倍）、xLight/FEL 等新光源的成本门槛，以及行业对基础研究和两种 AI 恐惧的看法。</p>
+<h2>章节</h2><ul><li>0:02 ASML 是做什么的？</li><li>2:01 人类造过最复杂的机器</li><li>6:02 内存涨价与杰文斯悖论</li><li>8:47 为什么该把芯片设备卖给中国</li><li>12:49 没有 EUV，最多走到几纳米？</li><li>16:51 代际差：让对手继续依赖你</li><li>20:40 “运了一台 EUV 去中国”的谣言</li><li>24:42 传闻很多，数据为零</li><li>28:43 摩尔定律：死了还是打了兴奋剂</li><li>29:39 这个行业还在创新吗？</li><li>33:39 新光源的门槛：成本好上 30%–40%</li><li>37:42 基础研究从哪里来</li><li>41:42 中期选举与两种 AI 恐惧</li><li>45:44 赞助商口播</li><li>46:08 里德的复盘</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/NpsUhS7Mi5w/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>深度解析 Palmer Luckey 的银行｜Jacob Hirshman，Erebor</title>
+<link>https://pod-exp.pages.dev/O_dAi5KlVO0/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/O_dAi5KlVO0/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>David Senra</category>
+<category>金融基础设施</category>
+<category>信用市场</category>
+<category>创业与经营</category>
+<category>产业科技</category>
+<description>Jacob Hirshman 与 Palmer Luckey 于 2025 年 5 月联合创办 Erebor 银行，2026 年 2 月开业，号称美国历史上增长最快的银行。本期访谈从硅谷银行倒闭讲起：Erebor 以 50% 贷存比（行业约 70%）的极度保守资产负债表，服务美国做重资产、资本密集型生意的创始人——国防、制造业、AI 基础设施。他们自建银行核心与信贷审批系统、四成员工是前创始人；既给自己的资产负债表放款，也帮客户撮合五角大楼战略资本办公室等外部资金。Hirshman 还讲了把美元存款卖给全球的负债端打法、惊险的委内瑞拉入境经历、《指环王》命名哲学，以及"做这一代工业家的 J.P. Morgan"的野心。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/O_dAi5KlVO0/cover.webp" alt="" /></p>
+<p><em>David Senra · 播出 2026-11-25 · 时长 1:01:11</em></p>
+<p>Jacob Hirshman 与 Palmer Luckey 于 2025 年 5 月联合创办 Erebor 银行，2026 年 2 月开业，号称美国历史上增长最快的银行。本期访谈从硅谷银行倒闭讲起：Erebor 以 50% 贷存比（行业约 70%）的极度保守资产负债表，服务美国做重资产、资本密集型生意的创始人——国防、制造业、AI 基础设施。他们自建银行核心与信贷审批系统、四成员工是前创始人；既给自己的资产负债表放款，也帮客户撮合五角大楼战略资本办公室等外部资金。Hirshman 还讲了把美元存款卖给全球的负债端打法、惊险的委内瑞拉入境经历、《指环王》命名哲学，以及"做这一代工业家的 J.P. Morgan"的野心。</p>
+<h2>章节</h2><ul><li>0:04 美国历史上增长最快的银行</li><li>0:39 金融危机后为什么几乎没有新银行诞生</li><li>1:52 硅谷银行（SVB）的倒闭如何催生了 Erebor</li><li>5:54 牌照、资产负债表与金融业的垂直整合</li><li>9:55 每一行代码都是自己写的</li><li>10:42 五角大楼 2050 亿美元的信贷盘子</li><li>11:45 重建美国的 AI 供应链</li><li>15:19 打造"科技界的农行"</li><li>17:59 Palmer Luckey 曾想叫它"真银行"</li><li>20:09 "永远往大了想"</li><li>22:49 Sam Zell 为什么本可付 7.25% 却偏付 7.75%</li><li>26:50 从第一性原理做生意，与放贷者的判断</li><li>29:20 为什么 40% 的员工是前创始人</li><li>33:20 新设银行潮与融资故事</li><li>34:09 Joe Lonsdale 的"古灵阁"总部计划</li><li>36:16 为什么 Jamie Dimon 新开了一千家网点</li><li>39:34 把美元卖给全世界</li><li>43:35 委内瑞拉的边疆机会</li><li>44:41 "你丫别想上这架飞机"</li><li>48:12 "欢迎来到委内瑞拉，先生"</li><li>50:26 为什么以"孤山"命名</li><li>53:03 J.P. Morgan 当年为工业家们做的事</li><li>57:04 摩根模式与"影子国务院"</li><li>57:28 "你永远做不出十亿美元的公司"</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/O_dAi5KlVO0/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>交易 60 年后，我最信任的市场预警信号｜Dr. Eric Wish</title>
+<link>https://pod-exp.pages.dev/PMUf8gd3_us/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/PMUf8gd3_us/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>TraderLion</category>
+<category>交易</category>
+<category>投资</category>
+<description>TraderLion 教育总监 Richard Moglen 对话自己的大学交易启蒙老师、研究心理学家 Dr. Eric Wish。Wish 兼职交易 60 年，靠"不预测、只看市场行为"的技术分析躲过了 2000、2008、2020、2022 各轮大跌。本期他完整讲解自己的体系：温斯坦四阶段分析与 30 周均线、10/30 周线图、月线绿线突破买法、改良顾比图的红白蓝/蓝白红排列、10,1 超快随机指标的蓝点超卖反弹，以及自制大盘强度计 GMI。他反复强调硬止损、快速砍亏、只做创历史新高的强势股，并以"6000 只股票仅 8 只创新高"、TTD 跌逾 90% 为例说明当前市场的危险，顺带谈及 Roth IRA 与退休账户的教训。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/PMUf8gd3_us/cover.webp" alt="" /></p>
+<p><em>TraderLion · 播出 2026-11-25 · 时长 1:06:56</em></p>
+<p>TraderLion 教育总监 Richard Moglen 对话自己的大学交易启蒙老师、研究心理学家 Dr. Eric Wish。Wish 兼职交易 60 年，靠"不预测、只看市场行为"的技术分析躲过了 2000、2008、2020、2022 各轮大跌。本期他完整讲解自己的体系：温斯坦四阶段分析与 30 周均线、10/30 周线图、月线绿线突破买法、改良顾比图的红白蓝/蓝白红排列、10,1 超快随机指标的蓝点超卖反弹，以及自制大盘强度计 GMI。他反复强调硬止损、快速砍亏、只做创历史新高的强势股，并以"6000 只股票仅 8 只创新高"、TTD 跌逾 90% 为例说明当前市场的危险，顺带谈及 Roth IRA 与退休账户的教训。</p>
+<h2>章节</h2><ul><li>0:02 开场精选：60 年交易换来的预警信号</li><li>4:02 黑五赞助口播与正式开场</li><li>5:05 Wish 博士在马里兰大学的教书传承</li><li>7:02 兼职交易 60 年：边上班边打磨优势</li><li>11:03 改变我的三位导师：Darvas、O'Neil、Weinstein</li><li>12:31 化繁为简：不做"市场奇才"，只做简单的事</li><li>16:35 为什么看行为：一个"市场行为主义者"的自白</li><li>18:46 别贴标签，看行为：赛车寓言与"定义"</li><li>22:50 要坐火箭，不上趴窝的车——课堂轶事与规则</li><li>25:10 10 周 / 30 周均线体系与四阶段</li><li>29:12 10/30 周线图的警示信号（续）</li><li>30:27 绿线突破：怎么识别、怎么交易</li><li>32:50 红白蓝多头排列 vs. 蓝白红空头排列</li><li>36:52 持仓教训（过渡）</li><li>36:54 没有硬性止损的商务会议有多贵</li><li>39:00 个股实例：Box、绿线突破与蓝点超卖反弹</li><li>43:02 只买创历史新高附近的股票</li><li>45:30 历史新高扫描与 GMI（含赞助口播）</li><li>49:30 股票成群而动：从半导体到油气，再到 AI 辅助</li><li>52:15 高波动与熊市里的风险管理：先学会快速止损</li><li>56:18 风险管理（续）：Deepvue 上的图表预设</li><li>1:00:18 再看一个例子（过渡）</li><li>1:00:22 案例：TTD 的长期第四阶段下跌</li><li>1:02:25 收尾、签名书与三月工作坊</li><li>1:06:25 等一轮真正的上升趋势（结尾）</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/PMUf8gd3_us/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
 <item>
 <title>革命 vs 文艺复兴｜Thariq Shihipar（OpenAI）</title>
 <link>https://pod-exp.pages.dev/Qe9d9dWyED0/</link>
@@ -26,6 +290,40 @@
 <p>全文：<a href="https://pod-exp.pages.dev/Qe9d9dWyED0/">在原站阅读本篇全文</a></p>]]></content:encoded>
 </item>
 <item>
+<title>Jensen 回来了，Sky 动摇了，AI 挑战黎曼猜想</title>
+<link>https://pod-exp.pages.dev/TUcuKoELcYU/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/TUcuKoELcYU/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>Unchained</category>
+<category>加密与 Web3</category>
+<category>人工智能</category>
+<category>模型评测</category>
+<category>投资</category>
+<description>本期节目中，三位主持人先从英伟达「解雇又火速返聘」CEO Jensen Huang 的离奇操作聊起：一桩牵涉疑似中国间谍的婚外情、上万亿美元市值波动，以及与 OpenAI 罢免 Sam Altman 闹剧的对照。随后节目转入 Sky Protocol（原 MakerDAO）的糟糕一周：一份涉及非法资金的报告引发约 20 亿美元 USDS 赎回，Rune 的 7700 万美元代币抵押借款成为焦点——由此牵出稳定币抵押品设计史、Kain 本人巅峰期 3.5 亿美元 Synthetix 债务与抛售 3 万枚 ETH 自救的往事。Taylor 接着拆解朝鲜黑客组织 TraderTraitor 从币安盗走的 60 多亿美元资金如何在数万个钱包间洗白，以及冻结窗口与追踪博弈；Austin 谈以太坊向抗量子、抗 AI 签名的迁移。最后三人热议 Google Gemini 4 Neon、模型订阅的「每美元算力」账，以及 AI 证明黎曼猜想与「智……</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/TUcuKoELcYU/cover.webp" alt="" /></p>
+<p><em>Unchained · 播出 2026-11-25 · 时长 1:44:42</em></p>
+<p>本期节目中，三位主持人先从英伟达「解雇又火速返聘」CEO Jensen Huang 的离奇操作聊起：一桩牵涉疑似中国间谍的婚外情、上万亿美元市值波动，以及与 OpenAI 罢免 Sam Altman 闹剧的对照。随后节目转入 Sky Protocol（原 MakerDAO）的糟糕一周：一份涉及非法资金的报告引发约 20 亿美元 USDS 赎回，Rune 的 7700 万美元代币抵押借款成为焦点——由此牵出稳定币抵押品设计史、Kain 本人巅峰期 3.5 亿美元 Synthetix 债务与抛售 3 万枚 ETH 自救的往事。Taylor 接着拆解朝鲜黑客组织 TraderTraitor 从币安盗走的 60 多亿美元资金如何在数万个钱包间洗白，以及冻结窗口与追踪博弈；Austin 谈以太坊向抗量子、抗 AI 签名的迁移。最后三人热议 Google Gemini 4 Neon、模型订阅的「每美元算力」账，以及 AI 证明黎曼猜想与「智……</p>
+<h2>章节</h2><ul><li>0:02 直播前重播片段：Base 链的升级与智能体市场</li><li>4:03 重播片段：前沿实验室的变现与 Jensen 复职的铺垫</li><li>8:03 重播片段：AI 审计、安全讨论与赞助口播</li><li>12:04 重播片段：Unchained 日报推广与 Base 访谈</li><li>16:20 开场与「Jensen 回来了」</li><li>20:22 开除又返聘，这账是怎么算的</li><li>24:24 解雇又返聘，世界疯了吗</li><li>28:25 「对齐了的间谍」与公司的风险评估</li><li>32:26 超级智能的剧本与人类智力的内爆</li><li>36:27 赞助口播与「Sky 的糟糕一周」</li><li>40:27 稳定币往事：Maker、sUSD 与抵押品的演化</li><li>44:29 自家代币抵押借贷的那些坑</li><li>48:31 SNX 换 ETH 的杠杆路，和 Curve 的自救</li><li>52:32 卖掉三万枚 ETH 与「别太有钱」的人生哲学</li><li>56:32 ETH 老炮的心理素质与后量子议题</li><li>1:00:34 EF 的 AI 布局与本地模型</li><li>1:04:35 签名变大一百倍与节点硬件瓶颈</li><li>1:08:37 追踪 61 亿美元赃款：投入与产出的转折点</li><li>1:12:37 冻结的窗口期与中国洗钱网络</li><li>1:16:38 脚本追脚本，接着聊 Google</li><li>1:20:39 Neon 有多好聊，与每美元智能成本之谜</li><li>1:24:40 账户定价乱象与 Google 的反超势头</li><li>1:28:41 Google 反超传闻与黎曼猜想</li><li>1:32:41 一个人加一群 clanker，与「智力卖家」的多头逻辑</li><li>1:36:43 软件通缩归零与「万亿级智力税」</li><li>1:40:44 价值流向四家实验室，与「Why not ETH」</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/TUcuKoELcYU/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>黄仁勋的回归 ｜ Everybody's Business</title>
+<link>https://pod-exp.pages.dev/TVTxXbd9noQ/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/TVTxXbd9noQ/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>Bloomberg Podcasts</category>
+<category>半导体</category>
+<category>人工智能</category>
+<category>宏观经济</category>
+<category>消费与文化</category>
+<description>本期是感恩节特别版。前半场，主持人 Max Chafkin 与《彭博商业周刊》编辑 Brad Stone 复盘黄仁勋被逐出英伟达又戏剧回归的全过程：总统亲自干预、董事会一百八十度转弯、特朗普被指直接拨进董事会电话会。两人把它定义为一场"品行救助"——英伟达大到不能倒，于是丑闻缠身创始人拿到"免罪金牌"；背后还有对华芯片禁运、SEC 调查、AI 交易的循环融资，以及华盛顿是否还有力气继续查下去的疑问。两人还顺带结了一顿饭局赌约。后半场，专栏作家 Deena Shanker 拆解感恩节经济：火鸡其实比去年贵了约 10%，但 Aldi、沃尔玛、亚马逊却把整餐压到 25–39 美元的"亏本引流"价；蛋白粉狂热推高全脂牛奶价格；伊朗战争可能通过柴油和汽油成为食品通胀最大的变量。收尾是"最被低估"环节：Deena 选了客人送给主人的那束花，Max 则坚定地为火鸡辩护。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/TVTxXbd9noQ/cover.webp" alt="" /></p>
+<p><em>Bloomberg Podcasts · 播出 2026-11-25 · 时长 28:20</em></p>
+<p>本期是感恩节特别版。前半场，主持人 Max Chafkin 与《彭博商业周刊》编辑 Brad Stone 复盘黄仁勋被逐出英伟达又戏剧回归的全过程：总统亲自干预、董事会一百八十度转弯、特朗普被指直接拨进董事会电话会。两人把它定义为一场"品行救助"——英伟达大到不能倒，于是丑闻缠身创始人拿到"免罪金牌"；背后还有对华芯片禁运、SEC 调查、AI 交易的循环融资，以及华盛顿是否还有力气继续查下去的疑问。两人还顺带结了一顿饭局赌约。后半场，专栏作家 Deena Shanker 拆解感恩节经济：火鸡其实比去年贵了约 10%，但 Aldi、沃尔玛、亚马逊却把整餐压到 25–39 美元的"亏本引流"价；蛋白粉狂热推高全脂牛奶价格；伊朗战争可能通过柴油和汽油成为食品通胀最大的变量。收尾是"最被低估"环节：Deena 选了客人送给主人的那束花，Max 则坚定地为火鸡辩护。</p>
+<h2>章节</h2><ul><li>0:06 开场：黄仁勋回来了</li><li>4:09 特朗普为什么非要他回来</li><li>8:10 AI 交易的疑问与"信仰"</li><li>12:11 政治余波：调查还能走多远</li><li>16:12 Deena Shanker 谈感恩节经济学</li><li>20:12 火鸡、蔓越莓和"蛋白狂人"</li><li>24:15 超市的感恩节算盘与"最被低估的菜"</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/TVTxXbd9noQ/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
 <title>黄仁勋的“光”：详解AI算力背后的光通信产业链、英伟达赌注与技术博弈</title>
 <link>https://pod-exp.pages.dev/TYo20zW3MCo/</link>
 <guid isPermaLink="true">https://pod-exp.pages.dev/TYo20zW3MCo/</guid>
@@ -41,6 +339,257 @@
 <p>黄仁勋辞职11天后回归英伟达，而他在过去一年砸下几十亿美元押注的光通信产业，正经历一场过山车。这期《硅谷101》从物理原理讲起：GPU算力增速跑赢互连带宽，撞上“通信墙”，铜连接在距离、带宽、功耗上逼近极限，光正从数据中心之间一路逼近芯片本身。视频拆解了一颗光模块背后的全球产业链——磷化铟衬底、外延、激光器、硅光芯片、DSP、封装与组装——以及英伟达力推的CPO（共封装光学）与可插拔、LPO、XPO、NPO等路线的博弈。两位业内人士点评了卖方市场、厂商利益与技术分野。最后回到资本市场：中期选举的政策变数、CPO兑现节奏之争、对华光模块进口限制，叠加2000年光纤泡沫的遗产——看对未来，和在正确的时间抵达未来，是两回事。</p>
 <h2>章节</h2><ul><li>0:00 黄仁勋回来了，光通信的故事变了吗？</li><li>2:48 算力“撞墙”：GPU越强，为什么越需要“光”？</li><li>5:36 距离、带宽与功耗：铜连接的三道极限</li><li>7:29 Scale Up、Out与Across：光的三次逼近</li><li>11:31 从衬底到激光器：磷化铟与EML路线</li><li>15:31 EML紧缺与第二条路线：硅光登场</li><li>19:33 精密封装与规模制造：一颗光模块如何交付</li><li>20:04 一颗光模块的旅行：产业链的钱流向哪里？</li><li>23:03 “光离芯片太远了”：可插拔光模块的原罪</li><li>25:36 CPO的两个战场：Scale Out与Scale Up</li><li>27:08 CPO之外：中间路线与“标准之争”</li><li>31:10 “标准之争”：没有统一答案的路线图</li><li>32:11 激光器双雄暗战：CPO逼出的一道新考题</li><li>36:11 资本市场泼来一盆冰水</li><li>36:28 数据中心建设生变：资本市场重估需求</li><li>38:13 CPO的兑现之困：市场还需要等多久？</li><li>39:56 政策风险：订单最终会流向哪里？</li><li>41:50 泡沫遗产：看对未来，与在正确的时间抵达未来</li></ul>
 <p>全文：<a href="https://pod-exp.pages.dev/TYo20zW3MCo/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>科技股自 2003 年以来最严重的回撤之一：底部到了吗？｜ The Brainstorm 159</title>
+<link>https://pod-exp.pages.dev/TlQCGSkigmw/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/TlQCGSkigmw/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>ARK Invest</category>
+<category>人工智能</category>
+<category>投资</category>
+<category>半导体</category>
+<category>机器人与物理 AI</category>
+<description>本期围绕三条主线展开。其一，黄仁勋重返英伟达：Brett 认为市场把"英伟达的融资意愿"当成了整个 AI 生态的央行，这次自 2003 年以来最大的科技股回撤被情绪放大，回归本身利好美国 AI、利空对华芯片流向，但其对生态的意义被高估；Nick 则提醒市场其实在 10 月初就已见顶。其二，AI 收入能否持续复利：Brett 批评市场用传统软件公司的"增量收入线性外推"法给 Anthropic 建模，并认为效率前沿只剩两三家、Anthropic 85% 毛利说明产品力超预期；Nick 担心 token 用量暴涨而花费因单位成本通缩而滞后，且前沿会变得更拥挤。其三，特斯拉 FSD15 与世界模型可视化：Brett 认为终点线已过，规模化主要靠数据与架构而非芯片，被迫全车换芯的概率很低。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/TlQCGSkigmw/cover.webp" alt="" /></p>
+<p><em>ARK Invest · 播出 2026-11-25 · 时长 47:04</em></p>
+<p>本期围绕三条主线展开。其一，黄仁勋重返英伟达：Brett 认为市场把"英伟达的融资意愿"当成了整个 AI 生态的央行，这次自 2003 年以来最大的科技股回撤被情绪放大，回归本身利好美国 AI、利空对华芯片流向，但其对生态的意义被高估；Nick 则提醒市场其实在 10 月初就已见顶。其二，AI 收入能否持续复利：Brett 批评市场用传统软件公司的"增量收入线性外推"法给 Anthropic 建模，并认为效率前沿只剩两三家、Anthropic 85% 毛利说明产品力超预期；Nick 担心 token 用量暴涨而花费因单位成本通缩而滞后，且前沿会变得更拥挤。其三，特斯拉 FSD15 与世界模型可视化：Brett 认为终点线已过，规模化主要靠数据与架构而非芯片，被迫全车换芯的概率很低。</p>
+<h2>章节</h2><ul><li>0:02 英伟达</li><li>4:03 英伟达</li><li>8:05 英伟达</li><li>9:46 AI 需求</li><li>13:48 AI 需求</li><li>17:36 企业采用</li><li>21:36 企业采用</li><li>24:17 模型竞争</li><li>28:19 模型竞争</li><li>32:20 模型竞争</li><li>32:49 市场风险</li><li>36:51 市场风险</li><li>37:57 特斯拉自动驾驶</li><li>41:58 特斯拉自动驾驶</li><li>46:00 特斯拉自动驾驶</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/TlQCGSkigmw/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>黄仁勋重返英伟达。接下来呢？</title>
+<link>https://pod-exp.pages.dev/VB74Np3UnIQ/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/VB74Np3UnIQ/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>Machine Gods</category>
+<category>人工智能</category>
+<category>科技趋势</category>
+<category>数学与科学</category>
+<category>政治与社会</category>
+<description>本期有三段。第一段是最大新闻：黄仁勋被炒仅 11 天即获英伟达董事会全票复职，背后是特朗普与 JD Vance 的介入，而针对他本人、Megaspeed 和 Alice Huang/Alice Wang 的多项调查（众议院三委员会、司法部、证监会、加州总检察长）都还没走完。两人借机吐槽"lol 什么都不重要"时代的回归、政府与英伟达利益捆绑对资本主义的背叛，以及黄仁勋 63 岁仍无接班规划的问题，并与 Sam Altman 2023 年的"五日回归"做对照。第二段聊 Anthropic 数学家 Levent Alpöge 宣称与 Claude 证明了黎曼猜想（1700 万行代码、经 Lean 验证）：这是"短时间表"的数据点，也引发数学界的存在危机。第三段是感恩节实用建议：让家人亲手看 AI 操作电脑、扩大餐桌讨论的奥弗顿窗口，以及把搞砸的菜甩锅给"AI 菜谱"。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/VB74Np3UnIQ/cover.webp" alt="" /></p>
+<p><em>Machine Gods · 播出 2026-11-25 · 时长 47:49</em></p>
+<p>本期有三段。第一段是最大新闻：黄仁勋被炒仅 11 天即获英伟达董事会全票复职，背后是特朗普与 JD Vance 的介入，而针对他本人、Megaspeed 和 Alice Huang/Alice Wang 的多项调查（众议院三委员会、司法部、证监会、加州总检察长）都还没走完。两人借机吐槽"lol 什么都不重要"时代的回归、政府与英伟达利益捆绑对资本主义的背叛，以及黄仁勋 63 岁仍无接班规划的问题，并与 Sam Altman 2023 年的"五日回归"做对照。第二段聊 Anthropic 数学家 Levent Alpöge 宣称与 Claude 证明了黎曼猜想（1700 万行代码、经 Lean 验证）：这是"短时间表"的数据点，也引发数学界的存在危机。第三段是感恩节实用建议：让家人亲手看 AI 操作电脑、扩大餐桌讨论的奥弗顿窗口，以及把搞砸的菜甩锅给"AI 菜谱"。</p>
+<h2>章节</h2><ul><li>0:00 Casey 的 DoorDash 披萨乌龙</li><li>1:40 黄仁勋复职：他为什么能回英伟达</li><li>5:41 各方反应：Truth Social 梗图与股市狂欢</li><li>9:41 股价逻辑与 Alice Huang 的国安疑云</li><li>13:45 黄仁勋 2.0 会长什么样</li><li>17:48 资本主义、接班与"更好的范本"</li><li>19:48 黄仁勋 vs. Sam Altman：两次 CEO 回归</li><li>23:31 Claude 证明了黎曼猜想？</li><li>27:32 数学到底有多特殊</li><li>31:36 数学家的存在危机与"逆向工程"新常态</li><li>35:37 下一个里程碑：AI 什么时候能经营英伟达</li><li>38:23 感恩节餐桌上怎么聊 AI</li><li>42:25 扩大"奥弗顿窗口"和三条现成谈资</li><li>46:28 Doppel 赞助与制作名单</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/VB74Np3UnIQ/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>比特币牛市将在 2027 年到来？</title>
+<link>https://pod-exp.pages.dev/Vod7xXFriv0/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/Vod7xXFriv0/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>Anthony Pompliano</category>
+<category>加密与 Web3</category>
+<category>AI 智能体</category>
+<category>投资</category>
+<category>金融基础设施</category>
+<description>Uphold CEO Simon McLoughlin 认为，本轮加密资产的大幅回撤是资金轮动而非逻辑证伪：史上最大的四单 IPO、伊朗战事、利率上行，加上算法交易在薄弱流动性中引发的连锁抛售，共同把市场打到了超卖区。他展望 AI 智能体、传统资产代币化与加密轨道的结合，可能把自主财富管理放大百倍，预判三到五年内 Uphold 最大的客户群将是 AI 智能体，而高收费的主动型资管和反应迟缓的银行会被甩在后面。他详解了 Uphold 新上线的 Autopilot——一套三条规则中两条转绿即持仓的动量策略，五年外部回测年化 32.9%，近期为客户挡掉 75% 回撤，同时说清它的取舍。他还谈到永续合约如何放大市场波动、2027 年二季度比特币或明显升值、节能型项目或受益于立法，以及 Uphold 的借贷与收益新产品。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/Vod7xXFriv0/cover.webp" alt="" /></p>
+<p><em>Anthony Pompliano · 播出 2026-11-25 · 时长 28:56</em></p>
+<p>Uphold CEO Simon McLoughlin 认为，本轮加密资产的大幅回撤是资金轮动而非逻辑证伪：史上最大的四单 IPO、伊朗战事、利率上行，加上算法交易在薄弱流动性中引发的连锁抛售，共同把市场打到了超卖区。他展望 AI 智能体、传统资产代币化与加密轨道的结合，可能把自主财富管理放大百倍，预判三到五年内 Uphold 最大的客户群将是 AI 智能体，而高收费的主动型资管和反应迟缓的银行会被甩在后面。他详解了 Uphold 新上线的 Autopilot——一套三条规则中两条转绿即持仓的动量策略，五年外部回测年化 32.9%，近期为客户挡掉 75% 回撤，同时说清它的取舍。他还谈到永续合约如何放大市场波动、2027 年二季度比特币或明显升值、节能型项目或受益于立法，以及 Uphold 的借贷与收益新产品。</p>
+<h2>章节</h2><ul><li>0:02 开场</li><li>0:58 加密的大逻辑破了吗？</li><li>3:25 AI 智能体与财富管理的未来</li><li>5:31 谁会被颠覆？</li><li>6:52 AI 智能体会自主到什么程度？</li><li>9:21 银行为何封锁 AI 智能体</li><li>10:59 Uphold 如何为 AI 智能体做准备</li><li>15:01 Uphold 如何为 AI 智能体做准备（续）</li><li>15:08 Uphold 的 Autopilot 是怎么运作的</li><li>19:09 Uphold 的 Autopilot 是怎么运作的（续）</li><li>22:33 波动率、永续合约与市场风险</li><li>24:58 比特币展望与节能型加密项目</li><li>26:11 加密行业面临的最大威胁</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/Vod7xXFriv0/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>为什么黄仁勋、Sam Altman 这样的科技 CEO 总能卷土重来｜WSJ Tech News Briefing</title>
+<link>https://pod-exp.pages.dev/X5-rcyASwPo/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/X5-rcyASwPo/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>WSJ Podcasts</category>
+<category>人工智能</category>
+<category>领导力</category>
+<category>产业科技</category>
+<description>Sam Altman 那场 OpenAI 风波三年后，英伟达的 Jensen Huang 也上演了自己的董事会翻盘：被免职 11 天后复职。WSJ 专栏作家 Nicole Nguyen 与两位记者——Sam Altman 传记作者 Keach Hagey、网络安全记者 Bob McMillan——复盘两次「The Blip」的异同：Altman 靠的是员工哗变、约 800 人联名与科技圈人脉总动员，Jensen 背后则是市场震荡、Trump 表态、Musk 施压乃至「去中国」的地缘政治筹码。三人还谈到硅谷的远见者崇拜、Anthropic 兄妹搭档的领导模式，以及微软、FAA、大通银行、NSA 连环宕机背后的技术债与补丁恐慌——它们大多并不是网络攻击。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/X5-rcyASwPo/cover.webp" alt="" /></p>
+<p><em>WSJ Podcasts · 播出 2026-11-25 · 时长 22:13</em></p>
+<p>Sam Altman 那场 OpenAI 风波三年后，英伟达的 Jensen Huang 也上演了自己的董事会翻盘：被免职 11 天后复职。WSJ 专栏作家 Nicole Nguyen 与两位记者——Sam Altman 传记作者 Keach Hagey、网络安全记者 Bob McMillan——复盘两次「The Blip」的异同：Altman 靠的是员工哗变、约 800 人联名与科技圈人脉总动员，Jensen 背后则是市场震荡、Trump 表态、Musk 施压乃至「去中国」的地缘政治筹码。三人还谈到硅谷的远见者崇拜、Anthropic 兄妹搭档的领导模式，以及微软、FAA、大通银行、NSA 连环宕机背后的技术债与补丁恐慌——它们大多并不是网络攻击。</p>
+<h2>章节</h2><ul><li>0:00 黄仁勋复职与 2023 年的回响</li><li>4:01 从「去微软」到「去中国」：复职背后的筹码</li><li>8:01 The Blip 全景回放：OpenAI 那五天</li><li>12:04 远见者崇拜与 Anthropic 的兄妹搭档</li><li>16:04 连环宕机：微软、FAA、大通、NSA</li><li>20:04 亲历颠簸与普通人能做什么</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/X5-rcyASwPo/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>当 AI 替你构建投资组合，谁来检查作业？ 嘉宾 Rob Carver ｜ Systematic Investor ｜ 第 427 期</title>
+<link>https://pod-exp.pages.dev/c0bUxcIu2Hc/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/c0bUxcIu2Hc/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>Top Traders Unplugged</category>
+<category>量化投资</category>
+<category>投资</category>
+<category>人工智能</category>
+<description>本期 Systematic Investor 由 Niels Kaastrup-Larsen 主持，与系统化交易专家 Rob Carver 围绕"AI 时代的策略设计"展开。开场 Rob 盘点个人组合：年内涨约 13.6% 创新高水位，仓位分散在金属、农产品和债券价差上；随后两人聊到 Eckhardt Trading 停业、CalPERS 重返对冲基金、Anthropic 上市等行业新闻。听众问答环节讨论了 Bloomberg ASKB 这类统一 AI 会不会加剧拥挤、趋势交易用期货还是杠杆 ETF、持续调参与过拟合的边界，以及 AI 能否产生真正原创的想法。后半程围绕三篇材料：Sebastian Smith 的策略设计圆环、Andrew Ang 等人的"自动驾驶组合"论文，以及 Rob 自己的博文——他提出"只加型回测"，主张 AI 最多写到策略实现为止，回测必须放进自己写的可信框架里跑，否则就是"自己批自己作业"。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/c0bUxcIu2Hc/cover.webp" alt="" /></p>
+<p><em>Top Traders Unplugged · 播出 2026-11-25 · 时长 1:14:15</em></p>
+<p>本期 Systematic Investor 由 Niels Kaastrup-Larsen 主持，与系统化交易专家 Rob Carver 围绕"AI 时代的策略设计"展开。开场 Rob 盘点个人组合：年内涨约 13.6% 创新高水位，仓位分散在金属、农产品和债券价差上；随后两人聊到 Eckhardt Trading 停业、CalPERS 重返对冲基金、Anthropic 上市等行业新闻。听众问答环节讨论了 Bloomberg ASKB 这类统一 AI 会不会加剧拥挤、趋势交易用期货还是杠杆 ETF、持续调参与过拟合的边界，以及 AI 能否产生真正原创的想法。后半程围绕三篇材料：Sebastian Smith 的策略设计圆环、Andrew Ang 等人的"自动驾驶组合"论文，以及 Rob 自己的博文——他提出"只加型回测"，主张 AI 最多写到策略实现为止，回测必须放进自己写的可信框架里跑，否则就是"自己批自己作业"。</p>
+<h2>章节</h2><ul><li>0:02 AI 真能放心让它自己评估自己的交易策略吗？</li><li>4:03 Cybercab 的槽点还没完，以及街头的无人车见闻</li><li>6:24 对冲基金动态与最新 CTA 表现</li><li>10:26 趋势晴雨表：过山车般的一个月</li><li>11:11 Rob 的多元化交易组合如何穿行波动市</li><li>15:12 不避险的一个月与 CTA 指数表现</li><li>18:11 AI 研究会不会带来拥挤和 alpha 衰减？</li><li>22:12 听众挑战、澳洲 Chris 的第一问与杠杆 ETF</li><li>26:13 Chris 第二问：接着调一个算法，还是跑多个稳定版本？</li><li>26:40 优化何时变成过拟合</li><li>30:42 AI 能产生真正原创的投资想法吗？</li><li>34:04 逐市场动量模型：复杂性与稳健性的权衡</li><li>38:06 论文结论：小但显著的提升，以及"全局模型"的行业共识</li><li>42:08 Scander 之问：趋势仓位要不要镜像主组合？</li><li>43:21 趋势跟踪该怎么搭配一个高集中度组合？</li><li>47:22 危机 alpha：机械对冲有保证，危机盈利没保证</li><li>51:22 小结与下一篇论文：Crafting a Trading Strategy</li><li>52:23 传统的策略设计流程，以及"自驾组合"论文</li><li>56:26 从经典研究到战略资产配置问题</li><li>57:21 "自驾组合"与 AI 回测的两颗雷</li><li>1:01:21 统计验证之后的"yes/no"本身就是样本内拟合</li><li>1:02:58 Rob 的博客文章：AI 能帮什么忙，哪里离不开人</li><li>1:07:00 让 AI 查代码可以，但别让它自己阅卷</li><li>1:08:57 不让前视偏差混进回测：Rob 的"只加不减"原则</li><li>1:12:57 节目收尾与免责声明</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/c0bUxcIu2Hc/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>追讨朝鲜的 64 亿美元 Binance 赃款还值得吗？—— Uneasy Money</title>
+<link>https://pod-exp.pages.dev/cElMncVlQhI/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/cElMncVlQhI/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>Unchained</category>
+<category>加密与 Web3</category>
+<category>人工智能</category>
+<category>金融基础设施</category>
+<category>科技趋势</category>
+<description>本期 Uneasy Money 从英伟达董事会的离奇操作开场：先以绯闻为由开除黄仁勋、再把他请回来，其中一桩绯闻对象疑似是中国间谍——三位主持讨论董事会的算盘和"间谍线"与"绯闻线"孰轻孰重。随后切入 SKY（原 MakerDAO）的危机：涉朝资金经 PSM 互换引发约 20 亿美元 USDS 流出，Rune 还有 7,700 万美元的 SKY 抵押贷款；Kain 以自己 Havven 时代 3.5 亿美元债务、为救 Synthetix 卖出 30,000 个 ETH 的亲身经历对照解读。中段谈以太坊基金会的 PQAI（抗量子＋抗 AI）转向、哈希签名迁移与节点去中心化的硬件成本。Taylor 随后拆解朝鲜 64 亿美元赃款的洗钱路径：44% 被冻创纪录，但冻结窗口只有最初几十小时，之后追踪的投入产出急剧恶化。后半场全是 AI：Kain 盛赞 Google Gemini 4 Neon、吐槽元素周期表命名，并展开"软件通缩掩盖智能……</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/cElMncVlQhI/cover.webp" alt="" /></p>
+<p><em>Unchained · 播出 2026-11-25 · 时长 1:27:44</em></p>
+<p>本期 Uneasy Money 从英伟达董事会的离奇操作开场：先以绯闻为由开除黄仁勋、再把他请回来，其中一桩绯闻对象疑似是中国间谍——三位主持讨论董事会的算盘和"间谍线"与"绯闻线"孰轻孰重。随后切入 SKY（原 MakerDAO）的危机：涉朝资金经 PSM 互换引发约 20 亿美元 USDS 流出，Rune 还有 7,700 万美元的 SKY 抵押贷款；Kain 以自己 Havven 时代 3.5 亿美元债务、为救 Synthetix 卖出 30,000 个 ETH 的亲身经历对照解读。中段谈以太坊基金会的 PQAI（抗量子＋抗 AI）转向、哈希签名迁移与节点去中心化的硬件成本。Taylor 随后拆解朝鲜 64 亿美元赃款的洗钱路径：44% 被冻创纪录，但冻结窗口只有最初几十小时，之后追踪的投入产出急剧恶化。后半场全是 AI：Kain 盛赞 Google Gemini 4 Neon、吐槽元素周期表命名，并展开"软件通缩掩盖智能……</p>
+<h2>章节</h2><ul><li>0:03 开场</li><li>1:04 黄仁勋复职：为什么"回聘"根本没被定价</li><li>5:05 董事会怎么算这笔账：一万亿市值 vs. 绯闻风险</li><li>9:08 弹劾类比：开除什么时候变成了双向门</li><li>11:13 换你是董事会：间谍角度 vs. 绯闻角度</li><li>15:14 12D 棋局：先开除再返聘是最优解？</li><li>17:26 Kain 为什么觉得人类智力越来越不够看</li><li>19:54 赞助商：Cape</li><li>20:48 频道推介：Bits + Bips</li><li>21:12 SKY 的惨周：涉朝 PSM 互换与 Rune 的 7700 万贷款</li><li>25:13 内生抵押之辩与 Rune 的"小数字"</li><li>28:51 Synthetix 如何逼着 Kain 借钱、把 SNX 加杠杆成 ETH</li><li>32:53 杠杆的两面与 30,000 ETH 还债</li><li>36:53 卖 SNX 还是卖 ETH，以及"暴富是坏事"</li><li>40:20 为什么早期 ETH 鲸鱼都"痛感缺失"</li><li>42:27 PQAI：EF 为何把哈希签名排在 UX 升级前面</li><li>44:23 EF 怎么用 AI：本地模型、评测集与"AI 就是新 UI"</li><li>48:25 签名大百倍、消费级硬件与那台 512GB Mac Ultra</li><li>51:21 Tay 拆解：朝鲜 64 亿美元洗钱为何追不动</li><li>55:22 冻结的窗口期与中国洗钱网络</li><li>59:23 AI 追 AI，以及"隐私协议根本装不下"</li><li>1:01:28 Google 的元素周期表与 Neon 真香</li><li>1:05:31 每美元智能测算与"clanker 的人生使命"</li><li>1:09:35 Neon 坐上"正主"位，Google 追赶 Anthropic 与 OpenAI</li><li>1:13:35 "愿意聊天"就是最高评价</li><li>1:14:20 AI 辅助的黎曼证明：学术界被"松绑"的一天</li><li>1:18:21 Kain 的多头逻辑：软件通缩掩盖了智能的真实定价</li><li>1:22:21 四家实验室到 100 万亿？"世界会疯掉"</li><li>1:26:23 收尾：E 到一百万亿</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/cElMncVlQhI/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>特朗普救回 Jensen、Sky 为 Rune 兜底、旧加密时代终结｜每周综述</title>
+<link>https://pod-exp.pages.dev/ctnKooYX8Lc/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/ctnKooYX8Lc/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>Empire</category>
+<category>加密与 Web3</category>
+<category>人工智能</category>
+<category>AI 基础设施</category>
+<category>金融基础设施</category>
+<description>Jensen 复职英伟达 CEO：董事会 8-K 披露是在获得美国政府高层背书后作出的决定，Axios 报道称特朗普亲自致电董事会——主持人称之为 AI 行业的「特朗普看跌期权」，并争论这是 GFC 以来未见的总统介入，还是「撤得太快、复得太快」的糟糕先例。 - Sky（原 MakerDAO）流动性危机：stUSDS 池子被借空，链上追踪显示约 5 亿美元非法资金（疑含朝鲜资金）流经其 USDC 储备，当天 15 亿美元撤离；最大借款人竟是创始人 Rune 本人，欠约 7700 万美元，且清算开关被关。三人由此激辩：完全无许可 DeFi 的时代是否已经结束。 - 「旧加密已死」：Blockworks 联创 Mike 的视频认为行业正经历 2009–2024 与 2025 之后的分水岭——最有创造力的行业撞上监管最重的行业；比特币同时经历持有人换血、量子担忧与 Zcash 分流。 - 稳定币正在霸榜「最快到 1 亿美元年化收入」的……</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/ctnKooYX8Lc/cover.webp" alt="" /></p>
+<p><em>Empire · 播出 2026-11-25 · 时长 1:03:46</em></p>
+<p>Jensen 复职英伟达 CEO：董事会 8-K 披露是在获得美国政府高层背书后作出的决定，Axios 报道称特朗普亲自致电董事会——主持人称之为 AI 行业的「特朗普看跌期权」，并争论这是 GFC 以来未见的总统介入，还是「撤得太快、复得太快」的糟糕先例。 - Sky（原 MakerDAO）流动性危机：stUSDS 池子被借空，链上追踪显示约 5 亿美元非法资金（疑含朝鲜资金）流经其 USDC 储备，当天 15 亿美元撤离；最大借款人竟是创始人 Rune 本人，欠约 7700 万美元，且清算开关被关。三人由此激辩：完全无许可 DeFi 的时代是否已经结束。 - 「旧加密已死」：Blockworks 联创 Mike 的视频认为行业正经历 2009–2024 与 2025 之后的分水岭——最有创造力的行业撞上监管最重的行业；比特币同时经历持有人换血、量子担忧与 Zcash 分流。 - 稳定币正在霸榜「最快到 1 亿美元年化收入」的……</p>
+<h2>章节</h2><ul><li>0:08 Rob 穿得像要去 Ebbets Field</li><li>2:26 Trencher 时代结束了吗？</li><li>5:56 Jensen 回来了</li><li>8:54 AI 的「特朗普看跌期权」</li><li>12:02 赞助：Fidelity 与 Blockworks MCP</li><li>13:09 AI 的「特朗普看跌期权」（续）</li><li>17:11 AI 的「特朗普看跌期权」（续）</li><li>18:03 AI 成为国家安全问题</li><li>22:03 AI 成为国家安全问题（续）</li><li>25:06 Sky 冻结的资金池与 Rune 的 7700 万美元借款</li><li>28:53 赞助：Fidelity 与 Blockworks MCP</li><li>30:05 Sky 冻结的资金池与 Rune 的 7700 万美元借款（续）</li><li>34:05 Sky 冻结的资金池与 Rune 的 7700 万美元借款（续）</li><li>36:29 无许可 DeFi 结束了吗？</li><li>40:29 无许可 DeFi 结束了吗？（续）</li><li>44:30 无许可 DeFi 结束了吗？（续）</li><li>47:55 比特币持有人换血、量子与 Zcash</li><li>49:32 旧加密已不复存在</li><li>52:16 稳定币领跑增长最快的金融科技</li><li>56:16 稳定币领跑增长最快的金融科技（续）</li><li>56:21 Long Arjun：Kraken 的扫货收购</li><li>58:45 本周内容推荐</li><li>1:02:46 本周内容推荐（续）</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/ctnKooYX8Lc/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>人工智能与 AGI 的地平线</title>
+<link>https://pod-exp.pages.dev/e5qK2E18EMQ/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/e5qK2E18EMQ/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>New York Times Podcasts</category>
+<category>人工智能</category>
+<category>AI 安全</category>
+<category>地缘政治</category>
+<category>半导体</category>
+<description>DealBook 峰会专题圆桌：Michael Barbaro 主持，与 Dan Hendrycks（AI 安全中心）、Max Hodak（Science Corporation）、Lila Ibrahim（Google DeepMind）、Mati Staniszewski（ElevenLabs）以及迟到的 Clem Delangue（Hugging Face）讨论 AI 与 AGI 的地平线。话题从刚刚结束的中期选举切入——选民用选票给数据中心和"放任式"监管踩了刹车，52% 的美国人对 AI 担忧多过兴奋；随后围绕 Dan 主张的"前沿训练暂停令＋窄口径豁免"与 Max 主张的"反垄断＋能力大规模扩散"展开正面交锋，并讨论了失去 Jensen Wong 的英伟达、Anthropic 上市与"收买公民社会"的争议，以及 Hugging Face 的"失控蜂群"事件。尾声各位嘉宾各自交出最引以为豪的工作：工程化大脑、AI 界面……</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/e5qK2E18EMQ/cover.webp" alt="" /></p>
+<p><em>New York Times Podcasts · 播出 2026-11-25 · 时长 1:19:39</em></p>
+<p>DealBook 峰会专题圆桌：Michael Barbaro 主持，与 Dan Hendrycks（AI 安全中心）、Max Hodak（Science Corporation）、Lila Ibrahim（Google DeepMind）、Mati Staniszewski（ElevenLabs）以及迟到的 Clem Delangue（Hugging Face）讨论 AI 与 AGI 的地平线。话题从刚刚结束的中期选举切入——选民用选票给数据中心和"放任式"监管踩了刹车，52% 的美国人对 AI 担忧多过兴奋；随后围绕 Dan 主张的"前沿训练暂停令＋窄口径豁免"与 Max 主张的"反垄断＋能力大规模扩散"展开正面交锋，并讨论了失去 Jensen Wong 的英伟达、Anthropic 上市与"收买公民社会"的争议，以及 Hugging Face 的"失控蜂群"事件。尾声各位嘉宾各自交出最引以为豪的工作：工程化大脑、AI 界面……</p>
+<h2>章节</h2><ul><li>0:01 开场与嘉宾介绍</li><li>4:02 中期选举改变了什么</li><li>8:03 看不清的未来与 AGI 的定义</li><li>12:04 「美国人还没准备好」</li><li>16:06 AlphaFold、信任与叙事之争</li><li>20:07 把技术带进日常生活</li><li>24:07 声音与「AI 向善」的缺口</li><li>28:10 技术悬置、换算率与停不下来的精灵</li><li>32:10 前沿训练暂停：钝器方案与反方</li><li>36:12 窄模型、G 因子与安全内生</li><li>40:14 广告与「美国政治的老剧本」</li><li>44:14 英伟达失去 Jensen Wong</li><li>48:16 没有接班人计划</li><li>52:16 Anthropic 上市与「收买公民社会」</li><li>56:17 「收买公民社会」与迟到的 Clem</li><li>1:00:20 为什么是英伟达、多样性的意义</li><li>1:04:20 最骄傲的工作：工程化大脑</li><li>1:08:22 让技术适应人：Mati 与 Lila 的答卷</li><li>1:12:23 开源机器人、AI 意识与「失控蜂群」事件</li><li>1:16:24 攻防对称、扩散的未来与收尾</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/e5qK2E18EMQ/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>Anthropic 的 IPO 已经破发——现在怎么办？</title>
+<link>https://pod-exp.pages.dev/gnM5OZUgeww/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/gnM5OZUgeww/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>Prof G Markets</category>
+<category>人工智能</category>
+<category>AI 基础设施</category>
+<category>投资</category>
+<category>商业分析</category>
+<description>本期两节对谈。George Noble 谈 Anthropic 上市第四个交易日即破发：他引前老板 Peter Lynch 的戏言称 IPO 就是"多半定价过高"，并直斥解禁条款让数亿内部股上市首日即可套现，是在找"退出流动性"、收割公众；他认为 Anthropic 不值 1.5 万亿美元，OpenAI 已被迫推迟 IPO 并低价融资，整个 AI 生态依赖外部资本输血，股价本身就是基本面，资金链一旦收紧将连锁内爆——他称所有超大云厂商终将归零，并已做空 IREN 与 CoreWeave。Charles Elson 复盘英伟达董事会先解职、一周后又复职黄仁勋：解雇的正当理由是未向董事会披露的下属关系违反行为准则，而非国家安全；复职暴露了董事会的软弱并损害其信誉，总统直接拨入董事会会议更属越界，长期有损股东价值，他呼吁董事会换血。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/gnM5OZUgeww/cover.webp" alt="" /></p>
+<p><em>Prof G Markets · 播出 2026-11-25 · 时长 25:18</em></p>
+<p>本期两节对谈。George Noble 谈 Anthropic 上市第四个交易日即破发：他引前老板 Peter Lynch 的戏言称 IPO 就是"多半定价过高"，并直斥解禁条款让数亿内部股上市首日即可套现，是在找"退出流动性"、收割公众；他认为 Anthropic 不值 1.5 万亿美元，OpenAI 已被迫推迟 IPO 并低价融资，整个 AI 生态依赖外部资本输血，股价本身就是基本面，资金链一旦收紧将连锁内爆——他称所有超大云厂商终将归零，并已做空 IREN 与 CoreWeave。Charles Elson 复盘英伟达董事会先解职、一周后又复职黄仁勋：解雇的正当理由是未向董事会披露的下属关系违反行为准则，而非国家安全；复职暴露了董事会的软弱并损害其信誉，总统直接拨入董事会会议更属越界，长期有损股东价值，他呼吁董事会换血。</p>
+<h2>章节</h2><ul><li>0:02 开场</li><li>0:37 市场速览</li><li>1:08 AI 泡沫在破吗（对谈 George Noble）</li><li>5:10 OpenAI 与连锁反应</li><li>9:10 泡沫破了吗</li><li>11:07 广告</li><li>12:25 英伟达董事会大反转（对谈 Charles Elson）</li><li>16:28 "股价涨了就是履职"站得住吗</li><li>20:30 总统插手董事会，先例堪忧</li><li>24:32 致谢</li><li>24:43 结语</li><li>25:02 片尾</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/gnM5OZUgeww/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>Demi Guo（Pika）｜AI 视频的种种可能【完整对谈】</title>
+<link>https://pod-exp.pages.dev/iKOCtTxmKcw/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/iKOCtTxmKcw/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>Stanford eCorner</category>
+<category>人工智能</category>
+<category>创作</category>
+<category>创意产业</category>
+<category>创业与经营</category>
+<description>这是 Stanford eCorner 的 ETL 课程本季收官场，Pika 创始人 Demi Guo 回到斯坦福与 Ravi Belani 炉边对谈。她认为视频 AI 已从「五秒模糊畸变」进化到难辨真假的程度，但 AI 是放大人类创造力的工具而非替代品，就像相机没有取代绘画；它正在催生会计、非艺术背景者都能做电影级创作的「新型创作者」。谈到创业，她直言创始人生活是另一种人生：更高强度、更少结构、大量随机脏活，最好的人才不会自己送上门。被问及 OpenAI Sora 正面冲击时，她复盘了从「完了怎么打」到发现「竞争即验证、大市场容得下多个赢家」的心路。对在校学生的建议是：学真正热爱的东西、趁早投资友谊，开公司则是一场马拉松式的承诺。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/iKOCtTxmKcw/cover.webp" alt="" /></p>
+<p><em>Stanford eCorner · 播出 2026-11-25 · 时长 41:23</em></p>
+<p>这是 Stanford eCorner 的 ETL 课程本季收官场，Pika 创始人 Demi Guo 回到斯坦福与 Ravi Belani 炉边对谈。她认为视频 AI 已从「五秒模糊畸变」进化到难辨真假的程度，但 AI 是放大人类创造力的工具而非替代品，就像相机没有取代绘画；它正在催生会计、非艺术背景者都能做电影级创作的「新型创作者」。谈到创业，她直言创始人生活是另一种人生：更高强度、更少结构、大量随机脏活，最好的人才不会自己送上门。被问及 OpenAI Sora 正面冲击时，她复盘了从「完了怎么打」到发现「竞争即验证、大市场容得下多个赢家」的心路。对在校学生的建议是：学真正热爱的东西、趁早投资友谊，开公司则是一场马拉松式的承诺。</p>
+<h2>章节</h2><ul><li>0:00 开场与嘉宾介绍</li><li>4:02 Pika 生成视频现场演示</li><li>8:02 AI 会不会颠覆创意行业</li><li>12:03 演员会被取代吗；创业与打工是两种人生</li><li>16:04 创业生活的真相</li><li>20:05 早期团队与校友人脉</li><li>24:05 被 OpenAI Sora 正面冲击的那一天</li><li>28:07 招牌问题：现在该学什么</li><li>32:08 成功靠什么；学生提问（上）</li><li>36:08 学生提问（下）：护城河、数据与女性创业者</li><li>40:10 给女性创业者的话与结语</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/iKOCtTxmKcw/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>股市大到不能倒｜Animal Spirits 第 492 期</title>
+<link>https://pod-exp.pages.dev/iqN5JoP9ZRU/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/iqN5JoP9ZRU/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>The Compound</category>
+<category>投资</category>
+<category>宏观经济</category>
+<category>人工智能</category>
+<category>半导体</category>
+<description>本期《Animal Spirits》中，Michael Batnick 与 Ben Carlson 复盘了上周股市的惊魂一周：从关税与 AI 抛售叠加引发的四个标准差级别崩盘，到一周内收复大部分失地的 V 型反弹，进而引出本期主题——"股市大到不能倒"。两人讨论了英伟达估值与黄仁勋回归 CEO 的戏剧性转折、Anthropic 1.5 万亿美元 IPO 传闻、经济隐忧与政府风险、散户在暴跌中的疯狂抄底、美联储还应不该加息的争论，以及 Meta 新 AI 助手、加密货币降温、楼市冰封、迪士尼复活、体育收视霸权、GTA 6 首日 37 亿美元等话题，最后以加里·西尼斯的回忆录和一串影视推荐收尾。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/iqN5JoP9ZRU/cover.webp" alt="" /></p>
+<p><em>The Compound · 播出 2026-11-25 · 时长 1:26:29</em></p>
+<p>本期《Animal Spirits》中，Michael Batnick 与 Ben Carlson 复盘了上周股市的惊魂一周：从关税与 AI 抛售叠加引发的四个标准差级别崩盘，到一周内收复大部分失地的 V 型反弹，进而引出本期主题——"股市大到不能倒"。两人讨论了英伟达估值与黄仁勋回归 CEO 的戏剧性转折、Anthropic 1.5 万亿美元 IPO 传闻、经济隐忧与政府风险、散户在暴跌中的疯狂抄底、美联储还应不该加息的争论，以及 Meta 新 AI 助手、加密货币降温、楼市冰封、迪士尼复活、体育收视霸权、GTA 6 首日 37 亿美元等话题，最后以加里·西尼斯的回忆录和一串影视推荐收尾。</p>
+<h2>章节</h2><ul><li>0:07 Eaton Vance 广告</li><li>0:44 开场</li><li>1:28 股市：上周的崩盘（一）</li><li>5:30 股市：上周的崩盘（二）</li><li>9:30 股市：上周的崩盘（三）</li><li>13:32 股市：上周的崩盘（四）</li><li>17:01 英伟达的估值</li><li>18:28 市场根本无法预测</li><li>21:21 Anthropic IPO（一）</li><li>25:21 Anthropic IPO（二）</li><li>26:24 黄仁勋回归英伟达 CEO（一）</li><li>30:24 黄仁勋回归英伟达 CEO（二）</li><li>34:25 黄仁勋回归英伟达 CEO（三）</li><li>38:26 黄仁勋回归英伟达 CEO（四）</li><li>42:26 黄仁勋回归英伟达 CEO（五）</li><li>45:26 经济</li><li>47:42 投资者行为（一）</li><li>51:43 投资者行为（二）</li><li>54:17 股市什么时候再创新高？</li><li>57:00 美联储利率与通胀</li><li>1:00:26 AI（一）</li><li>1:04:27 AI（二）</li><li>1:05:16 加密货币</li><li>1:06:19 房地产</li><li>1:07:32 娱乐与流媒体（一）</li><li>1:11:32 娱乐与流媒体（二）</li><li>1:15:35 娱乐与流媒体（三）</li><li>1:17:29 推荐环节（一）</li><li>1:21:29 推荐环节（二）</li><li>1:25:30 收官</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/iqN5JoP9ZRU/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>SpaceX 是如何起步的｜Tom Mueller</title>
+<link>https://pod-exp.pages.dev/kt3ZA5sO1Ws/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/kt3ZA5sO1Ws/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>Relentless</category>
+<category>航天</category>
+<category>创业与经营</category>
+<category>制造业</category>
+<category>未来社会</category>
+<description>Tom Mueller 是 SpaceX 的一号员工。2002 年，Elon Musk 走进他在亨廷顿海滩的车间，几个问题问完，一场「面试」就结束了。他从猎鹰 1 号的诞生讲起：第二次见面就定下火箭规模，三次发射连败、靠第四枚基本造好的火箭续命，晃荡风险在清单上排得太靠后。他回顾 Merlin 如何为复用而生、第六次发射就在海上稳稳降落，又讲了猛禽从液氢改成甲烷的决策——他用萨巴蒂尔反应算出火星制取推进剂省一半成本，顺手把星舰的规模也定了下来。后半程是 SpaceX 文化：质疑一切需求、全权负责、「找出它在哪儿会断」。离开 SpaceX 后他创立 Impulse Space，选择可贮存推进剂、Helios、Mira、Rigel，押注月球而非火星，畅想用埋进月壤的星舰壳体建站、质量投射器和太空巨构。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/kt3ZA5sO1Ws/cover.webp" alt="" /></p>
+<p><em>Relentless · 播出 2026-11-25 · 时长 53:24</em></p>
+<p>Tom Mueller 是 SpaceX 的一号员工。2002 年，Elon Musk 走进他在亨廷顿海滩的车间，几个问题问完，一场「面试」就结束了。他从猎鹰 1 号的诞生讲起：第二次见面就定下火箭规模，三次发射连败、靠第四枚基本造好的火箭续命，晃荡风险在清单上排得太靠后。他回顾 Merlin 如何为复用而生、第六次发射就在海上稳稳降落，又讲了猛禽从液氢改成甲烷的决策——他用萨巴蒂尔反应算出火星制取推进剂省一半成本，顺手把星舰的规模也定了下来。后半程是 SpaceX 文化：质疑一切需求、全权负责、「找出它在哪儿会断」。离开 SpaceX 后他创立 Impulse Space，选择可贮存推进剂、Helios、Mira、Rigel，押注月球而非火星，畅想用埋进月壤的星舰壳体建站、质量投射器和太空巨构。</p>
+<h2>章节</h2><ul><li>0:01 SpaceX 是怎么起步的</li><li>2:34 SpaceX 2002–2006：猎鹰 1 号</li><li>4:13 前三次发射失败</li><li>6:21 晃荡风险</li><li>7:51 2002–2012 年开发流程的变化</li><li>10:21 永远质疑需求</li><li>12:48 在 SpaceX 什么事会被开除</li><li>14:21 甲烷 vs RP-1</li><li>17:03 押注可重复使用火箭</li><li>18:50 最早的复用试验</li><li>21:53 火星会议</li><li>24:07 星舰项目是怎么开始的</li><li>28:07 星舰项目是怎么开始的（续）</li><li>28:31 「这事真的可行吗？」</li><li>31:30 「那就找出它在哪儿会断。」——Elon Musk</li><li>32:31 创立 Impulse</li><li>34:34 卫星数量的指数级增长</li><li>35:49 聚焦月球</li><li>36:45 在月球上建基础设施</li><li>38:00 星舰规模化是通往太空的瓶颈</li><li>41:29 对火箭发动机的直觉</li><li>43:53 从零开始设计一台火箭发动机</li><li>46:27 住在月球上的星舰里</li><li>50:00 在太空建造巨型结构</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/kt3ZA5sO1Ws/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>亚当·图兹谈黄仁勋重返英伟达（另：丰饶角）｜ Ones and Tooze 第 270 集</title>
+<link>https://pod-exp.pages.dev/qQGUeDkvOEI/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/qQGUeDkvOEI/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>Foreign Policy</category>
+<category>半导体</category>
+<category>政治与社会</category>
+<category>哲学与文明</category>
+<category>能源与电网</category>
+<description>本期分两段。前半段讨论英伟达 CEO 黄仁勋被解职 11 天后戏剧性复职、股价单日暴涨 30% 的离奇事件：Tooze 分析硅谷风投与 Vance、司法部长到特朗普本人如何推动此事，英伟达董事会治理为何形同虚设，"大到不能倒"话术如何被滥用，以及美国公共讨论在这场闹剧里的全面失序——他更愿意称之为"speedball 资本主义"而非政治资本主义。后半段是感恩节话题：丰饶角在西方想象里约 2500 年的流转——两个源头各异的希腊神话、罗马钱币上的粮食政治、美国州徽与林肯公告里的丰饶叙事、生态经济学家对"丰饶角主义"的批判，以及可再生能源革命为何是一场真正的质变而非又一个轮回。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/qQGUeDkvOEI/cover.webp" alt="" /></p>
+<p><em>Foreign Policy · 播出 2026-11-25 · 时长 48:39</em></p>
+<p>本期分两段。前半段讨论英伟达 CEO 黄仁勋被解职 11 天后戏剧性复职、股价单日暴涨 30% 的离奇事件：Tooze 分析硅谷风投与 Vance、司法部长到特朗普本人如何推动此事，英伟达董事会治理为何形同虚设，"大到不能倒"话术如何被滥用，以及美国公共讨论在这场闹剧里的全面失序——他更愿意称之为"speedball 资本主义"而非政治资本主义。后半段是感恩节话题：丰饶角在西方想象里约 2500 年的流转——两个源头各异的希腊神话、罗马钱币上的粮食政治、美国州徽与林肯公告里的丰饶叙事、生态经济学家对"丰饶角主义"的批判，以及可再生能源革命为何是一场真正的质变而非又一个轮回。</p>
+<h2>章节</h2><ul><li>0:08 开场：感恩节特辑与英伟达的疯狂一周</li><li>4:09 硅谷游说、特朗普施压与虚弱的董事会</li><li>8:11 史无前例的干预与"间谍"指控的回摆</li><li>12:13 "大到不能倒"、循环融资与市场的失智</li><li>16:13 "政治资本主义"还是"speedball 资本主义"</li><li>20:15 左翼要不要学这套干预</li><li>22:48 丰饶角：2500 年的西方想象</li><li>26:49 两种丰饶：免费馈赠与驯服河流</li><li>30:49 罗马的粮食政治与美国的丰饶认同</li><li>34:49 从林肯、特纳到生态经济学的反击</li><li>38:50 两个当代"丰饶角"：绿色增长与 AI 后稀缺</li><li>42:53 现实与愿景不可比，以及"重回伊甸"之问</li><li>46:54 能源革命是质变，以及收尾</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/qQGUeDkvOEI/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>Euroclear CEO：全球金融的"管道系统" ｜ Podcast ｜ In Good Company</title>
+<link>https://pod-exp.pages.dev/qrR7p95TeKo/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/qrR7p95TeKo/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>Norges Bank Investment Management</category>
+<category>金融基础设施</category>
+<category>地缘政治</category>
+<category>领导力</category>
+<description>Euroclear 是为全球金融机构结算交易、托管资产的金融市场基础设施：托管资产 45 万亿欧元，每月结算规模相当于全球 GDP，客户约 3500 家、覆盖 80 多个市场。CEO 瓦莱丽·于尔班在这期访谈里谈了欧洲金融"管道"的方方面面：俄罗斯央行近 2000 亿欧元资产被冻结后变成现金、投资收益以"暴利上缴"形式交给欧盟用于支持乌克兰；为什么不直接没收这笔钱——国家资产的专门法律制度和欧洲市场 60 年法治信誉是核心考量；欧洲结算体系的碎片化与整合现状；与法兰西银行合作代币化短期债务市场、数字欧元 Pontes 项目的首批应用；欧洲为何 2027 年 10 月才切换到 T+1 结算，以及机构业务为何不会全面 T+0。后半段她谈领导一家 6000 人公司穿过战争与技术变革的心得：保持真实、坏消息也要说；出身塞内加尔、16 岁独自回比利时的经历给她的韧性；以及她收藏 300 个蓝精灵这件"公开的秘密"。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/qrR7p95TeKo/cover.webp" alt="" /></p>
+<p><em>Norges Bank Investment Management · 播出 2026-11-25 · 时长 31:20</em></p>
+<p>Euroclear 是为全球金融机构结算交易、托管资产的金融市场基础设施：托管资产 45 万亿欧元，每月结算规模相当于全球 GDP，客户约 3500 家、覆盖 80 多个市场。CEO 瓦莱丽·于尔班在这期访谈里谈了欧洲金融"管道"的方方面面：俄罗斯央行近 2000 亿欧元资产被冻结后变成现金、投资收益以"暴利上缴"形式交给欧盟用于支持乌克兰；为什么不直接没收这笔钱——国家资产的专门法律制度和欧洲市场 60 年法治信誉是核心考量；欧洲结算体系的碎片化与整合现状；与法兰西银行合作代币化短期债务市场、数字欧元 Pontes 项目的首批应用；欧洲为何 2027 年 10 月才切换到 T+1 结算，以及机构业务为何不会全面 T+0。后半段她谈领导一家 6000 人公司穿过战争与技术变革的心得：保持真实、坏消息也要说；出身塞内加尔、16 岁独自回比利时的经历给她的韧性；以及她收藏 300 个蓝精灵这件"公开的秘密"。</p>
+<h2>章节</h2><ul><li>0:02 全球金融的管道：Euroclear 是做什么的</li><li>4:03 网络风险与俄罗斯央行被冻结的资产</li><li>8:06 为什么不直接没收这 2000 亿，以及欧洲市场的整合程度</li><li>12:06 资本市场联盟、欧亚桥梁与 AI</li><li>16:08 区块链会取代 Euroclear 吗、数字欧元与 T+1</li><li>20:08 T+0 为什么不现实，以及她的领导观</li><li>24:10 企业文化、失败与非洲岁月</li><li>28:11 快问快答：蓝精灵、阅读与给年轻人的建议</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/qrR7p95TeKo/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>Chris Camillo 透露黄仁勋回归后他在英伟达的下一步动作</title>
+<link>https://pod-exp.pages.dev/xJSXR55HFMI/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/xJSXR55HFMI/</guid>
+<pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+<category>WOLF Financial</category>
+<category>投资</category>
+<category>人工智能</category>
+<category>AI 基础设施</category>
+<description>黄仁勋离开 12 天即回归英伟达。Chris Camillo 认为这本是必然：董事会、股东、员工的所有激励都指向请他回来，摆着一个能瞬间创造上万亿美元市值的套利机会。他现在重新买入英伟达，但认为 AI 投资者过去一个月被打惨、普遍在去杠杆，短期没有足够的流动性把行情拉回去；恐惧周期每隔几周还会来一轮。他把 Anthropic 视为最投机的 AI 标的：往上存在十倍情景，往下几乎可能清零，自己通过 Amazon 间接持有，暂不急于直接建仓。他判断 AI 效率红利确实存在（普遍 2 倍、部分 5 倍以上），只是还没进财报；并认为 Amazon 在几乎每种 AI 情景里都是赢家。最后他劝散户降杠杆、少盯盘、过节陪家人——他刚见过一个 140 万美元的组合几周亏掉 120 万。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/xJSXR55HFMI/cover.webp" alt="" /></p>
+<p><em>WOLF Financial · 播出 2026-11-25 · 时长 36:52</em></p>
+<p>黄仁勋离开 12 天即回归英伟达。Chris Camillo 认为这本是必然：董事会、股东、员工的所有激励都指向请他回来，摆着一个能瞬间创造上万亿美元市值的套利机会。他现在重新买入英伟达，但认为 AI 投资者过去一个月被打惨、普遍在去杠杆，短期没有足够的流动性把行情拉回去；恐惧周期每隔几周还会来一轮。他把 Anthropic 视为最投机的 AI 标的：往上存在十倍情景，往下几乎可能清零，自己通过 Amazon 间接持有，暂不急于直接建仓。他判断 AI 效率红利确实存在（普遍 2 倍、部分 5 倍以上），只是还没进财报；并认为 Amazon 在几乎每种 AI 情景里都是赢家。最后他劝散户降杠杆、少盯盘、过节陪家人——他刚见过一个 140 万美元的组合几周亏掉 120 万。</p>
+<h2>章节</h2><ul><li>0:02 Chris Camillo 的英伟达与 AI 展望</li><li>0:47 为什么黄仁勋的回归是必然</li><li>3:40 抛售期间 Chris 有没有买英伟达？</li><li>4:15 为什么 Jensen 对英伟达这么值钱</li><li>6:52 大科技公司在 AI 上的豪赌</li><li>7:31 英伟达能不能一直领先对手</li><li>9:03 英伟达股票现在能买吗</li><li>11:30 为什么 AI 恐惧周期还会继续</li><li>12:29 Anthropic 的 IPO 与估值</li><li>14:06 Anthropic 能不能长成 15 万亿美元的公司</li><li>15:59 为什么 Chris 还没买 Anthropic 的股票</li><li>18:13 Chris 日常怎么用 AI</li><li>20:12 AI 藏起来的生产力红利</li><li>22:20 为什么 2027 可能是企业的转折点</li><li>24:25 Chris 的 Amazon 与 Bloom Energy 持仓</li><li>25:07 数据中心扩张越来越大的风险</li><li>27:23 为什么 Amazon 在几乎每种 AI 情景里都赢</li><li>30:44 Chris 在买什么、卖什么</li><li>32:09 为什么投资者不该天天盯盘</li><li>34:17 Chris 给散户的建议</li><li>35:28 过度杠杆怎么毁掉一个 140 万美元的组合</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/xJSXR55HFMI/">在原站阅读本篇全文</a></p>]]></content:encoded>
 </item>
 <item>
 <title>Elon Musk 谈为什么未来应该让你庆幸活着｜TomorrowX 峰会</title>

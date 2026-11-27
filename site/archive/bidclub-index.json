@@ -1,5 +1,89 @@
 [
  {
+  "slug": "valley101-2026-11-26-e261",
+  "title": "E261｜表演有效、组团出海，韩国美妆如何抢占美国市场？",
+  "title_alt": "E261｜Performance Works, Brands Go Global Together: How Is Korean Beauty Capturing the U.S. Market?",
+  "show_id": "valley101",
+  "show": "硅谷101",
+  "lang": "ZH",
+  "date": "2026-11-26",
+  "published_at": "2026-11-26T23:00:00+00:00",
+  "duration_min": 90,
+  "url": "https://bidclub.ai/e/valley101-2026-11-26-e261"
+ },
+ {
+  "slug": "clay-builds-gtm-agents-jeff-barg-head-ai",
+  "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+  "title_alt": "Clay 如何打造 GTM Agent——AI 负责人 Jeff Barg",
+  "show_id": "latentspace",
+  "show": "Latent Space",
+  "lang": "EN",
+  "date": "2026-11-26",
+  "published_at": "2026-11-26T22:44:44+00:00",
+  "duration_min": 72,
+  "url": "https://bidclub.ai/e/clay-builds-gtm-agents-jeff-barg-head-ai"
+ },
+ {
+  "slug": "thanksgiving-special-moments-that-almost-ended-u",
+  "title": "The 7% Alive for the Singularity, Curing All Disease & Bringing Back the Dead | Thanksgiving EP #316",
+  "title_alt": "能活到奇点时代的7%、治愈所有疾病并让死者复生 | 感恩节特辑 #316",
+  "show_id": "moonshots",
+  "show": "Moonshots",
+  "lang": "EN",
+  "date": "2026-11-26",
+  "published_at": "2026-11-26T21:00:00+00:00",
+  "duration_min": 52,
+  "url": "https://bidclub.ai/e/thanksgiving-special-moments-that-almost-ended-u"
+ },
+ {
+  "slug": "are-you-overexposed-crypto-jaymes-rosenthal-sunk",
+  "title": "Are You Overexposed To Crypto? Jaymes Rosenthal On Sunk Costs, Ego, and Keeping Cash Ready",
+  "title_alt": "你是否对加密资产敞口过高？Jaymes Rosenthal谈沉没成本、自我，以及随时备好现金",
+  "show_id": "edgepod",
+  "show": "The Edge Podcast",
+  "lang": "EN",
+  "date": "2026-11-26",
+  "published_at": "2026-11-26T18:08:55+00:00",
+  "duration_min": 80,
+  "url": "https://bidclub.ai/e/are-you-overexposed-crypto-jaymes-rosenthal-sunk"
+ },
+ {
+  "slug": "ai-am-number-must-go-up-christiano-s-warning-jen",
+  "title": "AI:AM: Number Must Go Up? Christiano's Warning, Jensen's Return, GiveDirectly's Pitch for the Poor",
+  "title_alt": "AI:AM：数字非涨不可？Christiano的警告、Jensen回归，以及GiveDirectly面向穷人的提案",
+  "show_id": "cogrev",
+  "show": "The Cognitive Revolution",
+  "lang": "EN",
+  "date": "2026-11-26",
+  "published_at": "2026-11-26T12:37:35+00:00",
+  "duration_min": 132,
+  "url": "https://bidclub.ai/e/ai-am-number-must-go-up-christiano-s-warning-jen"
+ },
+ {
+  "slug": "elad-gil-why-most-ai-startups-should-consider-se",
+  "title": "Elad Gil on Why Most AI Startups Should Consider Selling Now",
+  "title_alt": "Elad Gil谈多数AI初创公司为何应考虑现在出售",
+  "show_id": "sourcery",
+  "show": "Sourcery",
+  "lang": "EN",
+  "date": "2026-11-26",
+  "published_at": "2026-11-26T11:00:00+00:00",
+  "duration_min": 73,
+  "url": "https://bidclub.ai/e/elad-gil-why-most-ai-startups-should-consider-se"
+ },
+ {
+  "slug": "20vc-jensen-huang-s-1trn-return-what-happens-now",
+  "title": "20VC: Jensen Huang's $1TRN Return: What Happens Now | Anthropic Goes Public: Largest IPO Of All Time & How It Changes Venture | Applied Compute, Bill.com and Mailchimp Acquisitions Broken Down",
+  "title_alt": "20VC：Jensen Huang回归带回1万亿美元市值：接下来会怎样？Anthropic上市：史上最大IPO及其如何改变创投｜拆解Applied Compute、Bill.com与Mailchimp收购",
+  "show_id": "20vc",
+  "show": "20VC",
+  "lang": "EN",
+  "date": "2026-11-26",
+  "published_at": "2026-11-26T07:07:00+00:00",
+  "duration_min": 70,
+  "url": "https://bidclub.ai/e/20vc-jensen-huang-s-1trn-return-what-happens-now"
+ },
+ {
   "slug": "crypto-is-dead",
   "title": "Crypto Is Dead?!",
   "title_alt": "加密货币已死？！",
@@ -58,6 +142,18 @@
   "published_at": "2026-11-25T11:00:36+00:00",
   "duration_min": 64,
   "url": "https://bidclub.ai/e/trump-saves-jensen-sky-bails-out-rune-end-old-cr"
+ },
+ {
+  "slug": "kai-fu-lee-us-china-ai-race-quest-agi-what-human",
+  "title": "Kai-Fu Lee on the US-China AI Race, the Quest for AGI, and What Humans Still Do Best",
+  "title_alt": "李开复谈中美AI竞赛、AGI之路，以及人类仍最擅长什么",
+  "show_id": "nicholas-thompson",
+  "show": "Nicholas Thompson",
+  "lang": "EN",
+  "date": "2026-11-25",
+  "published_at": "2026-11-25T10:00:23+00:00",
+  "duration_min": 56,
+  "url": "https://bidclub.ai/e/kai-fu-lee-us-china-ai-race-quest-agi-what-human"
  },
  {
   "slug": "episode-3-friends-we-made-along-way",
@@ -178,6 +274,18 @@
   "published_at": "2026-11-23T15:30:33+00:00",
   "duration_min": 66,
   "url": "https://bidclub.ai/e/why-openai-acquired-biotech-startup"
+ },
+ {
+  "slug": "veteran-investor-jensen-huang-won-t-stop-ai-cras",
+  "title": "Veteran Investor: Jensen Huang won't STOP the AI CRASH?!",
+  "title_alt": "资深投资人：Jensen Huang 能阻止 AI 崩盘吗？！",
+  "show_id": "fullsignal",
+  "show": "Full Signal",
+  "lang": "EN",
+  "date": "2026-11-23",
+  "published_at": "2026-11-23T14:00:20+00:00",
+  "duration_min": 41,
+  "url": "https://bidclub.ai/e/veteran-investor-jensen-huang-won-t-stop-ai-cras"
  },
  {
   "slug": "episode-1-into-slop",
