@@ -1,5 +1,41 @@
 [
  {
+  "slug": "inside-ai-training-data-market-gabe-greenberg-g2",
+  "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+  "title_alt": "AI训练数据市场内幕——Gabe Greenberg（G2i）",
+  "show_id": "latentspace",
+  "show": "Latent Space",
+  "lang": "EN",
+  "date": "2026-11-27",
+  "published_at": "2026-11-27T22:19:18+00:00",
+  "duration_min": 32,
+  "url": "https://bidclub.ai/e/inside-ai-training-data-market-gabe-greenberg-g2"
+ },
+ {
+  "slug": "ai-researchers-debate-what-we-should-do-next-dan",
+  "title": "An honest conversation about what's happening in AI",
+  "title_alt": "一场关于 AI 领域正在发生什么的坦诚对话",
+  "show_id": "dwarkesh",
+  "show": "Dwarkesh Podcast",
+  "lang": "EN",
+  "date": "2026-11-27",
+  "published_at": "2026-11-27T18:01:14+00:00",
+  "duration_min": 96,
+  "url": "https://bidclub.ai/e/ai-researchers-debate-what-we-should-do-next-dan"
+ },
+ {
+  "slug": "i-is-transforming-mathematics",
+  "title": "What If A.I. Is Just “Normal” Tech? | Interview",
+  "title_alt": "如果AI只是“普通”技术呢？｜访谈",
+  "show_id": "hardfork",
+  "show": "Hard Fork",
+  "lang": "EN",
+  "date": "2026-11-27",
+  "published_at": "2026-11-27T11:00:00+00:00",
+  "duration_min": 38,
+  "url": "https://bidclub.ai/e/i-is-transforming-mathematics"
+ },
+ {
   "slug": "valley101-2026-11-26-e261",
   "title": "E261｜表演有效、组团出海，韩国美妆如何抢占美国市场？",
   "title_alt": "E261｜Performance Works, Brands Go Global Together: How Is Korean Beauty Capturing the U.S. Market?",
@@ -850,6 +886,18 @@
   "published_at": "2026-11-17T11:00:00+00:00",
   "duration_min": 51,
   "url": "https://bidclub.ai/e/dylan-patel-ai-market-shakeout-building-semianal"
+ },
+ {
+  "slug": "palmer-luckey-steve-jobs-ruined-everything-iphon",
+  "title": "Palmer Luckey: Why Autonomous Weapons Are the Moral Choice, AI Killing Machines & the Future of War",
+  "title_alt": "Palmer Luckey：为什么自主武器是道德之选、AI杀人机器与战争的未来",
+  "show_id": "thebuilders",
+  "show": "The Builders",
+  "lang": "EN",
+  "date": "2026-11-17",
+  "published_at": "2026-11-17T08:01:00+00:00",
+  "duration_min": 50,
+  "url": "https://bidclub.ai/e/palmer-luckey-steve-jobs-ruined-everything-iphon"
  },
  {
   "slug": "weishijie-2026-11-17-94-ai",
@@ -44326,6 +44374,18 @@
   "published_at": "2021-10-06T07:00:00+00:00",
   "duration_min": 66,
   "url": "https://bidclub.ai/e/scale-lab-adyen-founder-pieter-van-der-does"
+ },
+ {
+  "slug": "member-youtube-db7a48d4ee6f5405d603",
+  "title": "Benchmark Breakfast 11/24/26: Anthropic IPO, Cybersecurity, NVIDIA, and Hero Investments",
+  "title_alt": "Benchmark Breakfast 11/24/26：Anthropic IPO、网络安全、NVIDIA 与英雄式投资",
+  "show_id": "member-youtube-db7a48d4ee6f5405d603",
+  "show": "Uncapped | Benchmark Breakfast",
+  "lang": "EN",
+  "date": "2026-11-24",
+  "published_at": null,
+  "duration_min": 45,
+  "url": "https://bidclub.ai/e/member-youtube-db7a48d4ee6f5405d603"
  },
  {
   "slug": "member-youtube-458bb2fa9c1bca8a1ace",

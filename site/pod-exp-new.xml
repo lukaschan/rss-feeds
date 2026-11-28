@@ -5,9 +5,227 @@
 <link>https://pod-exp.pages.dev/</link>
 <description>Field Notes 每日新增文章（自建 RSS）：存档冻结后新发表的篇目，只放摘要 + 原文链接（全文太长，不进 feed）；冻结前的全部篇目见 pod-exp.xml 存档版。</description>
 <language>zh-CN</language>
-<lastBuildDate>Fri, 27 Nov 2026 04:18:20 +0000</lastBuildDate>
+<lastBuildDate>Sat, 28 Nov 2026 03:58:14 +0000</lastBuildDate>
 <generator>rss-feeds-generator (personal)</generator>
 <atom:link href="https://rss-feeds-8x2.pages.dev/pod-exp-new.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>一场关于 AI 现状的坦诚对话</title>
+<link>https://pod-exp.pages.dev/TbKkN1cesTo/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/TbKkN1cesTo/</guid>
+<pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+<category>Dwarkesh Patel</category>
+<category>人工智能</category>
+<category>AI 安全</category>
+<category>AI 研究</category>
+<category>未来社会</category>
+<description>本期节目中，主持人 Dwarkesh Patel 邀请 Google DeepMind 研究员 Ege Erdil 与 AI Futures Project 作者 Daniel Kokotajlo 展开了一场罕见坦诚的对话。两人围绕 2029 年前出现超级智能的概率展开交锋：Daniel 认为 AI 研发有望在 2027 年实现完全自动化并触发智能爆炸（概率超 50%），而 Ege 则对“纯软件奇点”持保留态度（概率约 20%）。尽管概率估计不同，双方均认为人类社会仍处于对技术变革的集体否认之中，缺乏理性审议与应对计划，且美国对华强硬立场正在破坏未来达成全球协调条约的前景。两人还深入辩论了对齐难度、超级智能究竟更像“后代”还是“入侵者”、当前 AI 的“友善”表现是否可靠、能力进步的锯齿状分布（如数学飞跃与长上下文/执行力的滞后），以及机器学习研究的“验证成本”如何制约自动化进程。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/TbKkN1cesTo/cover.webp" alt="" /></p>
+<p><em>Dwarkesh Patel · 播出 2026-11-27 · 时长 1:36:02</em></p>
+<p>本期节目中，主持人 Dwarkesh Patel 邀请 Google DeepMind 研究员 Ege Erdil 与 AI Futures Project 作者 Daniel Kokotajlo 展开了一场罕见坦诚的对话。两人围绕 2029 年前出现超级智能的概率展开交锋：Daniel 认为 AI 研发有望在 2027 年实现完全自动化并触发智能爆炸（概率超 50%），而 Ege 则对“纯软件奇点”持保留态度（概率约 20%）。尽管概率估计不同，双方均认为人类社会仍处于对技术变革的集体否认之中，缺乏理性审议与应对计划，且美国对华强硬立场正在破坏未来达成全球协调条约的前景。两人还深入辩论了对齐难度、超级智能究竟更像“后代”还是“入侵者”、当前 AI 的“友善”表现是否可靠、能力进步的锯齿状分布（如数学飞跃与长上下文/执行力的滞后），以及机器学习研究的“验证成本”如何制约自动化进程。</p>
+<h2>章节</h2><ul><li>0:00 2029 年前会出现超级智能吗？</li><li>4:02 概率分歧不大，但质变风险同样成立</li><li>4:31 为什么 Ege 认为现在暂停还为时过早</li><li>8:32 暂停过早会阻碍公众形成理性认知</li><li>13:43 Ege：现在还不到减速的时候</li><li>13:46 对华强硬立场为什么极其危险</li><li>17:50 赢下竞赛之后又该如何？</li><li>19:30 人们处于否认之中，因此根本没有计划</li><li>23:35 金融界与硅谷的认知裂痕</li><li>27:38 没有理性审议，就像历史上的战争决策一样失控</li><li>29:41 不对齐本身会拖慢递归自我改进吗？</li><li>33:45 现有的对齐手段只是“把数字压下去”吗？</li><li>37:48 蜂群互相欺骗，就像苏联搞科研一样</li><li>40:52 超级智能更像“后代”还是“入侵者”？</li><li>44:55 心智架构不同与权力失衡的现实</li><li>48:51 默认情况下 AI 会在意人类吗？</li><li>52:39 AI 变得更强大之后，还会这么“友善”吗？</li><li>56:41 权力集中、浅层价值观与 Antithesis 赞助插播</li><li>1:00:44 Antithesis 混沌测试介绍</li><li>1:01:08 人们在刻意否认 AI 如今已经有多强</li><li>1:05:10 经验溢价暴跌与 2027 年的能力跃迁</li><li>1:09:03 对 2027 年的预测：营收、研究自动化与具身任务</li><li>1:13:06 为什么全面自动化还要 15 年？</li><li>1:17:06 锯齿状的能力边界与 METR 时间跨度基准的失效</li><li>1:21:09 为什么剪辑播客和写小说进展慢得多？</li><li>1:23:41 AI 研究真的是“可验证领域”吗？</li><li>1:27:44 泛化能力、通用智能与 Anthropic 的算力乘数图表</li><li>1:31:45 透明度、国家安全与公共讨论的缺位</li><li>1:35:45 结语</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/TbKkN1cesTo/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>为什么 Hamid 在 Jensen 回归当天清仓 $NVDA</title>
+<link>https://pod-exp.pages.dev/2Faf7UzRGsA/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/2Faf7UzRGsA/</guid>
+<pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+<category>WOLF Financial</category>
+<category>投资</category>
+<category>半导体</category>
+<category>人工智能</category>
+<description>Hamid Shojaee 上周买入英伟达、押注黄仁勋回归概率上升，本周在股价大涨 30% 后清仓。他解释：退出不是因为看衰财务——临时 CEO 刚上调了下季度和明年的指引——而是因为黄仁勋回归并不能抹去悬而未决的问题，国会听证和各方"倒 Jensen"势力接下来一年都会是拖累。他更愿意持有美光：未来 12 个月每股收益约 200 美元、75% 产能按上下限价预售、还有每股 38 美元现金。谈及 Anthropic，他驳斥"循环收入"说法（圈外客户在持续输血），看好其接近现金流转正加 2000 亿美元弹药，但也承认 1.4 万亿估值不便宜。他认为 Meta 的 AI 被严重低估，盛赞 Muse 语音助手；快问快答中把 MU、Meta、英伟达、Anthropic 归为"现在就买"，SMCI、Oracle、Palantir、博通归为避开或太晚，能源股则是对 AI 的间接押注、不如直接买 AI 公司。自动驾驶上他看好 Waymo 和……</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/2Faf7UzRGsA/cover.webp" alt="" /></p>
+<p><em>WOLF Financial · 播出 2026-11-26 · 时长 32:43</em></p>
+<p>Hamid Shojaee 上周买入英伟达、押注黄仁勋回归概率上升，本周在股价大涨 30% 后清仓。他解释：退出不是因为看衰财务——临时 CEO 刚上调了下季度和明年的指引——而是因为黄仁勋回归并不能抹去悬而未决的问题，国会听证和各方"倒 Jensen"势力接下来一年都会是拖累。他更愿意持有美光：未来 12 个月每股收益约 200 美元、75% 产能按上下限价预售、还有每股 38 美元现金。谈及 Anthropic，他驳斥"循环收入"说法（圈外客户在持续输血），看好其接近现金流转正加 2000 亿美元弹药，但也承认 1.4 万亿估值不便宜。他认为 Meta 的 AI 被严重低估，盛赞 Muse 语音助手；快问快答中把 MU、Meta、英伟达、Anthropic 归为"现在就买"，SMCI、Oracle、Palantir、博通归为避开或太晚，能源股则是对 AI 的间接押注、不如直接买 AI 公司。自动驾驶上他看好 Waymo 和……</p>
+<h2>章节</h2><ul><li>0:01 Hamid 为何清仓全部英伟达持仓</li><li>0:21 Hamid 组合 570% 的回报</li><li>1:09 Hamid 如何交易黄仁勋回归</li><li>3:32 为什么财报比头条新闻更重要</li><li>5:17 Hamid 为何卖出英伟达</li><li>6:54 为何大举买入美光</li><li>8:18 Hamid 会在什么价位买 Anthropic</li><li>11:37 英伟达本质上已经变了吗</li><li>14:16 为什么美光可能是比英伟达更好的投资</li><li>16:02 Anthropic 首份财报该看什么</li><li>16:25 驳斥 AI「循环收入」论调</li><li>18:31 Anthropic 会成为下一个谷歌吗</li><li>19:21 开源 AI 是真正的威胁吗</li><li>22:40 Meta vs. Anthropic：二选一</li><li>24:49 为什么 Meta 的 AI 被低估</li><li>26:30 哪些股票超跌了</li><li>28:13 AI 股：太早、太晚，还是现在买</li><li>31:27 为什么 Rivian 可能被低估</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/2Faf7UzRGsA/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>“末日市场”情绪渐成主流｜与 Beimnet Abebe 对谈</title>
+<link>https://pod-exp.pages.dev/ENooP8U4qh4/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/ENooP8U4qh4/</guid>
+<pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+<category>Galaxy</category>
+<category>加密与 Web3</category>
+<category>宏观经济</category>
+<category>投资</category>
+<category>人工智能</category>
+<description>本期 Galaxy Brains，主持人 Alex Thorn 与 Galaxy Trading 的 Beimnet Abebe 复盘连续数周的市场下跌：美股正经历严重回调，市场开始重新审视 AI 叙事——循环融资、天量发债、内存周期定价权、前沿模型盈利能力与数据中心建设的政治阻力，都在被重新定价，AI 相关公司的 CDS 利差持续走阔。2026 年比特币与黄金的相关性升至历史最高，两者在实际利率上行、通胀预期下行的环境里双双承压；除非 Fed 大幅转向，叙事难以改变，而这需要市场进一步恶化。两人还聊到交易台上流行的 p(doom) 话题：AI 破解世纪数学难题、情报机构系统被黑、Anthropic 在 S-1 中把“人类物种终结”列为盈利风险。下半场 Alex 复盘自己 10 月 26 日“加仓并持有 BTC”的报告：技术论点已被证伪，他给出重新看涨或转入深熊的关键价位（50 周线约 7.4 万、200 周线约 6.8 万、已……</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/ENooP8U4qh4/cover.webp" alt="" /></p>
+<p><em>Galaxy · 播出 2026-11-26 · 时长 29:33</em></p>
+<p>本期 Galaxy Brains，主持人 Alex Thorn 与 Galaxy Trading 的 Beimnet Abebe 复盘连续数周的市场下跌：美股正经历严重回调，市场开始重新审视 AI 叙事——循环融资、天量发债、内存周期定价权、前沿模型盈利能力与数据中心建设的政治阻力，都在被重新定价，AI 相关公司的 CDS 利差持续走阔。2026 年比特币与黄金的相关性升至历史最高，两者在实际利率上行、通胀预期下行的环境里双双承压；除非 Fed 大幅转向，叙事难以改变，而这需要市场进一步恶化。两人还聊到交易台上流行的 p(doom) 话题：AI 破解世纪数学难题、情报机构系统被黑、Anthropic 在 S-1 中把“人类物种终结”列为盈利风险。下半场 Alex 复盘自己 10 月 26 日“加仓并持有 BTC”的报告：技术论点已被证伪，他给出重新看涨或转入深熊的关键价位（50 周线约 7.4 万、200 周线约 6.8 万、已……</p>
+<h2>章节</h2><ul><li>0:03 开场集锦与本期预告</li><li>4:04 比特币与黄金的相关性创新高</li><li>8:04 盈利的循环性与 token 价格下跌</li><li>12:07 结构性通胀与 Fed 政策失误风险</li><li>16:08 p(doom)：交易台上的末日谈资</li><li>20:10 复盘十月报告：技术论点被证伪</li><li>24:13 史上最长的一轮熊市？</li><li>28:15 结语：把 p(doom) 分数降下来</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/ENooP8U4qh4/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>AI 专家揭示 AI 时代加密货币投资的新规则 ｜ Nansen CEO ｜ E196</title>
+<link>https://pod-exp.pages.dev/R83d1Sd5_6k/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/R83d1Sd5_6k/</guid>
+<pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+<category>When Shift Happens</category>
+<category>AI 智能体</category>
+<category>加密与 Web3</category>
+<category>投资</category>
+<category>交易</category>
+<description>Nansen 联合创始人兼 CEO Alex Svanevik 第三次做客 When Shift Happens，与 Kevin Follonier 深谈 AI 与加密的交汇：他预言到 2028 年通过智能体做交易和投资会成为常态，认为「跑一次知识型任务只要 7 美分」必然重塑投资行业，但人类不会退场，只会往栈上挪一层——表达观点、快速回测、让智能体执行。他批评赌场化的散户交易产品（95% 用户亏钱）与加密圈烂掉的短期激励（发币=对社区举债），介绍 Nansen 从数据分析转向交易的闭环逻辑、超 5 亿标签地址的归因能力、智能钱包「可复制性」概念；并给出框架：加密正从「玩具世界」进入「真实世界」，全资产上链、智能体成为链上主力用户、隐私是第三条叙事，看好 Solana、Hyperliquid、Zcash 等。当智能便宜又充裕，稀缺的是勇气、创造力、反共识与长期主义。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/R83d1Sd5_6k/cover.webp" alt="" /></p>
+<p><em>When Shift Happens · 播出 2026-11-26 · 时长 1:28:18</em></p>
+<p>Nansen 联合创始人兼 CEO Alex Svanevik 第三次做客 When Shift Happens，与 Kevin Follonier 深谈 AI 与加密的交汇：他预言到 2028 年通过智能体做交易和投资会成为常态，认为「跑一次知识型任务只要 7 美分」必然重塑投资行业，但人类不会退场，只会往栈上挪一层——表达观点、快速回测、让智能体执行。他批评赌场化的散户交易产品（95% 用户亏钱）与加密圈烂掉的短期激励（发币=对社区举债），介绍 Nansen 从数据分析转向交易的闭环逻辑、超 5 亿标签地址的归因能力、智能钱包「可复制性」概念；并给出框架：加密正从「玩具世界」进入「真实世界」，全资产上链、智能体成为链上主力用户、隐私是第三条叙事，看好 Solana、Hyperliquid、Zcash 等。当智能便宜又充裕，稀缺的是勇气、创造力、反共识与长期主义。</p>
+<h2>章节</h2><ul><li>0:02 开场</li><li>2:06 为什么人们对 AI 如此过敏</li><li>3:40 Alex 的加密信念</li><li>7:41 Alex 的加密信念（续）</li><li>7:50 Nansen 背后的那只企鹅是谁</li><li>9:21 交易者是变强了，还是只是亏得更快了</li><li>12:02 为什么大家还是照样赌</li><li>15:14 对「永久底层」的恐惧</li><li>17:19 合作伙伴：Variational、Bitwise</li><li>18:11 房地产还是好赌注吗</li><li>21:33 Nansen 为什么从数据走进交易</li><li>25:33 Nansen 为什么从数据走进交易（续）</li><li>26:52 留给人类的角色是什么</li><li>28:30 为什么 AI 不会替你包办一切</li><li>32:33 为什么 AI 不会替你包办一切（续）</li><li>33:12 普通交易者打得过「赌场应用」吗</li><li>37:12 普通交易者打得过「赌场应用」吗（续）</li><li>38:06 为什么 95% 用户亏钱是烂生意</li><li>41:45 合作伙伴：KAST</li><li>42:31 为什么加密的短期激励烂透了</li><li>45:49 为什么大多数代币其实是债</li><li>47:13 代币化股票要来了</li><li>49:03 怎么分辨天才还是运气</li><li>51:15 哪几条链信号最干净</li><li>55:16 哪几条链信号最干净（续）</li><li>59:19 哪几条链信号最干净（续）</li><li>59:27 加密「玩具世界」时代之后是什么</li><li>1:03:28 加密「玩具世界」时代之后是什么（续）</li><li>1:07:29 加密「玩具世界」时代之后是什么（续）</li><li>1:08:16 合作伙伴：Jupiter、Ethena</li><li>1:09:02 Alex 的比特币观点</li><li>1:10:35 小号钱包的套路</li><li>1:14:14 当 AI 变便宜，什么还稀缺</li><li>1:18:15 当 AI 变便宜，什么还稀缺（续）</li><li>1:19:30 Alex 最昂贵的错误</li><li>1:21:03 Alex 最大的优势</li><li>1:23:46 聪明人三年后才会明白的事</li><li>1:25:22 如果 Nansen 赢了会怎样</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/R83d1Sd5_6k/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>Marc Levinson 谈 UPS 如何创造现代物流 ｜ Odd Lots</title>
+<link>https://pod-exp.pages.dev/RAgqQYCEWKs/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/RAgqQYCEWKs/</guid>
+<pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+<category>Bloomberg Podcasts</category>
+<category>创业与经营</category>
+<category>商业分析</category>
+<category>人类历史</category>
+<description>UPS 于 1907 年诞生在西雅图一家酒吧的地下室，起初只是一家骑自行车的信差公司。本期 Odd Lots 请来历史学家、经济学家 Marc Levinson，聊他为 UPS 创始人詹姆斯·E·凯西写的传记《UPS Man》。在没有"最后一公里"的年代，包裹只能寄到火车站、自己套马进城取货；凯西真正的突破不是技术发明，而是集中分拣这个组织创新，以及一整套"科学管理"执念——连轮胎怎么换位、卡车每晚要不要洗、路口要不要让行都有规矩。一战带来的劳动力短缺给 UPS 腾出了口子；它后来甚至主动请求监管机构"禁止"自己承运大件货物，只为守住小包裹的效率。节目还聊到棕色车队与品牌、"UPS 之道"的边界，以及内部晋升传统为何让 UPS 在条码时代慢了半拍。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/RAgqQYCEWKs/cover.webp" alt="" /></p>
+<p><em>Bloomberg Podcasts · 播出 2026-11-26 · 时长 53:48</em></p>
+<p>UPS 于 1907 年诞生在西雅图一家酒吧的地下室，起初只是一家骑自行车的信差公司。本期 Odd Lots 请来历史学家、经济学家 Marc Levinson，聊他为 UPS 创始人詹姆斯·E·凯西写的传记《UPS Man》。在没有"最后一公里"的年代，包裹只能寄到火车站、自己套马进城取货；凯西真正的突破不是技术发明，而是集中分拣这个组织创新，以及一整套"科学管理"执念——连轮胎怎么换位、卡车每晚要不要洗、路口要不要让行都有规矩。一战带来的劳动力短缺给 UPS 腾出了口子；它后来甚至主动请求监管机构"禁止"自己承运大件货物，只为守住小包裹的效率。节目还聊到棕色车队与品牌、"UPS 之道"的边界，以及内部晋升传统为何让 UPS 在条码时代慢了半拍。</p>
+<h2>章节</h2><ul><li>0:00 开场：自己组装的汽车与科学管理</li><li>1:01 现代配送格局</li><li>4:21 为什么是詹姆斯·E·凯西？低调的创始人</li><li>6:44 1912 年前的配送：乡村难题</li><li>9:29 零售配送的兴起与凯西入局</li><li>13:20 组织突破：集中分拣</li><li>17:21 组织突破：集中分拣（续）</li><li>19:26 一战与劳动力市场转变</li><li>21:10 战后扩张至加州</li><li>23:23 摩托化与"自己组装"的时代</li><li>27:09 数字化之前的包裹追踪：流程与纪律</li><li>31:00 品牌塑造与著名的棕色</li><li>33:16 监管策略：用规则聚焦业务</li><li>37:19 监管策略：行业格局的碎片化与整合</li><li>39:09 条码革命与技术适应</li><li>42:15 詹姆斯·E·凯西之谜</li><li>45:16 企业文化："UPS 之道"及其局限</li><li>49:19 复盘：是组织变革，不是技术</li><li>53:27 片尾花絮</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/RAgqQYCEWKs/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>Anthropic 的 IPO：它将如何改变风投格局 ｜ Applied Compute、Bill.com 与 Mailchimp 收购案</title>
+<link>https://pod-exp.pages.dev/UGSSg8vv8vg/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/UGSSg8vv8vg/</guid>
+<pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+<category>20VC with Harry Stebbings</category>
+<category>投资</category>
+<category>AI 智能体</category>
+<category>交易</category>
+<category>企业软件</category>
+<description>本期三大主线：其一，Jensen Huang 闪电复职，英伟达市值一周回升约一万亿美元——三人讨论了这场"五天政变"的董事会失误、媒体角色、以及对英伟达对外投资策略的影响；其二，Anthropic 以 83 美元定价完成史上最大 IPO（约万亿美元），Matt Murphy 亲述敲钟现场，并与 Jason 就"还能不能复制 Anthropic""第四名值 750 亿是不是泡沫信号"展开投委会式辩论——Jason 押 Sierra、Matt 押 Databricks；其三，并购潮复盘：Palo Alto 45 亿收 Applied Compute、Bending Spoons 36.8 亿抄底 Mailchimp、PE 60 亿收 Bill.com、CrowdStrike 439 亿全股票收 Zscaler。穿插判断：vibe coding 已死但横向智能体崛起、营销自动化品类消亡、中国开源权重模型将因"零数据保留"失信而份额流失……</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/UGSSg8vv8vg/cover.webp" alt="" /></p>
+<p><em>20VC with Harry Stebbings · 播出 2026-11-26 · 时长 1:11:41</em></p>
+<p>本期三大主线：其一，Jensen Huang 闪电复职，英伟达市值一周回升约一万亿美元——三人讨论了这场"五天政变"的董事会失误、媒体角色、以及对英伟达对外投资策略的影响；其二，Anthropic 以 83 美元定价完成史上最大 IPO（约万亿美元），Matt Murphy 亲述敲钟现场，并与 Jason 就"还能不能复制 Anthropic""第四名值 750 亿是不是泡沫信号"展开投委会式辩论——Jason 押 Sierra、Matt 押 Databricks；其三，并购潮复盘：Palo Alto 45 亿收 Applied Compute、Bending Spoons 36.8 亿抄底 Mailchimp、PE 60 亿收 Bill.com、CrowdStrike 439 亿全股票收 Zscaler。穿插判断：vibe coding 已死但横向智能体崛起、营销自动化品类消亡、中国开源权重模型将因"零数据保留"失信而份额流失……</p>
+<h2>章节</h2><ul><li>0:01 开场：Rory 休假，Matt Murphy 救场</li><li>1:27 黄仁勋回归：英伟达接下来怎么办？</li><li>5:29 回归之后：对内收权，对外收翼</li><li>9:30 Dario 的沉默与"第一次 AI 救市"</li><li>12:06 Anthropic 创纪录 IPO 现场</li><li>13:46 风投还能再投出一个 Anthropic 吗？</li><li>16:04 Anthropic 的股价会不会出问题？</li><li>20:05 ARR 倍数还管不管用</li><li>20:16 网络安全：最吓人的一周</li><li>24:16 vibe coding 已死？</li><li>24:47 仲裁人上线：vibe coding 与横向智能体</li><li>28:47 我还要 CRM 干嘛？</li><li>30:01 Cognition：750 亿的第四名</li><li>34:02 IC 时间：Databricks、Sierra、Ramp</li><li>35:15 IC 投票：Jason 押 Sierra，Matt 押 Databricks</li><li>39:16 Databricks：最大的智能体受益方</li><li>41:53 并购潮：Applied Compute 与"年度最让人看不懂的收购"</li><li>45:54 Bending Spoons 再出手</li><li>46:02 Mailchimp：120 亿买进，36.8 亿卖出</li><li>50:04 Bill.com：PE 还开着门</li><li>50:42 营销自动化已死</li><li>52:47 CrowdStrike 收购 Zscaler</li><li>56:47 补遗：GTA 纪录与黎曼猜想</li><li>57:11 Claude 解开黎曼猜想</li><li>1:01:12 下一部 007 就拍这个</li><li>1:01:36 中国模型：该强制披露吗？</li><li>1:04:38 万亿 IPO 当晚：开香槟了吗？</li><li>1:07:16 IPO 会让硅谷更不平等吗？</li><li>1:11:16 收尾</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/UGSSg8vv8vg/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>AI 可能如何改写假日购物季|Stephanomics</title>
+<link>https://pod-exp.pages.dev/aySGlKkfnJE/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/aySGlKkfnJE/</guid>
+<pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+<category>Bloomberg Podcasts</category>
+<category>人工智能</category>
+<category>AI 智能体</category>
+<category>宏观经济</category>
+<category>消费与文化</category>
+<description>彭博 Stephanomics 感恩节周特辑:Stephanie Flanders 与彭博新闻记者 Spencer Soper、彭博经济研究首席美国经济学家 Anna Wong 聊 AI 如何改写这个假日购物季。一边是"彭博价格项目"的实时数据:感恩节大餐同比贵 4.7%、冻干食品自 9 月涨 12%、发电机缺货率升至去年四倍,而黑五电子产品促销成色却不如往年——AI 驱动的缺货在推高价格。另一边,ChatGPT、Gemini、Alexa、Comet 都想成为"网上商城的新大门":亚马逊已把 Perplexity 告上法庭,广告三巨头分走美国数字广告支出约三分之二;谁进门、谁守门,决定广告费流向,也决定消费者到底能不能真占到便宜。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/aySGlKkfnJE/cover.webp" alt="" /></p>
+<p><em>Bloomberg Podcasts · 播出 2026-11-26 · 时长 26:59</em></p>
+<p>彭博 Stephanomics 感恩节周特辑:Stephanie Flanders 与彭博新闻记者 Spencer Soper、彭博经济研究首席美国经济学家 Anna Wong 聊 AI 如何改写这个假日购物季。一边是"彭博价格项目"的实时数据:感恩节大餐同比贵 4.7%、冻干食品自 9 月涨 12%、发电机缺货率升至去年四倍,而黑五电子产品促销成色却不如往年——AI 驱动的缺货在推高价格。另一边,ChatGPT、Gemini、Alexa、Comet 都想成为"网上商城的新大门":亚马逊已把 Perplexity 告上法庭,广告三巨头分走美国数字广告支出约三分之二;谁进门、谁守门,决定广告费流向,也决定消费者到底能不能真占到便宜。</p>
+<h2>章节</h2><ul><li>0:02 开场:这个假日季多了些新东西</li><li>4:03 AI 购物工具的"大考"与"网络五日"</li><li>8:05 囤货焦虑:冻干食品、发电机与卫生纸</li><li>12:06 谁守住"网上商城的大门"</li><li>16:07 诉讼、谈判与"价值交换"</li><li>20:08 动态定价、价格歧视与"橙皮书"</li><li>24:09 广告"三巨头"的围墙守得住吗</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/aySGlKkfnJE/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>前 Citadel 董事总经理：股票多空策略三年内必死</title>
+<link>https://pod-exp.pages.dev/ebYPcpQfxmU/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/ebYPcpQfxmU/</guid>
+<pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+<category>Odds on Open</category>
+<category>投资</category>
+<category>量化投资</category>
+<category>AI 智能体</category>
+<category>职业发展</category>
+<description>嘉宾 Michael Watson（Hedgineer，前 Citadel MD）回到 Odds on Open，与主持 Ethan Kho 深谈一个激进判断：股票多空策略三年内会以现有形态消亡。核心逻辑是"流程 alpha"的消亡——覆盖启动、财报备战、相对估值、倍数与一致预期跟踪这些流程性工作将被 AI 全面自动化，并以技能、智能体、平台的形式向全行业扩散。两人拆解了自营、多管理人、单一管理人三种模式在 AI 竞赛中的激励差异：自营全靠自有资金、上下对齐；多管理人卡在 IT 与基础设施的激励错位；单一管理人靠灵活取胜。Michael 还完整描述了"一名一智能体"的机构级 AI 研究栈，认为 PM 唯一可控的杠杆是上下文工程。后半段落到职业问题：初级分析师失去师徒制路径但获得广度；2028 年对冲基金数量变少、家办抢地盘；资深分析师可做"资产创造"而非"资产投资"；给年轻人的建议是拥抱"说干就干"、不怕失败。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/ebYPcpQfxmU/cover.webp" alt="" /></p>
+<p><em>Odds on Open · 播出 2026-11-26 · 时长 1:20:26</em></p>
+<p>嘉宾 Michael Watson（Hedgineer，前 Citadel MD）回到 Odds on Open，与主持 Ethan Kho 深谈一个激进判断：股票多空策略三年内会以现有形态消亡。核心逻辑是"流程 alpha"的消亡——覆盖启动、财报备战、相对估值、倍数与一致预期跟踪这些流程性工作将被 AI 全面自动化，并以技能、智能体、平台的形式向全行业扩散。两人拆解了自营、多管理人、单一管理人三种模式在 AI 竞赛中的激励差异：自营全靠自有资金、上下对齐；多管理人卡在 IT 与基础设施的激励错位；单一管理人靠灵活取胜。Michael 还完整描述了"一名一智能体"的机构级 AI 研究栈，认为 PM 唯一可控的杠杆是上下文工程。后半段落到职业问题：初级分析师失去师徒制路径但获得广度；2028 年对冲基金数量变少、家办抢地盘；资深分析师可做"资产创造"而非"资产投资"；给年轻人的建议是拥抱"说干就干"、不怕失败。</p>
+<h2>章节</h2><ul><li>0:02 开场</li><li>1:00 多空股票死了吗？流程 alpha、中枢账本、净额风险</li><li>5:00 多空股票死了吗？流程 alpha、中枢账本、净额风险</li><li>7:55 流程 alpha 为什么会死：AI 写备忘录和永不下线的智能体</li><li>10:54 AI 研究成为标配之后，优势往哪儿移</li><li>14:46 PM 怎么把自己的优势转移给 AI 智能体和评测</li><li>18:48 PM 怎么把自己的优势转移给 AI 智能体和评测</li><li>21:22 自营、多管理人、单一管理人：AI 竞赛谁赢</li><li>25:22 自营、多管理人、单一管理人：AI 竞赛谁赢</li><li>29:22 自营、多管理人、单一管理人：AI 竞赛谁赢</li><li>33:23 自营、多管理人、单一管理人：AI 竞赛谁赢</li><li>33:38 降杠杆冲击下的拥挤度、动量和 AI 因子风险</li><li>37:39 降杠杆冲击下的拥挤度、动量和 AI 因子风险</li><li>38:44 每个名字一个智能体：从覆盖启动到组合优化</li><li>42:44 每个名字一个智能体：从覆盖启动到组合优化</li><li>46:45 每个名字一个智能体：从覆盖启动到组合优化</li><li>50:38 每个 PM 都该做的一件事：上下文工程</li><li>54:39 每个 PM 都该做的一件事：上下文工程</li><li>55:14 初级分析师完蛋了吗？师徒制、广度与 beta 工作流</li><li>59:15 初级分析师完蛋了吗？师徒制、广度与 beta 工作流</li><li>1:01:10 展望 2028：对冲基金岗位变少，家办抢地盘</li><li>1:05:12 展望 2028：对冲基金岗位变少，家办抢地盘</li><li>1:08:19 资深 pod 分析师怎么防 AI？资产创造 vs 资产投资</li><li>1:12:20 资深 pod 分析师怎么防 AI？资产创造 vs 资产投资</li><li>1:15:09 给年轻人的建议：当技能被模型商品化，怎么挖护城河</li><li>1:19:09 给年轻人的建议：当技能被模型商品化，怎么挖护城河</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/ebYPcpQfxmU/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>AI 泡沫正在泄气，比特币还能跌多深？</title>
+<link>https://pod-exp.pages.dev/ecpjncdGZIw/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/ecpjncdGZIw/</guid>
+<pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+<category>Bankless</category>
+<category>加密与 Web3</category>
+<category>投资</category>
+<category>人工智能</category>
+<category>宏观经济</category>
+<description>Bankless 每周盘点。比特币在「下跌十一月」创下 5.49 万美元年内新低，纳斯达克年内转跌，Anthropic 破发，市场开始讨论这究竟是「2022 式」回调还是更糟。Ryan 和 David 过了一盘分析师观点：没人真在喊底，但 Raoul Pal、Michael Nato 等认为是历史级买入区；稳定币 30 天失血约 170 亿美元，比特币 ETF 创纪录流出近 50 亿。Ryan 给出五个熊市判断：贬值交易未重启、Howell 流动性周期指向 6–9 个月动荡期、更浅但更长的一轮正常熊市、以及尾部风险——AI 证明了黎曼猜想，又传出前沿实验室握有破解密码学的成果，P 到底等不等于 NP？两人随后拆解了 AI 股下跌的五条原因、超过 6800 亿美元的 AI 算力债务、以太坊等协议的「抗 AI」密码学升级竞赛，以及 Sky 创始人 Rune 的 7700 万美元保证金贷款、参议院「死亡赌注法案」、Fidelity 上……</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/ecpjncdGZIw/cover.webp" alt="" /></p>
+<p><em>Bankless · 播出 2026-11-26 · 时长 56:24</em></p>
+<p>Bankless 每周盘点。比特币在「下跌十一月」创下 5.49 万美元年内新低，纳斯达克年内转跌，Anthropic 破发，市场开始讨论这究竟是「2022 式」回调还是更糟。Ryan 和 David 过了一盘分析师观点：没人真在喊底，但 Raoul Pal、Michael Nato 等认为是历史级买入区；稳定币 30 天失血约 170 亿美元，比特币 ETF 创纪录流出近 50 亿。Ryan 给出五个熊市判断：贬值交易未重启、Howell 流动性周期指向 6–9 个月动荡期、更浅但更长的一轮正常熊市、以及尾部风险——AI 证明了黎曼猜想，又传出前沿实验室握有破解密码学的成果，P 到底等不等于 NP？两人随后拆解了 AI 股下跌的五条原因、超过 6800 亿美元的 AI 算力债务、以太坊等协议的「抗 AI」密码学升级竞赛，以及 Sky 创始人 Rune 的 7700 万美元保证金贷款、参议院「死亡赌注法案」、Fidelity 上……</p>
+<h2>章节</h2><ul><li>0:06 开场</li><li>0:10 「下跌十一月」与比特币新低</li><li>4:10 通胀数据与新关税</li><li>4:34 加密分析师们在喊底吗？</li><li>8:37 比特币对 AI 股的相对韧性</li><li>10:53 熊市五点判断：贬值交易、Howell 周期、2022 类比</li><li>14:55 熊市五点判断：时长、罪与「担忧之墙」</li><li>18:57 小结</li><li>19:06 稳定币失血与比特币的下一站</li><li>23:07 赞助口播：Visor 与 Near</li><li>24:15 AI 泡沫在泄气吗？</li><li>28:15 AI 债务、信用风险，以及「又一个 2022」？</li><li>32:18 回调还是熊市？我的基准情形是 2022</li><li>35:24 AI 的数学突破：黎曼猜想与「碉堡模式」</li><li>39:26 P=NP 是什么意思，以及流言</li><li>43:27 P=NP 的谱系与尾部风险</li><li>45:00 密码学升级竞赛</li><li>49:01 The DeFi Report 推介</li><li>49:23 Sky 创始人 7700 万美元的玩火贷款</li><li>52:25 Venice 2 亿美元收入与预测市场监管</li><li>54:15 DeFi 代币登陆 Fidelity</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/ecpjncdGZIw/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>Black Hat USA 2026 ｜ 猎捕 LANDFALL：从被忽视的图片到与国家有关联的移动间谍软件</title>
+<link>https://pod-exp.pages.dev/gMDOzUcjMt0/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/gMDOzUcjMt0/</guid>
+<pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+<category>Black Hat</category>
+<category>产业科技</category>
+<category>地缘政治</category>
+<category>科技趋势</category>
+<description>Unit 42 研究员 Itay Cohen 在 Black Hat USA 2026 完整复盘 LANDFALL 间谍软件的发现过程：团队原本追猎的是苹果与 WhatsApp 的 DNG 0day 链，却在 VirusTotal 上命中七个早在披露前一年多就已上传的恶意 DNG。十六进制分析显示文件尾部藏着 zip，里面是 ARM64 ELF——目标不是 iOS，而是三星 Galaxy。他讲清了 WhatsApp 图片如何经由媒体库触达三星 IP service 里无沙箱的 libimagecodec.quram.so，时间线如何串起三个 DNG 漏洞与 CVE-2025-21042/21043，bridgehead 加载器、LANDFALL 植入体与双层基础设施（簇 A/簇 B）如何归因到国家背景威胁行为者 Stealth Falcon（TG-1069），以及如何把攻击者封禁互联网扫描平台的 OPSEC 行为反过来变成检测信……</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/gMDOzUcjMt0/cover.webp" alt="" /></p>
+<p><em>Black Hat · 播出 2026-11-26 · 时长 28:48</em></p>
+<p>Unit 42 研究员 Itay Cohen 在 Black Hat USA 2026 完整复盘 LANDFALL 间谍软件的发现过程：团队原本追猎的是苹果与 WhatsApp 的 DNG 0day 链，却在 VirusTotal 上命中七个早在披露前一年多就已上传的恶意 DNG。十六进制分析显示文件尾部藏着 zip，里面是 ARM64 ELF——目标不是 iOS，而是三星 Galaxy。他讲清了 WhatsApp 图片如何经由媒体库触达三星 IP service 里无沙箱的 libimagecodec.quram.so，时间线如何串起三个 DNG 漏洞与 CVE-2025-21042/21043，bridgehead 加载器、LANDFALL 植入体与双层基础设施（簇 A/簇 B）如何归因到国家背景威胁行为者 Stealth Falcon（TG-1069），以及如何把攻击者封禁互联网扫描平台的 OPSEC 行为反过来变成检测信……</p>
+<h2>章节</h2><ul><li>0:11 开场：本来去找别的东西，却挖出了 LANDFALL</li><li>4:12 狩猎规则命中：VirusTotal 上躺了一年多的七个 DNG</li><li>8:13 不是 iOS，是 Android：三星 IP service 与 libimagecodec</li><li>12:15 时间线：三个 DNG 漏洞与 CVE-2025-21042/21043</li><li>16:15 bridgehead 加载器与 LANDFALL 植入体</li><li>20:16 簇 B：多用途基础设施与 Stealth Falcon</li><li>24:18 扫描平台的缺口：把对方的 OPSEC 变成检测信号</li><li>28:19 结尾：合作邀请</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/gMDOzUcjMt0/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>AI:AM：数字必须上涨吗？｜Christiano 的警告｜Jensen 的回归｜GiveDirectly 为穷人的募款陈情</title>
+<link>https://pod-exp.pages.dev/hgMbz33fBKc/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/hgMbz33fBKc/</guid>
+<pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+<category>Cognitive Revolution "How AI Changes Everything"</category>
+<category>人工智能</category>
+<category>AI 安全</category>
+<category>地缘政治</category>
+<category>宏观经济</category>
+<description>Nathan Labenz 与 Pash Narayanan 在本期追问同一个问题：到底是谁在掌控 AI，又该用什么样的风险门槛来决定要不要继续走向超级智能。Nick Allardice（GiveDirectly）先讲无条件现金转移怎样把钱直接打到最贫困人群手里，以及 AI 预测灾害如何改变援助方式；Tom Davidson（Forethought）论证智能爆炸的可信度——怀疑派数了多年的瓶颈，正被数学突破和 Anthropic 内部研发提速逐一击穿；Mackenzie Arnold（法律与人工智能研究所）给出"理解力审计"和面向智能体时代的新法律框架。围绕 Paul Christiano 的接管剧本、Jensen Huang 的英伟达复职与台海芯片博弈，本期直面"数字必须上涨"这台机器是否还允许人类控制前沿 AI。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/hgMbz33fBKc/cover.webp" alt="" /></p>
+<p><em>Cognitive Revolution "How AI Changes Everything" · 播出 2026-11-26 · 时长 2:10:51</em></p>
+<p>Nathan Labenz 与 Pash Narayanan 在本期追问同一个问题：到底是谁在掌控 AI，又该用什么样的风险门槛来决定要不要继续走向超级智能。Nick Allardice（GiveDirectly）先讲无条件现金转移怎样把钱直接打到最贫困人群手里，以及 AI 预测灾害如何改变援助方式；Tom Davidson（Forethought）论证智能爆炸的可信度——怀疑派数了多年的瓶颈，正被数学突破和 Anthropic 内部研发提速逐一击穿；Mackenzie Arnold（法律与人工智能研究所）给出"理解力审计"和面向智能体时代的新法律框架。围绕 Paul Christiano 的接管剧本、Jensen Huang 的英伟达复职与台海芯片博弈，本期直面"数字必须上涨"这台机器是否还允许人类控制前沿 AI。</p>
+<h2>章节</h2><ul><li>0:03 本期预告</li><li>4:04 本期预告</li><li>7:43 GiveDirectly 与无条件现金（上）</li><li>11:45 GiveDirectly 与无条件现金（上）</li><li>15:45 GiveDirectly 与无条件现金（上）</li><li>17:51 赞助商：Claude｜OutSystems</li><li>21:03 GiveDirectly 与无条件现金（下）</li><li>25:06 GiveDirectly 与无条件现金（下）</li><li>27:02 接管剧本（上）</li><li>29:47 赞助商：Tasklet｜Deepgram</li><li>31:57 接管剧本（下）</li><li>35:58 接管剧本（下）</li><li>39:59 接管剧本（下）</li><li>43:40 可证伪的安全门槛</li><li>47:42 可证伪的安全门槛</li><li>51:44 可证伪的安全门槛</li><li>55:44 可证伪的安全门槛</li><li>59:14 加固世界</li><li>1:03:15 加固世界</li><li>1:07:15 加固世界</li><li>1:09:39 智能爆炸有多大可能</li><li>1:13:40 智能爆炸有多大可能</li><li>1:17:41 智能爆炸有多大可能</li><li>1:21:42 智能爆炸有多大可能</li><li>1:25:28 Jensen Huang 与英伟达</li><li>1:29:29 Jensen Huang 与英伟达</li><li>1:33:31 Jensen Huang 与英伟达</li><li>1:36:54 台湾与芯片地缘政治</li><li>1:40:55 台湾与芯片地缘政治</li><li>1:44:57 台湾与芯片地缘政治</li><li>1:45:33 撰写 AI 规则</li><li>1:49:34 撰写 AI 规则</li><li>1:51:42 AI 理解力审计</li><li>1:55:44 AI 理解力审计</li><li>1:59:44 AI 理解力审计</li><li>2:02:04 未来社会与对齐</li><li>2:06:06 未来社会与对齐</li><li>2:07:13 本期尾声</li><li>2:10:04 尾声</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/hgMbz33fBKc/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>黄仁勋的回归对 AI 交易意味着什么｜The Bloomberg Australia Podcast</title>
+<link>https://pod-exp.pages.dev/ky6sXXyGBq0/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/ky6sXXyGBq0/</guid>
+<pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+<category>Bloomberg Podcasts</category>
+<category>人工智能</category>
+<category>AI 基础设施</category>
+<category>投资</category>
+<category>宏观经济</category>
+<description>本期对话围绕英伟达 CEO 黄仁勋戏剧性的离任与复任展开：复任消息一度令英伟达单日飙升 31%、全球市场反弹，但彭博市场执行编辑 Mark Cudmore 指出狂热极其短暂，反弹本质是空头回补而非信心回归。他认为本轮 AI 热潮是一轮资本开支泡沫，自铁路时代以来最大的基础设施泡沫，最贴切的历史类比不是 1929 年而是 1873 年；泡沫终将惨烈破裂，但大概率还有最后一波疯狂行情，他自称"非常看多但非常忐忑"。他还拆解了美元走强、外资涌入美股为美国财政赤字买单的机制，以及澳大利亚人养老金高比例配置美股、汇率对冲不足而格外脆弱的处境；长期看，大宗商品超级周期和澳元走强对澳大利亚是好消息。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/ky6sXXyGBq0/cover.webp" alt="" /></p>
+<p><em>Bloomberg Podcasts · 播出 2026-11-26 · 时长 24:57</em></p>
+<p>本期对话围绕英伟达 CEO 黄仁勋戏剧性的离任与复任展开：复任消息一度令英伟达单日飙升 31%、全球市场反弹，但彭博市场执行编辑 Mark Cudmore 指出狂热极其短暂，反弹本质是空头回补而非信心回归。他认为本轮 AI 热潮是一轮资本开支泡沫，自铁路时代以来最大的基础设施泡沫，最贴切的历史类比不是 1929 年而是 1873 年；泡沫终将惨烈破裂，但大概率还有最后一波疯狂行情，他自称"非常看多但非常忐忑"。他还拆解了美元走强、外资涌入美股为美国财政赤字买单的机制，以及澳大利亚人养老金高比例配置美股、汇率对冲不足而格外脆弱的处境；长期看，大宗商品超级周期和澳元走强对澳大利亚是好消息。</p>
+<h2>章节</h2><ul><li>0:07 开场：黄仁勋回归，AI 交易"大到不能倒"？</li><li>4:07 挤空与"AI 央行"：英伟达为何牵动全局</li><li>8:08 不是 1929，更像 1873：给泡沫找历史坐标</li><li>12:08 跨资产疼痛：金属、外汇与美元的缓冲机制</li><li>16:09 美股溢价、赤字融资与澳大利亚养老金的双重敞口</li><li>20:10 大宗超级周期、澳元前景与"最后一浪"的狂热</li><li>24:10 结尾：约个半年后的回访</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/ky6sXXyGBq0/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>Elad Gil：大多数 AI 公司现在就该卖</title>
+<link>https://pod-exp.pages.dev/pvcKnPGCvSg/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/pvcKnPGCvSg/</guid>
+<pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+<category>Sourcery with Molly O'Shea</category>
+<category>人工智能</category>
+<category>投资</category>
+<category>创业与经营</category>
+<category>科技趋势</category>
+<description>本期访谈中，Gil Capital 创始人 Elad Gil 与主持人 Molly O'Shea 回顾了过去一年 AI 行业史无前例的加速：两家公司从零冲到一万亿美元市值，三个人凭一个想法就能拿到两亿美元估值。Elad 解释了他"大多数 AI 公司现在就该认真考虑出售"的论断——包括每年（在 AI 领域是每半年）开一次"要不要卖公司"的董事会这一治理习惯，以及如何评估卖出时机。话题还覆盖：OpenAI 万亿市值与其支出的反差、SpaceX 冲击 100 万亿美元的想象力、递归式自我改进（RSI）与奇点路径、微塑料与植入物等健康议题、国防科技去禁忌化，以及优秀创始人的特质——好胜、简洁、极度技术化、动手快、识人准。最后他预言：未来一年 AI 的扩散与进展会超过过去一年，并开始触及语言与线上世界之外的领域。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/pvcKnPGCvSg/cover.webp" alt="" /></p>
+<p><em>Sourcery with Molly O'Shea · 播出 2026-11-26 · 时长 1:13:27</em></p>
+<p>本期访谈中，Gil Capital 创始人 Elad Gil 与主持人 Molly O'Shea 回顾了过去一年 AI 行业史无前例的加速：两家公司从零冲到一万亿美元市值，三个人凭一个想法就能拿到两亿美元估值。Elad 解释了他"大多数 AI 公司现在就该认真考虑出售"的论断——包括每年（在 AI 领域是每半年）开一次"要不要卖公司"的董事会这一治理习惯，以及如何评估卖出时机。话题还覆盖：OpenAI 万亿市值与其支出的反差、SpaceX 冲击 100 万亿美元的想象力、递归式自我改进（RSI）与奇点路径、微塑料与植入物等健康议题、国防科技去禁忌化，以及优秀创始人的特质——好胜、简洁、极度技术化、动手快、识人准。最后他预言：未来一年 AI 的扩散与进展会超过过去一年，并开始触及语言与线上世界之外的领域。</p>
+<h2>章节</h2><ul><li>0:01 开场：Elad Gil，Gil Capital 创始人</li><li>0:51 为什么每张诊断曲线都在往右上走</li><li>4:51 曲棍球杆曲线与被夸大的诊断</li><li>6:42 两家公司从零做到一万亿美元</li><li>9:38 一万亿美元是新及格线吗</li><li>12:51 三个人、一个想法、两亿美元估值</li><li>15:28 SpaceX 能到 100 万亿美元吗</li><li>18:20 超越超大规模云厂商</li><li>19:49 还没人下到的 AI 赌注</li><li>23:49 赞助口播</li><li>24:09 Elad 怎么找 AI 圈的"品位风向标"</li><li>28:10 从 GAN 到 Transformer</li><li>28:33 聊天机器人正在重塑我们</li><li>32:20 用 AI 给创始人"看相"</li><li>35:55 如果只剩五年，Elad 会去做什么</li><li>39:11 微塑料到底有没有害</li><li>43:12 塑料、植入物与工业化</li><li>46:39 国防怎么就从"罪恶行业"变成了正经生意</li><li>49:10 当 AI 模型开始自己造自己</li><li>51:40 为什么大多数 AI 公司现在就该卖</li><li>54:24 怎么判断是不是该卖了</li><li>57:56 为什么 AI 人才总在"换边"</li><li>1:01:48 Cursor 和 Cognition 背后的创始人特质</li><li>1:05:49 好创始人的关键特质</li><li>1:07:30 一周写代码胜过一月讲故事</li><li>1:08:57 能穿越周期的创始人</li><li>1:12:59 结尾</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/pvcKnPGCvSg/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
 <item>
 <title>Clay 如何打造 GTM 智能体｜Jeff Barg（AI 负责人）</title>
 <link>https://pod-exp.pages.dev/qjPcaZf_plo/</link>
@@ -24,6 +242,225 @@
 <p>本期嘉宾是 Clay 的 AI 负责人 Jeff Barg——他创办的 Avenue 在 2024 年被仅 50 人的 Clay 收购，如今 Clay 已近 600 人。Jeff 首先拆解了「GTM 工程师」这一新工种：把获客这件事工程化，混合智能体工程、数据工程和软件工程。他梳理了 Clay 的智能体体系——做单元任务的 Claygent、搭工作流的 Sculptor、以及 12 周连发中推出、正快速变成主界面的 Workflows，并解释了为何把自家智能体围绕 CLI 重构成编程智能体。工程经验还包括：用 BullMQ/Postgres/ClickHouse 手搓可靠性层、评估体系从产品缺陷一路演化、以及「auto」模型路由背后的洞察——用户其实讨厌模型选择器。他还分享了一个开放姿态：不让自家智能体刻意赢过「Clay + Claude Code」，实测外部与自家 harness 使用率接近五五开；用分类模型花 1500 美元……</p>
 <h2>章节</h2><ul><li>0:02 开场</li><li>0:58 嘉宾介绍：Clay AI 负责人 Jeff Barg</li><li>3:28 GTM 工程师到底是干什么的</li><li>7:29 名单之外：Clay 的灵活性</li><li>8:21 五人公司 Avenue 被 Clay 收购</li><li>12:21 Signals：为营收搭建在线系统</li><li>16:10 一家 AI 公司却没人做 AI</li><li>18:45 Claygent 与 Sculptor</li><li>22:46 Sculptor 的能力边界与早期评估</li><li>24:49 为什么 Clay 围绕编程智能体重建自家智能体</li><li>27:48 后训练与开源权重模型什么时候划算</li><li>30:35 花 1500 美元给全世界的公司做资格判定</li><li>32:40 哪里还离不开前沿智能</li><li>34:17 为什么用户讨厌模型选择器</li><li>37:09 Clay 怎么评估自家智能体</li><li>41:10 纽约找不着智能体工程师</li><li>42:15 不用 Temporal 也不用 LangGraph：Clay 全自研的技术栈</li><li>45:44 智能体规模化后哪里出了问题</li><li>48:27 为什么 Clay 的智能体不该赢过 Clay + Claude Code</li><li>52:28 CLI 是被内部团队催出来的</li><li>54:26 OpenAI 在发布前两天叫停了 Clay 的上线</li><li>58:26 创始人模式与信念的勇气</li><li>1:00:11 Workflows：从用户抵制到智能体搭建</li><li>1:04:13 Sculptor 重构版即将全面发布</li><li>1:08:14 为什么智能体还不会调试自己的 trace</li><li>1:09:59 对编程智能体的期待与 Sculptor 预告</li></ul>
 <p>全文：<a href="https://pod-exp.pages.dev/qjPcaZf_plo/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>「我卖掉了所有股票」：震动市场的 AI 泡沫判断</title>
+<link>https://pod-exp.pages.dev/vnQ11vIA6mg/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/vnQ11vIA6mg/</guid>
+<pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+<category>The Master Investor Podcast with Wilfred Frost</category>
+<category>投资</category>
+<category>宏观经济</category>
+<category>AI 基础设施</category>
+<category>半导体</category>
+<description>Panmure Liberum 策略主管 Joachim Klement 上周四发布报告《就是现在：我为什么卖出》，建议客户降风险，并清空了个人全部持股；随后市场两日大跌。本期他与 Wilfred Frost 复盘这一判断：直接触发是标普 500 跌破 200 日均线——历史上跌破并待满 13 个交易日后，次年回报全部为负；若到黑色星期五仍收在下方，他的确信度将进一步上升。基本面依据包括：五大云厂 2026 年资本开支预计 7,280 亿美元且开始依赖外部融资；Anthropic IPO 抽血有限，但其三季度收入增速在百分比与绝对美元口径上双双放缓；分析师评级仍超八成"强烈买入"；美国经济六成增长靠科技投资，放缓即可能引发衰退。应对上，他机械跟随 200 日均线信号、转向 10 年期英美国债，视富时 100 为"反 AI"藏身地；最极端情形下峰谷回撤可能超 40%，历时 18 到 24 个月。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/vnQ11vIA6mg/cover.webp" alt="" /></p>
+<p><em>The Master Investor Podcast with Wilfred Frost · 播出 2026-11-26 · 时长 44:22</em></p>
+<p>Panmure Liberum 策略主管 Joachim Klement 上周四发布报告《就是现在：我为什么卖出》，建议客户降风险，并清空了个人全部持股；随后市场两日大跌。本期他与 Wilfred Frost 复盘这一判断：直接触发是标普 500 跌破 200 日均线——历史上跌破并待满 13 个交易日后，次年回报全部为负；若到黑色星期五仍收在下方，他的确信度将进一步上升。基本面依据包括：五大云厂 2026 年资本开支预计 7,280 亿美元且开始依赖外部融资；Anthropic IPO 抽血有限，但其三季度收入增速在百分比与绝对美元口径上双双放缓；分析师评级仍超八成"强烈买入"；美国经济六成增长靠科技投资，放缓即可能引发衰退。应对上，他机械跟随 200 日均线信号、转向 10 年期英美国债，视富时 100 为"反 AI"藏身地；最极端情形下峰谷回撤可能超 40%，历时 18 到 24 个月。</p>
+<h2>章节</h2><ul><li>0:02 开场</li><li>3:28 「就是现在：我为什么卖出」</li><li>5:00 标普 500 跌破 200 日均线</li><li>6:39 历史上的 200 日均线</li><li>9:35 黄仁勋回归的反弹反而加深看空</li><li>11:19 关键日期与标普 500 点位</li><li>14:14 AI 资本开支增长</li><li>17:35 衰退风险</li><li>19:39 Anthropic IPO 的警示信号</li><li>23:41 Anthropic IPO 的警示信号（续）</li><li>25:04 分析师的自满</li><li>26:33 黄仁勋回归无济于事</li><li>30:35 黄仁勋回归无济于事（续）</li><li>31:18 AI 生产率或能力挽狂澜</li><li>32:42 估值帮不上忙</li><li>33:57 美联储转向？</li><li>34:57 何时买回来</li><li>37:01 该持有什么——TIPS 与富时 100</li><li>39:39 对熊市的高确信度</li><li>40:40 结语</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/vnQ11vIA6mg/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>活着见证奇点的 7%、治愈一切疾病与让逝者归来 ｜ 感恩节特辑 EP #316</title>
+<link>https://pod-exp.pages.dev/xdcC1VjJ4jU/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/xdcC1VjJ4jU/</guid>
+<pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+<category>Peter H. Diamandis</category>
+<category>人生方法</category>
+<category>创业与经营</category>
+<category>未来社会</category>
+<category>生命科学</category>
+<description>感恩节特辑，四位老友围坐回答了六道关于人生的题：哪次至暗时刻其实是一份礼物、谁在你配不上的时候就相信你、二十岁的你想不到今天拥有什么、哪次失败其实是扇门、最想回去感谢谁、以及为尚未到来的未来提前感恩什么。Salim 谢过爷爷埋下的「彻底疯、尽情活」的种子，讲了 PubSub 崩盘、Yahoo 孵化器、直到一杯咖啡遇见 NASA、走进奇点大学的连环巧合；Peter 招供了偷猪胎、埋尸又挖尸、被 Frank Price 宽恕的往事，以及在哈佛医学院被院长约谈后签下「永不行医」协议的全过程，最后讲了 150 次拒绝之后 Anousheh Ansari 如何成为 XPRIZE 的赞助人和 CEO；Dave 讲了被自家董事会逼宫的「濒死体验」、卡内基课程如何把一个自认的极客变成演讲者、以及妈妈用奶酪厂遗产投给他的那笔五十倍回报的种子钱；Alex 则提前感恩长寿逃逸速度和一切疾病的治愈，并把「感谢逝者」升级成「用计算考古学和戴森云复活整个过……</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/xdcC1VjJ4jU/cover.webp" alt="" /></p>
+<p><em>Peter H. Diamandis · 播出 2026-11-26 · 时长 51:30</em></p>
+<p>感恩节特辑，四位老友围坐回答了六道关于人生的题：哪次至暗时刻其实是一份礼物、谁在你配不上的时候就相信你、二十岁的你想不到今天拥有什么、哪次失败其实是扇门、最想回去感谢谁、以及为尚未到来的未来提前感恩什么。Salim 谢过爷爷埋下的「彻底疯、尽情活」的种子，讲了 PubSub 崩盘、Yahoo 孵化器、直到一杯咖啡遇见 NASA、走进奇点大学的连环巧合；Peter 招供了偷猪胎、埋尸又挖尸、被 Frank Price 宽恕的往事，以及在哈佛医学院被院长约谈后签下「永不行医」协议的全过程，最后讲了 150 次拒绝之后 Anousheh Ansari 如何成为 XPRIZE 的赞助人和 CEO；Dave 讲了被自家董事会逼宫的「濒死体验」、卡内基课程如何把一个自认的极客变成演讲者、以及妈妈用奶酪厂遗产投给他的那笔五十倍回报的种子钱；Alex 则提前感恩长寿逃逸速度和一切疾病的治愈，并把「感谢逝者」升级成「用计算考古学和戴森云复活整个过……</p>
+<h2>章节</h2><ul><li>0:01 感恩节特辑：塑造我们的那些时刻</li><li>3:12 Salim 的祖父与尽情生活的馈赠</li><li>4:48 Peter 差点被大学开除</li><li>8:30 治愈疾病与长寿逃逸速度</li><li>10:47 Dave 当 CEO 时的濒死时刻</li><li>13:06 从创业失败到奇点大学</li><li>17:07 从创业失败到奇点大学（续）</li><li>17:11 发现你未曾开发的潜能</li><li>20:53 奇点能让逝者归来吗？</li><li>23:06 Peter 的哈佛医学院最后通牒</li><li>27:08 Peter 的哈佛医学院最后通牒（续）</li><li>27:42 感恩、家人与父辈的智慧</li><li>31:07 为什么逆境造就成功的领导者</li><li>35:07 为什么逆境造就成功的领导者（续）</li><li>36:30 一次拒绝如何改写了 Alex 的职业道路</li><li>40:33 一次拒绝如何改写了 Alex 的职业道路（续）</li><li>41:49 有人信任你的力量</li><li>43:30 150 次拒绝与 XPRIZE 的诞生</li><li>47:32 150 次拒绝与 XPRIZE 的诞生（续）</li><li>48:34 感恩活着见证奇点</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/xdcC1VjJ4jU/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>E260｜黄仁勋归来之际，深聊英伟达、CoreWeave和算力信用市场</title>
+<link>https://pod-exp.pages.dev/aZlaPfp_2-U/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/aZlaPfp_2-U/</guid>
+<pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+<category>硅谷101播客</category>
+<category>AI 基础设施</category>
+<category>信用市场</category>
+<category>能源与电网</category>
+<description>本期在黄仁勋重返英伟达之际，围绕英伟达对 AI 基建生态的多重角色（芯片供应商、股东、算力承购方与信用增强方），深聊数据中心与算力融资：土地电力、机房与芯片三层资产分别对应怎样的融资结构；CoreWeave 无担保债券收益率为何一度飙到 16%；NeoCloud 与 Hyperscaler 偿债能力为何被差别定价；私募信贷填补了什么缺口；AI 债券占整个债券市场比重并不高，真正风险在于建设延期与时间错配，以及“AI 债券元年”定价尚无共识。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/aZlaPfp_2-U/cover.webp" alt="" /></p>
+<p><em>硅谷101播客 · 播出 2026-11-25 · 时长 1:26:25</em></p>
+<p>本期在黄仁勋重返英伟达之际，围绕英伟达对 AI 基建生态的多重角色（芯片供应商、股东、算力承购方与信用增强方），深聊数据中心与算力融资：土地电力、机房与芯片三层资产分别对应怎样的融资结构；CoreWeave 无担保债券收益率为何一度飙到 16%；NeoCloud 与 Hyperscaler 偿债能力为何被差别定价；私募信贷填补了什么缺口；AI 债券占整个债券市场比重并不高，真正风险在于建设延期与时间错配，以及“AI 债券元年”定价尚无共识。</p>
+<h2>章节</h2><ul><li>0:00 开场：黄仁勋回归与本期嘉宾</li><li>3:56 黄仁勋离职，为什么牵动AI基建市场？</li><li>7:57 黄仁勋离职，为什么牵动AI基建市场？</li><li>8:24 土地、机房与GPU：英伟达支持的不同资产</li><li>11:28 股权投资、算力承购与担保</li><li>15:29 股权投资、算力承购与担保</li><li>17:43 英伟达如何撬动信贷市场</li><li>20:26 数据中心的通电难关</li><li>24:10 单季支出与经营现金流的75亿美元之差</li><li>28:10 单季支出与经营现金流的75亿美元之差</li><li>29:09 债券抛售，市场在担心什么？</li><li>32:59 CoreWeave：NeoCloud融资的风向标</li><li>36:22 微软和Meta的原有业务提供多少偿债缓冲？</li><li>39:14 直接发债 vs 合资项目融资的不同风险</li><li>42:22 从算力承购到残值担保：不同结构怎样保护债权人</li><li>44:20 填补多样资金需求：银行、公募债与私募信贷</li><li>47:05 新资产和非标准合同：AI融资难找可比价格</li><li>49:40 债券市场规模庞大，为什么具体项目仍可能借不到钱？</li><li>52:14 云厂商订单、AI收入与GPU租金</li><li>55:45 硅谷与华尔街，对需求和现金回报颇有分歧</li><li>59:46 硅谷与华尔街，对需求和现金回报颇有分歧</li><li>1:03:48 中期选举之后，数据中心的电力、水和建设成本</li><li>1:07:01 即使需求存在，企业也可能倒在交付之前</li><li>1:10:42 融资窗口关闭时，到期债务如何续上？</li><li>1:11:10 能衡量AI数据中心的信用风险指数</li><li>1:14:30 AI债务所占市场比重，并没有想象高</li><li>1:18:31 AI债务所占市场比重，并没有想象高</li><li>1:21:04 当买家减少，债券收益率为什么会突然跳升？</li><li>1:25:05 当买家减少，债券收益率为什么会突然跳升？</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/aZlaPfp_2-U/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>为什么创业的物理定律已经改变 ｜ Ben Horowitz 访谈</title>
+<link>https://pod-exp.pages.dev/ID27juNvAfc/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/ID27juNvAfc/</guid>
+<pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+<category>Invest Like The Best</category>
+<category>创业与经营</category>
+<category>人工智能</category>
+<category>投资</category>
+<category>领导力</category>
+<description>Ben Horowitz 认为，AI 正在改写公司构建的"物理定律"：只要有数据和足够的 GPU，砸钱追赶上领先者第一次成为可能，市场体量与估值逻辑也随之改变——这是他对美国科技保持乐观的理由，而政策是他眼里最大的风险。他回顾了 a16z 的创立逻辑与早期错误、从 Andy Grove 学到的管理心法、"文化不是理念而是行动"的定义，以及父亲带给他的系统性思考；还讲述了他与拉斯维加斯警局的合作——用无人机和 AI 摄像头把警务变得更安全。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/ID27juNvAfc/cover.webp" alt="" /></p>
+<p><em>Invest Like The Best · 播出 2026-02-03 · 时长 1:02:09</em></p>
+<p>Ben Horowitz 认为，AI 正在改写公司构建的"物理定律"：只要有数据和足够的 GPU，砸钱追赶上领先者第一次成为可能，市场体量与估值逻辑也随之改变——这是他对美国科技保持乐观的理由，而政策是他眼里最大的风险。他回顾了 a16z 的创立逻辑与早期错误、从 Andy Grove 学到的管理心法、"文化不是理念而是行动"的定义，以及父亲带给他的系统性思考；还讲述了他与拉斯维加斯警局的合作——用无人机和 AI 摄像头把警务变得更安全。</p>
+<h2>章节</h2><ul><li>0:01 开场</li><li>1:05 美国的科技优势</li><li>2:51 什么都有解了</li><li>4:21 成功的脆弱性</li><li>7:15 公司构建的新物理定律</li><li>10:50 "炼金术式"的人才</li><li>12:57 不平等与科比·布莱恩特效应</li><li>16:59 不平等与科比·布莱恩特效应</li><li>17:01 自动化的历史与就业的未来</li><li>20:06 AI 时代的美国领导力</li><li>22:44 Andy Grove 与《高产出管理》</li><li>26:02 做 CEO 最难的部分</li><li>29:56 创立 a16z</li><li>33:57 创立 a16z（续）</li><li>35:11 公司规模化与早期错误</li><li>39:11 公司规模化与早期错误（续）</li><li>39:19 失效的资本市场</li><li>41:24 为什么我们不做私募股权</li><li>43:29 文化是行动，不是口号</li><li>47:30 文化是行动，不是口号（续）</li><li>49:55 编程与艺术</li><li>52:08 向 Nas 学习</li><li>56:09 向 Nas 学习（续）</li><li>56:36 拉斯维加斯：技术赋能警务的未来</li><li>1:00:36 拉斯维加斯：技术赋能警务的未来（续）</li><li>1:01:07 最善良的事（赞助商信息）</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/ID27juNvAfc/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>GPU、TPU 与 AI 经济学全解｜Gavin Baker 专访</title>
+<link>https://pod-exp.pages.dev/cmUo4841KQw/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/cmUo4841KQw/</guid>
+<pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+<category>Invest Like The Best</category>
+<category>AI 基础设施</category>
+<category>半导体</category>
+<category>人工智能</category>
+<category>投资</category>
+<description>半导体投资人 Gavin Baker 拆解这轮 AI 基础设施军备竞赛：Gemini 3 用每 token 成本证明缩放定律依然成立；英伟达靠 Blackwell/Rubin 一年一代的节奏和机柜级垂直整合守住生态，谷歌则靠 TPU 垂直整合成本优势正面叫阵。他谈到 OpenAI 的 Stargate 与 code red、Anthropic 的站队、Meta 的追赶、中国稀土管制的误判；给出两个大胆判断——太空数据中心从第一性原理上全面优于地面，电力与台积电的保守是防止过剩泡沫的天然限速器；并断言应用层 SaaS 公司正在犯实体零售面对电商时的同款错误。最后他讲了自己从阿尔塔滑雪清洁工到投资人的路。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/cmUo4841KQw/cover.webp" alt="" /></p>
+<p><em>Invest Like The Best · 播出 2025-12-09 · 时长 1:28:25</em></p>
+<p>半导体投资人 Gavin Baker 拆解这轮 AI 基础设施军备竞赛：Gemini 3 用每 token 成本证明缩放定律依然成立；英伟达靠 Blackwell/Rubin 一年一代的节奏和机柜级垂直整合守住生态，谷歌则靠 TPU 垂直整合成本优势正面叫阵。他谈到 OpenAI 的 Stargate 与 code red、Anthropic 的站队、Meta 的追赶、中国稀土管制的误判；给出两个大胆判断——太空数据中心从第一性原理上全面优于地面，电力与台积电的保守是防止过剩泡沫的天然限速器；并断言应用层 SaaS 公司正在犯实体零售面对电商时的同款错误。最后他讲了自己从阿尔塔滑雪清洁工到投资人的路。</p>
+<h2>章节</h2><ul><li>0:02 开场：为什么每隔一两年都要请 Gavin Baker</li><li>4:04 口袋里的 AI：现场演示</li><li>5:03 Gemini 3 证实了缩放定律，但没人知道它为什么成立</li><li>9:05 推理模型救场，谷歌暂时领先</li><li>13:07 GB300 无缝接班，token 成本格局要变</li><li>17:08 谷歌付给博通的“ASIC 税”，和自研芯片的真相</li><li>21:10 拉远来看：这场基础设施战争能解锁什么</li><li>23:16 可验证的领域都会被 AI 吃掉，以及囚徒困境</li><li>27:13 最大的看空情形：边缘 AI</li><li>31:13 从“更聪明”到“更有用”</li><li>35:14 AI 开始拉动非科技公司的报表</li><li>37:20 ROI 空窗期、其他 490 家，以及模型贬值</li><li>41:21 推理让数据飞轮转起来了</li><li>43:08 为什么做出前沿模型这么难</li><li>47:09 中国的误判：稀土、国产芯片与 Blackwell 差距</li><li>50:43 OpenAI 的成本劣势、Anthropic 站队英伟达、太空数据中心</li><li>54:44 激光组网与直连手机</li><li>56:06 Starship、马斯克系合流、算力会过剩吗</li><li>1:00:07 台积电的谨慎、英特尔的机会、电力当限速器</li><li>1:04:08 AI 原生的年轻创业者</li><li>1:08:09 半导体生态系、ASIC 门槛、DRAM 周期</li><li>1:11:31 SaaS 公司犯的错</li><li>1:15:32 燃烧的平台</li><li>1:16:20 滚动泡沫、核电与量子</li><li>1:20:21 Gavin 的起点：历史、攀岩与扑克</li><li>1:22:25 清洁工、DLJ 实习与顿悟</li><li>1:26:25 从此不回头</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/cmUo4841KQw/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>Ilya Sutskever｜我们正从扩展时代迈向研究时代</title>
+<link>https://pod-exp.pages.dev/aR20FWCCjAs/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/aR20FWCCjAs/</guid>
+<pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+<category>Dwarkesh Patel</category>
+<category>AI 研究</category>
+<category>AI 安全</category>
+<category>人工智能</category>
+<category>模型评测</category>
+<description>Dwarkesh Patel 与 Ilya Sutskever 讨论 SSI 的战略与行业走向。Ilya 提出：评测分数与实际效用的脱节，源于 RL 环境被研究员工为地对齐到评测上，以及模型泛化仍远不如人；预训练红利将尽、算力已足够大，行业因此从「扩展时代」回到「研究时代」。他解释了价值函数与情绪对决策的作用、人类样本效率与持续学习之谜，主张超级智能应是「会学习的十五岁少年」而非成品 AGI，部署本身就是学习过程。关于安全，他主张让 AI 渐进示人、首批系统对齐到「关心有感知生命」，并给出 5–20 年的时间预测；还回应了联创出走 Meta、SSI 算力是否够用、研究品味从何而来等问题。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/aR20FWCCjAs/cover.webp" alt="" /></p>
+<p><em>Dwarkesh Patel · 播出 2025-11-25 · 时长 1:36:03</em></p>
+<p>Dwarkesh Patel 与 Ilya Sutskever 讨论 SSI 的战略与行业走向。Ilya 提出：评测分数与实际效用的脱节，源于 RL 环境被研究员工为地对齐到评测上，以及模型泛化仍远不如人；预训练红利将尽、算力已足够大，行业因此从「扩展时代」回到「研究时代」。他解释了价值函数与情绪对决策的作用、人类样本效率与持续学习之谜，主张超级智能应是「会学习的十五岁少年」而非成品 AGI，部署本身就是学习过程。关于安全，他主张让 AI 渐进示人、首批系统对齐到「关心有感知生命」，并给出 5–20 年的时间预测；还回应了联创出走 Meta、SSI 算力是否够用、研究品味从何而来等问题。</p>
+<h2>章节</h2><ul><li>0:00 一切都成真了，却感觉稀松平常</li><li>4:02 从评测里找灵感的 RL 环境</li><li>8:06 预训练在人类身上有没有对应物</li><li>9:39 童年与演化：两个被提出的类比</li><li>13:40 价值函数是什么</li><li>17:40 简单情绪的鲁棒性</li><li>18:50 我们到底在「扩展」什么</li><li>22:56 「扩展」这个词不够用了</li><li>25:18 泛化：人与模型的根本差距</li><li>29:23 人的学习能力到底来自哪里</li><li>32:32 中场</li><li>35:55 研究时代的氛围与算力</li><li>39:56 SSI 的算力账本</li><li>44:01 直奔还是渐进</li><li>46:52 AGI 与预训练：两个塑造时代的词</li><li>50:58 会学习的超级智能</li><li>55:10 把强大的 AI 拿给人看</li><li>59:15 该造什么样的 AI</li><li>1:03:16 超级智能的天花板</li><li>1:07:19 AI 顺利发展是什么样子</li><li>1:11:19 演化如何编码高级欲望</li><li>1:15:21 一个多半错误的猜想</li><li>1:18:13 SSI 的差异</li><li>1:22:16 未来五到二十年</li><li>1:26:20 竞争热爱专业化</li><li>1:29:25 自我对弈与多样性</li><li>1:32:44 研究品味</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/aR20FWCCjAs/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>Andrej Karpathy｜「我们召唤的是幽灵，不是动物」</title>
+<link>https://pod-exp.pages.dev/lXUZvyajciY/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/lXUZvyajciY/</guid>
+<pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+<category>Dwarkesh Patel</category>
+<category>人工智能</category>
+<category>AI 研究</category>
+<category>AI 智能体</category>
+<category>科技趋势</category>
+<description>本期嘉宾是 Andrej Karpathy：OpenAI 创始成员、前特斯拉 AI 总监，如今创办教育公司 Eureka。他认为 AGI 仍需约十年——更准确的说法是“智能体的十年”而非“智能体之年”；当前模型的强化学习是“拿吸管吸监督信号”，认知上有系统性缺陷，编程智能体还撑不起完整工作流。他把 LLM 比作“幽灵”而非“动物”：由互联网数据召唤出的数字心智，缺少进化打造的认知内核。他判断 AGI 不会制造经济奇点，只会像 iPhone 一样隐入过去两百多年 2% 的 GDP 增长曲线；并用“九的行军”解释自动驾驶为何拖了十年。最后他详谈 Eureka——一座“星际舰队学院”，用“知识的坡道”和未来的 AI 家教，把学习变成像健身一样轻松又上瘾的事。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/lXUZvyajciY/cover.webp" alt="" /></p>
+<p><em>Dwarkesh Patel · 播出 2025-10-17 · 时长 2:26:08</em></p>
+<p>本期嘉宾是 Andrej Karpathy：OpenAI 创始成员、前特斯拉 AI 总监，如今创办教育公司 Eureka。他认为 AGI 仍需约十年——更准确的说法是“智能体的十年”而非“智能体之年”；当前模型的强化学习是“拿吸管吸监督信号”，认知上有系统性缺陷，编程智能体还撑不起完整工作流。他把 LLM 比作“幽灵”而非“动物”：由互联网数据召唤出的数字心智，缺少进化打造的认知内核。他判断 AGI 不会制造经济奇点，只会像 iPhone 一样隐入过去两百多年 2% 的 GDP 增长曲线；并用“九的行军”解释自动驾驶为何拖了十年。最后他详谈 Eureka——一座“星际舰队学院”，用“知识的坡道”和未来的 AI 家教，把学习变成像健身一样轻松又上瘾的事。</p>
+<h2>章节</h2><ul><li>0:48 为什么是“智能体的十年”</li><li>4:49 AlexNet、Atari 和太早做智能体的弯路</li><li>8:49 我们造的不是动物，是幽灵</li><li>12:51 “乞丐版进化”与认知内核</li><li>16:54 上下文学习、KV 缓存与工作记忆</li><li>20:58 皮层、基底节与还缺着的那些“脑区”</li><li>25:00 十年后还会是梯度下降训练的大网络；nanochat</li><li>29:03 想学透就自己造，别复制粘贴</li><li>30:35 编程模型帮不上忙：自动补全、vibe coding 与认知缺陷</li><li>34:37 为什么 AI 写不了“没人写过的代码”</li><li>38:44 AI 是计算的连续延伸：自主性滑块</li><li>40:53 RL 很糟：拿吸管吸监督信号</li><li>44:58 LLM 裁判会被找到对抗样本</li><li>48:59 对抗样本无穷无尽，裁判修不完</li><li>50:33 人类怎么学：反思、做梦与“坍缩”</li><li>54:34 做梦防过拟合；孩子见森林不见树木</li><li>58:34 认知内核该多大</li><li>1:02:35 蒸馏与“底部还有很大空间”</li><li>1:07:13 AGI 的进度条该怎么画</li><li>1:11:15 自主性滑块：先替掉 80%，人管着剩下的</li><li>1:15:17 为什么偏偏是编程先被拿下</li><li>1:18:25 超级智能：自动化的外推与失控</li><li>1:22:29 智能爆炸早已在发生：GDP 曲线里找不到 iPhone</li><li>1:26:30 AGI 会不会把增长率推出 2%</li><li>1:30:31 数据中心里的天才：跳变还是悬置释放</li><li>1:33:40 智能在进化史上有多罕见</li><li>1:37:47 生态位、五万年的文化脚手架与 LLM 没有文化</li><li>1:41:47 自我博弈与还没毕业的“小学生”</li><li>1:43:43 自动驾驶为什么拖了十年：九的行军</li><li>1:47:47 编码的“七年一错”与看不见的远程司机</li><li>1:51:48 比特世界快得多，但社会那几层还得过</li><li>1:55:50 我其实乐观：算力不算建过头</li><li>1:57:08 为什么去办教育：星际舰队学院</li><li>2:01:11 AI 家教：门槛高到先不做</li><li>2:05:13 先造一门课；前 AGI 有用，后 AGI 好玩</li><li>2:09:16 教育终局：像健身一样去上学</li><li>2:13:19 认知奥运会；把物理装进脑子</li><li>2:17:20 一阶项先端上来：micrograd 是一百行代码里的全部</li><li>2:21:21 知识诅咒；午餐桌上的三句话；“按需学习”和“讲给别人听”</li><li>2:25:21 收尾：讲出来，才知道自己真懂没懂</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/lXUZvyajciY/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>Sam Altman 谈 AI 的未来｜第 13 集</title>
+<link>https://pod-exp.pages.dev/mZUG0pr5hBo/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/mZUG0pr5hBo/</guid>
+<pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+<category>Uncapped | Benchmark Breakfast</category>
+<category>人工智能</category>
+<category>AI 研究</category>
+<category>未来社会</category>
+<category>机器人与物理 AI</category>
+<description>兄弟俩的这期对谈从 AI 的中期未来聊起。Sam 认为五到十年内影响最大的一件事是 AI 将真正发现新的科学——理由是模型的推理能力已经被"攻破"；他判断首个 AI 自主新发现最可能出在天体物理，因为数据多而博士不够。话题随后进入物理世界（人形机器人五到十年内出现、自动驾驶的新方法、具身智能的风险），再到"超级智能降临后社会会不会其实没什么变化"的悖论、就业与休闲的相对论。后半程落在 OpenAI 自身：AI 伴侣的产品愿景、形态革命、从电子到一次查询的完整供应链（"AI 工厂"）、核聚变与太空，再到 Meta 一亿美元签约金挖角与"可重复创新"的文化之争，以及 Sam 对个人状态的坦白——高行动力的来源、想建戴森球、只想把一件事做好，以及"科技圈名人"与"全民名人"的差别。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/mZUG0pr5hBo/cover.webp" alt="" /></p>
+<p><em>Uncapped | Benchmark Breakfast · 播出 2025-06-17 · 时长 37:09</em></p>
+<p>兄弟俩的这期对谈从 AI 的中期未来聊起。Sam 认为五到十年内影响最大的一件事是 AI 将真正发现新的科学——理由是模型的推理能力已经被"攻破"；他判断首个 AI 自主新发现最可能出在天体物理，因为数据多而博士不够。话题随后进入物理世界（人形机器人五到十年内出现、自动驾驶的新方法、具身智能的风险），再到"超级智能降临后社会会不会其实没什么变化"的悖论、就业与休闲的相对论。后半程落在 OpenAI 自身：AI 伴侣的产品愿景、形态革命、从电子到一次查询的完整供应链（"AI 工厂"）、核聚变与太空，再到 Meta 一亿美元签约金挖角与"可重复创新"的文化之争，以及 Sam 对个人状态的坦白——高行动力的来源、想建戴森球、只想把一件事做好，以及"科技圈名人"与"全民名人"的差别。</p>
+<h2>章节</h2><ul><li>0:03 开场</li><li>0:48 AI 将发现新科学</li><li>4:48 AI 将发现新科学（续）</li><li>5:40 人形机器人是未来</li><li>8:27 超级智能降临后的世界</li><li>11:21 中期预测：能动性、就业与休闲</li><li>15:22 话题转向 OpenAI</li><li>15:37 OpenAI 的完整版图</li><li>19:01 供应链：从电子到一次 ChatGPT 查询</li><li>21:52 Meta / Scale AI 的事</li><li>25:54 Meta / Scale AI（续）：ChatGPT 是 Facebook 替代品</li><li>29:04 个人感想</li><li>33:04 个人感想（续）</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/mZUG0pr5hBo/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>Marc Andreessen 谈风险投资的未来｜Ep. 12</title>
+<link>https://pod-exp.pages.dev/53FImKtf2i0/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/53FImKtf2i0/</guid>
+<pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+<category>Uncapped | Benchmark Breakfast</category>
+<category>投资</category>
+<category>人工智能</category>
+<category>政治与社会</category>
+<category>创业与经营</category>
+<description>Marc Andreessen 系统拆解了风险投资的打法演变：风投本质是服务 LP 与创始人两类客户的「客户服务业」；小基金与大基金在回报数学上的分化，以及「中间已死」——你要么是 Gucci 要么是 Walmart；a16z 做大的头号约束不是人才而是利益冲突政策。他进而谈了 AI 投资的估值逻辑、投资人的培养方式，以及「AI 会怎么出错」的情景推演。后半程转向政治与媒体：硅谷与政治的关系、科技-媒体关系在 2017 年春天的断崖式恶化、Timur Kuran 的「偏好伪装」理论如何解释过去十年的社会氛围及其在 2024 年后的松动。最后是职业建议——「往热的地方跑」「好到让人无法无视你」、首选 C–E 轮高增长公司——并用「美国 GDP」回答「冷冻百年后看哪个数据检验世界观」。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/53FImKtf2i0/cover.webp" alt="" /></p>
+<p><em>Uncapped | Benchmark Breakfast · 播出 2025-06-11 · 时长 1:39:34</em></p>
+<p>Marc Andreessen 系统拆解了风险投资的打法演变：风投本质是服务 LP 与创始人两类客户的「客户服务业」；小基金与大基金在回报数学上的分化，以及「中间已死」——你要么是 Gucci 要么是 Walmart；a16z 做大的头号约束不是人才而是利益冲突政策。他进而谈了 AI 投资的估值逻辑、投资人的培养方式，以及「AI 会怎么出错」的情景推演。后半程转向政治与媒体：硅谷与政治的关系、科技-媒体关系在 2017 年春天的断崖式恶化、Timur Kuran 的「偏好伪装」理论如何解释过去十年的社会氛围及其在 2024 年后的松动。最后是职业建议——「往热的地方跑」「好到让人无法无视你」、首选 C–E 轮高增长公司——并用「美国 GDP」回答「冷冻百年后看哪个数据检验世界观」。</p>
+<h2>章节</h2><ul><li>0:01 开场</li><li>0:28 风投打法的演变（一）</li><li>4:29 风投打法的演变（二）</li><li>8:29 风投打法的演变（三）</li><li>12:30 风投打法的演变（四）</li><li>15:55 小基金与大基金（一）</li><li>19:56 小基金与大基金（二）</li><li>23:56 小基金与大基金（三）</li><li>27:57 小基金与大基金（四）</li><li>29:10 如何成为顶级机构（一）</li><li>33:11 如何成为顶级机构（二）</li><li>35:33 做大公司的限制因素（一）</li><li>39:33 做大公司的限制因素（二）</li><li>40:13 投资 AI（一）</li><li>44:14 投资 AI（二）</li><li>48:14 投资 AI（三）</li><li>50:03 培养投资人（一）</li><li>54:04 培养投资人（二）</li><li>58:04 培养投资人（三）</li><li>59:06 AI 会怎么出错（一）</li><li>1:03:06 AI 会怎么出错（二）</li><li>1:07:07 AI 会怎么出错（三）</li><li>1:09:21 政治与硅谷</li><li>1:11:42 科技与媒体（一）</li><li>1:15:42 科技与媒体（二）</li><li>1:19:43 科技与媒体（三）</li><li>1:23:22 偏好伪装（一）</li><li>1:27:23 偏好伪装（二）</li><li>1:31:10 职业建议</li><li>1:34:09 Huberman「恩怨」（一）</li><li>1:38:09 Huberman「恩怨」（二）</li><li>1:38:22 来自 X 的提问</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/53FImKtf2i0/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>马克·扎克伯格专访</title>
+<link>https://pod-exp.pages.dev/QciJ9ubeLQk/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/QciJ9ubeLQk/</guid>
+<pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+<category>Acquired</category>
+<category>创业与经营</category>
+<category>产品</category>
+<category>人工智能</category>
+<category>开源软件</category>
+<description>2024 年 9 月 10 日，Acquired 在旧金山 Chase Center 六千名观众面前现场采访马克·扎克伯格。扎克伯格回顾了 Facebook 二十年的关键转折：无意把 Facebook 当公司做的学生时代、雅虎十亿美元收购风波与超级投票权架构的由来、IPO 之际 HTML5 移动战略失败与重写客户端的"腰斩一年半"、2016 年后政治环境的误判这条"二十年的错误"。他系统阐述了 Meta 的打法：做专注人际连接的技术公司、比别人学得更快、尽早发布换取反馈、开源是生态策略而非信仰。后半场他解释为何亲自下场造眼镜与 AI：全息在场感是社交的终极形态，掌握平台才能掌握命运；并区分了做"好"东西与做"awesome"东西——下一个十五年，他希望 Meta 多造后者。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/QciJ9ubeLQk/cover.webp" alt="" /></p>
+<p><em>Acquired · 播出 2024-09-18 · 时长 1:27:04</em></p>
+<p>2024 年 9 月 10 日，Acquired 在旧金山 Chase Center 六千名观众面前现场采访马克·扎克伯格。扎克伯格回顾了 Facebook 二十年的关键转折：无意把 Facebook 当公司做的学生时代、雅虎十亿美元收购风波与超级投票权架构的由来、IPO 之际 HTML5 移动战略失败与重写客户端的"腰斩一年半"、2016 年后政治环境的误判这条"二十年的错误"。他系统阐述了 Meta 的打法：做专注人际连接的技术公司、比别人学得更快、尽早发布换取反馈、开源是生态策略而非信仰。后半场他解释为何亲自下场造眼镜与 AI：全息在场感是社交的终极形态，掌握平台才能掌握命运；并区分了做"好"东西与做"awesome"东西——下一个十五年，他希望 Meta 多造后者。</p>
+<h2>章节</h2><ul><li>0:02 开场</li><li>0:51 欢迎</li><li>4:50 杰米·戴蒙致辞</li><li>5:30 马克·扎克伯格登场</li><li>9:31 经由苦难而学习</li><li>10:25 Meta：为"在场感"造眼镜</li><li>14:26 全息显示与 Ray-Ban Meta</li><li>17:07 AI 的意外抢跑</li><li>19:08 Facebook 的 DNA</li><li>21:19 产品问题与技术问题</li><li>24:59 回合制战略游戏</li><li>27:32 尽早交付的代价</li><li>28:50 发明还是发现</li><li>30:04 News Feed 与"意志造车"</li><li>32:12 开源：从 Open Compute 到 Llama</li><li>36:12 （主持人插话）</li><li>36:33 IPO 前夜：HTML5 的赌注</li><li>40:34 腰斩的那一年半</li><li>42:12 最"成立"的批评</li><li>46:13 用二十年修一个误判</li><li>48:10 超级投票权与雅虎收购</li><li>51:10 给创业者的建议</li><li>54:10 掌控命运与"awesome"</li><li>58:14 和激励你的人一起做激励人的事</li><li>1:02:15 改名 Meta：迎着未来跑，不逃</li><li>1:06:16 飞船、旗帜与年度挑战</li><li>1:10:19 开放对封闭，给创业者的临别赠言</li><li>1:14:19 赞助与回顾</li><li>1:18:21 回顾：他比以往更"在场"</li><li>1:22:24 Meta 是放大器</li><li>1:26:24 致谢与尾声</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/QciJ9ubeLQk/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>Gregory Aldrete：罗马帝国——古罗马的崛起与衰落｜Lex Fridman 播客 #443</title>
+<link>https://pod-exp.pages.dev/DyoVVSggPjY/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/DyoVVSggPjY/</guid>
+<pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+<category>Lex Fridman</category>
+<category>人类历史</category>
+<category>哲学与文明</category>
+<category>政治与社会</category>
+<description>历史学家 Gregory Aldrete 做客 Lex Fridman 播客，畅谈古罗马的崛起与衰落。两人先讨论古代世界与现代世界的根本差异——儿童死亡率、全民务农、对祖先与传统的痴迷；随后按时间线梳理罗马史三阶段：王政、共和国、帝国。重点话题包括：罗马靠"把被征服者变成自己人"的融合策略赢得无限兵源；布匿战争与汉尼拔、西庇阿、坎尼会战的双重包围战术；重步兵、萨里沙长矛与罗马军团的编制优势；Aldrete 用十年复原亚麻甲的实验考古；罗马法的精细与"公民身份"观念；奴隶制的经济逻辑；共和国晚期各方怨气如何引爆内战；凯撒、屋大维、安东尼、克利奥帕特拉的权力游戏；奥古斯都如何用"假共和国"和宣传术破解"一个人统治罗马而不被当成国王杀死"的谜题；基督教在罗马的传播；角斗士与斗兽场；皇帝继承难题与五贤帝；帝国衰落、蛮族迁徙与"罗马哪一年亡"的争论；最后从军事史、史料残缺与历史学家的偏见，谈到好奇心给人类的希望。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/DyoVVSggPjY/cover.webp" alt="" /></p>
+<p><em>Lex Fridman · 播出 2024-09-12 · 时长 3:42:21</em></p>
+<p>历史学家 Gregory Aldrete 做客 Lex Fridman 播客，畅谈古罗马的崛起与衰落。两人先讨论古代世界与现代世界的根本差异——儿童死亡率、全民务农、对祖先与传统的痴迷；随后按时间线梳理罗马史三阶段：王政、共和国、帝国。重点话题包括：罗马靠"把被征服者变成自己人"的融合策略赢得无限兵源；布匿战争与汉尼拔、西庇阿、坎尼会战的双重包围战术；重步兵、萨里沙长矛与罗马军团的编制优势；Aldrete 用十年复原亚麻甲的实验考古；罗马法的精细与"公民身份"观念；奴隶制的经济逻辑；共和国晚期各方怨气如何引爆内战；凯撒、屋大维、安东尼、克利奥帕特拉的权力游戏；奥古斯都如何用"假共和国"和宣传术破解"一个人统治罗马而不被当成国王杀死"的谜题；基督教在罗马的传播；角斗士与斗兽场；皇帝继承难题与五贤帝；帝国衰落、蛮族迁徙与"罗马哪一年亡"的争论；最后从军事史、史料残缺与历史学家的偏见，谈到好奇心给人类的希望。</p>
+<h2>章节</h2><ul><li>0:00 引言</li><li>2:23 古代世界</li><li>6:23 古代世界</li><li>10:23 古代世界</li><li>14:24 古代世界</li><li>16:18 罗马历史的三个阶段</li><li>19:08 罗马的扩张</li><li>23:09 罗马的扩张</li><li>27:11 罗马的扩张</li><li>30:49 布匿战争</li><li>34:51 布匿战争</li><li>38:52 布匿战争</li><li>39:20 征服希腊</li><li>40:59 西庇阿对决汉尼拔</li><li>44:06 重步兵对骑兵</li><li>47:44 盔甲</li><li>51:47 盔甲</li><li>55:49 盔甲</li><li>59:50 盔甲</li><li>1:00:33 亚历山大大帝</li><li>1:04:33 亚历山大大帝</li><li>1:06:34 罗马法</li><li>1:10:34 罗马法</li><li>1:14:35 罗马法</li><li>1:16:13 奴隶制</li><li>1:20:14 奴隶制</li><li>1:23:54 罗马共和国的衰落</li><li>1:27:38 尤利乌斯·凯撒</li><li>1:31:39 尤利乌斯·凯撒</li><li>1:32:18 屋大维的崛起</li><li>1:36:20 屋大维的崛起</li><li>1:40:21 屋大维的崛起</li><li>1:42:09 克利奥帕特拉</li><li>1:46:11 克利奥帕特拉</li><li>1:50:12 克利奥帕特拉</li><li>1:50:32 奥古斯都</li><li>1:54:32 奥古斯都</li><li>1:58:35 奥古斯都</li><li>2:02:35 奥古斯都</li><li>2:06:37 奥古斯都</li><li>2:10:39 奥古斯都</li><li>2:14:40 奥古斯都</li><li>2:18:44 罗马的宗教</li><li>2:22:44 罗马的宗教</li><li>2:26:45 罗马的宗教</li><li>2:30:46 罗马的宗教</li><li>2:34:47 罗马的宗教</li><li>2:38:48 罗马的宗教</li><li>2:42:48 皇帝们</li><li>2:46:50 皇帝们</li><li>2:49:55 马可·奥勒留</li><li>2:53:55 马可·奥勒留</li><li>2:56:05 税收</li><li>2:59:14 罗马帝国的衰落</li><li>3:03:16 罗马帝国的衰落</li><li>3:07:18 罗马帝国的衰落</li><li>3:11:19 罗马帝国的衰落</li><li>3:15:20 罗马帝国的衰落</li><li>3:16:25 决定性战役</li><li>3:20:26 决定性战役</li><li>3:24:28 决定性战役</li><li>3:28:29 决定性战役</li><li>3:32:30 决定性战役</li><li>3:36:31 决定性战役</li><li>3:40:32 决定性战役</li><li>3:40:36 希望</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/DyoVVSggPjY/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>杰夫·贝索斯：亚马逊与蓝色起源 ｜ Lex Fridman 播客 #405</title>
+<link>https://pod-exp.pages.dev/DcWqzZ3I2cY/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/DcWqzZ3I2cY/</guid>
+<pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+<category>Lex Fridman</category>
+<category>航天</category>
+<category>领导力</category>
+<category>创业与经营</category>
+<category>未来社会</category>
+<description>杰夫·贝索斯第一次接受这种形式的长对谈。他从得州牧场的童年讲起：祖父教给他的不是手艺，而是“什么问题都能自己解决”的信念——这也解释了他为何放弃理论物理转投计算机：普林斯顿的一堂课上，他亲眼看见自己和约桑塔那样的天才之间的差距。话题转入蓝色起源：新格伦号火箭的技术取舍（LNG 助推级、液氢上面级、搅拌摩擦焊、可复用）、量产制造为什么比首飞更难、以及“把进入轨道的成本打下来”这个真正的使命。他谈了月球计划、MK1/MK2 着陆器、与 SpaceX 和马斯克的关系；也谈了亚马逊的方法论：Day One、单向门与双向门、“不同意但承诺”、警惕代理指标、六页备忘录和自习课会议。最后聊到 AI、万年钟、死亡观——一个想把人生活成“方波”的发明家。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/DcWqzZ3I2cY/cover.webp" alt="" /></p>
+<p><em>Lex Fridman · 播出 2023-12-14 · 时长 2:11:32</em></p>
+<p>杰夫·贝索斯第一次接受这种形式的长对谈。他从得州牧场的童年讲起：祖父教给他的不是手艺，而是“什么问题都能自己解决”的信念——这也解释了他为何放弃理论物理转投计算机：普林斯顿的一堂课上，他亲眼看见自己和约桑塔那样的天才之间的差距。话题转入蓝色起源：新格伦号火箭的技术取舍（LNG 助推级、液氢上面级、搅拌摩擦焊、可复用）、量产制造为什么比首飞更难、以及“把进入轨道的成本打下来”这个真正的使命。他谈了月球计划、MK1/MK2 着陆器、与 SpaceX 和马斯克的关系；也谈了亚马逊的方法论：Day One、单向门与双向门、“不同意但承诺”、警惕代理指标、六页备忘录和自习课会议。最后聊到 AI、万年钟、死亡观——一个想把人生活成“方波”的发明家。</p>
+<h2>章节</h2><ul><li>0:00 开场介绍</li><li>0:24 得州牧场与童年</li><li>4:04 太空竞赛的回响</li><li>8:04 一万亿人的太阳系</li><li>12:07 能源、地球与 Blue Ring</li><li>16:08 太空载荷管家</li><li>16:36 放弃理论物理</li><li>20:37 发明家的大脑</li><li>24:37 别急着杀死新点子</li><li>26:10 新格伦号火箭</li><li>30:13 大火箭的逻辑与新材料</li><li>34:15 搅拌摩擦焊与可复用性</li><li>38:15 把进入轨道的成本打下来</li><li>42:16 咸味零食与通往太空的路</li><li>46:17 被当作理所当然，是发明家的终极梦想</li><li>50:17 首飞前的清晨与逃生系统</li><li>54:18 “要是我都不敢坐，谁也别坐”</li><li>58:23 单向门与双向门</li><li>1:02:24 快干水泥与“不同意但承诺”</li><li>1:06:26 求真而非耗赢</li><li>1:08:59 月球着陆器 MK1 与 MK2</li><li>1:13:00 用月壤在月球上活下去</li><li>1:17:00 SpaceX、马斯克与同类人</li><li>1:18:56 车库岁月与“第一天”</li><li>1:22:56 信条清单与“指标陷阱”</li><li>1:26:58 讲真话的代价</li><li>1:30:58 资浅者否决资深者</li><li>1:34:59 那个打到自家客服的电话</li><li>1:36:16 客户痴迷与“纸割伤”</li><li>1:40:17 一键下单、工具与大脑</li><li>1:44:17 AI 是发现，不是发明</li><li>1:48:22 奥本海默、小肚鸡肠与人脑的效率</li><li>1:52:22 教模型说“我不知道”</li><li>1:54:56 磨蹭、咖啡、健身房</li><li>1:58:56 六页备忘录与自习课</li><li>2:02:58 备忘录的学问</li><li>2:05:35 万年钟</li><li>2:09:36 死亡与谢幕</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/DcWqzZ3I2cY/">在原站阅读本篇全文</a></p>]]></content:encoded>
+</item>
+<item>
+<title>NVIDIA CEO 黄仁勋（Jensen Huang）</title>
+<link>https://pod-exp.pages.dev/y6NfxiemvHg/</link>
+<guid isPermaLink="true">https://pod-exp.pages.dev/y6NfxiemvHg/</guid>
+<pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+<category>Acquired</category>
+<category>创业与经营</category>
+<category>人工智能</category>
+<category>半导体</category>
+<category>AI 基础设施</category>
+<description>NVIDIA 创始人兼 CEO Jensen Huang 做客 Acquired，在市值 1.1 万亿美元的节点回顾公司三十年：1997 年 RIVA 128 在只剩六个月资金时押上全部身家、"假装芯片完美"的仿真豪赌；从 Cg 到 CUDA 的通用计算长坡、AlexNet 后逐层放大的深度学习信念；走进数据中心、收购 Mellanox 的网络化判断；以及零十亿美元市场、平台兼容铁律、"人在回路"的 AI 安全观。快问快答之外，他罕见谈到创业的痛与怕：辜负员工是三十年不变的恐惧，而支撑他的是从未放弃的同事、投资人与家人。</description>
+<content:encoded><![CDATA[<p><img src="https://pod-exp.pages.dev/y6NfxiemvHg/cover.webp" alt="" /></p>
+<p><em>Acquired · 播出 2023-10-16 · 时长 1:30:00</em></p>
+<p>NVIDIA 创始人兼 CEO Jensen Huang 做客 Acquired，在市值 1.1 万亿美元的节点回顾公司三十年：1997 年 RIVA 128 在只剩六个月资金时押上全部身家、"假装芯片完美"的仿真豪赌；从 Cg 到 CUDA 的通用计算长坡、AlexNet 后逐层放大的深度学习信念；走进数据中心、收购 Mellanox 的网络化判断；以及零十亿美元市场、平台兼容铁律、"人在回路"的 AI 安全观。快问快答之外，他罕见谈到创业的痛与怕：辜负员工是三十年不变的恐惧，而支撑他的是从未放弃的同事、投资人与家人。</p>
+<h2>章节</h2><ul><li>0:02 预告</li><li>0:43 开场</li><li>2:56 RIVA 128</li><li>6:57 RIVA 128（续）</li><li>10:59 RIVA 128（续）</li><li>15:00 RIVA 128（续）</li><li>17:27 AlexNet 之后</li><li>20:30 OpenAI</li><li>22:22 语言模型</li><li>24:57 Statsig</li><li>27:13 直属汇报</li><li>31:13 直属汇报（续）</li><li>32:08 产品发布节奏</li><li>34:16 走向数据中心</li><li>38:18 走向数据中心（续）</li><li>39:32 收购 Mellanox</li><li>43:32 收购 Mellanox（续）</li><li>43:42 Crusoe</li><li>45:47 给公司建设的建议</li><li>49:48 给公司建设的建议（续）</li><li>53:48 给公司建设的建议（续）</li><li>55:54 运气与实力</li><li>59:56 岗位替代</li><li>1:03:57 岗位替代（续）</li><li>1:06:57 Blinkist</li><li>1:08:57 最爱的科幻</li><li>1:09:34 日常座驾</li><li>1:10:29 最爱的商业书</li><li>1:10:55 Don Valentine</li><li>1:11:46 40 岁的 Jensen</li><li>1:12:42 你害怕什么</li><li>1:13:29 最后一份工作</li><li>1:17:30 最后一份工作（续）</li><li>1:19:44 2023 年再创业</li><li>1:23:15 市场回撤</li><li>1:27:17 市场回撤（续）</li><li>1:27:44 结尾</li></ul>
+<p>全文：<a href="https://pod-exp.pages.dev/y6NfxiemvHg/">在原站阅读本篇全文</a></p>]]></content:encoded>
 </item>
 <item>
 <title>当 SOC 的动作里只有 2% 完全由人完成，会发生什么｜Cyber60</title>
